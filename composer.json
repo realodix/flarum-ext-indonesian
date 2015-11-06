@@ -1,0 +1,22 @@
+{
+    "name": "realodix-indonesian",
+    "type": "flarum-extension",
+    "description": "Paket Bahasa Indonesia.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "extra": {
+        "flarum-extension": {
+            "title": "Indonesian",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "id",
+            "title": "Bahasa Indonesia"
+        }
+    }
+}
