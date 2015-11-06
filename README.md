@@ -12,11 +12,11 @@ Paket bahasa Indonesia untuk melokalisasi Flarum
  - Teks bahasa inggris masih ada dalam bentuk komentar, jadi Anda bisa membantu saya untuk menterjemahkan ke dalam bahasa Indonesia.
 
 ### Cara Menggunakan
- 1. Download paket ini
- 2. Ekstrak dan upload ke dalam folder *extensions*
- 3. Aktifkan
- 4. Jika terjadi error, ganti nama folder dari *flarum-indonesian* menjadi *realodix-indonesian*
+ 1. [Download](https://github.com/realodix/flarum-indonesian/archive/master.zip).
+ 2. Ekstrak dan upload ke dalam folder **extensions**.
+ 3. Ubah nama folder **flarum-indonesian-master** menjadi **realodix-indonesian**.
+ 4. Pada halamam admin, klik halaman **Extensions** pada di sebelah kiri.
+ 5. Aktifkan.
 
 ### License
-Released under the MIT License. Please see the [LICENSE](https://github.com/realodix/flarum-bahasa-indonesia/blob/master/LICENSE) file.d
-
+Released under the MIT License. Please see the [LICENSE](https://github.com/realodix/flarum-bahasa-indonesia/blob/master/LICENSE) file.
