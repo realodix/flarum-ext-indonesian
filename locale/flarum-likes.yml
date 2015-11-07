@@ -9,7 +9,8 @@ flarum-likes:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Like posts
+      #like_posts_label: Like posts
+      like_posts_label: Memberi tanda suka
 
   # Strings in this namespace are used by the forum user interface.
   forum:

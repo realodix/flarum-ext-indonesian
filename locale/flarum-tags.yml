@@ -38,7 +38,7 @@ flarum-tags:
       #restrict_by_tag_heading: Restrict by Tag
       restrict_by_tag_heading: Batasi Dengan Label
       #tag_discussions_label: Tag discussions
-      tag_discussions_label: Label diskusi
+      tag_discussions_label: Label
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:

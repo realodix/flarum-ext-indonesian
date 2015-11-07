@@ -9,8 +9,10 @@ flarum-flags:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Flag posts
-      view_flags_label: View flagged posts
+      #flag_posts_label: Flag posts
+      flag_posts_label: Melaporkan post
+      #view_flags_label: View flagged posts
+      view_flags_label: Melihat laporan
 
     # These strings are used in the Flags Settings modal dialog.
     settings:

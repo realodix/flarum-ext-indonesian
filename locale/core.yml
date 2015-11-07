@@ -10,10 +10,12 @@ core:
     # These strings are used in the Appearance page.
     appearance:
       colored_header_label: Colored Header
-      colors_heading: Colors
+      #colors_heading: Colors
+      colors_heading: Warna
       #colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
       colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
-      custom_styles_heading: Custom Styles
+      #custom_styles_heading: Custom Styles
+      custom_styles_heading: Modifikasi Tampilan
       #custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       custom_styles_text: Menyesuaikan penampilan forum Anda dengan menambahkan kode LESS/CSS yang Anda buat.
       dark_mode_label: Dark Mode
@@ -25,19 +27,25 @@ core:
     # These strings are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
+      #default_language_heading: Default Language
+      default_language_heading: Bahasa Yang Digunakan
+      #forum_description_heading: Forum Description
+      forum_description_heading: Deskripsi Forum
       #forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
       forum_description_text: Masukkan beberapa kalimat yang menggambarkan komunitas Anda. Ini akan muncul di meta tag dan muncul di mesin pencari.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
+      #forum_title_heading: Forum Title
+      forum_title_heading: Judul Forum
+      #home_page_heading: Home Page
+      home_page_heading: Halaman Utama
       #home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
       home_page_text: "Tentukan halaman yang akan ditampilkan pada halamn utama."
-      saved_message: Your changes were saved.
+      #saved_message: Your changes were saved.
+      saved_message: Perubahan berhasil disimpan.
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
+      #welcome_banner_heading: Welcome Banner
+      welcome_banner_heading: Pesan Selamat Datang
       #welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
-      welcome_banner_text: Banner akan ditampilkan pada halaman depan forum Anda. Gunakan ini untuk menyambut tamu yang datang ke forum Anda.
+      welcome_banner_text: Pesan selamat datang akan ditampilkan dalam bentuk banner. Gunakan ini untuk menyambut tamu yang datang ke forum Anda.
 
     # These strings are used in the Dashboard page.
     dashboard:
@@ -95,7 +103,7 @@ core:
     # This string is used in the modal dialog displayed when loading extensions.
     loading:
       #title: Please Wait...
-      title: Mohon Tunggu...
+      title: Tunggu Sebentar...
 
     # These strings are used in the navigation bar.
     nav:
@@ -107,7 +115,7 @@ core:
       basics_text: "Mengatur judul forum, bahasa, dan pengaturan dasar lainnya."
       dashboard_button: Dashboard
       #dashboard_text: Your forum at a glance.
-      dashboard_text: Your forum at a glance.
+      dashboard_text: Sekilas tentang Forum Anda.
       extensions_button: Extensions
       #extensions_text: Add extra functionality to your forum and make it your own.
       extensions_text: Menambahkan fungsi tambahan untuk forum Anda dan membuatnya sendiri.
@@ -118,9 +126,11 @@ core:
     # These strings are used in the Permissions page of the admin interface.
     permissions:
       #allow_renaming_label: Allow renaming
-      allow_renaming_label: Mengganti judul
-      allow_post_editing_label: Allow post editing
-      create_heading: Create
+      allow_renaming_label: Ganti Judul
+      #allow_post_editing_label: Allow post editing
+      allow_post_editing_label: Edit post
+      #create_heading: Create
+      create_heading: Menulis
       #delete_discussions_forever_label: Delete discussions forever
       delete_discussions_forever_label: Hapus diskusi selamanya
       #delete_discussions_label: Delete discussions
@@ -130,26 +140,33 @@ core:
       #edit_and_delete_posts_label: Edit and delete posts
       edit_and_delete_posts_label: Edit dan hapus post
       global_heading: Global
-      moderate_heading: Moderate
+      #moderate_heading: Moderate
+      moderate_heading: Moderasi
       #new_group_button: New Group
       new_group_button: Grup Baru
-      participate_heading: Participate
-      read_heading: Read
+      #participate_heading: Participate
+      participate_heading: Berpartisipasi
+      #read_heading: Read
+      read_heading: Membaca
       #rename_discussions_label: Rename discussions
       rename_discussions_label: Mengganti judul diskusi
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
+      #reply_to_discussions_label: Reply to discussions
+      reply_to_discussions_label: Ikut berdiskusi
+      #sign_up_label: Sign up
+      sign_up_label: Pendaftaran
       #start_discussions_label: Start discussions
-      start_discussions_label: Mulai Diskusi
-      view_discussions_label: View discussions
+      start_discussions_label: Mulai diskusi
+      #view_discussions_label: View discussions
+      view_discussions_label: Lihat diskusi
 
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
       #allow_indefinitely_button: Indefinitely
-      allow_indefinitely_button: Tanpa Batas
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_indefinitely_button: Tanpa batas
+      #allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_some_minutes_button: "{count} menit|{count} menit"
       #allow_ten_minutes_button: For 10 minutes
-      allow_ten_minutes_button: Hingga 10 menit
+      allow_ten_minutes_button: 10 menit
       #allow_until_reply_button: Until next reply
       allow_until_reply_button: Hingga balasan selanjutnya
       #everyone_button: Everyone
@@ -214,7 +231,7 @@ core:
       #discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
       discard_confirmation: "Anda belum memposting balasan yang Anda tulis. Apakah Anda ingin membuangnya?"
       #posted_message: Your reply was posted.
-      posted_message: Balasan Anda telah terposting.
+      posted_message: Balasan Anda berhasil diposting.
       #submit_button: Post Reply
       submit_button: Submit
       view_button: View
@@ -224,7 +241,7 @@ core:
       #cannot_reply_button: Can't Reply
       cannot_reply_button: => core.ref.reply
       #cannot_reply_text: You don't have permission to reply to this discussion.
-      cannot_reply_text: Kamu tidak memiliki hak untuk ikut berdiskusi.
+      cannot_reply_text: Anda diperbolehkan ikut berdiskusi.
       delete_button: => core.ref.delete
       #delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_confirmation: "Apakah Anda yakin ingin menghapus diskusi ini?"
@@ -232,7 +249,7 @@ core:
       #log_in_to_reply_button: Log In to Reply
       log_in_to_reply_button: => core.ref.reply
       #rename_button: Rename
-      rename_button: Edit Judul
+      rename_button: Ganti Judul
       #rename_text: "Enter a new title for this discussion:"
       rename_text: "Masukkan judul baru untuk diskusi ini:"
       reply_button: => core.ref.reply
@@ -563,10 +580,10 @@ core:
   # Strings in this namespace are used to translate default group names.
   group:
     admin: Admin
-    admins: Admins
+    admins: Admin
     guest: Guest
     guests: Guests
     member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    members: Member
+    mod: Moderator
+    mods: Moderator
