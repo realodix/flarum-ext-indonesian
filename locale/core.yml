@@ -214,6 +214,7 @@ core:
       discard_confirmation: "Artikel yang Anda tulis belum ter-posting. Apakah Anda ingin membuangnya?"
       #submit_button: Post Discussion
       submit_button: Post
+      title: => core.ref.start_a_discussion
       #title_placeholder: Discussion Title
       title_placeholder: Judul Diskusi
 
@@ -303,8 +304,7 @@ core:
       cannot_start_discussion_button: Can't Start Discussion
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Refresh
-      #start_discussion_button: Start a Discussion
-      start_discussion_button: Membuat Diskusi
+      start_discussion_button: => core.ref.start_a_discussion
 
     # These strings are used by the sorting control above the discussion list.
     index_sort:
@@ -521,6 +521,7 @@ core:
     settings: Pengaturan
     #sign_up: Sign Up
     sign_up: Buat Akun
+    start_a_discussion: Membuat Diskusi
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: Username
     #write_a_reply: Write a Reply...
