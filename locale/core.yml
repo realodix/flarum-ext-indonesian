@@ -49,7 +49,7 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      #beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
+       #beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
       beta_warning_text: "<strong>Software beta</strong> ini disediakan agar Anda dapat membantu kami menguji dan membuatnya lebih baik. Kami sangat tidak menyarankan Anda menggunakannya dalam produksi ."
       #contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       contributing_text: "Ingin berkontribusi menemukan bug/kesalahan? Bacalah <a>Contributing docs</a>."
@@ -63,6 +63,15 @@ core:
       troubleshooting_text: "Memiliki masalah? Ikuti instruksi pada halaman <a>Troubleshooting docs</a>."
       #version_text: "Thanks for trying out Flarum! You are running version {version}."
       version_text: "Terima kasih sudah menggunakan Flarum {version}."
+      #welcome_text: "Welcome to Flarum Beta!"
+      welcome_text: "Selamat datang di Flarum Beta!"
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      submit_button: => core.ref.save_changes
+      title: Edit Custom CSS
+
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -96,11 +105,11 @@ core:
       #uninstall_button: Uninstall
       uninstall_button: Hapus
 
-    # This translations is used in the session dropdown menu.
+    # These translations are used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This translations is used in the modal dialog displayed when loading extensions.
+    # These translations are used in the modal dialog displayed when loading extensions.
     loading:
       #title: Please Wait...
       title: Tunggu Sebentar...
@@ -161,21 +170,18 @@ core:
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      #allow_indefinitely_button: Indefinitely
-      allow_indefinitely_button: Tanpa batas
-      #allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_some_minutes_button: "{count} menit|{count} menit"
-      #allow_ten_minutes_button: For 10 minutes
-      allow_ten_minutes_button: 10 menit
-      #allow_until_reply_button: Until next reply
-      allow_until_reply_button: Hingga balasan selanjutnya
-      #everyone_button: Everyone
-      everyone_button: Siapa saja
+      allow_indefinitely_button: Indefinitely
+      allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_ten_minutes_button: For 10 minutes
+      allow_until_reply_button: Until next reply
+      everyone_button: Everyone
       members_button: => core.group.members
-      #signup_closed_button: Closed
-      signup_closed_button: Tertutup
-      #signup_open_button: Open
-      signup_open_button: Terbuka
+      signup_closed_button: Closed
+      signup_open_button: Open
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -416,6 +422,8 @@ core:
       #bio_placeholder: Write something about yourself
       bio_placeholder: Tulislah sesuatu tentang diri Anda
       discussions_link: => core.ref.discussions
+      #in_discussion_text: "In {discussion}"
+      in_discussion_text: "Di {discussion}"
       #joined_date_text: "Joined {ago}"
       joined_date_text: "Bergabung: {ago}"
       online_text: Online
@@ -440,7 +448,7 @@ core:
     badge:
       hidden_tooltip: Hidden
 
-    # This string is displayed in place of the username of deleted user account.
+    # This translation is displayed in place of the username of a deleted user account.
     deleted_user_text: "[deleted]"
 
     # These translations are displayed as error messages.
