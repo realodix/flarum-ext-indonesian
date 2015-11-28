@@ -4,10 +4,10 @@ core:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Strings in this namespace are used by the admin interface.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These strings are used in the Appearance page.
+    # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Colored Header
       #colors_heading: Colors
@@ -24,7 +24,7 @@ core:
       enter_hex_message: Masukkan kode warna hexadecimal.
       submit_button: => core.ref.save_changes
 
-    # These strings are used in the Basics page.
+    # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       #default_language_heading: Default Language
@@ -47,7 +47,7 @@ core:
       #welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
       welcome_banner_text: Pesan selamat datang akan ditampilkan dalam bentuk banner. Gunakan ini untuk menyambut tamu yang datang ke forum Anda.
 
-    # These strings are used in the Dashboard page.
+    # These translations are used in the Dashboard page.
     dashboard:
       #beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
       beta_warning_text: "<strong>Software beta</strong> ini disediakan agar Anda dapat membantu kami menguji dan membuatnya lebih baik. Kami sangat tidak menyarankan Anda menggunakannya dalam produksi ."
@@ -64,7 +64,7 @@ core:
       #version_text: "Thanks for trying out Flarum! You are running version {version}."
       version_text: "Terima kasih sudah menggunakan Flarum {version}."
 
-    # These strings are used in the Edit Group modal dialog.
+    # These translations are used in the Edit Group modal dialog.
     edit_group:
       #color_label: Color
       color_label: Warna
@@ -84,7 +84,7 @@ core:
       #title: Create Group
       title: Membuat Grup
 
-    # These strings are used in the Extensions page.
+    # These translations are used in the Extensions page.
     extensions:
       #add_button: Add Extension
       add_button: Tambah Baru
@@ -96,16 +96,16 @@ core:
       #uninstall_button: Uninstall
       uninstall_button: Hapus
 
-    # This string is used in the session dropdown menu.
+    # This translations is used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This string is used in the modal dialog displayed when loading extensions.
+    # This translations is used in the modal dialog displayed when loading extensions.
     loading:
       #title: Please Wait...
       title: Tunggu Sebentar...
 
-    # These strings are used in the navigation bar.
+    # These translations are used in the navigation bar.
     nav:
       appearance_button: Appearance
       #appearance_text: "Customize your forum's colors, logos, and other variables."
@@ -123,7 +123,7 @@ core:
       #permissions_text: Configure who can see and do what.
       permissions_text: Konfigurasi hak akses user tentang apa yang bisa dilihat dan dilakukan..
 
-    # These strings are used in the Permissions page of the admin interface.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       #allow_renaming_label: Allow renaming
       allow_renaming_label: Ganti Judul
@@ -159,7 +159,7 @@ core:
       #view_discussions_label: View discussions
       view_discussions_label: Lihat diskusi
 
-    # These strings are used in the dropdown menus on the Permissions page.
+    # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       #allow_indefinitely_button: Indefinitely
       allow_indefinitely_button: Tanpa batas
@@ -177,17 +177,17 @@ core:
       #signup_open_button: Open
       signup_open_button: Terbuka
 
-  # Strings in this namespace are used by the forum user interface.
+  # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # These strings are used in the Change Email modal dialog.
+    # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
-    # These strings are used in the Change Password modal dialog.
+    # These translations are used in the Change Password modal dialog.
     change_password:
       #send_button: Send Password Reset Email
       send_button: Kirim Email
@@ -195,7 +195,7 @@ core:
       text: Kami akan mengirimkan link untuk reset password ke email Anda.
       title: => core.ref.change_password
 
-    # These strings are used by the composer controls.
+    # These translations are used by the composer controls.
     composer:
       #close_tooltip: Close
       close_tooltip: Tutup
@@ -206,7 +206,7 @@ core:
       #minimize_tooltip: Minimize
       minimize_tooltip: Kecilkan
 
-    # These strings are used by the composer when starting a discussion.
+    # These translations are used by the composer when starting a discussion.
     composer_discussion:
       #body_placeholder: Write a Post...
       body_placeholder: Tulis artikel di sini..
@@ -218,7 +218,7 @@ core:
       #title_placeholder: Discussion Title
       title_placeholder: Judul Diskusi
 
-    # These strings are used by the composer when editing a post.
+    # These translations are used by the composer when editing a post.
     composer_edit:
       #discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
       discard_confirmation: "Anda tidak menyimpan perubahan. Apakah Anda ingin membuangnya?"
@@ -226,7 +226,7 @@ core:
       post_link: "Post #{number} pada {discussion}"
       submit_button: => core.ref.save_changes
 
-    # These strings are used by the composer when replying to a discussion.
+    # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       #discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
@@ -237,7 +237,7 @@ core:
       submit_button: Submit
       view_button: View
 
-    # These strings are used by the discussion control buttons.
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       #cannot_reply_button: Can't Reply
       cannot_reply_button: => core.ref.reply
@@ -256,7 +256,7 @@ core:
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
-    # These strings are used in the discussion list.
+    # These translations are used in the discussion list.
     discussion_list:
       #empty_text: "It looks like there are no discussions here."
       empty_text: "Sepertinya tidak ada diskusi di sini."
@@ -265,14 +265,14 @@ core:
       replied_text: "{username} replied {ago}"
       started_text: "{username} started {ago}"
 
-    # These strings are used in the Edit User modal dialog (admin function).
+    # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.save_changes
       username_label: => core.ref.username
 
-    # These strings are used in the Forgot Password modal dialog.
+    # These translations are used in the Forgot Password modal dialog.
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
@@ -285,7 +285,7 @@ core:
       #title: Forgot Password
       title: Lupa Password
 
-    # These strings are used in the header and session dropdown menu.
+    # These translations are used in the header and session dropdown menu.
     header:
       #admin_button: Administration
       admin_button: Halaman Admin
@@ -298,7 +298,7 @@ core:
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
-    # These strings are used on the index page, peripheral to the discussion list.
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Can't Start Discussion
@@ -306,7 +306,7 @@ core:
       refresh_tooltip: Refresh
       start_discussion_button: => core.ref.start_a_discussion
 
-    # These strings are used by the sorting control above the discussion list.
+    # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Latest
       newest_button: Newest
@@ -314,7 +314,7 @@ core:
       relevance_button: Relevance
       top_button: Top
 
-    # These strings are used in the Log In modal dialog.
+    # These translations are used in the Log In modal dialog.
     log_in:
       #confirmation_required_message: "You need to confirm your email before you can log in. We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
       confirmation_required_message: "Anda perlu mengkonfirmasi email Anda sebelum Anda dapat login. Kami telah mengirimkan email konfirmasi ke {email}. Jika dalam beberapa menit tidak ada di kotak masuk, periksa folder spam Anda."
@@ -330,7 +330,7 @@ core:
       #username_or_email_placeholder: Username or Email
       username_or_email_placeholder: Username atau Email
 
-    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       #discussion_renamed_text: "{username} changed the title"
       discussion_renamed_text: "{username} merubah judul"
@@ -340,20 +340,20 @@ core:
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
-    # These strings are used by tooltips displayed for individual posts.
+    # These translations are used by tooltips displayed for individual posts.
     post:
       #edited_tooltip: "{username} edited {ago}"
       edited_tooltip: "Di-edit oleh {username} {ago}"
       number_tooltip: "Post #{number}"
 
-    # These strings are used by the post control buttons.
+    # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
       restore_button: => core.ref.restore
 
-    # These strings are used in the scrubber to the right of the post stream.
+    # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       #now_link: Now
       now_link: Post Terakhir
@@ -364,7 +364,7 @@ core:
       #viewing_text: "{index} of {count} post|{index} of {count} posts"
       viewing_text: "{index} dari {count}|{index} dari {count}"
 
-    # These strings are displayed between posts in the post stream.
+    # These translations are displayed between posts in the post stream.
     post_stream:
       #discussion_renamed_text: "{username} changed the title from {old} to {new}."
       discussion_renamed_text: "{username} mengganti judul dari {old} menjadi {new}."
@@ -372,14 +372,14 @@ core:
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
 
-    # These strings are used by the search results dropdown list.
+    # These translations are used by the search results dropdown list.
     search:
       #all_discussions_button: 'Search all discussions for "{query}"'
       all_discussions_button: 'Pencarian untuk "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: Users
 
-    # These strings are used in the Settings page.
+    # These translations are used in the Settings page.
     settings:
       account_heading: Account
       change_email_button: => core.ref.change_email
@@ -394,7 +394,7 @@ core:
       privacy_heading: Privacy
       title: => core.ref.settings
 
-    # These strings are used in the Sign Up modal dialog.
+    # These translations are used in the Sign Up modal dialog.
     sign_up:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
@@ -408,7 +408,7 @@ core:
       #welcome_text: "Welcome, {username}!"
       welcome_text: "Selamat Datang, {username}!"
 
-    # These strings are used in the user profile page and profile popup.
+    # These translations are used in the user profile page and profile popup.
     user:
       #avatar_remove_button: Remove
       avatar_remove_button: Hapus
@@ -424,7 +424,7 @@ core:
       posts_link: Postingan
       settings_link: => core.ref.settings
 
-    # These strings are found on the user profile page (admin function).
+    # These translations are found on the user profile page (admin function).
     user_controls:
       #button: Controls
       button: Kontrol
@@ -433,17 +433,17 @@ core:
       delete_confirmation: "Apakah Anda yakin ingin menghapus user ini? Semua postingan dari user ini akan ikut terhapus."
       edit_button: => core.ref.edit
 
-  # Strings in this namespace are used by the forum and admin interfaces.
+  # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # These strings are displayed as tooltips for discussion badges.
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Hidden
 
     # This string is displayed in place of the username of deleted user account.
     deleted_user_text: "[deleted]"
 
-    # These strings are displayed as error messages.
+    # These translations are displayed as error messages.
     error:
       #generic_message: "Oops! Something went wrong. Please reload the page and try again."
       generic_message: "Oops! Sepertinya ada masalah. Coba refresh halaman dan coba lagi."
@@ -454,12 +454,12 @@ core:
       #rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
       rate_limit_exceeded_message: Maaf, Anda terlalu cepat. Silahkan coba lagi dalam beberapa detik.
 
-    # These strings are used as suffixes when abbreviating numbers.
+    # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
       kilo_text: K
       mega_text: M
 
-    # These strings are used to punctuate a series of items.
+    # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
       #two_text: "{first} and {second}"
@@ -467,7 +467,7 @@ core:
       #three_text: "{first}, {second}, and {third}"
       three_text: "{first}, {second}, dan {third}"
 
-  # Strings in this namespace are used in basic HTML interface.
+  # Translations in this namespace are used in basic HTML interface.
   basic:
     loading_text: Loading...
     #load_error_message: Something went wrong while trying to load the full version of this site.
@@ -479,11 +479,53 @@ core:
     #previous_page_button: Previous Page
     previous_page_button: Halaman Sebelumnya
 
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      subject: Activate Your New Account
+      body: |
+        Hey {username}!
+
+        Someone (hopefully you!) has signed up to {forum} with this email address.
+
+        If this was you, simply click the following link and your account will be activated:
+        {url}
+
+        If you did not sign up, please ignore this email.
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      subject: Confirm Your New Email Address
+      body: |
+        Hey {username}!
+
+        Someone (hopefully you!) has changed their email address on {forum} to this one.
+
+        If this was you, simply click the following link and your email will be confirmed:
+        {url}
+
+        If this was not you, please ignore this email.
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: Reset Your Password
+      body: |
+        Hey {username}!
+
+        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+
+        If this was you, click the following link to reset your password:
+        {url}
+
+        If you do not wish to change your password, just ignore this email and nothing will happen.
+
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
-  # Strings in this namespace are referenced by two or more unique keys.
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     #all_discussions: All Discussions
     all_discussions: Semua Diskusi
@@ -510,7 +552,7 @@ core:
     mark_all_as_read: Tandai semua telah dibaca
     #notifications: Notifications
     notifications: Notifikasi
-    okay: OK                                     # Referenced by flarum-tags.yml
+    okay: OK									# Referenced by flarum-tags.yml
     password: Password
     #reply: Reply                                 # Referenced by flarum-mentions.yml
     reply: Balas
@@ -530,56 +572,10 @@ core:
     you: Kamu
 
   ##
-  # EMAIL CONTENT
-  ##
-
-  # Strings in this namespace are used in emails sent by the forum.
-  email:
-
-    # These strings are used in emails sent when users register new accounts.
-    activate_account:
-      subject: Activate Your New Account
-      body: |
-        Hey {username}!
-
-        Someone (hopefully you!) has signed up to {forum} with this email address.
-
-        If this was you, simply click the following link and your account will be activated:
-        {url}
-
-        If you did not sign up, please ignore this email.
-
-    # These strings are used in emails sent when users change their email address.
-    confirm_email:
-      subject: Confirm Your New Email Address
-      body: |
-        Hey {username}!
-
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
-
-        If this was you, simply click the following link and your email will be confirmed:
-        {url}
-
-        If this was not you, please ignore this email.
-
-    # These strings are used in emails sent when users ask to reset their passwords.
-    reset_password:
-      subject: Reset Your Password
-      body: |
-        Hey {username}!
-
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
-
-        If this was you, click the following link to reset your password:
-        {url}
-
-        If you do not wish to change your password, just ignore this email and nothing will happen.
-
-  ##
   # GROUP NAMES
   ##
 
-  # Strings in this namespace are used to translate default group names.
+  # Translations in this namespace are used to translate default group names.
   group:
     admin: Admin
     admins: Admin

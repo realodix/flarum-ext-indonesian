@@ -4,14 +4,14 @@ flarum-tags:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Strings in this namespace are used by the admin interface.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These strings are used in the Basics page.
+    # These translations are used in the Basics page.
     basics:
       tags_label: => flarum-tags.ref.tags
 
-    # These strings are used in the Edit Tag modal dialog.
+    # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: Color
       description_label: Description
@@ -27,20 +27,20 @@ flarum-tags:
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
-    # These strings are used in the navigation bar.
+    # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
       #tags_text: Manage the list of tags available to organise discussions with.
       tags_text: Mengelola daftar label yang tersedia untuk mengatur diskusi.
 
-    # These strings are used in the Permissions page of the admin interface.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       #restrict_by_tag_heading: Restrict by Tag
       restrict_by_tag_heading: Batasi Dengan Label
       #tag_discussions_label: Tag discussions
       tag_discussions_label: Label
 
-    # These strings are used in the Tag Settings modal dialog.
+    # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       #range_separator_text: " to "
       range_separator_text: " ke "
@@ -55,7 +55,7 @@ flarum-tags:
       #title: Tag Settings
       title: Pengaturan Label
 
-    # These strings are used in the Tags page.
+    # These translations are used in the Tags page.
     tags:
       #about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
       about_tags_text: "Label digunakan untuk mengkategorikan diskusi. Label primer seperti kategori forum tradisional: mereka dapat diatur dalam hirarki dua tingkat. Label sekunder tidak memiliki hierarki atau perintah, dan berguna untuk mikro-kategorisasi."
@@ -67,10 +67,10 @@ flarum-tags:
       #settings_button: Settings
       settings_button: Pengaturan
 
-  # Strings in this namespace are used by the forum user interface.
+  # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # These strings are used by the Choose Tags modal dialog.
+    # These translations are used by the Choose Tags modal dialog.
     choose_tags:
       #choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
       choose_primary_placeholder: "Pilih label primari|Pilih {count} label primari"
@@ -82,24 +82,24 @@ flarum-tags:
       #title: Choose Tags for Your Discussion
       title: Pilih label untuk diskusi Anda.
 
-    # These strings are used by the composer when starting a discussion.
+    # These translations are used by the composer when starting a discussion.
     composer_discussion:
       #choose_tags_link: Choose Tags
       choose_tags_link: Pilih Label
 
-    # These strings are used by the discussion control buttons.
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       #edit_tags_button: Edit Tags
       edit_tags_button: Edit Label
 
-    # These strings are used on the index page, peripheral to the discussion list.
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       tags_link: => flarum-tags.ref.tags
       more_link: More...
       #untagged_link: Untagged
       untagged_link: Tanpa label
 
-    # These strings are displayed between posts in the post stream.
+    # These translations are displayed between posts in the post stream.
     post_stream:
       #added_tags_text: "{username} added the {tagsAdded}."
       added_tags_text: "{username} menambahkan {tagsAdded}."
@@ -109,7 +109,7 @@ flarum-tags:
       #tags_text: "{tags} tag|{tags} tags"
       tags_text: "label {tags}|label {tags}"
 
-  # Strings in this namespace are used by the forum and admin interfaces.
+  # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This string is displayed in place of the name of a tag that's been deleted.
@@ -117,10 +117,10 @@ flarum-tags:
     deleted_tag_text: Label Dihapus
 
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
-  # Strings in this namespace are referenced by two or more unique keys.
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     #create_tag: Create Tag
     create_tag: Buat Label
