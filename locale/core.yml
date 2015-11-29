@@ -565,7 +565,7 @@ core:
     #reply: Reply                                 # Referenced by flarum-mentions.yml
     reply: Balas
     restore: Restore
-    #save_changes: Save Changes                   # Referenced by flarum-tags.yml
+    #save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     save_changes: Simpan
     #settings: Settings
     settings: Pengaturan
