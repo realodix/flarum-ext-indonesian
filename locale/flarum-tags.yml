@@ -39,6 +39,8 @@ flarum-tags:
       restrict_by_tag_heading: Batasi Dengan Label
       #tag_discussions_label: Tag discussions
       tag_discussions_label: Label
+      #allow_edit_tags_label: Allow tag editing
+      allow_edit_tags_label: Memungkinkan editing label
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
