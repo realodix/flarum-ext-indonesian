@@ -28,25 +28,20 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      #notify_new_post_label: Someone posts in a discussion I'm following
-      notify_new_post_label: Seseorang memposting pada diskusi yang Saya ikuti
+      forum_follow_after_reply_label: Automatically follow discussions that I reply to
+      notify_new_post_label: Someone posts in a discussion I'm following
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      #following_text: Be notified of all replies.
-      following_text: Mendapatkan notifikasi untuk semua balasan.
+      following_text: Be notified of all replies.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      #ignoring_text: Never be notified. Hide from the discussion list.
-      ignoring_text: Tidak sama sekali mendapatkan notifikasi.
+      ignoring_text: Never be notified. Hide from the discussion list.
       not_following_button: Not Following
-      #not_following_text: "Be notified only when @mentioned."
-      not_following_text: "Mendapatkan notifikasi ketika seseorang @mention Saya."
-      #notify_email_tooltip: Get an email when there are new posts
-      notify_email_tooltip: Mendapatkan email ketika ada post baru
-      #notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_alert_tooltip: Mendapatkan notifikasi forum ketika ada post baru
+      not_following_text: "Be notified only when @mentioned."
+      notify_alert_tooltip: Get a forum notification when there are new posts
+      notify_email_tooltip: Get an email when there are new posts
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

@@ -1,15 +1,18 @@
 {
-    "name": "realodix-indonesian",
+    "name": "realodix/flarum-ext-indonesian",
     "type": "flarum-extension",
-    "description": "Paket Bahasa Indonesia.",
+    "description": "Indonesian language pack.",
     "keywords": ["locale"],
     "license": "MIT",
-	"require": {
-        "flarum/core": "^0.1.0-beta.4"
-	},
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
     "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
         "flarum-extension": {
-            "title": "Indonesian",
+            "title": "English",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -19,7 +22,7 @@
         },
         "flarum-locale": {
             "code": "id",
-            "title": "Bahasa Indonesia"
+            "title": "Indonesian"
         }
     }
 }

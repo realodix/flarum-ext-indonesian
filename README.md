@@ -3,7 +3,7 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum
 
 ## Informasi
-**Version**:  1.0.0-dev | **Requires**: Flarum 0.1.0 Beta 4 | **Compatible up to**: Flarum 0.1.0 Beta 4
+**Version**:  1.0.1-dev | **Requires**: Flarum 0.1.0 Beta 5 | **Compatible up to**: Flarum 0.1.0 Beta 5
 
  - Belum semuanya diterjemahkan dengan benar dan masih ada beberapa yang
    belum diterjemahkan.

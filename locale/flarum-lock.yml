@@ -9,36 +9,29 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      #lock_discussions_label: Lock discussions
-      lock_discussions_label: Mengunci diskusi
+      lock_discussions_label: Lock discussions
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      #locked_tooltip: Locked
-      locked_tooltip: Terkunci
+      locked_tooltip: Locked
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      #lock_button: Lock
-      lock_button: Mengunci
-      #unlock_button: Unlock
-      unlock_button: Buka Kunci
+      lock_button: Lock
+      unlock_button: Unlock
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      #discussion_locked_text: "{username} locked"
-      discussion_locked_text: "Dikunci oleh {username}"
+      discussion_locked_text: "{username} locked"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      #discussion_locked_text: "{username} locked the discussion."
-      discussion_locked_text: "Diskusi ini telah dikunci oleh {username}."
-      discussion_unlocked_text: "Diskusi ini telah dibebaskan oleh {username}."
+      discussion_locked_text: "{username} locked the discussion."
+      discussion_unlocked_text: "{username} unlocked the discussion."
 
     # These translations are used in the Settings page.
     settings:
-      #notify_discussion_locked_label: Someone locks a discussion I started
-      notify_discussion_locked_label: Seseorang mengunci diskusi yang saya buat
+      notify_discussion_locked_label: Someone locks a discussion I started

@@ -9,10 +9,8 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      #flag_posts_label: Flag posts
-      flag_posts_label: Melaporkan post
-      #view_flags_label: View flagged posts
-      view_flags_label: Melihat laporan
+      flag_posts_label: Flag posts
+      view_flags_label: View flagged posts
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
@@ -24,52 +22,37 @@ flarum-flags:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      #Aslinya dihapus
-      #https://github.com/flarum/english/commit/fec122f75de5114881d60186e40c82d4b3641605
-      reason_heading: Alasan:
-      #confirmation_message: Thank you for flagging this post. Our moderators will look into it.
-      confirmation_message: Terima kasih sudah melaporkan. Tim kami akan meninjaunya.
+      confirmation_message: Thank you for flagging this post. Our moderators will look into it.
       dismiss_button: => core.ref.okay
-      #reason_inappropriate_label: Inappropriate
-      reason_inappropriate_label: Tidak pantas
-      #reason_inappropriate_text: "This post is offensive, abusive, or violates our <a>community guidelines</a>."
-      reason_inappropriate_text: "Posting Anda terlihat ofensif, kasar, atau melanggar pedoman komunitas <a>kami</a>."
-      #reason_off_topic_label: "Off-topic"
-      reason_off_topic_label: Tidak sesuai topik
-      #reason_off_topic_text: This post is not relevant to the current discussion and should be moved elsewhere.
-      reason_off_topic_text: Posting ini tidak relevan dengan pembahasan saat ini dan harus dipindahkan ke tempat lain.
-      #reason_other_label: Other
-      reason_other_label: Alasan lain
+      reason_inappropriate_label: Inappropriate
+      reason_inappropriate_text: "This post is offensive, abusive, or violates our <a>community guidelines</a>."
+      reason_off_topic_label: "Off-topic"
+      reason_off_topic_text: This post is not relevant to the current discussion and should be moved elsewhere.
+      reason_other_label: Other
       reason_spam_label: Spam
-      #reason_spam_text: This post is an advertisement.
-      reason_spam_text: Post ini termasuk dalam iklan.
-      #submit_button: => flarum-flags.ref.flag_post
-      submit_button: Laporkan
-      #title: => flarum-flags.ref.flag_post
-      title: Kotak Lapor Masalah
+      reason_spam_text: This post is an advertisement.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      #empty_text: No Flags
-      empty_text: Tidak ada laporan
+      empty_text: No Flags
+      item_text: "{username} in <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      #dismiss_flag_tooltip: Dismiss Flag
-      dismiss_flag_tooltip: Abaikan
+      dismiss_flag_tooltip: Dismiss Flag
       flagged_by_text: "{username} flagged"
-      #flagged_by_with_reason_text: "{username} flagged as {reason}"
-      flagged_by_with_reason_text: "{username}: {reason}"
+      flagged_by_with_reason_text: "{username} flagged as {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
-      #flag_button: Flag
-      flag_button: Laporkan
+      flag_button: Flag
 
   ##
-  # REUSED translations - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
