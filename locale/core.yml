@@ -97,15 +97,27 @@ core:
       submit_button: => core.ref.save_changes
       #title: Create Group
       title: Membuat Grup
+      
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP Account
+      addresses_heading: Addresses
+      driver_label: Driver
+      encryption_label: Encryption
+      from_label: Sender
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Port
+      server_heading: SMTP Server
+      submit_button: => core.ref.save_changes
+      text: Configure the SMTP settings and addresses your forum will use to send email.
+      username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
       #add_button: Add Extension
       add_button: Tambah Baru
-      #disable_button: Disable
-      disable_button: Non-aktifkan
-      #enable_button: Enable
-      enable_button: Aktifkan
       settings_button: => core.ref.settings
       #uninstall_button: Uninstall
       uninstall_button: Hapus
@@ -130,6 +142,8 @@ core:
       dashboard_button: Dashboard
       #dashboard_text: Your forum at a glance.
       dashboard_text: Sekilas tentang Forum Anda.
+      email_button: => core.ref.email
+      email_text: "Configure your forum's email settings."
       extensions_button: Extensions
       #extensions_text: Add extra functionality to your forum and make it your own.
       extensions_text: Menambahkan fungsi tambahan untuk forum Anda dan membuatnya sendiri.
@@ -172,6 +186,8 @@ core:
       start_discussions_label: Mulai diskusi
       #view_discussions_label: View discussions
       view_discussions_label: Lihat diskusi
+      #view_post_ips_label: View post IP addresses
+      view_post_ips_label: Tampilkan IP address
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -194,7 +210,7 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: => core.ref.confirm_password
+      confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: The password you entered is incorrect.
       submit_button: => core.ref.save_changes
@@ -278,6 +294,7 @@ core:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.save_changes
+      title: Edit User
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -349,6 +366,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
+      edited_text: Edited
       #edited_tooltip: "{username} edited {ago}"
       edited_tooltip: "Di-edit oleh {username} {ago}"
       number_tooltip: "Post #{number}"
@@ -514,6 +532,7 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
+      subject: Activate Your New Account
       body: |
         Hey {username}!
 
@@ -527,6 +546,7 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
+      subject: Confirm Your New Email Address
       body: |
         Hey {username}!
 
@@ -540,6 +560,7 @@ core:
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: => core.ref.reset_your_password
       body: |
         Hey {username}!
 
@@ -549,7 +570,6 @@ core:
         {url}
 
         If you do not wish to change your password, just ignore this email and nothing will happen.
-      subject: => core.ref.reset_your_password
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
