@@ -13,10 +13,14 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Color
-      delete_tag_button: Delete Tag
-      delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
-      description_label: Description
+      #color_label: Color
+      color_label: Warna
+      #delete_tag_button: Delete Tag
+      delete_tag_button: Hapus Tag
+      #delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
+      delete_tag_confirmation: "Kamu yakin ingin menghapusnya? Semua diskusi yang ada di dalamnnya tidak akan terhapus."
+      #description_label: Description
+      description_label: Deskripsi
       hide_label: Hide from All Discussions
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
@@ -27,7 +31,8 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      #tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: Kelola daftar tag yang tersedia untuk mengatur diskusi.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
