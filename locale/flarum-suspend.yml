@@ -9,18 +9,24 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Suspend users
+      #suspend_users_label: Suspend users
+      suspend_users_label: Suspend user
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Suspended indefinitely
-      limited_time_label: Suspended for a limited time...
-      limited_time_days_text: " days"
-      not_suspended_label: Not suspended
-      status_heading: Suspension Status
+      #indefinitely_label: Suspended indefinitely
+      indefinitely_label: Suspend tanpa batas waktu
+      #limited_time_label: Suspended for a limited time...
+      limited_time_label: Suspend dengan batas waktu...
+      #limited_time_days_text: " days"
+      limited_time_days_text: "hari"
+      #not_suspended_label: Not suspended
+      not_suspended_label: Tidak di-suspend
+      #status_heading: Suspension Status
+      status_heading: Status
       submit_button: => core.ref.save_changes
       title: "Suspend {username}"
 

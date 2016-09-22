@@ -28,20 +28,27 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      forum_follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      #forum_follow_after_reply_label: Automatically follow discussions that I reply to
+      forum_follow_after_reply_label: Otomatis ikuti diskusi yang Aku balas
+      #notify_new_post_label: Someone posts in a discussion I'm following
+      notify_new_post_label: Seseorang memposting pada diskusi yang Saya ikuti
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      #following_text: Be notified of all replies.
+      following_text: Dapatkan semua notif.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
+      #ignoring_text: Never be notified. Hide from the discussion list.
+      ignoring_text: Never be notified. Sembunyikan dari daftar diskusi.
       not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      #not_following_text: "Be notified only when @mentioned."
+      not_following_text: "Dapatkan notif hanya ketika di-@mentioned."
+      #notify_alert_tooltip: Get a forum notification when there are new posts
+      notify_alert_tooltip: Dapatkan notif ketika ada pesan baru
+      #notify_email_tooltip: Get an email when there are new posts
+      notify_email_tooltip: Kirim E-Mail ketika ada pesan baru
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +56,9 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
+    #follow: Follow
     follow: Follow
+    #following: Following
     following: Following
-    ignoring: Ignoring
+    #ignoring: Ignoring
+    ignoring: Abaikan

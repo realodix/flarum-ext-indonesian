@@ -10,7 +10,7 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #approve_posts_label: Approve posts
-      approve_posts_label: Menyetujui posting
+      approve_posts_label: Setuju
       #reply_without_approval_label: Reply to discussions without approval
       reply_without_approval_label: Balas diskusi tanpa persetujuan
       #start_discussions_without_approval_label: Start discussions without approval
