@@ -20,6 +20,9 @@ core:
       colors_heading: Warna
       #colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
       colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
+      custom_header_heading: Custom Header
+      #custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      custom_header_text: "Tambahkan HTML yang akan ditampilkan di bagian paling atas halaman, di atas Flarum."
       #custom_styles_heading: Custom Styles
       custom_styles_heading: Modifikasi Tampilan
       #custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
@@ -28,6 +31,12 @@ core:
       edit_css_button: Edit Custom CSS
       #enter_hex_message: Please enter a hexadecimal color code.
       enter_hex_message: Masukkan kode warna hexadecimal.
+      favicon_heading: Favicon
+      #favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: Unggah gambar yang akan ditampilkan sebagai ikon shortcut forum ini.
+      logo_heading: Logo
+      #logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: Unggah gambar yang akan ditampilkan di tempat judul forum.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -97,7 +106,7 @@ core:
       submit_button: => core.ref.save_changes
       #title: Create Group
       title: Membuat Grup
-      
+
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP Account

@@ -129,5 +129,5 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      #regex: "The username may only contain letters, numbers, and dashes."
       regex: "Username hanya dapat diisi huruf, angka, dan tanda hubung."

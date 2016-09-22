@@ -54,4 +54,3 @@ Paket bahasa Indonesia untuk melokalisasi Flarum
 
 ### License
 Released under the MIT License. Please see the [LICENSE](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE) file.
-
