@@ -9,7 +9,8 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Reply to #{number}"
+      #reply_to_post_text: "Reply to #{number}"
+      reply_to_post_text: "Balas ke #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -39,4 +40,5 @@ flarum-mentions:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Mentions
+      #mentions_link: Mentions
+      mentions_link: Mention

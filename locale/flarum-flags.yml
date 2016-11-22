@@ -10,14 +10,16 @@ flarum-flags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #flag_posts_label: Flag posts
-      flag_posts_label: Melaporkan post
+      flag_posts_label: Laporkan post
       #view_flags_label: View flagged posts
       view_flags_label: Melihat laporan
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      guidelines_url_label: Community Guidelines URL
-      title: Flags Settings
+      #guidelines_url_label: Community Guidelines URL
+      guidelines_url_label: URL Pedoman Komunitas
+      #title: Flags Settings
+      title: Pengaturan Laporan
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -55,8 +57,10 @@ flarum-flags:
     post:
       #dismiss_flag_button: Dismiss Flag
       dismiss_flag_tooltip: Abaikan
-      flagged_by_text: "{username} flagged"
-      flagged_by_with_reason_text: "{username} flagged as {reason}"
+      #flagged_by_text: "{username} flagged"
+      flagged_by_text: "{username} dilaporkan"
+      #flagged_by_with_reason_text: "{username} flagged as {reason}"
+      flagged_by_with_reason_text: "{username} dilaporkan karena {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -69,5 +73,7 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Flag Post
-    flagged_posts: Flagged Posts
+    #flag_post: Flag Post
+    flag_post: Laporkan Posting
+    #flagged_posts: Flagged Posts
+    flagged_posts: Posting Terlapor

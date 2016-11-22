@@ -37,35 +37,44 @@ validation:
   #digits: "The :attribute must be :digits digits."
   digits: "Isian :attribute harus berupa angka :digits."
   #digits_between: "The :attribute must be between :min and :max digits."
-  #digits_between: "Isian :attribute harus antara angka :min dan :max."
   digits_between: "Isian :attribute harus antara angka :min dan :max."
-  dimensions: "The :attribute has invalid image dimensions."
-  distinct: "The :attribute field has a duplicate value."
+  #dimensions: "The :attribute has invalid image dimensions."
+  dimensions: "Isian :attribute tidak valid dengan dimensi gambar."
+  #distinct: "The :attribute field has a duplicate value."
+  distinct: "Isian :attribute memiliki duplikat."
   #email: "The :attribute must be a valid email address."
   email: "Isian :attribute harus berupa alamat email yang valid."
   #exists: "The selected :attribute is invalid."
   exists: "Isian :attribute yang dipilih tidak valid."
-  file: "The :attribute must be a file."
+  #file: "The :attribute must be a file."
+  file: "The :attribute harus berupa berkas."
   #filled: "The :attribute field is required."
   filled: "Bidang isian :attribute wajib diisi."
   #image: "The :attribute must be an image."
   image: "Isian :attribute harus berupa gambar."
   #in: "The selected :attribute is invalid."
   in: "Isian :attribute yang dipilih tidak valid."
-  in_array: "The :attribute field does not exist in :other."
+  #in_array: "The :attribute field does not exist in :other."
+  in_array: "Isian :attribute tidak tersedia di :other"
   #integer: "The :attribute must be an integer."
   integer: "Isian :attribute harus merupakan bilangan bulat."
   #ip: "The :attribute must be a valid IP address."
   ip: "Isian :attribute harus berupa alamat IP yang valid."
-  json: "The :attribute must be a valid JSON string."
+  #json: "The :attribute must be a valid JSON string."
+  json: "Isian :attribute harus berupa JSON yang valid"
   max:
-    numeric: "The :attribute may not be greater than :max."
-    file: "The :attribute may not be greater than :max kilobytes."
-    string: "The :attribute may not be greater than :max characters."
-    array: "The :attribute may not have more than :max items."
+    #numeric: "The :attribute may not be greater than :max."
+    numeric: "Isian :attribute harus tidak lebih dari :max"
+    #file: "The :attribute may not be greater than :max kilobytes."
+    file: "Isian :attribute harus tidak lebih dari :max kilobytes."
+    #string: "The :attribute may not be greater than :max characters."
+    string: "Isian :attribute harus tidak lebih dari :max karakter."
+    #array: "The :attribute may not have more than :max items."
+    array: "Isian :attribute harus tidak lebih dari :max barang."
   #mimes: "The :attribute must be a file of type: :values."
   mimes: "Isian :attribute harus dokumen berjenis : :values."
   #mimetypes: "The :attribute must be a file of type: :values."
+  mimetypes: "Isian :attribute harus dokumen berjenis: :values."
   min:
     #numeric: "The :attribute must be at least :min."
     numeric: "Isian :attribute seharusnya tidak lebih dari :max."
@@ -79,7 +88,8 @@ validation:
   not_in: "Isian :attribute yang dipilih tidak valid."
   #numeric: "The :attribute must be a number."
   numeric: "Isian :attribute harus berupa angka."
-  present: "The :attribute field must be present."
+  #present: "The :attribute field must be present."
+  present: "Isian :attribute harus ada."
   #regex: "The :attribute format is invalid."
   regex: "Format isian :attribute tidak valid."
   #required: "The :attribute field is required."
@@ -127,9 +137,12 @@ validation:
     #content: content
     content: konten
     name_singular: singular name
-    name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    #name_plural: plural name
+    name_plural: nama plural
+    #tag_count_primary: number of primary tags
+    tag_count_primary: nomor tag primer
+    #tag_count_secondary: number of secondary tags
+    tag_count_secondary: nomor tag sekunder
 
   custom:
     username:

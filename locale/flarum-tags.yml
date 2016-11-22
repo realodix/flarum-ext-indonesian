@@ -37,9 +37,12 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Allow tag editing
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      #allow_edit_tags_label: Allow tag editing
+      allow_edit_tags_label: Izinkan edit Tag
+      #restrict_by_tag_heading: Restrict by Tag
+      restrict_by_tag_heading: Batasi dengan Tag
+      #tag_discussions_label: Tag discussions
+      tag_discussions_label: Tag Diskusi
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
@@ -101,13 +104,15 @@ flarum-tags:
       added_and_removed_tags_text: "{username} menambahkan {tagsAdded} dan menghapus {tagsRemoved}."
       #removed_tags_text: "{username} removed the {tagsRemoved}."
       removed_tags_text: "{username} menghapus {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      #tags_text: "{tags} tag|{tags} tags"
+      tags_text: "{tags} tag"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    #deleted_tag_text: Deleted
+    deleted_tag_text: Terhapus
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

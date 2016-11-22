@@ -16,7 +16,8 @@ flarum-subscriptions:
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: Unfollow
-      unignore_button: Unignore
+      #unignore_button: Unignore
+      unignore_button: Abaikan
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -57,8 +58,8 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     #follow: Follow
-    follow: Follow
+    follow: Ikuti
     #following: Following
-    following: Following
+    following: Mengikuti
     #ignoring: Ignoring
     ignoring: Abaikan
