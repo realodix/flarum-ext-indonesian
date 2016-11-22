@@ -3,11 +3,11 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum
 
 ## Informasi
-**Version**:  1.0.2-dev | **Requires**: Flarum 0.1.0 Beta 5 | **Compatible up to**: Flarum 0.1.0 Beta 5
+**Version**:  1.0.2-dev | **Requires**: Flarum 0.1.0 Beta 5 | **Compatible up to**: Flarum 0.1.0 Beta 6
 
- - Belum semuanya diterjemahkan dengan benar dan masih ada beberapa yang
+ - Belum semuanya diterjemahkan dengan benar, dan masih ada beberapa yang
    belum diterjemahkan.
- - Teks bahasa Inggris masih ada dalam bentuk yaml komentar. Harapannya, ketika Anda ingin membantu saya, Anda bisa mengerjakannya dengan mudah.
+ - Teks bahasa Inggris masih ada dalam bentuk komentar yaml. Harapannya, ketika Anda ingin membantu Saya, Anda bisa mengerjakannya dengan mudah.
 
 ### Cara Menggunakan
 1. [Download](https://github.com/realodix/flarum-indonesian/archive/master.zip).
