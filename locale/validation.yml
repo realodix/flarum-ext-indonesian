@@ -37,6 +37,7 @@ validation:
   #digits: "The :attribute must be :digits digits."
   digits: "Isian :attribute harus berupa angka :digits."
   #digits_between: "The :attribute must be between :min and :max digits."
+  #digits_between: "Isian :attribute harus antara angka :min dan :max."
   digits_between: "Isian :attribute harus antara angka :min dan :max."
   dimensions: "The :attribute has invalid image dimensions."
   distinct: "The :attribute field has a duplicate value."
@@ -64,6 +65,7 @@ validation:
     array: "The :attribute may not have more than :max items."
   #mimes: "The :attribute must be a file of type: :values."
   mimes: "Isian :attribute harus dokumen berjenis : :values."
+  #mimetypes: "The :attribute must be a file of type: :values."
   min:
     #numeric: "The :attribute must be at least :min."
     numeric: "Isian :attribute seharusnya tidak lebih dari :max."
@@ -111,6 +113,8 @@ validation:
   timezone: "Isian :attribute harus berupa zona waktu yang valid."
   #unique: "The :attribute has already been taken."
   unique: "Isian :attribute sudah ada sebelumnya."
+  #uploaded: "The :attribute failed to upload."
+  uploaded: "Isian :attribute gagal upload."
   #url: "The :attribute format is invalid."
   url: "Format isian :attribute tidak valid."
 
