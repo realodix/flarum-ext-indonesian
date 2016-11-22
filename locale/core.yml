@@ -415,7 +415,7 @@ core:
       edited_text: Sudah di-edit
       #edited_tooltip: "{username} edited {ago}"
       edited_tooltip: "Di-edit oleh {username} {ago}"
-      number_tooltip: "Pos #{number}"
+      number_tooltip: "Post #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -488,10 +488,9 @@ core:
     user:
       #avatar_remove_button: Remove
       avatar_remove_button: Hapus
-      #avatar_upload_button: Upload
-      avatar_upload_button: Unggah
+      avatar_upload_button: Upload
       #avatar_upload_tooltip: Upload a new avatar
-      avatar_upload_tooltip: Unggah avatar baru
+      avatar_upload_tooltip: Upload avatar baru
       #bio_placeholder: Write something about yourself
       bio_placeholder: Tulislah sesuatu tentang diri Anda
       discussions_link: => core.ref.discussions
@@ -537,9 +536,9 @@ core:
     # These translations are displayed as error messages.
     error:
       #generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      generic_message: "Oops! Sepertinya ada masalah. Coba refresh halaman dan coba lagi."
+      generic_message: "Oops! Sepertinya ada masalah. Coba refresh halaman, dan coba lagi."
       #not_found_message: The requested resource was not found.
-      not_found_message: Sistem tidak menemukan data yang diperlukan.
+      not_found_message: Sumber yang diminta tidak ditemukan.
       #permission_denied_message: You do not have permission to do that.
       permission_denied_message: Gagal! Maaf, akun Anda tidak memiliki hak untuk melakukan ini.
       #rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
@@ -564,7 +563,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       #javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      javascript_disabled_message: Gunakan browser terbaru denga JavaScript yang telah diaktifkan.
+      javascript_disabled_message: Situs ini akan sangat baik dilihat ketika Anda menggunakan browser modern dengan JavaScript yang telah diaktifkan.
       #load_error_message: Something went wrong while trying to load the full version of this site.
       load_error_message: Ada yang salah ketika mencoba untuk memuat versi lengkap dari situs ini.
       loading_text: Loading...
@@ -602,7 +601,6 @@ core:
         {url}
 
         If you did not sign up, please ignore this email.
-      subject: Activate Your New Account
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
@@ -616,7 +614,6 @@ core:
         {url}
 
         If this was not you, please ignore this email.
-      subject: Confirm Your New Email Address
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -642,11 +639,11 @@ core:
     #change_email: Change Email
     change_email: Ubah Email
     #change_password: Change Password
-    change_password: Ubah Password
+    change_password: Ubah Kata Sandi
     #confirm_password: Confirm Password
     confirm_password: Konfirmasi Password
     #confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    confirmation_email_sent: "Kami telah mengirimkan email konfirmasi ke {email}. Jika dalam beberapa menit tidak ada, periksa folder spam Anda.."
+    confirmation_email_sent: "Kami telah mengirimkan email konfirmasi ke {email}. Jika dalam beberapa menit tidak ada, mohon periksa folder spam Anda.."
     #delete: Delete
     delete: Hapus
     #delete_forever: Delete Forever
@@ -655,29 +652,40 @@ core:
     discussions: Diskusi
     edit: Edit
     email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
+    #load_more: Load More
+    load_more: Muat Lagi
+    #log_in: Log In
+    log_in: Masuk
+    #log_out: Log Out
+    log_out: Keluar
     #mark_all_as_read: Mark All as Read
     mark_all_as_read: Tandai semua telah dibaca
-    next_page: Next Page
-    notifications: Notifications
+    #next_page: Next Page
+    next_page: Halaman Selanjutnya
+    #notifications: Notifications
+    notifications: Notifikasi
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
+     #reply: Reply                                 # Referenced by flarum-mentions.yml
+    reply: Balas
+    #reset_your_password: Reset Your Password
+    reset_your_password: Perbarui Kata Sandi Anda
+    #restore: Restore
+    restore: Pulihkan
     #save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    save_changes: Simpan
+    save_changes: Simpan Perubahan
     #settings: Settings
     settings: Pengaturan
     sign_up: Sign Up
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
+    #start_a_discussion: Start a Discussion
+    start_a_discussion: Mulai Diskusi
+    #username: Username
+    username: Nama Pengguna
     #write_a_reply: Write a Reply...
     write_a_reply: Tulis balasan...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    #you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Anda
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
