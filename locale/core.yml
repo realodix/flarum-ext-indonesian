@@ -14,7 +14,7 @@ core:
       #install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
       install_text: "Saat ini, Anda dapat melihat ekstensi pada <a>situs Komunitas Flarum</a> dan memasangnya secara manual dengan menggunakan Composer."
       #temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      temporary_text: "Suatu hari, dialog ini akan mengizinkan Anda untuk menambahkan ekstensi ke dalam forum Anda dengan mudah."
+      temporary_text: "Suatu hari dialog ini akan mengizinkan Anda untuk menambahkan ekstensi ke dalam forum Anda dengan mudah."
 
     # These translations are used in the Appearance page.
     appearance:
@@ -40,10 +40,10 @@ core:
       enter_hex_message: Masukkan kode warna hexadecimal.
       favicon_heading: Favicon
       #favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      favicon_text: Unggah gambar yang akan ditampilkan sebagai ikon shortcut forum ini.
+      favicon_text: Upload gambar yang akan ditampilkan sebagai ikon shortcut forum ini.
       logo_heading: Logo
       #logo_text: Upload an image to be displayed in place of the forum title.
-      logo_text: Unggah gambar yang akan ditampilkan di tempat judul forum.
+      logo_text: Upload gambar yang akan ditampilkan di tempat judul forum.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -90,9 +90,11 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      #customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Sesuaikan tampilan forum Anda dengan menambahkan kode LESS/CSS milik Anda untuk diterapkan pada <a>gaya standar</a> Flarum."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      #title: Edit Custom CSS
+      title: Edit CSS
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -166,11 +168,11 @@ core:
       dashboard_text: Sekilas tentang Forum Anda.
       email_button: => core.ref.email
       #email_text: "Configure your forum's email settings."
-      email_text: "Atur pengaturan email untuk forum Anda."
+      email_text: "Mengkonfigurasi pengaturan email untuk forum Anda."
       #extensions_button: Extensions
       extensions_button: Ekstensi
       #extensions_text: Add extra functionality to your forum and make it your own.
-      extensions_text: Menambahkan fungsi tambahan untuk forum Anda dan membuatnya sendiri.
+      extensions_text: Menambahkan fungsi tambahan untuk forum Anda dan sesuai keinginan Anda.
       #permissions_button: Permissions
       permissions_button: Izin
       #permissions_text: Configure who can see and do what.
@@ -206,7 +208,7 @@ core:
       #reply_to_discussions_label: Reply to discussions
       reply_to_discussions_label: Ikut berdiskusi
       #sign_up_label: Sign up
-      sign_up_label: Pendaftaran
+      sign_up_label: Daftar
       #start_discussions_label: Start discussions
       start_discussions_label: Mulai diskusi
       #view_discussions_label: View discussions
@@ -223,7 +225,7 @@ core:
       #allow_ten_minutes_button: For 10 minutes
       allow_ten_minutes_button: Untuk 10 Menit
       #allow_until_reply_button: Until next reply
-      allow_until_reply_button: Sampai Komentar Selanjutnya
+      allow_until_reply_button: Hingga Komentar Selanjutnya
       #everyone_button: Everyone
       everyone_button: Siapapun
       members_button: => core.group.members
@@ -245,14 +247,14 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       #incorrect_password_message: The password you entered is incorrect.
-      incorrect_password_message: Kata sandi yang Anda masukan salah.
+      incorrect_password_message: Password yang Anda masukan salah.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
       #send_button: Send Password Reset Email
-      send_button: Kirim Email
+      send_button: Kirim
       #text: Click the button below and check your email for a link to change your password.
       text: Kami akan mengirimkan link untuk reset password ke email Anda.
       title: => core.ref.change_password
@@ -273,7 +275,7 @@ core:
       #body_placeholder: Write a Post...
       body_placeholder: Tulis artikel di sini..
       #discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      discard_confirmation: "Artikel yang Anda tulis belum ter-posting. Apakah Anda ingin membuangnya?"
+      discard_confirmation: "Artikel yang Anda tulis belum Anda posting. Apakah Anda ingin membuangnya?"
       #submit_button: Post Discussion
       submit_button: Post
       title: => core.ref.start_a_discussion
@@ -283,15 +285,16 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       #discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      discard_confirmation: "Anda tidak menyimpan perubahan. Apakah Anda ingin membuangnya?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "Anda belum menyimpan perubahan. Apakah Anda ingin membuangnya?"
+      #post_link: "Post #{number} in {discussion}"
+      post_link: "Pos #{number} di {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       #discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      discard_confirmation: "Anda tidak menyimpan perubahan. Apakah Anda ingin membuangnya?"
+      discard_confirmation: "Anda belum menyimpan perubahan. Apakah Anda ingin membuangnya?"
       #posted_message: Your reply was posted.
       posted_message: Balasan Anda sudah terkirim.
       #submit_button: Post Reply
@@ -301,14 +304,16 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
+      #cannot_reply_button: Can't Reply
+      cannot_reply_button: Tidak dapat membalas
       #cannot_reply_text: You don't have permission to reply to this discussion.
-      cannot_reply_text: Anda diperbolehkan ikut berdiskusi.
+      cannot_reply_text: Anda tidak diperbolehkan ikut berdiskusi.
       delete_button: => core.ref.delete
       #delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_confirmation: "Apakah Anda yakin ingin menghapus diskusi ini?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      #log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: Masuk untuk ikut berdiskusi
       #rename_button: Rename
       rename_button: Ganti Judul
       #rename_text: "Enter a new title for this discussion:"
@@ -321,16 +326,20 @@ core:
       #empty_text: It looks like there are no discussions here.
       empty_text: "Sepertinya tidak ada diskusi di sini."
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      #mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: Tandai sudah dibaca
+      #replied_text: "{username} replied {ago}"
+      replied_text: "{username} membalas {ago}"
+      #started_text: "{username} started {ago}"
+      started_text: "{username} memulai {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.save_changes
-      title: Edit User
+      #title: Edit User
+      title: Edit Pengguna
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -338,15 +347,15 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       #email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      email_sent_message: Kami telah mengirim email yang berisi link untuk memperbarui kata sandi Anda. Periksa folder spam Anda jika dalam beberapa menit tidak ada di kotak masuk email Anda.
+      email_sent_message: Kami telah mengirim email yang berisi link untuk memperbarui password Anda. Periksa folder spam Anda jika dalam beberapa menit tidak ada di kotak masuk email Anda.
       #not_found_message: There is no user registered with that email address.
       not_found_message: Tidak ada pengguna yang terdaftar dengan email tersebut.
       #submit_button: Recover Password
-      submit_button: Ganti Kata Sandi
+      submit_button: Ganti Password
       #text: Enter your email address and we will send you a link to reset your password.
-      text: Masukkan alamat email Anda dan kami akan mengirimkan link untuk memperbarui kata sandi Anda.
+      text: Masukkan alamat email Anda dan kami akan mengirimkan link untuk memperbarui password Anda.
       #title: Forgot Password
-      title: Lupa Kata Sandi
+      title: Lupa Password
 
     # These translations are used in the header and session dropdown menu.
     header:
@@ -510,14 +519,14 @@ core:
       button: Kontrol
       delete_button: => core.ref.delete
       #delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
-      delete_confirmation: "Apakah Anda yakin ingin menghapus user ini? Semua postingan dari user ini akan ikut terhapus."
+      delete_confirmation: "Apakah Anda yakin ingin menghapus pengguna ini? Semua postingan dari pengguna ini akan ikut terhapus."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
       #resend_button: Resend Confirmation Email
-      resend_button: Kirim lagi
+      resend_button: Kirim ulang
       #sent_message: Sent
       sent_message: Kirim
 
@@ -540,7 +549,7 @@ core:
       #not_found_message: The requested resource was not found.
       not_found_message: Sumber yang diminta tidak ditemukan.
       #permission_denied_message: You do not have permission to do that.
-      permission_denied_message: Gagal! Maaf, akun Anda tidak memiliki hak untuk melakukan ini.
+      permission_denied_message: Maaf, akun Anda tidak memiliki hak untuk melakukan ini.
       #rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
       rate_limit_exceeded_message: Maaf, Anda terlalu cepat. Silahkan coba lagi dalam beberapa detik.
 
@@ -669,7 +678,7 @@ core:
     #reply: Reply                                 # Referenced by flarum-mentions.yml
     reply: Balas
     #reset_your_password: Reset Your Password
-    reset_your_password: Perbarui Kata Sandi Anda
+    reset_your_password: Perbarui Password Anda
     #restore: Restore
     restore: Pulihkan
     #save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
