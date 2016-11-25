@@ -114,7 +114,7 @@ core:
       singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
       #title: Create Group
-      title: Buat Grup
+      title: Membuat Grup Baru
 
     # These translations are used in the email page of the admin interface.
     email:
