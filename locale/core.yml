@@ -23,7 +23,7 @@ core:
       #colors_heading: Colors
       colors_heading: Warna
       #colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
+      colors_text: "Tentukan dua warna (hex color) untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
       #custom_header_heading: Custom Header
       custom_header_heading: Header Kustom
       #custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
