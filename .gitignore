@@ -1,43 +1,20 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# The .gitignore file specifies intentionally untracked files that
+# Git should ignore. Files already tracked by Git are not affected.
+# http://git-scm.com/docs/gitignore
 
-# Folder config file
-Desktop.ini
+# Composer
+/vendor
+composer.phar
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+# Operating systems
+*~
 ._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+.AppleDouble
+.directory
+.DS_Store
+.LSOverride
+.Trash-*
+Desktop.ini
+ehthumbs.db
+Icon
+Thumbs.db
