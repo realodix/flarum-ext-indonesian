@@ -230,7 +230,7 @@ core:
       everyone_button: Siapapun
       members_button: => core.group.members
       #signup_closed_button: Closed
-      signup_open_button: Tertutup
+      signup_closed_button: Tertutup
       #signup_open_button: Open
       signup_open_button: Buka
 
