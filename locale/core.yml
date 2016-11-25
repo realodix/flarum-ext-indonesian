@@ -232,7 +232,7 @@ core:
       #signup_closed_button: Closed
       signup_closed_button: Tertutup
       #signup_open_button: Open
-      signup_open_button: Buka
+      signup_open_button: Terbuka
 
     # These translations are used in the Settings modal dialog.
     settings:
