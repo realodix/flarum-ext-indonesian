@@ -36,6 +36,8 @@ core:
       dark_mode_label: Mode Gelap
       #edit_css_button: Edit Custom CSS
       edit_css_button: Edit CSS
+      #edit_header_button: Edit Custom Header
+      edit_header_button: Edit
       #enter_hex_message: Please enter a hexadecimal color code.
       enter_hex_message: Masukkan kode warna hexadecimal.
       favicon_heading: Favicon
@@ -115,6 +117,14 @@ core:
       submit_button: => core.ref.save_changes
       #title: Create Group
       title: Membuat Grup Baru
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      #customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      customize_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman."
+      submit_button: => core.ref.save_changes
+      #title: Edit Custom Header
+      title: Modifikasi Header
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -238,6 +248,13 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      #remove_button: Remove
+      remove_button: Hapus
+      #upload_button: Choose an Image...
+      upload_button: Pilih gambar...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
