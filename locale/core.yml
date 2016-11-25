@@ -475,7 +475,7 @@ core:
       #notify_discussion_renamed_label: Someone renames a discussion I started
       notify_discussion_renamed_label: Seseorang merubah judul diskusi yang Saya buat
       #privacy_disclose_online_label: Allow others to see when I am online
-      privacy_disclose_online_label: Orang lain dapat mengetahui ketika saya online
+      privacy_disclose_online_label: Orang lain dapat mengetahui ketika Saya online
       #privacy_heading: Privacy
       privacy_heading: Privasi
       title: => core.ref.settings
