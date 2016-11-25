@@ -1,28 +1,39 @@
 {
-    "name": "realodix/flarum-ext-indonesian",
-    "type": "flarum-extension",
-    "description": "Indonesian language pack.",
-    "keywords": ["locale"],
-      "license": "MIT",
-      "require": {
-          "flarum/core": "^0.1.0-beta.6"
-      },
-      "extra": {
-          "branch-alias": {
-              "dev-master": "0.1.x-dev"
-          },
-          "flarum-extension": {
-              "title": "Indonesian",
-              "icon": {
-                  "image": "icon.svg",
-                  "backgroundColor": "#00247d",
-                  "backgroundSize": "cover",
-                  "backgroundPosition": "center"
-              }
-          },
-          "flarum-locale": {
-              "code": "id",
-              "title": "Indonesian"
-          }
+  "name": "realodix/flarum-ext-indonesian",
+  "type": "flarum-extension",
+  "description": "Indonesian language pack.",
+  "keywords": ["locale"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Realodix",
+      "email": "keigarrix@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/realodix/flarum-ext-indonesian/issues",
+    "source": "https://github.com/realodix/flarum-ext-indonesian",
+    "docs": "https://discuss.flarum.org/d/1358-indonesian-language-pack"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.6"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "Indonesian",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#00247d",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
       }
+    },
+    "flarum-locale": {
+      "code": "id",
+      "title": "Indonesian"
+    }
   }
+}
