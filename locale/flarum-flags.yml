@@ -49,7 +49,8 @@ flarum-flags:
     flagged_posts:
       #empty_text: No Flags
       empty_text: Tidak ada laporan
-      item_text: "{username} in <em>{discussion}</em>"
+      #item_text: "{username} in <em>{discussion}</em>"
+      item_text: "{username} di <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
