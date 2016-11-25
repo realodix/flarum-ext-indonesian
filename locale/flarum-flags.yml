@@ -27,7 +27,7 @@ flarum-flags:
     # These translations are used by the Flag Post modal dialog.
     flag_post:
       #confirmation_message: Thank you for flagging this post. Our moderators will look into it.
-      confirmation_message: Terima kasih sudah melaporkan. Tim kami akan segera meninjaunya.
+      confirmation_message: Terima kasih sudah melaporkan. Moderator kami akan segera meninjaunya.
       dismiss_button: => core.ref.okay
       #reason_inappropriate_label: Inappropriate
       reason_inappropriate_label: Tidak pantas
