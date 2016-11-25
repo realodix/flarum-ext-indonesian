@@ -473,7 +473,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       #notify_discussion_renamed_label: Someone renames a discussion I started
-      notify_discussion_renamed_label: Seseorang merubah judul diskusi yang saya buat
+      notify_discussion_renamed_label: Seseorang merubah judul diskusi yang Saya buat
       #privacy_disclose_online_label: Allow others to see when I am online
       privacy_disclose_online_label: Orang lain dapat mengetahui ketika saya online
       #privacy_heading: Privacy
