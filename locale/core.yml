@@ -25,7 +25,7 @@ core:
       #colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
       colors_text: "Tentukan dua warna (hex color) untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
       #custom_header_heading: Custom Header
-      custom_header_heading: Header Kustom
+      custom_header_heading: Modifikasi Header
       #custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
       custom_header_text: "Tambahkan HTML yang akan ditampilkan di bagian paling atas halaman, di atas Flarum."
       #custom_styles_heading: Custom Styles
@@ -209,7 +209,7 @@ core:
       #reply_to_discussions_label: Reply to discussions
       reply_to_discussions_label: Ikut berdiskusi
       #sign_up_label: Sign up
-      sign_up_label: Pendaftaran
+      sign_up_label: Pendaftaran Akun
       #start_discussions_label: Start discussions
       start_discussions_label: Mulai diskusi
       #view_discussions_label: View discussions
