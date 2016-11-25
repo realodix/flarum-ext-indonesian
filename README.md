@@ -11,7 +11,7 @@ Paket bahasa Indonesia untuk melokalisasi Flarum
 
 ### Cara Menggunakan
 1. Pada Flarum root, jalankan
-`composer require realodix/flarum-ext-indonesian`
+`composer require realodix/flarum-ext-indonesian  dev-master`
 
 2. Masuk ke halamam admin Flarum, klik **Extensions**.
 3. Aktifkan.
