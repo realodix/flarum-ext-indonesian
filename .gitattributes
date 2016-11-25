@@ -25,4 +25,4 @@
 .gitattributes   export-ignore
 .gitignore       export-ignore
 .styleci.yml     export-ignore
-README.md export-ignore
+README.md        export-ignore
