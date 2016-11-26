@@ -1,0 +1,16 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: => flarum-best-answer.ref.best_answer
+    forum:
+        #this_best_answer: "This Best Answer"
+        this_best_answer: "Jawaban Terbaik"
+        #remove_best_answer: "Remove Best Answer"
+        remove_best_answer: "Hapus Jawaban Terbaik"
+        #header_best_answer: "Best Answer — Thread Owner's Choice"
+        header_best_answer: "Jawaban Terbaik — Pilihan Pembuat Diskusi"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: => flarum-best-answer.ref.best_answer
+    ref:
+      #best_answer: 'Best Answer'
+      best_answer: 'Jawaban Terbaik'
