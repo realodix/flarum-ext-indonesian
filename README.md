@@ -3,11 +3,11 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum
 
 ## Informasi
-**Version**:  1.0.2-dev | **Requires**: Flarum 0.1.0 Beta 5 | **Compatible up to**: Flarum 0.1.0 Beta 6
+**Version**:  1.0.3-dev | **Requires**: Flarum 0.1.0 Beta 5 | **Compatible up to**: Flarum 0.1.0 Beta 6
 
- - Belum semuanya diterjemahkan dengan benar, dan masih ada beberapa yang
-   belum diterjemahkan.
- - Teks bahasa Inggris masih ada dalam bentuk komentar yaml. Harapannya, ketika Anda ingin membantu Saya, Anda bisa mengerjakannya dengan mudah.
+- Sejauh ini sudah 100% diterjemahkan.
+- Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Contohnya kata password tetap Saya tulis password (harusnya kata sandi), dan kata upload tetap Saya tulis upload (harusnya unggah).
+- Teks bahasa Inggris masih ada dalam bentuk komentar yml, jadi Anda bisa membantu Saya untuk mengkoreksi terjemahan.
 
 ### Cara Menggunakan
 1. Pada Flarum root, jalankan
