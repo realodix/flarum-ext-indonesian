@@ -26,7 +26,7 @@ flagrow-upload:
                 #max_file_size: Maximum file size (in kilobytes)
                 max_file_size: Maksimum ukuran file (kilobytes)
                 #mime_types_allowed: Specify the mime types you like to allow in your application using a regular expression
-                mime_types_allowed: Tentukan jenis mime Anda yang mengizinkan aplikasi Anda menggunakan ekspresi reguler
+                mime_types_allowed: Tentukan jenis MIME (Multipurpose Internet Mail Extension) yang ingin Anda gunakan
             resize:
                 #title: Image resize
                 title: Mengubah Ukuran Gambar
