@@ -1,0 +1,80 @@
+flagrow-upload:
+    forum:
+        buttons:
+            #attach: Attach
+            attach: Lampirkan
+        states:
+            loading: Loading
+            #success: Success
+            success: Sukses
+            error: Error
+    admin:
+        permissions:
+            #upload_label: Upload files
+            upload_label: Upload file
+        upload_methods:
+            #local: Local
+            local: Lokal
+            aws-s3: Amazon S3
+            imgur: Imgur
+        labels:
+            #upload_method: Upload method
+            upload_method: Metode upload
+            preferences:
+                #title: General preferences
+                title: Preferensi umum
+                #max_file_size: Maximum file size (in kilobytes)
+                max_file_size: Maksimum ukuran file (kilobytes)
+                #mime_types_allowed: Specify the mime types you like to allow in your application using a regular expression
+                mime_types_allowed: Tentukan jenis mime Anda yang mengizinkan aplikasi Anda menggunakan ekspresi reguler
+            resize:
+                title: Image resize
+                #toggle: Resize images
+                toggle: Resize image
+                #max_width: Maximum image width
+                max_width: Lebar maksimum
+                #max_height: Maximum image height
+                max_height: Tinggi maksimum
+            watermark:
+                #title: Watermark images
+                title: Watermark image
+                #toggle: Watermark images
+                toggle: Watermark image
+                #position: Watermark position
+                position: Posisi Watermark
+                #file: Upload your watermark image
+                file: Upload watermark image Anda
+            local:
+                #title: Local storage settings
+                title: Pengaturan Local storage
+                cdn_url: Content Delivery URL (prefixes files)
+            imgur:
+                #title: Imgur image storage settings
+                title: Pengaturan Imgur image storage
+                client_id: Imgur client ID
+            aws-s3:
+                #title: AWS S3 storage settings
+                title: Pengaturan AWS S3 storage
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: Region
+        buttons:
+            #save: Save settings
+            save: Simpan
+        help_texts:
+            description: >
+                Set up uploading services and preferences.
+            upload_method: >
+                Here you can select the method that you want to use
+                to upload your files. When you select one the
+                relative setting card is going to be displayed.
+            resize: >
+                Choose whether you want to resize your images before
+                they get uploaded. You can choose a maximum width
+                and height, in pixels. The resizing process keeps the
+                aspect ratio of the images.
+            watermark: >
+                Choose whether images will have a watermark added during
+                upload. Watermarks are added to non-gifs based on your
+                preferences below.
