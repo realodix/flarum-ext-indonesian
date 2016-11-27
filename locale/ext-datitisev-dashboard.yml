@@ -59,7 +59,8 @@ datitisev-dashboard:
       title: Pengaturan Dashboard
 
       github_heading: Github
-      github_description: "The Client ID and Client Secret of a Github app are necessary so you do not exceed the API rate limit.<br\/\><br\/\> Create an app at Github Developers (https://github.com/settings/developers)<br\/\> and introduce the credentials in the extension settings."
+      #github_description: "The Client ID and Client Secret of a Github app are necessary so you do not exceed the API rate limit.<br\/\><br\/\> Create an app at Github Developers (https://github.com/settings/developers)<br\/\> and introduce the credentials in the extension settings."
+      github_description: "Client ID dan Client Secret dari aplikasi Github diperlukan sehingga Anda tidak melebihi batas tingkat API. Buat aplikasi di Github Developers (https://github.com/settings/developers)."
       clientId_label: Client Id
       clientSecret_label: Client Secret
 
