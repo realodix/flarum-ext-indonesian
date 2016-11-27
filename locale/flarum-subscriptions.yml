@@ -45,7 +45,7 @@ flarum-subscriptions:
       ignoring_text: Jangan terima notifikasi. Sembunyikan dari daftar diskusi.
       not_following_button: Not Following
       #not_following_text: "Be notified only when @mentioned."
-      not_following_text: "Dapatkan notif hanya ketika di-@mentioned."
+      not_following_text: "Dapatkan notif hanya ketika di-@mention."
       #notify_alert_tooltip: Get a forum notification when there are new posts
       notify_alert_tooltip: Dapatkan notifikasi ketika ada pesan baru
       #notify_email_tooltip: Get an email when there are new posts
