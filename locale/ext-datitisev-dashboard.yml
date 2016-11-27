@@ -48,7 +48,8 @@ datitisev-dashboard:
         updatesAvaliable: "{number} update tersedia"
         #noUpdates: "No Updates!"
         noUpdates: "Tidak Ada Update!"
-        error: "Error Checking Updates!"
+        #error: "Error Checking Updates!"
+        error: "Terjadi error saat pengecekan!"
         addClientIdAndSecret:  => datitisev-dashboard.admin.settings.github_description
 
 
