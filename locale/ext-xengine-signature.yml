@@ -41,5 +41,5 @@ xengine-signature:
                 placeholder : 5 (default)
             maximum_char_limit:
                 #description : Maximum character limit of signature ( count characters, does not considering with HTML tags )
-                description : Batas karakter maksimum signature (jumlah karakter, tidak termasuk tag HTML)
+                description : Batas maksimum jumlah karakter (hanya jumlah karakter, tidak termasuk tag HTML)
                 placeholder : 1000 (default)
