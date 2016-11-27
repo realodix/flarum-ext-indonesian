@@ -24,7 +24,8 @@ flagrow-analytics:
           piwikTrackSubdomain: Melacak pengunjung di seluruh subdomain dari Flarum
           #piwikPrependDomain: Prepend the site domain to the page title when tracking
           piwikPrependDomain: Tambahkan domain situs untuk judul halaman saat melacak
-          piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
+          #piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
+          piwikHideAliasUrl: Dalam laporan "outlinks", klik sembunyikan untuk mengetahui URL alias
 
     page:
       nav:
