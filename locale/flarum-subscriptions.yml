@@ -25,7 +25,8 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      #new_post_text: "{username} posted"
+      new_post_text: "{username} memposting"
 
     # These translations are used in the Settings page.
     settings:
