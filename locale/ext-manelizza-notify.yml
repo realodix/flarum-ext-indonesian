@@ -33,7 +33,7 @@ flarum-notify:
       #title: HipChat settings
       title: Pengaturan HipChat
       #description: To obtain the token, visit your the room settings over at hipchat.com (Login, click on `rooms` and select your the room you want to post to). Click on `Tokens` and create a new one. The label you provide for the token will be shown with each notification.
-      description: Untuk mendapatkan token, kunjungi pengaturan room Anda selama di hipchat.com (Login, klik pada `rooms`, pilih room yang igin Anda post). Klik pada `Tokens` dan buat yang baru. Label yang Anda berikan untuk token akan ditampilkan dengan masing-masing pemberitahuan.
+      description: Untuk mendapatkan kode token, kunjungi pengaturan room Anda selama di hipchat.com (Login, klik pada `rooms`, pilih room yang igin Anda post). Klik pada `Tokens` dan buat yang baru. Label yang Anda berikan untuk token akan ditampilkan dengan masing-masing pemberitahuan.
       room: Room to post to (name or id)
       warning: Notify does not work with self-hosted HipChat.
     gitter-modal:
