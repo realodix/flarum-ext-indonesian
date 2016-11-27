@@ -24,8 +24,9 @@ xengine-signature:
              #max_image_count_exceed: Maximum image count exceeded.
              max_image_count_exceed: Batas maksimum jumlah gambar terlampaui.
     admin:
-        title: Signature
+        #title: Signature
         settings:
+            title: Signature
             maximum_image_width:
                 #description: Maximum width of images on editor.
                 description: Lebar maksimum gambar pada editor.
