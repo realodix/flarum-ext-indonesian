@@ -1,0 +1,43 @@
+avatar4eg-geotags:
+    admin:
+        permissions:
+            #add_geotags_label: Add geotags
+            add_geotags_label: Tambah geotags
+        settings:
+            #modal_title: Geotags Settings
+            modal_title: Pengaturan Geotags
+            api_label: Google Maps Api-key
+
+    forum:
+        create_modal:
+            #default_title: New place
+            default_title: Tempat baru
+            #title_label: Title
+            title_label: Nama Tempat
+            #address_label: Address
+            address_label: Alamat
+            #coordinates_label: Coordinates
+            coordinates_label: Kordinat
+            #latitude_label: Latitude
+            latitude_label: Lintang
+            #longitude_label: Longitude
+            longitude_label: Garis Bujur
+            #save_button: Save
+            save_button: Simpan
+        view_modal:
+        list_modal:
+            geotags_title: => avatar4eg-geotags.ref.geotags
+            #geotags_add_title: Add new place
+            geotags_add_title: Tambahkan tempat baru
+            #geotags_list_title: Existing places
+            geotags_list_title: Tempat yang ada
+        post:
+            geotags_title: => avatar4eg-geotags.ref.geotags
+            #geotag_editor_tooltip: Edit places
+            geotag_editor_tooltip: Edit tempat
+            #geotag_delete_tooltip: Delete
+            geotag_delete_tooltip: Hapus
+
+    ref:
+        #geotags: Places
+        geotags: Tempat

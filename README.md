@@ -24,6 +24,7 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 - [Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
 - [Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.1
 - [Flagrow Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
+- [Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
 - [Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
 
 ### Catatan
