@@ -162,7 +162,7 @@ core:
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
       #title: Please Wait...
-      title: Mohon Menunggu...
+      title: Mohon menunggu...
 
     # These translations are used in the navigation bar.
     nav:
@@ -185,7 +185,7 @@ core:
       #extensions_text: Add extra functionality to your forum and make it your own.
       extensions_text: Menambahkan fungsi tambahan untuk forum Anda dan sesuai keinginan Anda.
       #permissions_button: Permissions
-      permissions_button: Izin
+      permissions_button: Hak Akses
       #permissions_text: Configure who can see and do what.
       permissions_text: Konfigurasi hak akses user tentang apa yang bisa dilihat dan dilakukan.
 
@@ -234,9 +234,9 @@ core:
       #allow_some_minutes_button: "For {count} minute|For {count} minutes"
       allow_some_minutes_button: "Untuk {count} menit"
       #allow_ten_minutes_button: For 10 minutes
-      allow_ten_minutes_button: Untuk 10 Menit
+      allow_ten_minutes_button: Untuk 10 menit
       #allow_until_reply_button: Until next reply
-      allow_until_reply_button: Hingga Komentar Selanjutnya
+      allow_until_reply_button: Hingga komentar selanjutnya
       #everyone_button: Everyone
       everyone_button: Siapapun
       members_button: => core.group.members
