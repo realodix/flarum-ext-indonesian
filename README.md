@@ -14,11 +14,12 @@ Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependen
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
 3. Aktifkan.
 
-Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia, tanpa memperbarui apa pun. Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, itu juga akan secara otomatis diperbarui ketika memperbarui Flarum dan dependensinya melalui Composer.
+Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia, tanpa memperbarui apa pun. Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika memperbarui Flarum dan dependensinya melalui Composer.
 
 
 ### Extensi Yang Didukung
-- [Datitisev Admin Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.4
+Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan diterjemahkan ke dalam bahasa Indonesia.
+
 - [Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.5
 - [Datitisev Admin Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.4
 - [Flagrow Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
