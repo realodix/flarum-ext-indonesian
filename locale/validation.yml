@@ -136,7 +136,8 @@ validation:
     title: judul
     #content: content
     content: konten
-    name_singular: singular name
+    #name_singular: singular name
+    name_singular: nama tunggal
     #name_plural: plural name
     name_plural: nama plural
     #tag_count_primary: number of primary tags
