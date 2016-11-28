@@ -1,3 +1,14 @@
+# Custom Indonesian Laravel's Validation
+# Based on: https://github.com/caouecs/Laravel-lang/blob/master/src/id/validation.php
+
+
+# Baris Bahasa untuk Validasi
+
+# Baris bahasa berikut ini berisi standar pesan kesalahan yang digunakan oleh
+# kelas validasi. Beberapa aturan mempunyai multi versi seperti aturan 'size'.
+# Jangan ragu untuk mengoptimalkan setiap pesan yang ada di sini.
+
+
 validation:
   #accepted: "The :attribute must be accepted."
   accepted: "Isian :attribute harus diterima."
