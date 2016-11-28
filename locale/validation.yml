@@ -143,8 +143,3 @@ validation:
     tag_count_primary: nomor tag primer
     #tag_count_secondary: number of secondary tags
     tag_count_secondary: nomor tag sekunder
-
-  custom:
-    username:
-      #regex: "The username may only contain letters, numbers, and dashes."
-      regex: "Username hanya dapat diisi huruf, angka, dan tanda hubung."

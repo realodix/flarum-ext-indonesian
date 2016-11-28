@@ -613,6 +613,12 @@ core:
       submit_button: Reset Password
       title: => core.ref.reset_your_password
 
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    #invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Username dapat mengandung huruf, angka, dan tanda hubung."
+
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
