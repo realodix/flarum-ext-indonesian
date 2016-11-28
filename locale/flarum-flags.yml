@@ -57,7 +57,7 @@ flarum-flags:
     # These translations are used by the frame displayed around flagged posts.
     post:
       #dismiss_flag_button: Dismiss Flag
-      dismiss_flag_tooltip: Abaikan
+      dismiss_flag_button: Abaikan
       #flagged_by_text: "{username} flagged"
       flagged_by_text: "{username} dilaporkan"
       #flagged_by_with_reason_text: "{username} flagged as {reason}"
