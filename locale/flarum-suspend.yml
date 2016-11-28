@@ -10,7 +10,7 @@ flarum-suspend:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #suspend_users_label: Suspend users
-      suspend_users_label: Pengguna yang di-suspend
+      suspend_users_label: Pengguna Yang Di-Suspend
 
   # Translations in this namespace are used by the forum user interface.
   forum:

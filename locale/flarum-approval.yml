@@ -12,9 +12,9 @@ flarum-approval:
       #approve_posts_label: Approve posts
       approve_posts_label: Setuju
       #reply_without_approval_label: Reply to discussions without approval
-      reply_without_approval_label: Balas diskusi tanpa persetujuan
+      reply_without_approval_label: Ikut Berdiskusi Tanpa Persetujuan
       #start_discussions_without_approval_label: Start discussions without approval
-      start_discussions_without_approval_label: Mulai diskusi tanpa persetujuan
+      start_discussions_without_approval_label: Mulai Diskusi Tanpa Persetujuan
 
   # Translations in this namespace are used by the forum user interface.
   forum:

@@ -10,9 +10,9 @@ flarum-flags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #flag_posts_label: Flag posts
-      flag_posts_label: Laporkan post
+      flag_posts_label: Laporkan Post
       #view_flags_label: View flagged posts
-      view_flags_label: Melihat laporan
+      view_flags_label: Melihat Laporan
 
     # These translations are used in the Flags Settings modal dialog.
     settings:

@@ -10,7 +10,7 @@ flarum-lock:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #lock_discussions_label: Lock discussions
-      lock_discussions_label: Mengunci diskusi
+      lock_discussions_label: Mengunci Diskusi
 
   # Translations in this namespace are used by the forum user interface.
   forum:
