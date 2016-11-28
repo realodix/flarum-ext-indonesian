@@ -38,7 +38,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #allow_edit_tags_label: Allow tag editing
-      allow_edit_tags_label: Edit Tag
+      allow_edit_tags_label: Izinkan edit Tag
       #restrict_by_tag_heading: Restrict by Tag
       restrict_by_tag_heading: Batasi dengan Tag
       #tag_discussions_label: Tag discussions

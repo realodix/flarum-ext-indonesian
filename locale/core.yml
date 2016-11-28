@@ -342,7 +342,7 @@ core:
     # These translations are used in the discussion list.
     discussion_list:
       #empty_text: It looks like there are no discussions here.
-      empty_text: "Belum ada diskusi yang dimulai."
+      empty_text: "Sepertinya tidak ada diskusi di sini."
       load_more_button: => core.ref.load_more
       #mark_as_read_tooltip: Mark as Read
       mark_as_read_tooltip: Tandai sudah dibaca
