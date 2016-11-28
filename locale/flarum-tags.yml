@@ -82,7 +82,8 @@ flarum-tags:
       #edit_title: "Edit Tags for {title}"
       edit_title: "Edit Tag untuk {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      #title: Choose Tags for Your Discussion
+      title: Pilih Tag untuk Diskusi Anda
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
