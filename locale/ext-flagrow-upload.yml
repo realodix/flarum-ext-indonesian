@@ -64,8 +64,8 @@ flagrow-upload:
             #save: Save settings
             save: Simpan
         help_texts:
-            description: >
-                Set up uploading services and preferences.
+            #description: Set up uploading services and preferences.
+            description: Mengatur layanan upload dan preferensi.
             #upload_method: Here you can select the method that you want to use to upload your files. When you select one the relative setting card is going to be displayed.
             upload_method: Anda dapat memilih metode yang ingin Anda gunakan untuk meng-upload file Anda.
             #resize: Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
