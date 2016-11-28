@@ -40,7 +40,7 @@ flarum-tags:
       #allow_edit_tags_label: Allow tag editing
       allow_edit_tags_label: Izinkan edit Tag
       #restrict_by_tag_heading: Restrict by Tag
-      restrict_by_tag_heading: Batasi dengan Tag
+      restrict_by_tag_heading: Batasi Dengan Tag
       #tag_discussions_label: Tag discussions
       tag_discussions_label: Tag Diskusi
 
