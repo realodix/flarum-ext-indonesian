@@ -27,7 +27,7 @@ core:
       #custom_header_heading: Custom Header
       custom_header_heading: Modifikasi Header
       #custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_header_text: "Tambahkan HTML yang akan ditampilkan di bagian paling atas halaman, di atas Flarum."
+      custom_header_text: "Tambahkan HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
       #custom_styles_heading: Custom Styles
       custom_styles_heading: Modifikasi Tampilan
       #custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
@@ -42,7 +42,7 @@ core:
       enter_hex_message: Masukkan kode warna hexadecimal.
       favicon_heading: Favicon
       #favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      favicon_text: Upload gambar yang akan ditampilkan sebagai ikon shortcut forum ini.
+      favicon_text: Upload gambar yang akan ditampilkan sebagai shortcut icon forum.
       logo_heading: Logo
       #logo_text: Upload an image to be displayed in place of the forum title.
       logo_text: Upload gambar yang akan ditampilkan di tempat judul forum.
@@ -116,12 +116,12 @@ core:
       singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
       #title: Create Group
-      title: Membuat Grup Baru
+      title: Membuat Grup
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
       #customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      customize_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman."
+      customize_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
       submit_button: => core.ref.save_changes
       #title: Edit Custom Header
       title: Modifikasi Header

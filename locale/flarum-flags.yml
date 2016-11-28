@@ -12,7 +12,7 @@ flarum-flags:
       #flag_posts_label: Flag posts
       flag_posts_label: Laporkan Post
       #view_flags_label: View flagged posts
-      view_flags_label: Melihat Laporan
+      view_flags_label: Lihat Posting Terlapor
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
