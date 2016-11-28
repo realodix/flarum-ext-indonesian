@@ -75,9 +75,12 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      #choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
+      choose_primary_placeholder: "Pilih satu tag primer|Pilih {count} tag primer"
+      #choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
+      choose_secondary_placeholder: "Pilih 1 tag lagi|Pilih {count} tag lagi"
+      #edit_title: "Edit Tags for {title}"
+      edit_title: "Edit Tag untuk {title}"
       submit_button: => core.ref.okay
       title: Choose Tags for Your Discussion
 
