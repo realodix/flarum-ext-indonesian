@@ -18,20 +18,21 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 
 
 ### Extensi Yang Didukung
-Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan diterjemahkan ke dalam bahasa Indonesia.
+Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.5
-- [Datitisev Admin Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
-- [Flagrow Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
-- [Flagrow Upload](https://github.com/flagrow/upload) v0.3.5
-- [Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
-- [Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
-- [Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
-- [Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3
-- [Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.1
-- [Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
-- [Users-list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
+- [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
+- [Avatar4eg - Users-list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
+- [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
+- [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
+- [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
+- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.3.5
+- [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
+- [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
+- [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3
+- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.5
+- [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.1
+
 
 
 ### Catatan
