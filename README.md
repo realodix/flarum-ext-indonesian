@@ -31,6 +31,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.1
 - [Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
 - [Users-list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
+- [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
 
 
 ### Catatan
