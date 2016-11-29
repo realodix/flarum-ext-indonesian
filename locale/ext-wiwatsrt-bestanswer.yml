@@ -8,7 +8,7 @@ flarum-best-answer:
         #remove_best_answer: "Remove Best Answer"
         remove_best_answer: "Hapus Jawaban Terbaik"
         #header_best_answer: "Best Answer — Thread Owner's Choice"
-        header_best_answer: "Jawaban Terbaik — Pilihan Pembuat Diskusi"
+        header_best_answer: "Jawaban Terbaik — Thread Owner's Choice"
         best_answer_button: => flarum-best-answer.ref.best_answer
         best_answer: => flarum-best-answer.ref.best_answer
     ref:
