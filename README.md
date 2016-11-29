@@ -25,6 +25,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
 - [Flagrow Upload](https://github.com/flagrow/upload) v0.3.5
 - [Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
+- [Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
 - [Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
 - [Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.1
 - [Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
