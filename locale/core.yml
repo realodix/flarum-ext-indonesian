@@ -419,6 +419,8 @@ core:
       #invalid_login_message: Your login details were incorrect.
       invalid_login_message: Rincian login yang Anda masukkan tidak tepat.
       password_placeholder: => core.ref.password
+      #remember_me_label: Remember me for two weeks
+      remember_me_label: Ingat saya selama dua minggu
       #sign_up_text: "Don't have an account? <a>Sign Up</a>"
       sign_up_text: "Tidak memiliki akun? <a>Buat Akun</a>"
       submit_button: => core.ref.log_in
