@@ -41,7 +41,7 @@ flarum-flags:
       reason_other_label: Alasan lain
       reason_spam_label: Spam
       #reason_spam_text: This post is an advertisement.
-      reason_spam_text: Iklan.
+      reason_spam_text: Posting ini mengandung iklan.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
