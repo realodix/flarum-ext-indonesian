@@ -528,7 +528,7 @@ core:
       online_text: Online
       posts_load_more_button: => core.ref.load_more
       #posts_link: Posts
-      posts_link: Posting
+      posts_link: Total Post
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -682,7 +682,7 @@ core:
     #delete_forever: Delete Forever
     delete_forever: Hapus Permanen
     #discussions: Discussions
-    discussions: Diskusi
+    discussions: Total Diskusi
     edit: Edit
     email: Email
     #load_more: Load More
