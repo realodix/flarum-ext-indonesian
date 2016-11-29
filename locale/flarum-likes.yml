@@ -37,7 +37,7 @@ flarum-likes:
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
       #title: Users Who Like This
-      title: Orang Yang Menyukai Post Anda
+      title: Orang Yang Menyukai Post Ini
 
     # These translations are used in the Settings page.
     settings:
