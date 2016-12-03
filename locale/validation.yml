@@ -16,6 +16,8 @@ validation:
   active_url: ":attribute bukan URL yang valid."
   #after: "The :attribute must be a date after :date."
   after: ":attribute harus tanggal setelah :date."
+  #after_or_equal: "The :attribute must be a date after or equal to :date."
+  after_or_equal: ":attribute harus tanggal setelah atau sama dengan :date."
   #alpha: "The :attribute may only contain letters."
   alpha: ":attribute hanya boleh berisi huruf."
   #alpha_dash: "The :attribute may only contain letters, numbers, and dashes."
@@ -26,6 +28,8 @@ validation:
   array: ":attribute harus berupa sebuah array."
   #before: "The :attribute must be a date before :date."
   before: ":attribute harus tanggal sebelum :date."
+  #before_or_equal: "The :attribute must be a date before or equal to :date."
+  before_or_equal: ":attribute harus tanggal sebelum atau sama dengan :date."
   between:
     #numeric: "The :attribute must be between :min and :max."
     numeric: ":attribute harus antara :min dan :max."
