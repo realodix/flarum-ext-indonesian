@@ -1,0 +1,11 @@
+davis-customfooter:
+  admin:
+    settings:
+      #title: Custom Footer Configuration
+      title: Konfigurasi Custom Footer
+      #customtext: Text for Footer
+      customtext: Text untuk Footer
+      #heightofheader: Height of Footer
+      heightofheader: Ketinggian Footer
+      cssofheader: CSS
+jsofheader: JS
