@@ -31,6 +31,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.3.5
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
+- [Santiagobiali - Logo Extension](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
 - [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
 - [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3

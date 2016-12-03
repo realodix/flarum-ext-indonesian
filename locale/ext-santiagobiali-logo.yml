@@ -1,0 +1,19 @@
+santiagobiali-logo:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+   logo_settings:
+      #title: Logo configuration
+      title: Konfigurasi Logo
+      logo_url: URL
+      path_instructions: ex:/assets/logo.png
+
+   css_settings:
+      #title: Css configuration
+      title: Konfigurasi CSS
+#css_instructions: Just add the attribute. Ex margin:3px;
+css_instructions: Cukup tambahkan atribut saja. Contoh margin:3px;
