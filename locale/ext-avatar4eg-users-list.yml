@@ -3,10 +3,10 @@ avatar4eg-users-list:
     nav:
       users_button: => avatar4eg-users-list.ref.users_title
       #users_text: View users list.
-      users_text: Daftar pengguna.
+      users_text: Daftar user.
     page:
       #about_text:  View list of registered users.
-      about_text:  Daftar pengguna yang terdaftar.
+      about_text:  Daftar user yang terdaftar.
       online_text: => core.forum.user.online_text
       load_more_button: => core.ref.load_more
       list_title: => avatar4eg-users-list.ref.users_title
@@ -16,7 +16,7 @@ avatar4eg-users-list:
       #title_text: Message for
       title_text: Pesan untuk
       #title_all_text: all users
-      title_all_text: semua pengguna
+      title_all_text: semua user
       #email_label: To
       email_label: Ke
       #subject_label: Subject

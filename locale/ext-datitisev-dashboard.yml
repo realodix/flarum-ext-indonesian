@@ -30,7 +30,7 @@ datitisev-dashboard:
 
       graph:
         #users: Users
-        users: Pengguna
+        users: User
         #discussions: Discussions
         discussions: Diskusi
         #posts: Posts
@@ -66,4 +66,4 @@ datitisev-dashboard:
 
       graph_heading: Dashboard
       #interval_label: How often to get new data (discussions, users...) in minutes (whole number). Defaults to 10min
-      interval_label: Seberapa sering mendapatkan data baru (diskusi, pengguna ...) di menit (beberapa aja). Standarnya 10 menit.
+      interval_label: Seberapa sering mendapatkan data baru (diskusi, user ...) di menit (beberapa aja). Standarnya 10 menit.
