@@ -11,7 +11,7 @@ avatar4eg-users-list:
       load_more_button: => core.ref.load_more
       list_title: => avatar4eg-users-list.ref.users_title
       #mail_all_button: Mail to all users
-      mail_all_button: Pesan Untuk Semua
+      mail_all_button: Pesan ke semua user
     modal_mail:
       #title_text: Message for
       title_text: Pesan untuk
