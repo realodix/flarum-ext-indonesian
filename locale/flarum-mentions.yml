@@ -36,7 +36,7 @@ flarum-mentions:
       #notify_post_mentioned_label: Someone replies to one of my posts
       notify_post_mentioned_label: Seseorang membalas post Saya
       #notify_user_mentioned_label: Someone mentions me in a post
-      notify_user_mentioned_label: Seseorang menyebutkan nama Saya
+      notify_user_mentioned_label: Seseorang menyebutkan saya dalam post
 
     # These translations are used in the user profile page and profile popup.
     user:
