@@ -41,7 +41,7 @@ flarum-subscriptions:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
       #following_text: Be notified of all replies.
-      following_text: Dapatkan semua notifikasi dari semua balasan.
+      following_text: Dapatkan notifikasi dari semua balasan.
       ignoring_button: => flarum-subscriptions.ref.ignoring
       #ignoring_text: Never be notified. Hide from the discussion list.
       ignoring_text: Jangan terima notifikasi. Sembunyikan dari daftar diskusi.
