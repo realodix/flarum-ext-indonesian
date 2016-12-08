@@ -22,6 +22,7 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
+- [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5
 - [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
 - [Avatar4eg - Users-list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
 - [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
