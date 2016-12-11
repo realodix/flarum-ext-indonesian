@@ -3,7 +3,7 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang didukung.
 
 ## Informasi
-**Version**:  1.2.0 | **Requires**: Flarum 0.1.0 Beta 6 | **Compatible up to**: Flarum 0.1.0 Beta 6
+**Version**:  1.3.0 | **Requires**: Flarum 0.1.0 Beta 6 | **Compatible up to**: Flarum 0.1.0 Beta 6
 
 
 ### Cara Menggunakan
@@ -16,7 +16,7 @@ Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependen
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
 3. Aktifkan.
 
-Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia, tanpa memperbarui apa pun. Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika memperbarui Flarum dan dependensinya melalui Composer.
+Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia, tanpa memperbarui yang lainnya. Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika memperbarui Flarum dan dependensinya melalui Composer.
 
 
 ### Extensi Yang Didukung
@@ -31,6 +31,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.3.7
+- [Flagrow - Messaging](https://github.com/flagrow/messaging) v
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
 - [Santiagobiali - Logo Extension](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
