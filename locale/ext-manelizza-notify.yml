@@ -27,7 +27,8 @@ flarum-notify:
       #description: In order to obtain the token, visit <a>https://api.slack.com/web</a>
       description: Untuk mendapatkan kode token, Anda dapat mengunjungi <a>https://api.slack.com/web</a>
       token: Slack token
-      channel: Channel to post to
+      #channel: Channel to post to
+      channel: Channel untuk post ke
       username: Username
     hipchat-modal:
       #title: HipChat settings
@@ -35,7 +36,8 @@ flarum-notify:
       #description: To obtain the token, visit your the room settings over at hipchat.com (Login, click on `rooms` and select your the room you want to post to). Click on `Tokens` and create a new one. The label you provide for the token will be shown with each notification.
       description: Untuk mendapatkan kode token, kunjungi pengaturan room Anda selama di hipchat.com (Login, klik pada `rooms`, pilih room yang igin Anda post). Klik pada `Tokens` dan buat yang baru. Label yang Anda berikan untuk token akan ditampilkan dengan masing-masing pemberitahuan.
       room: Room to post to (name or id)
-      warning: Notify does not work with self-hosted HipChat.
+      #warning: Notify does not work with self-hosted HipChat.
+      warning: Beritahu ketika tidak berfungsi pada self-hosted HipChat.
     gitter-modal:
       #title: Gitter settings
       title: Pengaturan Gitter
