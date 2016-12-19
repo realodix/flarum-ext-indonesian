@@ -33,7 +33,7 @@ flarum-tags:
     nav:
       tags_button: => flarum-tags.ref.tags
       #tags_text: Manage the list of tags available to organise discussions with.
-      tags_text: Kelola daftar tag yang tersedia untuk mengatur diskusi.
+      tags_text: Mengelola daftar tag yang tersedia untuk mengatur diskusi.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -118,7 +118,7 @@ flarum-tags:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
     #deleted_tag_text: Deleted
-    deleted_tag_text: Terhapus
+    deleted_tag_text: Dihapus
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

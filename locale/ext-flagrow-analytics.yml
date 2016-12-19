@@ -21,7 +21,7 @@ flagrow-analytics:
       checkbox:
         label:
           #piwikTrackSubdomain: Track visitors across all subdomains of Flarum
-          piwikTrackSubdomain: Melacak pengunjung di seluruh subdomain dari Flarum
+          piwikTrackSubdomain: Lacak pengunjung di seluruh subdomain Flarum
           #piwikPrependDomain: Prepend the site domain to the page title when tracking
           piwikPrependDomain: Tambahkan domain situs untuk judul halaman saat melacak
           #piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
