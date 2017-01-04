@@ -10,17 +10,17 @@ xengine-signature:
                 #content: Please wait...
                 content: Mohon menunggu...
             error:
-                #title: Whoops! Encountered some errors..
-                title: Whoops! Sepertinya ada beberapa yang error..
-                #content: List of errors :
+                #title: Whoops! Encountered some errors...
+                title: Whoops! Sepertinya ada beberapa yang error...
+                #content: List of errors:
                 content: Daftar error:
         errors:
-             #max_char_limit_exceed: Maximum character limit exceeded
-             max_char_limit_exceed: Batas maksimum karakter terlampaui
-             #max_image_width_exceed: Maximum image width limit exceeded
-             max_image_width_exceed: Batas maksimum lebar gambar terlampaui
-             #max_image_height_exceed: Maximum image height limit exceeded
-             max_image_height_exceed: Batas maksimum tinngi gambar terlampaui
+             #max_char_limit_exceed: Maximum character limit exceeded.
+             max_char_limit_exceed: Batas maksimum karakter terlampaui.
+             #max_image_width_exceed: Maximum image width limit exceeded.
+             max_image_width_exceed: Batas maksimum lebar gambar terlampaui.
+             #max_image_height_exceed: Maximum image height limit exceeded.
+             max_image_height_exceed: Batas maksimum tinngi gambar terlampaui.
              #max_image_count_exceed: Maximum image count exceeded.
              max_image_count_exceed: Batas maksimum jumlah gambar terlampaui.
     admin:
@@ -40,6 +40,6 @@ xengine-signature:
                 description : Batas maksimum gambar yang dimasukkan.
                 placeholder : 5 (default)
             maximum_char_limit:
-                #description : Maximum character limit of signature ( count characters, does not considering with HTML tags )
+                #description : Maximum character limit of signature (count characters, does not considering with HTML tags)
                 description : Batas maksimum jumlah karakter (hanya jumlah karakter, tidak termasuk tag HTML)
                 placeholder : 1000 (default)
