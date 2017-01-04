@@ -15,6 +15,8 @@ core:
       install_text: "Saat ini, Anda dapat melihat ekstensi pada <a>situs Komunitas Flarum</a> dan memasangnya secara manual dengan menggunakan Composer."
       #temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
       temporary_text: "Suatu hari dialog ini akan mengizinkan Anda untuk menambahkan ekstensi ke dalam forum Anda dengan mudah."
+      #title: Add Extension
+      title: Tambah Extensi
 
     # These translations are used in the Appearance page.
     appearance:
