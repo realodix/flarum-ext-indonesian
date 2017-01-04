@@ -25,7 +25,7 @@ core:
       #colors_heading: Colors
       colors_heading: Warna
       #colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      colors_text: "Tentukan dua warna (hex color) untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
+      colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
       #custom_header_heading: Custom Header
       custom_header_heading: Modifikasi Header
       #custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
@@ -152,7 +152,7 @@ core:
     # These translations are used in the Extensions page.
     extensions:
       #add_button: Add Extension
-      add_button: Tambah Baru
+      add_button: Tambah Ekstensi
       settings_button: => core.ref.settings
       #uninstall_button: Uninstall
       uninstall_button: Hapus
@@ -211,7 +211,7 @@ core:
       #moderate_heading: Moderate
       moderate_heading: Moderasi
       #new_group_button: New Group
-      new_group_button: Grup Baru
+      new_group_button: Tambah Grup
       #participate_heading: Participate
       participate_heading: Berpartisipasi
       #read_heading: Read
@@ -443,9 +443,9 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       #edited_text: Edited
-      edited_text: Sudah di-edit
+      edited_text: Sudah diubah
       #edited_tooltip: "{username} edited {ago}"
-      edited_tooltip: "Di-edit oleh {username} {ago}"
+      edited_tooltip: "Diubah oleh {username} {ago}"
       number_tooltip: "Post #{number}"
 
     # These translations are used by the post control buttons.

@@ -42,4 +42,4 @@ flarum-lock:
     # These translations are used in the Settings page.
     settings:
       #notify_discussion_locked_label: Someone locks a discussion I started
-      notify_discussion_locked_label: Seseorang mengunci diskusi yang Anda buat.
+      notify_discussion_locked_label: Seseorang mengunci diskusi yang Saya buat

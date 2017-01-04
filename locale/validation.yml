@@ -156,6 +156,6 @@ validation:
     #name_plural: plural name
     name_plural: nama plural
     #tag_count_primary: number of primary tags
-    tag_count_primary: nomor tag primer
+    tag_count_primary: jumlah tag primer
     #tag_count_secondary: number of secondary tags
-    tag_count_secondary: nomor tag sekunder
+    tag_count_secondary: jumlah tag sekunder
