@@ -17,6 +17,7 @@ flagrow-upload:
             local: Lokal
             aws-s3: Amazon S3
             imgur: Imgur
+            ovh-svfs: OVH SVFS
         labels:
             #upload_method: Upload method
             upload_method: Metode Upload
@@ -59,6 +60,14 @@ flagrow-upload:
                 key: Key
                 secret: Secret
                 bucket: Bucket
+                region: Region
+            ovh-svfs:
+                #title: OVH SVFS storage settings
+                title: Pengaturan OVH SVFS storage
+                container: Container
+                tenantid: Tenant ID
+                username: Username
+                password: Password
                 region: Region
         buttons:
             #save: Save settings
