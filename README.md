@@ -13,7 +13,7 @@ Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependen
 
 1. Jalankan perintah berikut di lokasi dimana Flarum diinstal
 
-       composer require realodix/flarum-ext-indonesian
+        composer require realodix/flarum-ext-indonesian
 
  Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
 
