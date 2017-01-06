@@ -15,8 +15,11 @@ Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependen
 
         composer require realodix/flarum-ext-indonesian
 
+ Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
+
+         composer require realodix/flarum-ext-indonesian dev-master
+
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
-3. Aktifkan.
 
 Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia, tanpa memperbarui yang lainnya. Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika memperbarui Flarum dan dependensinya melalui Composer.
 
