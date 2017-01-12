@@ -49,11 +49,11 @@ flarum-tags:
       #range_separator_text: " to "
       range_separator_text: " hingga "
       #required_primary_heading: Required Number of Primary Tags
-      required_primary_heading: Diperlukan Jumlah Untuk Tag Primer
+      required_primary_heading: Tag Primer
       #required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
       required_primary_text: Masukkan jumlah minimum dan maksimum yang akan diterapkan untuk forum diskusi.
       #required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_heading: Diperlukan Jumlah Untuk Tag Sekunder
+      required_secondary_heading: Tag Sekunder
       #required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
       required_secondary_text: Masukkan jumlah minimum dan maksimum yang akan diterapkan untuk forum diskusi.
       title: Pengaturan
