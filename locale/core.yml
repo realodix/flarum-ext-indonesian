@@ -29,7 +29,7 @@ core:
       #custom_header_heading: Custom Header
       custom_header_heading: Modifikasi Header
       #custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_header_text: "Tambahkan HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
+      custom_header_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
       #custom_styles_heading: Custom Styles
       custom_styles_heading: Modifikasi Tampilan
       #custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
@@ -44,7 +44,7 @@ core:
       enter_hex_message: Masukkan kode warna hexadecimal.
       favicon_heading: Favicon
       #favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      favicon_text: Upload gambar yang akan ditampilkan sebagai shortcut icon forum.
+      favicon_text: Upload gambar yang akan ditampilkan sebagai ikon shortcut forum ini.
       logo_heading: Logo
       #logo_text: Upload an image to be displayed in place of the forum title.
       logo_text: Upload gambar yang akan ditampilkan di tempat judul forum.
@@ -58,7 +58,7 @@ core:
       #forum_description_heading: Forum Description
       forum_description_heading: Deskripsi Forum
       #forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_description_text: Masukkan beberapa kalimat yang menggambarkan komunitas Anda. Ini akan muncul di meta tag dan mesin pencari.
+      forum_description_text: Tulis beberapa kalimat yang menggambarkan komunitas Anda. Ini akan muncul di meta tag dan mesin pencari.
       #forum_title_heading: Forum Title
       forum_title_heading: Judul Forum
       #home_page_heading: Home Page
@@ -135,7 +135,8 @@ core:
       #addresses_heading: Addresses
       addresses_heading: Alamat
       driver_label: Driver
-      encryption_label: Encryption
+      #encryption_label: Encryption
+      encryption_label: Enkripsi
       #from_label: Sender
       from_label: Pengirim
       heading: => core.ref.email
