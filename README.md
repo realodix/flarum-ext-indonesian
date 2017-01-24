@@ -36,7 +36,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
-- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.1
+- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.2
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
 - [Santiagobiali - Logo Extension](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2

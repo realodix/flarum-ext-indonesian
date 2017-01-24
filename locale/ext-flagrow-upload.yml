@@ -19,8 +19,6 @@ flagrow-upload:
             imgur: Imgur
             ovh-svfs: OVH SVFS
         labels:
-            #upload_method: Upload method
-            upload_method: Metode Upload
             preferences:
                 #title: General preferences
                 title: Preferensi umum
@@ -73,11 +71,15 @@ flagrow-upload:
             #save: Save settings
             save: Simpan
         help_texts:
-            #description: Set up uploading services and preferences.
-            description: Mengatur layanan upload dan preferensi.
-            #upload_method: Here you can select the method that you want to use to upload your files. When you select one the relative setting card is going to be displayed.
-            upload_method: Anda dapat memilih metode yang ingin Anda gunakan untuk meng-upload file Anda.
-            #resize: Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
-            resize: Gambar yang Anda upload akan dirubah ukurannya. Anda dapat memilih lebar maksimum, dalam pixel. Proses mengubah ukuran menjaga rasio aspek gambar.
-            #watermark: Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
-            watermark: Watermark ditambahkan ke non-gifs berdasarkan preferensi Anda di bawah ini.
+            description: >
+                Mengatur layanan dan preferensi mengunggah.
+            mime_types: >
+                Konfigurasikan pemetaan Anda di sini.
+                Setiap jenis mime secara reguler akan ditangani oleh adaptor unggahan tertentu.
+            resize: >
+                Pilih apapun untuk merubah ukuran gambar sebelum diunggah.
+                Anda dapat menggunakan panjang maksimal dan tinggi, dalam pixel.
+                Pengubahan ukuran gambar ini tetap menjaga aspek rasio dari gambar.
+            watermark: >
+                Pilih gambar apapun yang akan dijadikan watermark saat gambar diunggah.
+                Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.
