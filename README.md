@@ -28,9 +28,9 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
 - [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5
-- [Antoinefr - Flarum-ext-money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0
+- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0
 - [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
-- [Avatar4eg - Users-list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
+- [Avatar4eg - Users list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
 - [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
 - [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4
 - [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
@@ -38,7 +38,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.2
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
-- [Santiagobiali - Logo Extension](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
+- [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
 - [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
 - [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3
