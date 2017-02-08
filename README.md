@@ -37,7 +37,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2
-- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.6
+- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.8
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.2
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
 - [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
