@@ -34,6 +34,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2
 - [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
 - [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4
+- [Dav-is - Secure HTTPS](https://github.com/dav-is/flarum-ext-securehttps) v0.1.0-beta4
 - [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0

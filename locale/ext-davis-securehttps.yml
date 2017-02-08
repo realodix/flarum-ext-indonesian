@@ -1,0 +1,12 @@
+davis-securehttps:
+  admin:
+    settings:
+      #title: Configuration
+      title: Konfigurasi
+      #replace: Proxy Images through https
+      replace: Proxy Images melalui https
+  forum:
+    #removed: "Image removed due to the lack of support for https."
+    removed: "Gambar dihapus karena kurangnya dukungan untuk https."
+    #show: Show Anyway
+    show: Tampilkan
