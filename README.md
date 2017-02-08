@@ -31,6 +31,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0
 - [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
 - [Avatar4eg - Users list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
+- [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2
 - [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
 - [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4
 - [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
