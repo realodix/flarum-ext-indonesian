@@ -46,7 +46,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
 - [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
 - [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3
-- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.5
+- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7
 - [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2
 
 
