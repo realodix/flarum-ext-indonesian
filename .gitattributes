@@ -26,3 +26,5 @@
 .gitignore       export-ignore
 .styleci.yml     export-ignore
 README.md        export-ignore
+
++js/*/dist/*.js -diff
