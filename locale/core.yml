@@ -337,10 +337,15 @@ core:
       log_in_to_reply_button: Masuk untuk ikut berdiskusi
       #rename_button: Rename
       rename_button: Ganti Judul
-      #rename_text: "Enter a new title for this discussion:"
-      rename_text: "Masukkan judul baru untuk diskusi ini:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
+
+      # These translations are used by the rename discussion modal.
+      rename_discussion:
+        #title: Enter a new title for this discussion
+        title: Masukkan judul baru untuk diskusi ini
+        #submit_button: Rename
+        submit_button: OK
 
     # These translations are used in the discussion list.
     discussion_list:
