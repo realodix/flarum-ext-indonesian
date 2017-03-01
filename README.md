@@ -27,27 +27,27 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5
-- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0
-- [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2
-- [Avatar4eg - Users list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1
-- [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2
-- [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5
-- [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4
-- [Dav-is - Secure HTTPS](https://github.com/dav-is/flarum-ext-securehttps) v0.1.0-beta4
-- [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2
-- [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2
-- [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0
-- [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2
-- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.8
-- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.6
-- [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0
-- [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0
-- [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2
-- [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6
-- [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3
-- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7
-- [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2
+- [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5 ([Discuss](https://discuss.flarum.org/d/4395))
+- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0 ([Discuss](https://discuss.flarum.org/d/4699))
+- [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2 ([Discuss](https://discuss.flarum.org/d/3545))
+- [Avatar4eg - Users list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1 ([Discuss](https://discuss.flarum.org/d/3731))
+- [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2 ([Discuss](https://discuss.flarum.org/d/3003))
+- [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5 ([Discuss](https://discuss.flarum.org/d/2958))
+- [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4 ([Discuss](https://discuss.flarum.org/d/2926))
+- [Dav-is - Secure HTTPS](https://github.com/dav-is/flarum-ext-securehttps) v0.1.0-beta4 ([Discuss](https://discuss.flarum.org/d/2649))
+- [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2 ([Discuss](https://discuss.flarum.org/d/1929))
+- [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2 ([Discuss](https://discuss.flarum.org/d/3143))
+- [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0 ([Discuss](https://discuss.flarum.org/d/1983))
+- [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/4785))
+- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.8 ([Discuss](https://discuss.flarum.org/d/4762))
+- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.6 ([Discuss](https://discuss.flarum.org/d/4154))
+- [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0 ([Discuss](https://discuss.flarum.org/d/4345))
+- [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0 ([Discuss](https://discuss.flarum.org/d/1881))
+- [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2 ([Discuss](https://discuss.flarum.org/d/3707))
+- [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/2230))
+- [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/2605))
+- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7 ([Discuss](https://discuss.flarum.org/d/3868))
+- [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2 ([Discuss](https://discuss.flarum.org/d/4222))
 
 
 
