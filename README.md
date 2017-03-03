@@ -47,6 +47,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/2230))
 - [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/2605))
 - [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7 ([Discuss](https://discuss.flarum.org/d/3868))
+- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.0.0 ([Discuss](https://discuss.flarum.org/d/5052))
 - [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2 ([Discuss](https://discuss.flarum.org/d/4222))
 
 
