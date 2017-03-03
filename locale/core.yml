@@ -335,8 +335,8 @@ core:
       delete_forever_button: => core.ref.delete_forever
       #log_in_to_reply_button: Log In to Reply
       log_in_to_reply_button: Masuk untuk ikut berdiskusi
-      #rename_button: Rename
-      rename_button: Ganti Judul
+      #rename_button: => core.ref.rename
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -489,8 +489,8 @@ core:
     rename_discussion:
       #title: Enter a new title for this discussion
       title: Masukkan judul baru untuk diskusi ini
-      #submit_button: Rename
-      submit_button: OK
+      #submit_button: => core.ref.rename
+      submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
@@ -718,6 +718,8 @@ core:
     notifications: Notifikasi
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
+    #rename: Rename
+    rename: Ganti Judul
     #reply: Reply                                 # Referenced by flarum-mentions.yml
     reply: Balas
     #reset_your_password: Reset Your Password
