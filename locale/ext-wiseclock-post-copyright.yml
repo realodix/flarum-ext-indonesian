@@ -1,0 +1,20 @@
+wiseclock-post-copyright:
+  forum:
+    composer:
+      #authorized: Allow authorized repost
+      authorized: Izinkan authorized repost
+      #sourced: Allow sourced repost
+      sourced: Izinkan repost yang memiliki sumber
+      #paid: Allow paid repost
+      paid: Izinkan paid repost
+      #prohibited: No repost allowed
+      prohibited: Tidak ada repost yang diizinkan
+    post:
+      #authorized: Authorized reproduction allowed
+      authorized: Authorized reproduction diperbolehkan
+      #sourced: Sourced reproduction allowed
+      sourced: Sourced reproduction diperbolehkan
+      #paid: Paid reproduction allowed
+      paid: Paid reproduction diperbolehkan
+      #prohibited: Reproduction prohibited
+      prohibited: Reproduction diperbolehkan
