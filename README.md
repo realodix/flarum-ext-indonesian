@@ -9,7 +9,7 @@ Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang didu
 
 
 ### Cara Menggunakan
-Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara itu. Pastikan Composer sudah diinstal pada komputer Anda, kemudian ikuti langkah berikut ini:
+Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah diinstal pada komputer Anda, kemudian ikuti langkah berikut ini:
 
 1. Jalankan perintah berikut di lokasi dimana Flarum diinstal
 
