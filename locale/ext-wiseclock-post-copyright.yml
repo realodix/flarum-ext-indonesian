@@ -9,6 +9,8 @@ wiseclock-post-copyright:
       paid: Izinkan paid repost
       #prohibited: No repost allowed
       prohibited: Tidak ada repost yang diizinkan
+      #none: Copyright free
+      none: Tidak ada hak cipta
     post:
       #authorized: Authorized reproduction allowed
       authorized: Authorized reproduction diperbolehkan
@@ -18,3 +20,39 @@ wiseclock-post-copyright:
       paid: Paid reproduction diperbolehkan
       #prohibited: Reproduction prohibited
       prohibited: Reproduction diperbolehkan
+
+  admin:
+    settings:
+      #title: Post Copyright Settings
+      title: Pengaturan Post Copyright
+      ui:
+        #title: UI
+        title: Tampilan User
+        #primary_color: Use primary color for composer dropdown
+        primary_color: Gunakan warna utama untuk komposer dropdown
+        #discussions_only: Set copyright per discussion only
+        discussions_only: Atur hak cipta per diskusi saja
+        copyright: Copyright line prefix
+        align_right: Right align copyright line
+      edit:
+        #title: Trespass
+        title: Pelanggaran
+        allow_trespass: Allow editing of other users' post copyright
+      defaults:
+        title: Default copyright switch
+        help: Toggles the default options.
+        #authorized: Allow authorized repost
+        authorized: Izinkan authorized repost
+        #sourced: Allow sourced repost
+        sourced: Izinkan repost yang memiliki sumber
+        #paid: Allow paid repost
+        paid: Izinkan paid repost
+        #prohibited: No repost allowed
+        prohibited: Tidak ada repost yang diizinkan
+      addition:
+        #title: Additional Options
+        title: Tambahan
+        #help: "Add your desired options following the format <code>key,menu,ui</code> separated by half-width comma. Each line represents one option.  Key is the unique id of the option; menu is the string displayed in the composer dropdown list; and ui is the string at the very bottom of each post.  A valid line would be similar to this:"
+        help: "Add your desired options following the format <code>key,menu,ui</code> separated by half-width comma. Each line represents one option.  Key is the unique id of the option; menu is the string displayed in the composer dropdown list; and ui is the string at the very bottom of each post.  A valid line would be similar to this:"
+#notes: "If you want to use comma in your string, be sure to escape it: <code>\\,</code>."
+notes: "Jika Anda ingin menghindari menambahkan koma pada kata yang Anda tambahkan, pastikanlah untuk menghindari ini: <code>\\,</code>."
