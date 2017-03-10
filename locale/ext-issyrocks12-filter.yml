@@ -25,7 +25,7 @@ issyrocks12-filter:
         nav:
             text: Filter
             #desc: Filter posts by words
-            desc: Filter post oleh kata
+            desc: Filter posti dengan kata
         email:
             default_subject: Regarding Your Recent Post
             default_text: |
