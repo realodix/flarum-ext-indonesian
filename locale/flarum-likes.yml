@@ -42,4 +42,4 @@ flarum-likes:
     # These translations are used in the Settings page.
     settings:
       #notify_post_liked_label: Someone likes one of my posts
-      notify_post_liked_label: Seseorang menyukai postingan Saya
+      notify_post_liked_label: Seseorang menyukai post Saya
