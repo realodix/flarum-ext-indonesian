@@ -179,7 +179,7 @@ core:
       basics_text: "Mengatur judul forum, bahasa, dan pengaturan dasar lainnya."
       dashboard_button: Dashboard
       #dashboard_text: Your forum at a glance.
-      dashboard_text: Sekilas tentang Forum Anda.
+      dashboard_text: Sekilas tentang forum Anda.
       email_button: => core.ref.email
       #email_text: "Configure your forum's email settings."
       email_text: "Mengkonfigurasi pengaturan email untuk forum Anda."
