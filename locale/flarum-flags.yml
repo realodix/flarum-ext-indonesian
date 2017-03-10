@@ -19,7 +19,7 @@ flarum-flags:
       #guidelines_url_label: Community Guidelines URL
       guidelines_url_label: URL Pedoman Komunitas
       #title: Flags Settings
-      title: Pengaturan Laporan
+      title: Pengaturan Flags
 
   # Translations in this namespace are used by the forum user interface.
   forum:
