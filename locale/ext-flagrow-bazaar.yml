@@ -1,0 +1,32 @@
+flagrow-bazaar:
+    admin:
+        loader:
+            #is_loading: Processing..
+            is_loading: Sedang Memproses..
+        popup:
+            title: Flagrow Bazaar
+            field:
+                apiToken: API token
+                #apiTokenDescription: This api token is required to access the Flagrow extension api. If already set, you're good to go!
+                apiTokenDescription: API token dibutuhkan untuk mengakses Flagrow extension api. Jika sudah ditetapkan, Anda dapat memulainya.
+        nav:
+            title: Bazaar
+            #description: The extension marketplace.
+            description: Ekstensi untuk marketplace.
+        page:
+            button:
+                #more: More
+                more: Muat lagi
+                install: Install
+                uninstall: Uninstall
+                #enable: Enable
+                enable: Aktif
+                #disable: Disable
+                disable: Nonaktif
+            extension:
+                #installed: Extension is installed
+                installed: Extensi sudah terpasang
+                #enabled: Extension is enabled
+                enabled: Extensi aktif
+                #vendor: By {vendor}
+                vendor: Oleh {vendor}
