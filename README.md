@@ -40,7 +40,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.12 ([Discuss](https://discuss.flarum.org/d/4762))
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.6 ([Discuss](https://discuss.flarum.org/d/4154))
-- [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.0.6.3 ([Discuss](https://discuss.flarum.org/d/5131))
+- [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.0.6.5 ([Discuss](https://discuss.flarum.org/d/5131))
 - [Issyrocks12 - Users list](https://github.com/issyrocks12/flarum-ext-users-list) v0.2.2.1 ([Discuss](https://discuss.flarum.org/d/5021))
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0 ([Discuss](https://discuss.flarum.org/d/4345))
 - [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0 ([Discuss](https://discuss.flarum.org/d/1881))
