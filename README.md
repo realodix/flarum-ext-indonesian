@@ -38,7 +38,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2 ([Discuss](https://discuss.flarum.org/d/3143))
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0 ([Discuss](https://discuss.flarum.org/d/1983))
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/4785))
-- [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/5151))
+- [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/5151))
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.12 ([Discuss](https://discuss.flarum.org/d/4762))
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.6 ([Discuss](https://discuss.flarum.org/d/4154))
 - [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.0.6.5 ([Discuss](https://discuss.flarum.org/d/5131))
