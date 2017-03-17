@@ -48,6 +48,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2 ([Discuss](https://discuss.flarum.org/d/3707))
 - [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/2230))
 - [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/2605))
+- [WiseClock - Login2See](https://github.com/WiseClock/flarum-ext-login2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5168))
 - [WiseClock - Post Copyright](https://github.com/WiseClock/flarum-ext-post-copyright) v0.1.6 ([Discuss](https://discuss.flarum.org/d/5119))
 - [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7 ([Discuss](https://discuss.flarum.org/d/3868))
 - [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.0.0 ([Discuss](https://discuss.flarum.org/d/5052))
