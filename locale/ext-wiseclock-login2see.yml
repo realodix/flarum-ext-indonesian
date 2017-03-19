@@ -1,7 +1,7 @@
 wiseclock-login2see:
   forum:
     #post: "You have to {login} or {register} to see the full post"
-    post: "Anda harus {login} atau {daftar} untuk melihat semua isi post"
+    post: "Anda harus {login} atau {register} untuk melihat semua isi post"
     #link: LOGIN TO SEE
     link: LOGIN UNTUK MELIHATNYA
     #image: LOGIN TO SEE
