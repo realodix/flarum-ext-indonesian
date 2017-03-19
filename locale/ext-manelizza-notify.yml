@@ -16,6 +16,7 @@ flarum-notify:
       #discussion_started: a new discussion was started
       discussion_started: Terdapat diskusi baru
       #discussion_deleted: a discussion was deleted
+      discussion_deleted: Diskusi dihapus
       #post_posted: a new post was posted
       post_posted: Terdapat post baru
       #post_hidden: a post was hidden
