@@ -2,25 +2,26 @@ flarum-notify:
   admin:
     title: Notify
     #description: Manage your notifications to Slack, Hipchat and Gitter.
-    description: Mengelola pemberitahuan untuk Slack, Hipchat and Gitter.
+    description: Mengelola notifikasi untuk Slack, Hipchat and Gitter.
     services:
-      title: Notification services
+      #title: Notification services
+      title: Layanan Notifikasi
       #description: Choose which services should be notified when there is something to notify you about.
       description: Pilih layanan yang ingin Anda aktifkan.
     events:
-      title: Notification events
+      #title: Notification events
+      title: Aktivitas
       #description: Choose which events should trigger a notification. Send notifications, when
-      description: Kirim pemberitahuan, ketika
+      description: Kirim notifikasi ketika terdapat aktivitas
       #discussion_started: a new discussion was started
-      discussion_started: terdapat diskusi baru
+      discussion_started: Terdapat diskusi baru
       #discussion_deleted: a discussion was deleted
-      discussion_deleted: diskusi dihapus
       #post_posted: a new post was posted
-      post_posted: terdapat post baru
+      post_posted: Terdapat post baru
       #post_hidden: a post was hidden
-      post_hidden: post disembunyikan
+      post_hidden: Post disembunyikan
       #post_deleted: a post was deleted
-      post_deleted: post dihapus
+      post_deleted: Post dihapus
     slack-modal:
       #title: Slack settings
       title: Pengaturan Slack
