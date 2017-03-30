@@ -53,7 +53,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [WiseClock - Post Copyright](https://github.com/WiseClock/flarum-ext-post-copyright) v0.1.7 ([Discuss](https://discuss.flarum.org/d/5119))
 - [WiseClock - Reply2See](https://github.com/WiseClock/flarum-ext-reply2see) v0.1.0 ([Discuss](https://discuss.flarum.org/d/5190))
 - [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7 ([Discuss](https://discuss.flarum.org/d/3868))
-- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.0.0 ([Discuss](https://discuss.flarum.org/d/5052))
+- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.1.0 ([Discuss](https://discuss.flarum.org/d/5052))
 - [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2 ([Discuss](https://discuss.flarum.org/d/4222))
 
 
