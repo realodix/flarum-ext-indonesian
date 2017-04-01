@@ -40,7 +40,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/5151))
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.13 ([Discuss](https://discuss.flarum.org/d/4762))
-- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.9 ([Discuss](https://discuss.flarum.org/d/4154))
+- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.11 ([Discuss](https://discuss.flarum.org/d/4154))
 - [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.0.6.5 ([Discuss](https://discuss.flarum.org/d/5131))
 - [Issyrocks12 - Two Factor](https://github.com/issyrocks12/flarum-ext-twofactor) v1.0.0 ([Discuss](https://discuss.flarum.org/d/5226))
 - [Issyrocks12 - Users list](https://github.com/issyrocks12/flarum-ext-users-list) v0.2.2.1 ([Discuss](https://discuss.flarum.org/d/5021))
@@ -52,7 +52,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [WiseClock - Login2See](https://github.com/WiseClock/flarum-ext-login2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5168))
 - [WiseClock - Post Copyright](https://github.com/WiseClock/flarum-ext-post-copyright) v0.1.7 ([Discuss](https://discuss.flarum.org/d/5119))
 - [WiseClock - Reply2See](https://github.com/WiseClock/flarum-ext-reply2see) v0.1.0 ([Discuss](https://discuss.flarum.org/d/5190))
-- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.7 ([Discuss](https://discuss.flarum.org/d/3868))
+- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.8 ([Discuss](https://discuss.flarum.org/d/3868))
 - [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.1.0 ([Discuss](https://discuss.flarum.org/d/5052))
 - [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2 ([Discuss](https://discuss.flarum.org/d/4222))
 
