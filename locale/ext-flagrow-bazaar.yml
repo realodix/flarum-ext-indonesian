@@ -23,6 +23,12 @@ flagrow-bazaar:
                 enable: Aktif
                 #disable: Disable
                 disable: Nonaktif
+                connect: Connect
+                #connectDescription: "Connect your Flarum installation to your personal account on Flagrow.io to unlock new features."
+                connectDescription: "Hubungkan instalasi Flarum Anda ke akun pribadi Anda pada Flagrow.io untuk membuka fitur baru."
+                connected: Dashboard
+                #connectedDescription: "Your Flarum is connected, visit the dashboard on Flagrow.io"
+                connectedDescription: "Flarum Anda sudah terhubung, kunjungi dashboard pada Flagrow.io"
             extension:
                 #installed: Extension is installed
                 installed: Extensi sudah terpasang
