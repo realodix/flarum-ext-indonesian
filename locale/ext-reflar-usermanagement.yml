@@ -1,0 +1,89 @@
+reflar-usermanagement:
+  admin:
+    strike_perm_item: Serve Strikes
+    #activate_perm_item: Manually Activate Users
+    activate_perm_item: Aktifkan User Secara Manual
+    viewstrike_perm_item: View User Strikes
+    nav:
+      #title: Member List
+      title: Daftar Member
+      #desc: View and manage your users
+      desc: Tampilkan dan kelola user Anda
+    modal:
+      view:
+        number: Number
+        #no_strikes: User has a clean record!
+        no_strikes: User memiliki catatan yang bersih!
+        content: Post
+        #actor: Actor
+        actor: Aktor
+        #time: Time
+        time: Waktu
+        #link: Link
+        link: URL
+        #remove: remove
+        remove: hapus
+        title : "{username}'s Strikes"
+      settings_title: Settings
+      email_switch: Disable email registration
+      gender_label: Enable gender registration
+      age_label: Enable age registration
+      #amount_label: Amount of users to show on page
+      amount_label: Jumlah pengguna yang ditampilkan di halaman
+      #recaptcha: Enable recaptcha compatibility
+      recaptcha: Aktifkan recaptcha compatibility
+    page:
+    page:
+      activate: Activate
+      online_text: Online
+      #settings: Settings
+      settings: Pengaturan
+      #list_title: Users
+      list_title: User
+      about_text: "Your users at a glance. Click on the eye to view the user's profile. Click on the 'X' to view a user's strikes"
+  forum:
+    post_controls:
+      strike_button: Serve Strike
+    signup:
+      #age: Age
+      age: Umur
+      #gender: Gender
+      gender: Jenis kelamin
+      #male: Male
+      male: Pria
+      #female: Female
+      female: Wanita
+      #other: Other
+      other: Lainnya
+    user:
+      settings:
+        button: Age and Gender
+        #title: Age and Gender
+        title: Umur dan Jenis kelamin
+        #save: Save
+        save: Simpan
+        success: Successfully saved.
+      age: "Age: {age}"
+      controls:
+        strike_button: View Strikes
+        activate_button: Activate User
+        modal: "{username}'s Strikes"
+    modal:
+      post:
+        title: Issue a Strike
+        reason_placeholder: Reason for strike
+        #strike_reason: Reason
+        strike_reason: Alasan
+        submit_button: Serve Strike
+      view:
+        number: Number
+        no_strikes: User has a clean record!
+        content: Post
+        #actor: Actor
+        actor: Aktor
+        #time: Time
+        time: Waktu
+        #link: Link
+        link: URL
+        #remove: remove
+        remove: hapus
