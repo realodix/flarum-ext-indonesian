@@ -29,5 +29,5 @@ amaurycarrade-syndication:
         #tag_d_subtitle: "The newest discussions in the {tag} tag"
         tag_d_subtitle: "Diskusi terbaru pada tag {tag}"
         discussion_title: "{discussion_name}"
-#discussion_subtitle: "Derniers messages dans cette discussion"
-discussion_subtitle: "Post terbaru dalam diskusi ini"
+        #discussion_subtitle: "Derniers messages dans cette discussion"
+        discussion_subtitle: "Post terbaru dalam diskusi ini"
