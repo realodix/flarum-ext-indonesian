@@ -70,7 +70,7 @@ reflar-usermanagement:
         modal: "{username}'s Strikes"
     modal:
       post:
-        title: Issue a Strike
+        title: Serve a Strike to: {username}
         reason_placeholder: Reason for strike
         #strike_reason: Reason
         strike_reason: Alasan
@@ -83,6 +83,8 @@ reflar-usermanagement:
         actor: Aktor
         #time: Time
         time: Waktu
+        #reason: Reason
+        reason: Alasan
         #link: Link
         link: URL
         #remove: remove
