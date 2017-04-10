@@ -43,7 +43,6 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.4.13 ([Discuss](https://discuss.flarum.org/d/4154))
 - [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.0.6.5 ([Discuss](https://discuss.flarum.org/d/5131))
 - [Issyrocks12 - Two Factor](https://github.com/issyrocks12/flarum-ext-twofactor) v1.0.0 ([Discuss](https://discuss.flarum.org/d/5226))
-- [Issyrocks12 - Users list](https://github.com/issyrocks12/flarum-ext-users-list) v0.2.2.1 ([Discuss](https://discuss.flarum.org/d/5021))
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.0 ([Discuss](https://discuss.flarum.org/d/4345))
 - [ReFlar - ReFlar User Managemen](https://github.com/ReFlar/user-management) v0.1.0-beta.5 ([Discuss](https://discuss.flarum.org/d/5444))
 - [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0 ([Discuss](https://discuss.flarum.org/d/1881))
