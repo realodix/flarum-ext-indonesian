@@ -24,11 +24,15 @@ flagrow-bazaar:
                 #disable: Disable
                 disable: Nonaktif
                 connect: Connect
-                #connectDescription: "Connect your Flarum installation to your personal account on Flagrow.io to unlock new features."
-                connectDescription: "Hubungkan instalasi Flarum Anda ke akun pribadi Anda pada Flagrow.io untuk membuka fitur baru."
+                #connectDescription: "Connect your Flarum installation to your personal account on {host} to unlock new features."
+                connectDescription: "Hubungkan instalasi Flarum Anda ke akun pribadi Anda pada {host} untuk membuka fitur baru."
                 connected: Dashboard
-                #connectedDescription: "Your Flarum is connected, visit the dashboard on Flagrow.io"
-                connectedDescription: "Flarum Anda sudah terhubung, kunjungi dashboard pada Flagrow.io"
+                #connectedDescription: "Your Flarum is connected, visit the dashboard on {host}."
+                connectedDescription: "Flarum Anda sudah terhubung, kunjungi dashboard pada {host}"
+                #favorite_button: "Favorite extension"
+                favorite_button: "Ekstensi favorit"
+                #remove_favorite_button: "Remove extension from your favorites"
+                remove_favorite_button: "Hapus ekstensi dari favorit"
             extension:
                 #installed: Extension is installed
                 installed: Extensi sudah terpasang
@@ -36,3 +40,5 @@ flagrow-bazaar:
                 enabled: Extensi aktif
                 #vendor: By {vendor}
                 vendor: Oleh {vendor}
+                #favorited: One of your favorites
+                favorited: Salah satu favorit Anda
