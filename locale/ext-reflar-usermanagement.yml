@@ -40,7 +40,7 @@ reflar-usermanagement:
       settings: Pengaturan
       #list_title: Users
       list_title: User
-      about_text: "Your users at a glance. Click on the eye to view the user's profile. Click on the 'X' to view a user's strikes"
+      about_text: "Your users at a glance. Click on the eye to view the user's profile. Click on the '!' to view a user's strikes"
   forum:
     post_controls:
       strike_button: Serve Strike
