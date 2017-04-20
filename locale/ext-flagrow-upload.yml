@@ -67,6 +67,17 @@ flagrow-upload:
                 username: Username
                 password: Password
                 region: Region
+            disable-hotlink-protection:
+                #title: Disable hotlink protection
+                title: Nonaktifkan perlindungan hotlink
+                #toggle: Disable
+                toggle: Nonaktifkan
+            disable-download-logging:
+                #title: Disable logging downloads
+                title: Nonaktifkan logging downloads
+                #toggle: Disable
+                toggle: Nonaktifkan
+
         buttons:
             #save: Save settings
             save: Simpan
