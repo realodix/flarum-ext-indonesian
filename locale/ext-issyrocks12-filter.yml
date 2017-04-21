@@ -20,8 +20,11 @@ issyrocks12-filter:
             filter_title: Strings to filter
             #email_label: Email Settings
             email_label: Pengaturan Email
-            #switch: Email user when post is filter
-            switch: Kirim email ke user ketika post-nya terkena filter
+            switch:
+              #email: Email user when post is filter
+              email: Kirim email ke user ketika post-nya terkena filter
+              #merge: Auto merge double posts
+              merge: Otomatis menggabungkan double post
             #email_subject: Subject
             email_subject: Judul
             #email_body: Body
