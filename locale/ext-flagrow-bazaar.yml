@@ -3,16 +3,42 @@ flagrow-bazaar:
         loader:
             #is_loading: Processing..
             is_loading: Sedang Memproses..
-        popup:
-            title: Flagrow Bazaar
-            field:
-                apiToken: API token
-                #apiTokenDescription: This api token is required to access the Flagrow extension api. If already set, you're good to go!
-                apiTokenDescription: API token dibutuhkan untuk mengakses Flagrow extension api. Jika sudah ditetapkan, Anda dapat memulainya.
         nav:
             title: Bazaar
             #description: The extension marketplace.
             description: Ekstensi untuk marketplace.
+        header:
+            #extensions: Browse extensions
+            extensions: Jelajahi ekstensi
+            #tasks: Tasks history
+            tasks: Riwayat Task
+        modal:
+            settings:
+                title: Flagrow Bazaar
+                field:
+                    apiToken: API token
+                    #apiTokenDescription: This api token is required to access the Flagrow extension api. If already set, you're good to go!
+                    apiTokenDescription: Token api ini diperlukan untuk mengakses Flagrow extension api.
+            connect-bazaar:
+                title: Connect
+                description: >
+                    Connect your Flarum forum to your personal account on {host} to unlock advanced features; including
+                    a dashboard that gives you an health overview of all your connected Flarum installations. We will
+                    add more functionality like notifications when your forum contains outdated extensions or the ability
+                    to update all Flarum installations centrally.
+            requirements:
+                file-permissions:
+                    title: File permissions
+                    description: >
+                        It seems Bazaar has insufficient permissions to write files
+                        and/or directories, please review the list below. For further
+                        information, refer to <a>the wiki</a>.
+                php-memory_limit:
+                    title: Memory limit
+                    description: >
+                        We recommend allowing PHP to use at least {required} of memory, your php.ini currently allows {limit}.
+                        Although we try to increase the memory limit during runtime, success depends on your hosting environment.
+                        For further information, refer to <a>the wiki</a>.
         page:
             button:
                 #more: More
@@ -23,12 +49,9 @@ flagrow-bazaar:
                 enable: Aktif
                 #disable: Disable
                 disable: Nonaktif
+                update: Update
                 connect: Connect
-                #connectDescription: "Connect your Flarum installation to your personal account on {host} to unlock new features."
-                connectDescription: "Hubungkan instalasi Flarum Anda ke akun pribadi Anda pada {host} untuk membuka fitur baru."
                 connected: Dashboard
-                #connectedDescription: "Your Flarum is connected, visit the dashboard on {host}."
-                connectedDescription: "Flarum Anda sudah terhubung, kunjungi dashboard pada {host}"
                 #favorite_button: "Favorite extension"
                 favorite_button: "Ekstensi favorit"
                 #remove_favorite_button: "Remove extension from your favorites"
@@ -42,3 +65,33 @@ flagrow-bazaar:
                 vendor: Oleh {vendor}
                 #favorited: One of your favorites
                 favorited: Salah satu favorit Anda
+                outdated: "Extension is outdated, please update to version {new}"
+            task:
+                header:
+                    status: Status
+                    command: Command
+                    output: Output
+                    time: Time
+                    details: Details
+                attribute:
+                    created_at: Created at
+                    started_at: Started at
+                    finished_at: Finished at
+                status:
+                    success: Success
+                    exception: An exception occured
+                    working: Work in progress
+                    unknown: Unknown
+                command:
+                    install: Install {extension}
+                    update: Update {extension}
+                    uninstall: Uninstall {extension}
+                group:
+                    today: Today
+                    lastmonth: Last month
+                    older: Older
+        search:
+            placeholder: Search extensions
+            filter_installed: Show only installed extensions
+            filter_update_required: Show only extension with an update available
+            filter_favorited: Show only favorited extensions
