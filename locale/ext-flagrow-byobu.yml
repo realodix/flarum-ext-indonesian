@@ -10,6 +10,8 @@ flagrow-byobu:
             submit: OK
             #edit_recipients: Edit Recipients
             edit_recipients: Edit Penerima
+            #send_pd: "Send {username} a message"
+            send_pd: "Kirim pesan ke {username}"
         labels:
             #recipients: "{count} Recipient|{count} Recipients"
             recipients: "{count} Penerima|{count} Penerima"
