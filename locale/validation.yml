@@ -75,6 +75,8 @@ validation:
   integer: ":attribute harus merupakan bilangan bulat."
   #ip: "The :attribute must be a valid IP address."
   ip: ":attribute harus berupa alamat IP yang valid."
+  ipv4: "The :attribute must be a valid IPv4 address."
+  ipv6: "The :attribute must be a valid IPv6 address."
   #json: "The :attribute must be a valid JSON string."
   json: ":attribute harus berupa JSON yang valid"
   max:
