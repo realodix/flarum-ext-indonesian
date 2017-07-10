@@ -16,6 +16,8 @@ avatar4eg-geotags:
             title_label: Nama Tempat
             #address_label: Address
             address_label: Alamat
+            #locate_button: Locate
+            locate_button: Menempatkan
             #coordinates_label: Coordinates
             coordinates_label: Kordinat
             #latitude_label: Latitude
