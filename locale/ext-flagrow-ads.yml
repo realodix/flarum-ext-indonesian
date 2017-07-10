@@ -18,6 +18,8 @@ flagrow-ads:
                 title: Posisi Ad (iklan) ada di kolom sebelah kiri, di bawah tag pada halaman utama
                 placeholder: => flagrow-ads.admin.positions.under-header.placeholder
         settings:
+            #start-from-post: Specify from which post to start to show an ad
+            start-from-post: Tentukan dari mana post untuk mulai menampilkan iklan
             #between-n-posts: Specify after how many posts to place an ad
             between-n-posts: Tentukan setelah berapa banyak posting untuk menempatkan Ad (iklan)
         tab:
