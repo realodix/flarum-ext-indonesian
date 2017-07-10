@@ -46,3 +46,9 @@ flarum-notify:
       #description: In order to get your webhook url, visit the room you want to post to on <a>gitter.im</a>. Click on the <i>Settings</i> icon <i>Integrations</i> <i>Custom</i>. This will create a new webhook url for you.
       description: Untuk mendapatkan webhook url, Anda dapat mengunjungi room yang ingin Anda post pada <a>gitter.im</a>. Klik <i>Settings</i>, <i>Integrations</i>, <i>Custom</i>. Cara ini akan membuat webhook url untuk Anda.
       webhook: Gitter webhook
+    telegram-modal:
+      title: Telegram settings
+      description: In order to set up your bot, follow the <aBot>instructions</aBot>. Then <aChatId>obtain a chat ID</aChatId>.
+      apiKey: Telegram API key
+      botName: Telegram bot name
+      chatId: Telegram chat ID
