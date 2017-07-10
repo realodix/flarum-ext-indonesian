@@ -8,9 +8,9 @@ Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang didu
 **Requires**: Flarum 0.1.0 Beta 6 | **Compatible up to**: 0.1.x-dev
 
 ### Cara Menggunakan
-Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah diinstal pada komputer Anda, kemudian ikuti langkah berikut ini:
+Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah diinstal pada komputer Anda, kemudian ikuti langkah berikut ini:
 
-1. Jalankan perintah berikut di lokasi dimana Flarum diinstal
+1. Jalankan perintah ini pada folder Anda menginstall Flarum
 
        composer require realodix/flarum-ext-indonesian
 
@@ -20,7 +20,7 @@ Flarum menggunakan [Composer](https://getcomposer.org/) untuk mengelola dependen
 
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
 
-Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia, tanpa memperbarui yang lainnya. Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika memperbarui Flarum dan dependensinya melalui Composer.
+Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa memperbarui yang lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
 
 
 ### Extensi Yang Didukung
@@ -61,7 +61,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 ### Catatan
 - Sejauh ini sudah hampir 100% diterjemahkan.
 - Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Contohnya kata password tetap Saya tulis password (harusnya kata sandi), dan kata upload tetap Saya tulis upload (harusnya unggah).
-- Teks bahasa Inggris masih ada dalam bentuk komentar yml, jadi Anda bisa membantu Saya untuk mengkoreksi terjemahan.
+- Teks bahasa Inggris masih ada dalam bentuk komentar yaml, jadi Anda bisa membantu Saya untuk mengkoreksi terjemahan.
 
 
 ## Berkontribusi
