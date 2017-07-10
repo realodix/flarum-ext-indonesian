@@ -15,5 +15,5 @@ santiagobiali-logo:
    css_settings:
       #title: Css configuration
       title: Konfigurasi CSS
-#css_instructions: Just add the attribute. Ex margin:3px;
-css_instructions: Cukup tambahkan atribut saja. Contoh margin:3px;
+      #css_instructions: Just add the attribute. Ex margin:3px;
+      css_instructions: Cukup tambahkan atribut saja. Contoh margin:3px;
