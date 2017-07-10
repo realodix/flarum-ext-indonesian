@@ -2,7 +2,7 @@ flagrow-upload:
     forum:
         buttons:
             #attach: Attach
-            attach: Lampirkan
+            attach: Lampiran
         states:
             loading: Loading
             #success: Success
@@ -12,6 +12,7 @@ flagrow-upload:
         permissions:
             #upload_label: Upload files
             upload_label: Upload file
+            download_label: Download files
         upload_methods:
             #local: Local
             local: Lokal
@@ -24,8 +25,7 @@ flagrow-upload:
                 title: Preferensi umum
                 #max_file_size: Maximum file size (in kilobytes)
                 max_file_size: Maksimum ukuran file (kilobytes)
-                #mime_types_allowed: Specify the mime types you like to allow in your application using a regular expression
-                mime_types_allowed: Tentukan jenis MIME (Multipurpose Internet Mail Extension) yang ingin Anda gunakan
+                mime_types: Configure your mime type, upload adapter mapping
             resize:
                 #title: Image resize
                 title: Mengubah Ukuran Gambar
@@ -94,3 +94,10 @@ flagrow-upload:
             watermark: >
                 Pilih gambar apapun yang akan dijadikan watermark saat gambar diunggah.
                 Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.
+            disable-hotlink-protection: >
+                Hotlink protection prevents opening downloads from other sites.
+                Current method requires a csrf token and post id.
+            disable-download-logging: >
+                Disable logging every download made by users of your forum. Keeping it
+                enabled allows you to view the number of downloads and other metrics
+                in the nearby future.
