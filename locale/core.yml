@@ -229,6 +229,8 @@ core:
       view_discussions_label: Lihat Diskusi
       #view_post_ips_label: View post IP addresses
       view_post_ips_label: Tampilkan IP Address
+      #view_user_list_label: View user list
+      view_user_list_label: Tampilkan daftar user
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
