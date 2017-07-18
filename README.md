@@ -41,6 +41,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.1.0-beta.5 ([Discuss](https://discuss.flarum.org/d/5151))
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.15 ([Discuss](https://discuss.flarum.org/d/4762))
+- [Flagrow - Flagrow Fonts](https://github.com/flagrow/fonts) v0.1.0 ([Discuss](https://discuss.flarum.org/d/6207))aaaaaa
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.5.3 ([Discuss](https://discuss.flarum.org/d/4154))
 - [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.2 ([Discuss](https://discuss.flarum.org/d/5131))
 - [Issyrocks12 - Two Factor](https://github.com/issyrocks12/flarum-ext-twofactor) v1.0.0 ([Discuss](https://discuss.flarum.org/d/5226))
