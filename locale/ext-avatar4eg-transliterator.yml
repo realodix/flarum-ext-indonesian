@@ -1,0 +1,9 @@
+avatar4eg-transliterator:
+  admin:
+    settings:
+      #modal_title: Transliterator Settings
+      modal_title: Pengaturan Transliterator
+      #parse_button: Parse existing discussions
+      parse_button: Menguraikan diskusi yang ada
+      #result: Discussion parsed:
+      result: Diskusi yang telah diurai:
