@@ -22,23 +22,23 @@ flagrow-bazaar:
             connect-bazaar:
                 title: Connect
                 description: >
-                    Connect your Flarum forum to your personal account on {host} to unlock advanced features; including
-                    a dashboard that gives you an health overview of all your connected Flarum installations. We will
-                    add more functionality like notifications when your forum contains outdated extensions or the ability
-                    to update all Flarum installations centrally.
+                    Hubungkan forum Flarum Anda ke akun pribadi Anda di {host} untuk membuka fitur lanjutan; termasuk
+                    dashboard yang memberi Anda gambaran umum tentang semua instalasi Flarum yang terhubung. KAmi akan
+                    menambahkan lebih banyak fungsi seperti notifikasi saat forum Anda berisi ekstensi usang atau
+                    kemampuan untuk memperbarui semua instalasi Flarum secara terpusat.
             requirements:
                 file-permissions:
                     title: File permissions
                     description: >
-                        It seems Bazaar has insufficient permissions to write files
-                        and/or directories, please review the list below. For further
-                        information, refer to <a>the wiki</a>.
+                        Sepertinya Bazaar tidak memiliki izin untuk membuat file
+                        dan/atau folder, silahkan tinjau daftar di bawah ini. Untuk informasi
+                        lebih lanjut, lihat <a>the wiki</a>.
                 php-memory_limit:
                     title: Memory limit
                     description: >
-                        We recommend allowing PHP to use at least {required} of memory, your php.ini currently allows {limit}.
-                        Although we try to increase the memory limit during runtime, success depends on your hosting environment.
-                        For further information, refer to <a>the wiki</a>.
+                        Sebaiknya biarkan PHP menggunakan setidaknya {required} memory, php.ini Anda saat ini mengizinkan {limit}.
+                        Meskipun kita mencoba untuk meningkatkan batas memori selama runtime, kesuksesan tergantung pada hosting Anda.
+                        Untuk informasi lebih lanjut, lihat <a>the wiki</a>.
         page:
             button:
                 #more: More
@@ -65,33 +65,51 @@ flagrow-bazaar:
                 vendor: Oleh {vendor}
                 #favorited: One of your favorites
                 favorited: Salah satu favorit Anda
-                outdated: "Extension is outdated, please update to version {new}"
+                #outdated: "Extension is outdated, please update to version {new}"
+                outdated: "Ekstensi sudah usang, update ke versi {new}"
             task:
                 header:
                     status: Status
                     command: Command
                     output: Output
-                    time: Time
-                    details: Details
+                    #time: Time
+                    time: Waktu
+                    #details: Details
+                    details: Detail
                 attribute:
-                    created_at: Created at
-                    started_at: Started at
-                    finished_at: Finished at
+                    #created_at: Created at
+                    created_at: Dibuat pada
+                    #started_at: Started at
+                    started_at: Dimulai pada
+                    #finished_at: Finished at
+                    finished_at: Diselesaikan pada
                 status:
-                    success: Success
-                    exception: An exception occured
-                    working: Work in progress
-                    unknown: Unknown
+                    #success: Success
+                    success: Sukses
+                    #exception: An exception occured
+                    exception: Terjadi pengecualian
+                    #working: Work in progress
+                    working: Sedang dalam proses
+                    #unknown: Unknown
+                    unknown: Tidak diketahui
                 command:
                     install: Install {extension}
                     update: Update {extension}
-                    uninstall: Uninstall {extension}
+                    #uninstall: Uninstall {extension}
+                    uninstall: Hapus {extension}
                 group:
-                    today: Today
-                    lastmonth: Last month
-                    older: Older
+                    #today: Today
+                    today: Hari ini
+                    #lastmonth: Last month
+                    lastmonth: Bulan lalu
+                    #older: Older
+                    older: Yang lalu
         search:
-            placeholder: Search extensions
-            filter_installed: Show only installed extensions
-            filter_update_required: Show only extension with an update available
-            filter_favorited: Show only favorited extensions
+            #placeholder: Search extensions
+            placeholder: Cari ekstensi
+            #filter_installed: Show only installed extensions
+            filter_installed: Tampilkan hanya ekstensi yang terpasang
+            #filter_update_required: Show only extension with an update available
+            filter_update_required: Tampilkan hanya ekstensi dengan update yang tersedia
+            #filter_favorited: Show only favorited extensions
+            filter_favorited: Tampilkan hanya ekstensi yang difavoritkan
