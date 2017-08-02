@@ -11,7 +11,8 @@ reflar-usermanagement:
       desc: Tampilkan dan kelola user Anda
     modal:
       view:
-        number: Number
+        #number: Number
+        number: No.
         #no_strikes: User has a clean record!
         no_strikes: User memiliki catatan yang bersih!
         content: Post
@@ -24,10 +25,14 @@ reflar-usermanagement:
         #remove: remove
         remove: hapus
         title : "{username}'s Strikes"
-      settings_title: Settings
-      email_switch: Disable email registration
-      gender_label: Enable gender registration
-      age_label: Enable age registration
+      #settings_title: Settings
+      settings_title: Pengaturan
+      #email_switch: Disable email registration
+      email_switch: Nonaktifkan pendaftaran email
+      #gender_label: Enable gender registration
+      gender_label: Aktifkan pendaftaran jenis kelamin
+      #age_label: Enable age registration
+      age_label: Aktifkan pendaftaran usia
       #amount_label: Amount of users to show on page
       amount_label: Jumlah pengguna yang ditampilkan di halaman
       #recaptcha: Enable recaptcha compatibility
@@ -62,11 +67,14 @@ reflar-usermanagement:
         title: Umur dan Jenis kelamin
         #save: Save
         save: Simpan
-        success: Successfully saved.
-      age: "Age: {age}"
+        #success: Successfully saved.
+        success: Berhasil disimpan.
+      #age: "Age: {age}"
+      age: "Umur: {age}"
       controls:
         strike_button: View Strikes
-        activate_button: Activate User
+        #activate_button: Activate User
+        activate_button: Aktifkan User
         modal: "{username}'s Strikes"
     modal:
       post:
@@ -76,8 +84,10 @@ reflar-usermanagement:
         strike_reason: Alasan
         submit_button: Serve Strike
       view:
-        number: Number
-        no_strikes: User has a clean record!
+        #number: Number
+        number: No.
+        #no_strikes: User has a clean record!
+        no_strikes: Pengguna memiliki catatan bersih!
         content: Post
         #actor: Actor
         actor: Aktor
