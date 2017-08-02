@@ -3,9 +3,9 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang didukung.
 
 ## Informasi
-**Stable**: [v1.3.3](https://github.com/realodix/flarum-ext-indonesian/archive/1.3.3.zip) | **Unstable**: [v1.3.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
+**Stable**: [v1.3.5](https://github.com/realodix/flarum-ext-indonesian/archive/1.3.3.zip) | **Unstable**: [v1.3.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
 
-**Requires**: Flarum 0.1.0 Beta 6 | **Compatible up to**: 0.1.x-dev
+**Requires**: Flarum 0.1.0 Beta 7 | **Compatible up to**: 0.1.x-dev
 
 ### Cara Menggunakan
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah diinstal pada komputer Anda, kemudian ikuti langkah berikut ini:
@@ -28,7 +28,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 
 - [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5 ([Discuss](https://discuss.flarum.org/d/4395))
 - [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0 ([Discuss](https://discuss.flarum.org/d/4699))
-- [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.1.2 ([Discuss](https://discuss.flarum.org/d/3545))
+- [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.2.0 ([Discuss](https://discuss.flarum.org/d/3545))
 - [Avatar4eg - Url Transliterator](https://github.com/Avatar4eg/flarum-ext-transliterator) v0.4.0 ([Discuss](https://discuss.flarum.org/d/3736))
 - [Avatar4eg - Users list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1 ([Discuss](https://discuss.flarum.org/d/3731))
 - [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2 ([Discuss](https://discuss.flarum.org/d/3003))
@@ -38,13 +38,13 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2 ([Discuss](https://discuss.flarum.org/d/1929))
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2 ([Discuss](https://discuss.flarum.org/d/3143))
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0 ([Discuss](https://discuss.flarum.org/d/1983))
-- [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.2 ([Discuss](https://discuss.flarum.org/d/4785))
+- [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.2.2 ([Discuss](https://discuss.flarum.org/d/5151))
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.15 ([Discuss](https://discuss.flarum.org/d/4762))
 - [Flagrow - Flagrow Fonts](https://github.com/flagrow/fonts) v0.1.0 ([Discuss](https://discuss.flarum.org/d/6207))
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.5.7 ([Discuss](https://discuss.flarum.org/d/4154))
-- [Issyrocks12 - Filter](https://github.com/issyrocks12/flarum-ext-filter) v1.2 ([Discuss](https://discuss.flarum.org/d/5131))
-- [Issyrocks12 - Two Factor](https://github.com/issyrocks12/flarum-ext-twofactor) v1.0.1 ([Discuss](https://discuss.flarum.org/d/5226))
+- [Issyrocks12 - Filter](https://github.com/CDK2020/flarum-ext-filter) v1.2.2 ([Discuss](https://discuss.flarum.org/d/5131))
+- [Issyrocks12 - Two Factor](https://github.com/CDK2020/flarum-ext-twofactor) v1.0.1 ([Discuss](https://discuss.flarum.org/d/5226))
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.1 ([Discuss](https://discuss.flarum.org/d/4345))
 - [Radixi0 - Flarum Sharing](https://github.com/radixi0/flarum-ext-sharing) 0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/6171))
 - [ReFlar - ReFlar User Managemen](https://gitlab.com/ReDevelopers/ReFlar/user-management) v0.1.0-beta.9 ([Discuss](https://discuss.flarum.org/d/5444))
