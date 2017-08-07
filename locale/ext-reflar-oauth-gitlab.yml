@@ -1,0 +1,13 @@
+reflar-oauth-gitlab:
+
+  admin:
+    gitlab_settings:
+      #title: GitLab Settings
+      title: Pengaturan GitLab
+      client_id_label: Application ID
+      client_secret_label: Secret
+
+  forum:
+    log_in:
+      #with_gitlab_button: Login with GitLab
+      with_gitlab_button: Login dengan GitLab
