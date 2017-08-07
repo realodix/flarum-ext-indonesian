@@ -68,7 +68,7 @@ core:
       #saved_message: Your changes were saved.
       saved_message: Perubahan berhasil disimpan.
       #show_language_selector_label: Show language selector
-      show_language_selector_label: Show language selector
+      show_language_selector_label: Tampilkan pemilih bahasa
       submit_button: => core.ref.save_changes
       #welcome_banner_heading: Welcome Banner
       welcome_banner_heading: Pesan Selamat Datang
