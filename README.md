@@ -44,6 +44,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Fonts](https://github.com/flagrow/fonts) v0.1.0 ([Discuss](https://discuss.flarum.org/d/6207))
 - [Flagrow - Flagrow Split](https://github.com/flagrow/split)
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.5.7 ([Discuss](https://discuss.flarum.org/d/4154))
+- [Flagrow - Flagrow Users List](https://github.com/flagrow/users-list) v0.1.2 ([Discuss](https://discuss.flarum.org/d/6009))
 - [Ganuonglachanh - Markdown Editor](https://github.com/ganuonglachanh/flarum-ext-markdown-editor) v0.9.1 ([Discuss](https://discuss.flarum.org/d/5788))
 - [Issyrocks12 - Filter](https://github.com/CDK2020/flarum-ext-filter) v1.2.2 ([Discuss](https://discuss.flarum.org/d/5131))
 - [Issyrocks12 - Two Factor](https://github.com/CDK2020/flarum-ext-twofactor) v1.0.1 ([Discuss](https://discuss.flarum.org/d/5226))
