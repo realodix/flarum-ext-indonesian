@@ -84,21 +84,40 @@ flagrow-upload:
             save: Simpan
         help_texts:
             description: >
+#                Set up uploading services and preferences.
                 Mengatur layanan dan preferensi upload.
             mime_types: >
-                Konfigurasikan pemetaan Anda di sini.
-                Setiap jenis mime secara reguler akan ditangani oleh adaptor upload tertentu.
+#                Please configure your mapping here. Each mime type
+#                regular expression will be handled by a specific
+#                upload adapter.
+                Konfigurasikan pemetaan Anda di sini. Setiap ekspresi
+                reguler jenis mime akan ditangani oleh adaptor upload
+                tertentu.
             resize: >
-                Pilih apapun untuk merubah ukuran gambar sebelum diunggah.
-                Anda dapat menggunakan panjang maksimal dan tinggi, dalam pixel.
-                Pengubahan ukuran gambar ini tetap menjaga aspek rasio dari gambar.
+#                Choose whether you want to resize your images before
+#                they get uploaded. You can choose a maximum width
+#                and height, in pixels. The resizing process keeps the
+#                aspect ratio of the images.
+                Pilih apakah Anda ingin mengubah ukuran gambar sebelum
+                diupload. Anda dapat memilih lebar dan tinggi maksimum,
+                dalam satuan piksel. Proses mengubah ukuran tidak merubah
+                aspek rasio gambar.
             watermark: >
-                Pilih gambar apapun yang akan dijadikan watermark saat gambar diunggah.
-                Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.
+#                Choose whether images will have a watermark added during
+#                upload. Watermarks are added to non-gifs based on your
+#                preferences below.
+                Pilih apakah gambar akan diberi tanda air yang ditambahkan
+                saat mengupload. Watermark ditambahkan ke non-gif berdasarkan
+                preferensi Anda di bawah ini.
             disable-hotlink-protection: >
-                Perlindungan hotlink mencegah download dari situs lain.
-                Metode saat ini membutuhkan token csrf dan id post.
+#                Hotlink protection prevents opening downloads from other sites.
+#                Current method requires a csrf token and post id.
+                Perlindungan hotlink mencegah download dari situs lain. Metode
+                saat ini membutuhkan token csrf dan id post.
             disable-download-logging: >
+#                Disable logging every download made by users of your forum. Keeping it
+#                enabled allows you to view the number of downloads and other metrics
+#                in the nearby future.
                 Nonaktifkan log setiap download yang dilakukan oleh user forum Anda.
-                Dengan mengaktifkannya memungkinkan Anda melihat jumlah download dan metrik lainnya
-                dalam waktu dekat.
+                Dengan mengaktifkannya memungkinkan Anda melihat jumlah download dan
+                metrik lainnya dalam rentang waktu dekat.
