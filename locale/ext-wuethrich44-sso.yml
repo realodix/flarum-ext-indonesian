@@ -1,7 +1,11 @@
 wuethrich44-sso:
   admin:
     settings:
-      title: "Single Sign On Settings"
-      signup_url: "Signup Url"
-      login_url: "Login Url"
-      logout_url: "Logout Url"
+      #title: "Single Sign On Settings"
+      title: "Pengaturan Single Sign On"
+      #signup_url: "Signup Url"
+      signup_url: "URL Signup"
+      #login_url: "Login Url"
+      login_url: "URL Login"
+      #logout_url: "Logout Url"
+      logout_url: "URL Logout"
