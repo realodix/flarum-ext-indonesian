@@ -43,6 +43,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.20 ([Discuss](https://discuss.flarum.org/d/4762))
 - [Flagrow - Flagrow Fonts](https://github.com/flagrow/fonts) v0.1.0 ([Discuss](https://discuss.flarum.org/d/6207))
 - [Flagrow - Flagrow Masquerade](https://github.com/flagrow/masquerade) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5791))
+- [Flagrow - Flagrow Passport](https://raw.githubusercontent.com/flagrow/passport) v0.1.0-beta.1 ([Discuss](https://discuss.flarum.org/d/5203))
 - [Flagrow - Flagrow Split](https://github.com/flagrow/split)
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.5.7 ([Discuss](https://discuss.flarum.org/d/4154))
 - [Flagrow - Flagrow Users List](https://github.com/flagrow/users-list) v0.1.2 ([Discuss](https://discuss.flarum.org/d/6009))
