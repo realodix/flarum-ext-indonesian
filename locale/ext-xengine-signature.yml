@@ -33,7 +33,7 @@ xengine-signature:
                 placeholder : 350 (default)
             maximum_image_height:
                 #description : Maximum height of sum height of total inserted images on editor.
-                description : Jumlah total tinggi maksimum.
+                description : Jumlah tinggi maksimum dari total gambar yang disisipkan pada editor.
                 placeholder : 500 (default)
             maximum_image_count:
                 #description : Maximum inserted images.
