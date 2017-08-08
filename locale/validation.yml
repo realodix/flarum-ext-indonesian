@@ -89,11 +89,11 @@ validation:
     #string: "The :attribute may not be greater than :max characters."
     string: ":attribute mungkin tidak lebih besar dari :max karakter."
     #array: "The :attribute may not have more than :max items."
-    array: ":attribute mungkin tidak lebih besar dari :max item."
+    array: ":attribute mungkin tidak lebih dari :max item."
   #mimes: "The :attribute must be a file of type: :values."
-  mimes: ":attribute harus dokumen berjenis : :values."
+  mimes: ":attribute harus berupa file berjenis : :values."
   #mimetypes: "The :attribute must be a file of type: :values."
-  mimetypes: ":attribute harus dokumen berjenis: :values."
+  mimetypes: ":attribute harus berupa file berjenis: :values."
   min:
     #numeric: "The :attribute must be at least :min."
     numeric: ":attribute minimal harus diisi :min."
@@ -143,7 +143,7 @@ validation:
   #unique: "The :attribute has already been taken."
   unique: ":attribute sudah ada sebelumnya."
   #uploaded: "The :attribute failed to upload."
-  uploaded: ":attribute gagal upload."
+  uploaded: ":attribute gagal diupload."
   #url: "The :attribute format is invalid."
   url: "Format :attribute tidak valid."
 
