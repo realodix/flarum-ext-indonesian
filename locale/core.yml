@@ -493,8 +493,8 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      #title: Enter a new title for this discussion
-      title: Masukkan judul baru untuk diskusi ini
+      #title: Rename Discussion
+      title: Ubah nama diskusi
       #submit_button: => core.ref.rename
       submit_button: => core.ref.rename
 
