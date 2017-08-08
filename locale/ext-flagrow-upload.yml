@@ -44,11 +44,12 @@ flagrow-upload:
                 #position: Watermark position
                 position: Posisi Watermark
                 #file: Upload your watermark image
-                file: Upload watermark image Anda
+                file: Upload gambar watermark Anda
             local:
                 #title: Local storage settings
                 title: Pengaturan Local storage
-                cdn_url: Content Delivery URL (prefixes files)
+                #cdn_url: Content Delivery URL (prefixes files)
+                cdn_url: URL Pengiriman Konten (file prefiks)
             imgur:
                 #title: Imgur image storage settings
                 title: Pengaturan Imgur image storage
