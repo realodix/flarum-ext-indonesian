@@ -5,6 +5,11 @@ flagrow-fonts:
             #description: Manage fonts on your forum.
             description: Mengelola font pada forum Anda.
         browse:
+            label:
+                #sort: Sort by
+                sort: Urutkan berdasarkan
+                #search: Search
+                search: Cari
             sort:
                 #alpha: Alphabatically
                 alpha: Menurut abjad
