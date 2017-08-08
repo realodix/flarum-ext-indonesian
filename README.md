@@ -40,7 +40,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0 ([Discuss](https://discuss.flarum.org/d/1983))
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.2.2 ([Discuss](https://discuss.flarum.org/d/5151))
-- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.15 ([Discuss](https://discuss.flarum.org/d/4762))
+- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0-beta.20 ([Discuss](https://discuss.flarum.org/d/4762))
 - [Flagrow - Flagrow Fonts](https://github.com/flagrow/fonts) v0.1.0 ([Discuss](https://discuss.flarum.org/d/6207))
 - [Flagrow - Flagrow Masquerade](https://github.com/flagrow/masquerade) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5791))
 - [Flagrow - Flagrow Split](https://github.com/flagrow/split)
