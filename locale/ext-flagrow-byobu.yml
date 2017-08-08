@@ -43,10 +43,10 @@ flagrow-byobu:
     admin:
         permission:
             #create_private_discussions_with_users: Create private discussions with users
-            create_private_discussions_with_users: Buat diskusi pribadi dengan pengguna
+            create_private_discussions_with_users: Buat diskusi pribadi dengan user
             #create_private_discussions_with_groups: Create private discussions with groups
             create_private_discussions_with_groups: Buat diskusi pribadi dengan kelompok
             #edit_user_recipients: Edit users partaking in private discussions
-            edit_user_recipients: Edit pengguna yang mengambil bagian dalam diskusi pribadi
+            edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
             #edit_group_recipients: Edit groups partaking in private discussions
             edit_group_recipients: Edit kelompok yang mengambil bagian dalam diskusi pribadi

@@ -6,7 +6,7 @@ reflar-usermanagement:
     viewstrike_perm_item: View User Strikes
     nav:
       #title: Member List
-      title: Daftar Member
+      title: Daftar User
       #desc: View and manage your users
       desc: Tampilkan dan kelola user Anda
     modal:
@@ -34,7 +34,7 @@ reflar-usermanagement:
       #age_label: Enable age registration
       age_label: Aktifkan pendaftaran usia
       #amount_label: Amount of users to show on page
-      amount_label: Jumlah pengguna yang ditampilkan di halaman
+      amount_label: Jumlah user yang ditampilkan
       #recaptcha: Enable recaptcha compatibility
       recaptcha: Aktifkan recaptcha compatibility
     page:
@@ -87,7 +87,7 @@ reflar-usermanagement:
         #number: Number
         number: No.
         #no_strikes: User has a clean record!
-        no_strikes: Pengguna memiliki catatan bersih!
+        no_strikes: User memiliki catatan yang bersih!
         content: Post
         #actor: Actor
         actor: Aktor

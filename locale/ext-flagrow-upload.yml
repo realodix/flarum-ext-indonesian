@@ -99,6 +99,6 @@ flagrow-upload:
                 Perlindungan hotlink mencegah download dari situs lain.
                 Metode saat ini membutuhkan token csrf dan id post.
             disable-download-logging: >
-                Nonaktifkan log setiap download yang dilakukan oleh pengguna forum Anda.
+                Nonaktifkan log setiap download yang dilakukan oleh user forum Anda.
                 Dengan mengaktifkannya memungkinkan Anda melihat jumlah download dan metrik lainnya
                 dalam waktu dekat.
