@@ -1,0 +1,94 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Trending
+
+reflar-gamification:
+  forum:
+    #vote_title: Show Who Voted
+    vote_title: Lihat siapa yang memberikan vote
+    nav:
+      name: Rankings
+    ranking:
+      rank: Place
+      name: User
+      amount: Points
+    notification:
+      #upvote: Someone upvoted your post
+      upvote: Seseorang upvote post Anda
+      #downvote: Someone downvoted your post
+      downvote: Seseorang downvote post Anda
+      grid:
+        upvoted: Seseorang upvote salah satu post Saya
+        downvoted: Seseorang downvote salah satu post Saya
+    user:
+      #points: "Points: {points}"
+      points: "Point: {points}"
+      rank: "{rank}"
+    modal:
+      title: Votes
+      #upvotes_label: Upvotes
+      upvotes_label: Upvote
+      #downvotes_label: Downvotes
+      downvotes_label: Downvote
+  admin:
+    permissions:
+      vote_label: Upvote/Downvote posts
+      #see_votes_label: See post upvotes/downvotes
+      see_votes_label: Lihat posting upvotes/downvotes
+    nav:
+      #desc: Gamification for your Flarum community
+      desc: Gamifikasi untuk komunitas Flarum Anda
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          #title: Ignored Users
+          title: User yang Diabaikan
+          #help: These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.
+          help: User ini tidak akan ditampilkan di halaman peringkat. Nama pengguna harus dipisahkan dengan koma yang diikuti oleh spasi.
+        #title: Rankings Page
+        title: Halaman Ranking
+        #enable: Enable custom images
+        enable: Aktifkan penyesuaian gambar
+        #custom_image_1: 1st place image
+        custom_image_1: Gambar pertama
+        #custom_image_2: 2nd place image
+        custom_image_2: Gambar kedua
+        #custom_image_3: 3rd place image
+        custom_image_3: Gambar ketiga
+      votes:
+        points_title: Points Placeholder
+        points_placeholder: "Points: "
+        color_holder: '#ffffff'
+        #auto_upvote: Auto upvote posts when posted
+        auto_upvote: Otomatis upvote posting saat diposkan
+        title: Votes
+        vote_color: Voted color
+        #icon_name: Upvote/downvote icon
+        icon_name: Ikon untuk Upvote/downvote
+        #icon_help: "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+        icon_help: "Masukkan ikon Font-Awesome yang disandikan dengan -up dan -down. Contoh: arrow, thumbs, chevron"
+      #save_settings: Save settings
+      save_settings: Simpan
+      convert:
+        #button: Convert likes to upvotes
+        button: Konversi likes ke upvotes
+        #help: Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
+        help: Mengkonversi likes Anda sebelumnya dari flarum-ext-likes ke upvotes, serta mengkalkulasi diskusi yang sedang ramai/hangat saat ini.
+        #converting: Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
+        converting: Likes Anda kini sedang konversi. Refresh halaman ini setelah beberapa menit untuk melihat hasilnya. (Proses konversi mungkin membutuhkan waktu lama, tergantung seberapa banyak total likes pada forum Anda)
+        #converted: "Successfully converted all {number} likes"
+        converted: "Selesai, total ada {number} likes berhasil dikonversi"
+      ranks:
+        title: Ranks
+        #ranks: Custom ranks
+        ranks: Penyesuaian peringkat
+        #number_title: How many rank badges should be shown?
+        number_title: Berapa banyak lencana peringkat yang akan ditampilkan?
+        help:
+          color: '#ffffff'
+          #help: "Input the required number of upvotes, the name of the rank, and the hex color of the rank"
+          help: "Masukkan jumlah upvotes yang dibutuhkan, nama pangkat, dan kode warna hex untuk warna rangkingnya"
+          points: Points
+          name: Name
