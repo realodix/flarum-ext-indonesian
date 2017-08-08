@@ -3,6 +3,12 @@ flagrow-bazaar:
         loader:
             #is_loading: Processing..
             is_loading: Sedang Memproses..
+            #error: An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            error: Terjadi kesalahan. Periksa tab History dan log Flarum Anda untuk rinciannya. Jangan takut melaporkannya kepada kami.
+            #refresh: Refresh page
+            refresh: Refresh halaman
+            #report_issue: Report an issue
+            report_issue: Laporkan masalah
         nav:
             title: Bazaar
             #description: The extension marketplace.
@@ -27,7 +33,7 @@ flagrow-bazaar:
 #                    add more functionality like notifications when your forum contains outdated extensions or the ability
 #                    to update all Flarum installations centrally.
                     Hubungkan forum Flarum Anda ke akun pribadi Anda di {host} untuk membuka fitur lanjutan; termasuk
-                    dashboard yang memberi Anda gambaran umum tentang semua instalasi Flarum yang terhubung. KAmi akan
+                    dashboard yang memberi Anda gambaran umum tentang semua instalasi Flarum yang terhubung. Kami akan
                     menambahkan lebih banyak fungsi seperti notifikasi saat forum Anda berisi ekstensi usang atau
                     kemampuan untuk memperbarui semua instalasi Flarum secara terpusat.
             requirements:
@@ -39,7 +45,7 @@ flagrow-bazaar:
 #                        information, refer to <a>the wiki</a>.
                         Sepertinya Bazaar tidak memiliki izin untuk membuat file
                         dan/atau folder, silahkan tinjau daftar di bawah ini. Untuk informasi
-                        lebih lanjut, lihat <a>the wiki</a>.
+                        lebih lanjut, lihat <a>wiki</a>.
                 php-memory_limit:
                     title: Memory limit
                     description: >
