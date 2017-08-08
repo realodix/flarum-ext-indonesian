@@ -80,7 +80,7 @@ validation:
   #ipv6: "The :attribute must be a valid IPv6 address."
   ipv6: ":attribute harus berupa alamat IPv6 yang valid."
   #json: "The :attribute must be a valid JSON string."
-  json: ":attribute harus berupa JSON yang valid"
+  json: ":attribute harus berupa string JSON yang valid"
   max:
     #numeric: "The :attribute may not be greater than :max."
     numeric: ":attribute mungkin tidak lebih besar dari :max"
