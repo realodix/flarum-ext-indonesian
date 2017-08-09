@@ -52,7 +52,8 @@ sijad-pages:
     content: Konten
     #create_page: Create Page
     create_page: Buat Halaman
-    pages: Pages
+    #pages: Pages
+    pages: Halaman
     slug: Slug
     #title: Title
     title: Judul

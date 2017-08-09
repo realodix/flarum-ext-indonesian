@@ -13,7 +13,7 @@ radixio-sharing:
         #title: Facebook configuration
         title: Konfigurasi Facebook
         #client_id: Set your facebook app ID (required)
-        client_id: Tetapkan ID aplikasi facebook Anda (wajib)
+        client_id: Tetapkan ID aplikasi facebook Anda (diperlukan)
 
     buttons:
       #save: Save

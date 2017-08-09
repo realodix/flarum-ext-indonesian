@@ -5,7 +5,7 @@ davis-socialprofile:
       #add: "Add"
       add: "Tambah"
       #headtitle: "Edit Buttons"
-      headtitle: "Mengedit Tombol"
+      headtitle: "Edit Tombol"
       #title: "Title"
       title: "Judul"
       url: "Url"

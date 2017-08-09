@@ -27,7 +27,7 @@ sijad-links:
     # These strings are used in the Links page.
     links:
       #about_text: Manage primary menu links.
-      about_text: Mengelola menu link primer.
+      about_text: Kelola link pada menu utama.
       create_button: => sijad-links.ref.create_link
       links: => sijad-links.ref.links
 
@@ -35,13 +35,14 @@ sijad-links:
     nav:
       links_button: => sijad-links.ref.links
       #links_text: Manage the primary navigation list items.
-      links_text: Mengelola navigasi utama daftar item.
+      links_text: Kelola daftar item pada navigasi utama.
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
     #create_link: Create Link
     create_link: Buat Link
-    links: Links
+    #links: Links
+    links: Link
     #title: Title
     title: Judul
     url: Url
