@@ -53,7 +53,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.1 ([Discuss](https://discuss.flarum.org/d/4345))
 - [Pnobbe - Discord Login](https://github.com/pnobbe/flarum-ext-oauth-discord) v1.0.2 ([Discuss](https://discuss.flarum.org/d/3468))
 - [Radixi0 - Flarum Sharing](https://github.com/radixi0/flarum-ext-sharing) 0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/6171))
-- [ReFlar - ReFlar Gamification](https://gitlab.com/ReDevelopers/ReFlar/gamification) v1.2.0 ([Discuss](https://discuss.flarum.org/d/5588))
+- [ReFlar - ReFlar Gamification](https://gitlab.com/ReDevelopers/ReFlar/gamification) v2.0.1 ([Discuss](https://discuss.flarum.org/d/5588))
 - [ReFlar - ReFlar GitLab Login](https://gitlab.com/ReDevelopers/ReFlar/oauth-gitlab) v0.1.0-beta.1 ([Discuss](https://discuss.flarum.org/d/6357))
 - [ReFlar - ReFlar Reactions](https://gitlab.com/ReDevelopers/ReFlar/reactions) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/6542))
 - [ReFlar - ReFlar User Managemen](https://gitlab.com/ReDevelopers/ReFlar/user-management) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5444))
