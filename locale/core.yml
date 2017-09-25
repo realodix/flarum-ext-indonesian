@@ -338,7 +338,7 @@ core:
       delete_confirmation: "Apakah Anda yakin ingin meng ini?"
       delete_forever_button: => core.ref.delete_forever
       #log_in_to_reply_button: Log In to Reply
-      log_in_to_reply_button: Masuk untuk ikut berdiskusi
+      log_in_to_reply_button: Balas
       #rename_button: => core.ref.rename
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
@@ -413,7 +413,7 @@ core:
       mark_all_as_read_confirmation: "Anda yakin ingin menandai semua diskusi sudah terbaca?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       #refresh_tooltip: Refresh
-      refresh_tooltip: Muat Ulang
+      refresh_tooltip: Segarkan Halaman
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -421,9 +421,9 @@ core:
       #latest_button: Latest
       latest_button: Terakhir
       #newest_button: Newest
-      newest_button: Terbaru
+      newest_button: Post Terbaru
       #oldest_button: Oldest
-      oldest_button: Lama
+      oldest_button: Terlama
       #relevance_button: Relevance
       relevance_button: Relevan
       top_button: Top
@@ -713,7 +713,7 @@ core:
     #load_more: Load More
     load_more: Muat lebih
     #log_in: Log In
-    log_in: Masuk
+    log_in: Login
     #log_out: Log Out
     log_out: Keluar
     #mark_all_as_read: Mark All as Read
