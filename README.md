@@ -50,6 +50,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.5.7 ([Discuss](https://discuss.flarum.org/d/4154))
 - [Flagrow - Flagrow Users List](https://github.com/flagrow/users-list) v0.1.2 ([Discuss](https://discuss.flarum.org/d/6009))
 - [Ganuonglachanh - Markdown Editor](https://github.com/ganuonglachanh/flarum-ext-markdown-editor) v0.9.1 ([Discuss](https://discuss.flarum.org/d/5788))
+- [Krombox - Wordpress Login](https://github.com/krombox/flarum-ext-auth-wordpress) v0.1.0-beta.7  ([Discuss](https://discuss.flarum.org/d/6822))
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.1 ([Discuss](https://discuss.flarum.org/d/4345))
 - [Pnobbe - Discord Login](https://github.com/pnobbe/flarum-ext-oauth-discord) v1.0.2 ([Discuss](https://discuss.flarum.org/d/3468))
 - [Radixi0 - Flarum Sharing](https://github.com/radixi0/flarum-ext-sharing) 0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/6171))
