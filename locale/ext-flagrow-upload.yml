@@ -9,10 +9,28 @@ flagrow-upload:
             success: Sukses
             error: Error
     admin:
+        templates:
+            image: Default image download template
+            image_description: >
+#                Shows a thumbnail of the image and proxies download through php.
+#                Allowing statistics to be gathered and hotlink protection.
+                Menampilkan thumbnail dari gambar dan proxies download melalui php.
+                Mengizinkan statistik untuk dikumpulkan dan hotlink protection.
+            file: Default file download template
+            file_description: >
+#                Shows the file name and some general information. Proxies downloads
+#                through php, allowing for statistics gathering and hotlink protection.
+                Menampilkan nama file dan beberapa informasi umum. Proxies downloads
+                memlalui php, memungkinkan untuk pengumpulan statistik dan hotlink protection.
+            image-preview: Complete image preview template
+            image-preview_description: >
+                Menampilkan gambar lengkap secara in-line. Tidak ada fungsi download, tidak ada
+                statistik dibuat dan hotlink protection diabaikan.
         permissions:
             #upload_label: Upload files
             upload_label: Upload file
-            download_label: Download files
+            #download_label: Download files
+            download_label: Download file
         upload_methods:
             #local: Local
             local: Lokal
@@ -91,9 +109,14 @@ flagrow-upload:
 #                Please configure your mapping here. Each mime type
 #                regular expression will be handled by a specific
 #                upload adapter.
-                Konfigurasikan pemetaan Anda di sini. Setiap ekspresi
-                reguler jenis mime akan ditangani oleh adaptor upload
-                tertentu.
+                Konfigurasikan pemetaan Anda di sini. Setiap jenis mime
+                regular expression akan ditangani oleh upload adapter
+                secara spesifik.
+            download_templates: >
+#                Download templates are how uploads are shown on your forum,
+#                eg like previews, buttons. Currently available:
+                Download template adalah bagaimana file yang Anda upload ditampilkan di forum Anda,
+                contohnya seperti previews, buttons. Saat ini yang tersedia adalah:
             resize: >
 #                Choose whether you want to resize your images before
 #                they get uploaded. You can choose a maximum width
