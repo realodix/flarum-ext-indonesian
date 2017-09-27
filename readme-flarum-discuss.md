@@ -60,7 +60,6 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - Split by @Davis ([Discuss](https://discuss.flarum.org/d/3143), [GitHub](https://github.com/dav-is/flarum-ext-split))
 - Syndication by @AmauryPi ([Discuss](https://discuss.flarum.org/d/4395), [GitHub](https://github.com/AmauryCarrade/flarum-ext-syndication))
 - Two Factor by @CDK2020 ([Discuss](https://discuss.flarum.org/d/5226), [GitHub](https://github.com/issyrocks12/flarum-ext-twofactor))
-- Users list by @NikolaiMorozov ([Discuss](https://discuss.flarum.org/d/3731), [GitHub](https://github.com/Avatar4eg/flarum-ext-users-list))
 - Users list by @CDK2020 ([Discuss](https://discuss.flarum.org/d/5021), [GitHub](https://github.com/issyrocks12/flarum-ext-users-list))
 
 .

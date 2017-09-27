@@ -30,7 +30,6 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0 ([Discuss](https://discuss.flarum.org/d/4699))
 - [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.2.0 ([Discuss](https://discuss.flarum.org/d/3545))
 - [Avatar4eg - Url Transliterator](https://github.com/Avatar4eg/flarum-ext-transliterator) v0.4.0 ([Discuss](https://discuss.flarum.org/d/3736))
-- [Avatar4eg - Users list](https://github.com/Avatar4eg/flarum-ext-users-list) v0.1.1 ([Discuss](https://discuss.flarum.org/d/3731))
 - [CDK2020 - Filter](https://github.com/CDK2020/flarum-ext-filter) v1.2.2 ([Discuss](https://discuss.flarum.org/d/5131))
 - [CDK2020 - Two Factor](https://github.com/CDK2020/flarum-ext-twofactor) v1.0.1 ([Discuss](https://discuss.flarum.org/d/5226))
 - [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2 ([Discuss](https://discuss.flarum.org/d/3003))
