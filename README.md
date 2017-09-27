@@ -3,7 +3,7 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang didukung.
 
 ## Informasi
-**Stable**: [v1.3.5](https://github.com/realodix/flarum-ext-indonesian/archive/1.3.3.zip) | **Unstable**: [v1.3.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
+**Stable**: [v1.3.7](https://github.com/realodix/flarum-ext-indonesian/archive/1.3.7.zip) | **Unstable**: [v1.3.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
 
 **Requires**: Flarum 0.1.0 Beta 7 | **Compatible up to**: 0.1.x-dev
 
@@ -27,17 +27,17 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
 - [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5 ([Discuss](https://discuss.flarum.org/d/4395))
-- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.3.0 ([Discuss](https://discuss.flarum.org/d/4699))
+- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.4.0 ([Discuss](https://discuss.flarum.org/d/4699))
 - [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.2.0 ([Discuss](https://discuss.flarum.org/d/3545))
 - [Avatar4eg - Url Transliterator](https://github.com/Avatar4eg/flarum-ext-transliterator) v0.4.0 ([Discuss](https://discuss.flarum.org/d/3736))
 - [CDK2020 - Filter](https://github.com/CDK2020/flarum-ext-filter) v1.2.2 ([Discuss](https://discuss.flarum.org/d/5131))
 - [CDK2020 - Two Factor](https://github.com/CDK2020/flarum-ext-twofactor) v1.0.1 ([Discuss](https://discuss.flarum.org/d/5226))
 - [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2 ([Discuss](https://discuss.flarum.org/d/3003))
-- [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.5 ([Discuss](https://discuss.flarum.org/d/2958))
+- [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/2958))
 - [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4 ([Discuss](https://discuss.flarum.org/d/2926))
-- [Dav-is - Secure HTTPS](https://github.com/dav-is/flarum-ext-securehttps) v0.1.0-beta4 ([Discuss](https://discuss.flarum.org/d/2649))
-- [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.2 ([Discuss](https://discuss.flarum.org/d/1929))
-- [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta2 ([Discuss](https://discuss.flarum.org/d/3143))
+- [Dav-is - Secure HTTPS](https://github.com/dav-is/flarum-ext-securehttps) v0.1.0-beta5 ([Discuss](https://discuss.flarum.org/d/2649))
+- [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.3 ([Discuss](https://discuss.flarum.org/d/1929))
+- [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta3 ([Discuss](https://discuss.flarum.org/d/3143))
 - [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0 ([Discuss](https://discuss.flarum.org/d/1983))
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.4 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.2.4 ([Discuss](https://discuss.flarum.org/d/5151))
@@ -53,9 +53,9 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.1 ([Discuss](https://discuss.flarum.org/d/4345))
 - [Pnobbe - Discord Login](https://github.com/pnobbe/flarum-ext-oauth-discord) v1.0.2 ([Discuss](https://discuss.flarum.org/d/3468))
 - [Radixi0 - Flarum Sharing](https://github.com/radixi0/flarum-ext-sharing) 0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/6171))
-- [ReFlar - ReFlar Gamification](https://gitlab.com/ReDevelopers/ReFlar/gamification) v2.0.1 ([Discuss](https://discuss.flarum.org/d/5588))
+- [ReFlar - ReFlar Gamification](https://gitlab.com/ReDevelopers/ReFlar/gamification) v2.0.2 ([Discuss](https://discuss.flarum.org/d/5588))
 - [ReFlar - ReFlar GitLab Login](https://gitlab.com/ReDevelopers/ReFlar/oauth-gitlab) v0.1.0-beta.1 ([Discuss](https://discuss.flarum.org/d/6357))
-- [ReFlar - ReFlar Reactions](https://gitlab.com/ReDevelopers/ReFlar/reactions) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/6542))
+- [ReFlar - ReFlar Reactions](https://gitlab.com/ReDevelopers/ReFlar/reactions) v0.1.0-beta.5 ([Discuss](https://discuss.flarum.org/d/6542))
 - [ReFlar - ReFlar User Managemen](https://gitlab.com/ReDevelopers/ReFlar/user-management) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5444))
 - [Santiagobiali - Logo](https://github.com/santiagobiali/flarum-ext-logo) v0.2.0 ([Discuss](https://discuss.flarum.org/d/1881))
 - [Sijad - Google reCAPTCHA](https://github.com/sijad/flarum-ext-recaptcha) v0.0.2 ([Discuss](https://discuss.flarum.org/d/3707))
@@ -63,9 +63,9 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/2605))
 - [WiseClock - Login2See](https://github.com/WiseClock/flarum-ext-login2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5168))
 - [WiseClock - Post Copyright](https://github.com/WiseClock/flarum-ext-post-copyright) v0.1.7 ([Discuss](https://discuss.flarum.org/d/5119))
-- [WiseClock - Reply2See](https://github.com/WiseClock/flarum-ext-reply2see) v0.1.0 ([Discuss](https://discuss.flarum.org/d/5190))
-- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.9 ([Discuss](https://discuss.flarum.org/d/3868))
-- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.1.0 ([Discuss](https://discuss.flarum.org/d/5052))
+- [WiseClock - Reply2See](https://github.com/WiseClock/flarum-ext-reply2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5190))
+- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.11 ([Discuss](https://discuss.flarum.org/d/3868))
+- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.1.1 ([Discuss](https://discuss.flarum.org/d/5052))
 - [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2 ([Discuss](https://discuss.flarum.org/d/4222))
 
 

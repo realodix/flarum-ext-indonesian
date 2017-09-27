@@ -7,7 +7,7 @@ flagrow-fonts:
         browse:
             label:
                 #sort: Sort by
-                sort: Urutkan berdasarkan
+                sort: Urut berdasarkan
                 #search: Search
                 search: Cari
             sort:
