@@ -82,10 +82,10 @@ Terima kasih banyak untuk Anda yang ingin berkontribusi. Saya sangat menghargai 
 - Beri kami bintang/star di [GitHub](https://github.com/realodix/flarum-ext-indonesian). Karena jika Anda menggunakan dan menyukainya, Anda setidaknya bisa menjadi stargazer!
 - Follow kami di [GitHub](https://github.com/realodix/flarum-ext-indonesian). Anda akan mendapatkan pemberitahuan secara real time dari semua perubahan. Tidak ada yang terlewat!
 - [Laporkan masalah](https://github.com/realodix/flarum-ext-indonesian/issues) di GitHub. Semua umpan balik diterima.
-- Open pull requests di [GitHub](https://github.com/realodix/flarum-ext-indonesian) untuk menyerahkan perbaikan dan peningkatan. Otomatis terdaftar sebagai [kontributor](https://github.com/realodix/flarum-ext-indonesian/graphs/contributors)!
-- Bergabung dengan [diskusi paket bahasa](https://discuss.flarum.org/d/1358-indonesian-language-pack) di Flarum.
+- Open pull requests di [GitHub](https://github.com/realodix/flarum-ext-indonesian) untuk memberikan perbaikan dan peningkatan. Otomatis terdaftar sebagai [kontributor](https://github.com/realodix/flarum-ext-indonesian/graphs/contributors)!
+- Ikut ngobrol di [diskusi Indonesian Language Pack](https://discuss.flarum.org/d/1358-indonesian-language-pack).
 - Mari kita kopdar jika Anda sedang berada di dekat Jakarta!
 
 
 ## License
-Released under the MIT License. Please see the [LICENSE](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE) file.
+Released under the MIT License. Please see the [license](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE) file.
