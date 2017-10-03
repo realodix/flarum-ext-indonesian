@@ -72,8 +72,8 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 
 ### Catatan
 - Sejauh ini sudah hampir 100% diterjemahkan.
-- Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Contohnya kata password tetap Saya tulis password (harusnya kata sandi), dan kata upload tetap Saya tulis upload (harusnya unggah).
-- Teks bahasa Inggris masih ada dalam bentuk komentar yaml, jadi Anda bisa membantu Saya untuk mengkoreksi terjemahan.
+- Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Sebagai contoh kata _password_ tetap Saya tulis _password_ (harusnya kata sandi), dan kata _upload_ tetap Saya tulis _upload_ (harusnya unggah).
+- Teks bahasa Inggris masih ada dalam bentuk komentar yaml, diharapkan Anda bisa dengan mudah membantu Saya untuk mengkoreksi terjemahan yang sudah ada.
 
 
 ## Berkontribusi
