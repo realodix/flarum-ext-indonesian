@@ -40,6 +40,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - Flagrow Bazaar by @luceos ([Discuss](https://discuss.flarum.org/d/5151), [GitHub](https://github.com/flagrow/bazaar))
 - Flagrow Byōbu by @luceos ([Discuss](https://discuss.flarum.org/d/4762), [GitHub](https://github.com/flagrow/byobu))
 - Flagrow Fonts by @clarkwinkelmann ([Discuss](https://discuss.flarum.org/d/6207), [GitHub](https://github.com/flagrow/byobu))
+- Flagrow Linguist by @clarkwinkelmann ([Discuss](https://discuss.flarum.org/d/7026), [GitHub](https://github.com/flagrow/linguist))
 - Flagrow Masquerade by @luceos ([Discuss](https://discuss.flarum.org/d/5791), [GitHub](https://github.com/flagrow/masquerade))
 - Flagrow Passport by @luceos ([Discuss](https://discuss.flarum.org/d/5203), [GitHub](https://github.com/flagrow/passport))
 - Flagrow Upload by @luceos ([Discuss](https://discuss.flarum.org/d/4154), [GitHub](https://github.com/flagrow/upload))
