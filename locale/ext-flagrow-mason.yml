@@ -20,16 +20,20 @@ flagrow-mason:
             tags-label: Tags
     admin:
         buttons:
-            new-field: New field
-            add-field: Add field
+            #new-field: New field
+            new-field: Field baru
+            #add-field: Add field
+            add-field: Tambah field
             #save-field: Save field changes
             save-field: Simpan
             #delete-field: Delete field
             delete-field: Hapus
             edit-field: Click to edit field
             add-answer: Add answer
-            save-answer: Save answer changes
-            delete-answer: Delete answer
+            #save-answer: Save answer changes
+            save-answer: Simpan
+            #delete-answer: Delete answer
+            delete-answer: Hapus jawaban
             show-user-answers: Show non-suggested answers ({count})
         menu:
             description: >
