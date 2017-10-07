@@ -15,9 +15,9 @@ reflar-gamification:
       amount: Points
     notification:
       #upvote: "{username} upvoted your post"
-      upvote: {username} upvote post Anda
+      upvote: "{username} upvote post Anda"
       #downvote: "{username} downvoted your post"
-      downvote: {username} downvote post Anda
+      downvote: "{username} downvote post Anda"
     user:
       #points: "Points: {points}"
       points: "Point: {points}"
@@ -43,7 +43,7 @@ reflar-gamification:
         blocked:
           placeholder: CDK2020, Ralkage, AngelAvila
           #title: Ignored Users
-          title: User yang Diabaikan
+          title: User Yang Diabaikan
           #help: These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.
           help: User ini tidak akan ditampilkan di halaman peringkat. Nama pengguna harus dipisahkan dengan koma yang diikuti oleh spasi.
         #title: Rankings Page
@@ -61,7 +61,7 @@ reflar-gamification:
         points_placeholder: "Points: "
         color_holder: '#ffffff'
         #auto_upvote: Auto upvote posts when posted
-        auto_upvote: Otomatis upvote posting saat diposkan
+        auto_upvote: Otomatis upvote posting saat posting
         title: Votes
         vote_color: Voted color
         #icon_name: Upvote/downvote icon
@@ -72,7 +72,7 @@ reflar-gamification:
       save_settings: Simpan
       convert:
         #button: Convert likes to upvotes
-        button: Konversi likes ke upvotes
+        button: Konversi like ke upvote
         #help: Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
         help: Mengkonversi likes Anda sebelumnya dari flarum-ext-likes ke upvotes, serta mengkalkulasi diskusi yang sedang ramai/hangat saat ini.
         #converting: Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
