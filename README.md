@@ -1,14 +1,14 @@
 ## Indonesia Language Pack for [Flarum](http://flarum.org/)
 
-Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang didukung.
+Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).
 
 ## Informasi
-**Stable**: [v1.3.7](https://github.com/realodix/flarum-ext-indonesian/archive/1.3.7.zip) | **Unstable**: [v1.3.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
+**Stable**: [v1.3.9](https://github.com/realodix/flarum-ext-indonesian/archive/1.3.9.zip) | **Unstable**: [v1.3.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
 
 **Requires**: Flarum 0.1.0 Beta 7 | **Compatible up to**: 0.1.x-dev
 
 ### Cara Menggunakan
-Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah diinstal pada komputer Anda, kemudian ikuti langkah berikut ini:
+Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
 
 1. Jalankan perintah ini pada folder Anda menginstall Flarum
 
@@ -20,7 +20,7 @@ Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola depende
 
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
 
-Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa memperbarui yang lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
+Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa mempengaruhi paket lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
 
 
 ### Extensi Yang Didukung
