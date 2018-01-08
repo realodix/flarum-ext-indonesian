@@ -60,7 +60,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [WiseClock - Post Copyright](https://github.com/WiseClock/flarum-ext-post-copyright) v0.1.7 ([Discuss](https://discuss.flarum.org/d/5119))
 - [WiseClock - Reply2See](https://github.com/WiseClock/flarum-ext-reply2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5190))
 - [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.11 ([Discuss](https://discuss.flarum.org/d/3868))
-- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.1.1 ([Discuss](https://discuss.flarum.org/d/5052))
+- [Wuethrich44 - Single Sign On](https://github.com/wuethrich44/flarum-ext-sso) v1.1.2 ([Discuss](https://discuss.flarum.org/d/5052))
 - [2016] [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5 ([Discuss](https://discuss.flarum.org/d/4395))
 - [2016] [ChinW - Colorful Logo](https://github.com/ChinW/colorful-logo) v1.0.0.beta-2 ([Discuss](https://discuss.flarum.org/d/3003))
 - [2016] [Dav-is - Custom Footer](https://github.com/dav-is/flarum-ext-customfooter) v0.1.0-beta4 ([Discuss](https://discuss.flarum.org/d/2926))
