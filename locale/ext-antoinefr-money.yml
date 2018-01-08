@@ -7,16 +7,17 @@ antoinefr-money:
       moneyforpost: Uang yang diberikan untuk post baru
       #moneyfordiscussion: Money given for a new discussion
       moneyfordiscussion: Uang yang diberikan untuk diskusi yang baru dibuat
-      #moneyname: Name of the money (ex: points)
-      moneyname: Nama mata uang (contoh: Rp)
+      #moneyname: Name of the money (ex: {money} points)
+      moneyname: Nama mata uang (ex: {money} points)
+      #postminimumlength: Post minimum length to get the money (0 to disable)
+      postminimumlength: Minimum panjang post untuk mendapatkan money (0 to disable)
     permissions:
       edit_money_label: Edit money
   forum:
     user_controls:
       money_button: Edit money
     modal:
-      #title: "{username}'s money"
-      title: "Uang {username}"
+      title: "{username}'s money"
       #current: Current :
-      current: Jumlah uang :
+      current: Jumlah money :
       submit_button: => core.ref.save_changes

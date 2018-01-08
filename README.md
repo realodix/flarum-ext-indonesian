@@ -26,7 +26,7 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.4.0 ([Discuss](https://discuss.flarum.org/d/4699))
+- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.5.0 ([Discuss](https://discuss.flarum.org/d/4699))
 - [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.2.0 ([Discuss](https://discuss.flarum.org/d/3545))
 - [Avatar4eg - Url Transliterator](https://github.com/Avatar4eg/flarum-ext-transliterator) v0.4.0 ([Discuss](https://discuss.flarum.org/d/3736))
 - [CDK2020 - Filter](https://github.com/CDK2020/flarum-ext-filter) v1.2.2 ([Discuss](https://discuss.flarum.org/d/5131))
