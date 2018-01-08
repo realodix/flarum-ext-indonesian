@@ -11,21 +11,30 @@ flagrow-analytics:
       title: Pengaturan Analytics
 
       field:
+        statusGoogle: Enable Google Analytics
         googleTrackingCode: Tracking Code ID
-        piwikUrl: Piwik's url
-        piwikSiteId: Site Id
+        statusPiwik: Enable Piwik
+        piwikUrl: Piwik domain or url
+        piwikSiteId: Site ID
+        #piwikTrackSubdomain: Track visitors across all subdomains of Flarum
+        piwikTrackSubdomain: Lacak pengunjung di semua subdomain Flarum
+        #piwikPrependDomain: Prepend the site domain to the page title when tracking
+        piwikPrependDomain: Tambahkan domain situs ke judul halaman saat melacak
+        #piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
+        piwikHideAliasUrl: Dalam "Outlinks" report, sembunyikan klik ke URL alias yang dikenal
         piwikAliasUrl: Alias Url
-        #piwikAuthToken: Authentication token config->users
-        piwikAuthToken: Token otentikasi (config->users)
+        piwikTrackAccounts: Track individual user accounts
+        piwikAuthToken: Authentication Token
 
-      checkbox:
-        label:
-          #piwikTrackSubdomain: Track visitors across all subdomains of Flarum
-          piwikTrackSubdomain: Lacak pengunjung di seluruh subdomain Flarum
-          #piwikPrependDomain: Prepend the site domain to the page title when tracking
-          piwikPrependDomain: Tambahkan domain situs untuk judul halaman saat melacak
-          #piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
-          piwikHideAliasUrl: Dalam laporan "outlinks", klik sembunyikan untuk mengetahui URL alias
+      placeholder:
+        piwikAuthToken: |
+          Fill this token to enable a Piwik stats tab in the admin panel.
+          You can find it in Settings > Personal > API Authentication Token.
+
+      trackAccounts:
+        none: Do not track
+        username: Track by username
+        email: Track by email
 
     page:
       nav:

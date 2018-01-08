@@ -35,7 +35,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Dav-is - Secure HTTPS](https://github.com/dav-is/flarum-ext-securehttps) v0.1.0-beta5 ([Discuss](https://discuss.flarum.org/d/2649))
 - [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.3 ([Discuss](https://discuss.flarum.org/d/1929))
 - [Dav-is - Split](https://github.com/dav-is/flarum-ext-split) v0.1.0-beta3 ([Discuss](https://discuss.flarum.org/d/3143))
-- [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.5.0 ([Discuss](https://discuss.flarum.org/d/1983))
+- [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.6.0 ([Discuss](https://discuss.flarum.org/d/1983))
 - [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.4 ([Discuss](https://discuss.flarum.org/d/4785))
 - [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.2.4 ([Discuss](https://discuss.flarum.org/d/5151))
 - [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.0 ([Discuss](https://discuss.flarum.org/d/4762))
