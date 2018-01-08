@@ -43,7 +43,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [Flagrow - Flagrow Linguist](https://github.com/flagrow/linguist) v0.1.2  ([Discuss](https://discuss.flarum.org/d/7026))
 - [Flagrow - Flagrow Masquerade](https://github.com/flagrow/masquerade) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5791))
 - [Flagrow - Flagrow Passport](https://github.com/flagrow/passport) v0.1.0-beta.1 ([Discuss](https://discuss.flarum.org/d/5203))
-- [Flagrow - Flagrow Split](https://github.com/flagrow/split)
+- [Flagrow - Flagrow Split](https://github.com/flagrow/split) v0.2
 - [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.6.0-beta ([Discuss](https://discuss.flarum.org/d/4154))
 - [Flagrow - Flagrow Users List](https://github.com/flagrow/users-list) v0.1.2 ([Discuss](https://discuss.flarum.org/d/6009))
 - [Ganuonglachanh - Markdown Editor](https://github.com/ganuonglachanh/flarum-ext-markdown-editor) v0.9.1 ([Discuss](https://discuss.flarum.org/d/5788))
