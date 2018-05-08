@@ -1,11 +1,11 @@
 krombox-auth-wordpress:
     forum:
         log_in:
-            #with_wordpress_button: Log In with Wordpress
+            #with_wordpress_button: Log In with WordPress
             with_wordpress_button: Login dengan WordPress
     admin:
         wordpress_settings:
-            #title: Wordpress Settings
+            #title: WordPress Settings
             title: Pengaturan WordPress
             field:
                 # app-auth-url: OAuth authorization url
@@ -13,7 +13,7 @@ krombox-auth-wordpress:
                 # app-user-url: Api URL providing user details when authenticated
                 client-id: Client ID
                 client-secret: Client Secret
-                domain: Wordpress domain    
+                domain: WordPress domain    
                 # app-scopes: OAuth scopes to request
                 login-button-title: Login button text
                 login-button-color: Login button text color
