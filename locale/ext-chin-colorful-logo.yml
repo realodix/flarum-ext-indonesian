@@ -1,9 +1,0 @@
-chin-colorful-logo:
-  admin:
-    settings:
-      #title: "ColorfulLogo by Chin (Settings)"
-      title: "ColorfulLogo by Chin (Pengaturan)"
-      #image_label: "SVG Image Link (Default)"
-      image_label: "URL Gambar SVG (Default)"
-      #imageDev_label: "SVG Image Link (Development)"
-      imageDev_label: "URL Gambar SVG (Development)"
