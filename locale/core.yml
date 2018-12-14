@@ -63,8 +63,8 @@ core:
       forum_title_heading: Judul Forum
       #home_page_heading: Home Page
       home_page_heading: Halaman Utama
-      #home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      home_page_text: "Tentukan halaman yang akan ditampilkan pada halaman utama. Jika Anda memasukkan custom value, gunakanlah path yang menuju ke root forum."
+      #home_page_text: "Choose the page which users will first see when they visit your forum."
+      home_page_text: "Tentukan halaman yang akan ditampilkan pada halaman utama."
       #saved_message: Your changes were saved.
       saved_message: Perubahan berhasil disimpan.
       #show_language_selector_label: Show language selector
