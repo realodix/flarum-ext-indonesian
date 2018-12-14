@@ -543,8 +543,6 @@ core:
       avatar_upload_button: Upload
       #avatar_upload_tooltip: Upload a new avatar
       avatar_upload_tooltip: Upload avatar baru
-      #bio_placeholder: Write something about yourself
-      bio_placeholder: Tulislah sesuatu tentang diri Anda
       discussions_link: => core.ref.discussions
       #in_discussion_text: "In {discussion}"
       in_discussion_text: "Di {discussion}"
