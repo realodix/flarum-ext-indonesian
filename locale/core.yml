@@ -294,6 +294,7 @@ core:
       full_screen_tooltip: Layar Penuh
       #minimize_tooltip: Minimize
       minimize_tooltip: Kecilkan
+      preview_tooltip: Preview
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
