@@ -16,7 +16,7 @@
     "docs": "https://discuss.flarum.org/d/1358-indonesian-language-pack"
   },
   "require": {
-    "flarum/core": "^0.1.0-beta.7"
+    "flarum/core": "^0.1.0-beta.8"
   },
   "extra": {
     "branch-alias": {
