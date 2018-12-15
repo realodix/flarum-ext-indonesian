@@ -242,16 +242,6 @@ core:
     settings:
       submit_button: => core.ref.save_changes
 
-    # These translations are used in the Statistics dashboard widget.
-    statistics:
-      discussions_heading: => core.ref.discussions
-      last_28_days_label: Last 28 days
-      last_7_days_label: Last 7 days
-      posts_heading: => core.ref.posts
-      today_label: Today
-      total_label: Total
-      users_heading: Users
-
     # These translations are used in image upload buttons.
     upload_image:
       # remove_button: Remove
@@ -722,7 +712,7 @@ core:
     delete: Hapus
     # delete_forever: Delete Forever
     delete_forever: Hapus Permanen
-    # discussions: Discussions
+    # discussions: Discussions                     # Referenced by flarum-statistics.yml
     discussions: Total Diskusi
     edit: Edit
     email: Email
@@ -738,9 +728,9 @@ core:
     next_page: Halaman Selanjutnya
     # notifications: Notifications
     notifications: Notifikasi
-    okay: OK                                     # Referenced by flarum-tags.yml
+    okay: OK                                       # Referenced by flarum-tags.yml
     password: Password
-    posts: Posts
+    posts: Posts                                   # Referenced by flarum-statistics.yml
     # rename: Rename
     rename: Ganti Judul
     # reply: Reply                                 # Referenced by flarum-mentions.yml
