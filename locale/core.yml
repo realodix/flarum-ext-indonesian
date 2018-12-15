@@ -104,8 +104,8 @@ core:
       delete_confirmation: "Apakah Anda yakin ingin menghapus grup ini? Member yang ada di dalam grup ini tidak ikut terhapus."
       # icon_label: Icon
       icon_label: Ikon
-      # icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>tanpa</em> awalan <code>fa-</code>."
+      # icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fa-</code> prefix."
+      icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
       # name_label: Name
       name_label: Nama
       plural_placeholder: Plural (e.g. Mods)
