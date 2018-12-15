@@ -225,6 +225,7 @@ core:
       view_post_ips_label: Lihat IP Address
       # view_user_list_label: View user list
       view_user_list_label: Lihat daftar user
+      view_last_seen_at_label: View user last seen time
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
