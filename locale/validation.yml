@@ -167,6 +167,8 @@ validation:
   uploaded: ":attribute gagal diupload."
   #url: "The :attribute format is invalid."
   url: "Format :attribute tidak valid."
+  # uuid: "The :attribute must be a valid UUID."
+  uuid: ":attribute harus merupakan UUID yang valid."
 
   attributes:
     username: username
