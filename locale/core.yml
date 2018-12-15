@@ -69,7 +69,7 @@ core:
       # saved_message: Your changes were saved.
       saved_message: Perubahan berhasil disimpan.
       # show_language_selector_label: Show language selector
-      show_language_selector_label: Tampilkan pemilih bahasa
+      show_language_selector_label: Tampilkan pilihan bahasa
       submit_button: => core.ref.save_changes
       # welcome_banner_heading: Welcome Banner
       welcome_banner_heading: Pesan Selamat Datang
@@ -709,9 +709,9 @@ core:
     # all_discussions: All Discussions
     all_discussions: Semua Diskusi
     # change_email: Change Email
-    change_email: Ubah Email
+    change_email: Ganti Email
     # change_password: Change Password
-    change_password: Ubah Password
+    change_password: Ganti Password
     # color: Color                                 # Referenced by flarum-tags.yml
     color: Warna
     # confirm_password: Confirm Password

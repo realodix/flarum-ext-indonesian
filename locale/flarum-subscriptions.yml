@@ -32,9 +32,9 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       #follow_after_reply_label: Automatically follow discussions that I reply to
-      follow_after_reply_label: Otomatis ikuti diskusi yang Saya balas
+      follow_after_reply_label: Follow diskusi yang Saya jawab secara otomatis
       #notify_new_post_label: Someone posts in a discussion I'm following
-      notify_new_post_label: Ada post baru pada diskusi yang Saya ikuti
+      notify_new_post_label: Ada post baru pada diskusi yang Saya follow
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -48,7 +48,7 @@ flarum-subscriptions:
       #not_following_button: Not Following
       not_following_button: Tidak Mengikuti
       #not_following_text: "Be notified only when @mentioned."
-      not_following_text: "Dapatkan notif hanya ketika di-@mention."
+      not_following_text: "Dapatkan notifikasi hanya ketika di-@mention."
       #notify_alert_tooltip: Get a forum notification when there are new posts
       notify_alert_tooltip: Dapatkan notifikasi ketika ada pesan baru
       #notify_email_tooltip: Get an email when there are new posts
