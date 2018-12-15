@@ -247,7 +247,7 @@ core:
       discussions_heading: => core.ref.discussions
       last_28_days_label: Last 28 days
       last_7_days_label: Last 7 days
-      posts_heading: Posts
+      posts_heading: => core.ref.posts
       today_label: Today
       total_label: Total
       users_heading: Users
@@ -547,8 +547,7 @@ core:
       joined_date_text: "Bergabung: {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
-      # posts_link: Posts
-      posts_link: Total Post
+      posts_link: => core.ref.posts
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -741,6 +740,7 @@ core:
     notifications: Notifikasi
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
+    posts: Posts
     # rename: Rename
     rename: Ganti Judul
     # reply: Reply                                 # Referenced by flarum-mentions.yml
