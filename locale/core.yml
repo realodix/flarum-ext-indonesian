@@ -384,8 +384,8 @@ core:
     header:
       # admin_button: Administration
       admin_button: Halaman Admin
-      # back_to_index_tooltip: Back to discussion list
-      back_to_index_tooltip: Kembali ke daftar diskusi
+      # back_to_index_tooltip: Back to Discussion list
+      back_to_index_tooltip: Kembali ke daftar Diskusi
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       # profile_button: Profile
