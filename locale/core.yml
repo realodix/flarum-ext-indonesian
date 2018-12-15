@@ -187,10 +187,10 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      # allow_renaming_label: Allow renaming
-      allow_renaming_label: Ganti Judul
       # allow_post_editing_label: Allow post editing
       allow_post_editing_label: Edit Post
+      # allow_renaming_label: Allow renaming
+      allow_renaming_label: Ganti Judul
       # create_heading: Create
       create_heading: Penulisan
       # delete_discussions_forever_label: Delete discussions forever
@@ -258,8 +258,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       # incorrect_password_message: The password you entered is incorrect.
       incorrect_password_message: Password yang Anda masukan salah.
@@ -484,10 +484,10 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      # title: Rename Discussion
-      title: Ubah nama diskusi
       # submit_button: => core.ref.rename
       submit_button: => core.ref.rename
+      # title: Rename Discussion
+      title: Ubah nama diskusi
 
     # These translations are used by the search results dropdown list.
     search:
@@ -515,8 +515,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       # log_in_text: "Already have an account? <a>Log In</a>"
       log_in_text: "Sudah memiliki akun? <a>Login</a>"
       password_placeholder: => core.ref.password
@@ -538,8 +538,8 @@ core:
       # joined_date_text: "Joined {ago}"
       joined_date_text: "Bergabung: {ago}"
       online_text: Online
-      posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -567,10 +567,6 @@ core:
       # hidden_tooltip: Hidden
       hidden_tooltip: Tersembunyi
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[deleted]"
-
     # These translations are displayed as error messages.
     error:
       # generic_message: "Oops! Something went wrong. Please reload the page and try again."
@@ -594,6 +590,10 @@ core:
       three_text: "{first}, {second}, dan {third}"
       # two_text: "{first} and {second}"
       two_text: "{first} dan {second}"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[deleted]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -742,10 +742,10 @@ core:
     okay: OK                                       # Referenced by flarum-tags.yml
     password: Password
     posts: Posts                                   # Referenced by flarum-statistics.yml
-    # remove: Remove
-    remove: Hapus
     # previous_page: Previous Page
     previous_page: Halaman Sebelumnya
+    # remove: Remove
+    remove: Hapus
     # rename: Rename
     rename: Ganti Judul
     # reply: Reply                                 # Referenced by flarum-mentions.yml
