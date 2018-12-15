@@ -78,8 +78,9 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      # help_link: Get Help
-      help_link: Bantuan
+      # clear_cache_button: Clear Cache
+      clear_cache_button: Hapus Cache
+      tools_button: Tools
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
