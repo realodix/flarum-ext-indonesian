@@ -27,6 +27,9 @@ core:
       # colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
       colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
       # custom_header_heading: Custom Header
+      custom_footer_heading: Custom Footer
+      # custom_footer_text: "Add HTML to be displayed at the very bottom of the page."
+      custom_footer_text: "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman."
       custom_header_heading: Modifikasi Header
       # custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
       custom_header_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
@@ -38,6 +41,7 @@ core:
       dark_mode_label: Mode Gelap
       # edit_css_button: Edit Custom CSS
       edit_css_button: Edit CSS
+      edit_footer_button: Edit Custom Footer
       # edit_header_button: Edit Custom Header
       edit_header_button: Edit
       # enter_hex_message: Please enter a hexadecimal color code.
@@ -87,6 +91,13 @@ core:
       submit_button: => core.ref.save_changes
       # title: Edit Custom CSS
       title: Edit CSS
+
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      # customize_text: "Add HTML to be displayed at the very bottom of the page."
+      customize_text: "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman."
+      submit_button: => core.ref.save_changes
+      title: Edit Custom Footer
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
