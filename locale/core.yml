@@ -199,8 +199,9 @@ core:
       delete_discussions_label: Hapus Diskusi
       # delete_posts_forever_label: Delete posts forever
       delete_posts_forever_label: Hapus Post Selamanya
-      # edit_and_delete_posts_label: Edit and delete posts
-      edit_and_delete_posts_label: Edit dan Hapus Post
+      # delete_posts_label: Delete posts
+      delete_posts_label: Hapus post
+      edit_posts_label: Edit posts
       global_heading: Global
       # moderate_heading: Moderate
       moderate_heading: Moderasi
