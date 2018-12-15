@@ -9,6 +9,8 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
+      # mention_tooltip: Mention a user or post
+      mention_tooltip: Mention user atau post
       #reply_to_post_text: "Reply to #{number}"
       reply_to_post_text: "Balas ke #{number}"
 
