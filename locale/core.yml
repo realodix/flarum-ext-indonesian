@@ -600,8 +600,8 @@ core:
     content:
       # javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
       javascript_disabled_message: Situs ini akan sangat baik dilihat ketika Anda menggunakan browser modern dengan JavaScript yang telah diaktifkan.
-      # load_error_message: Something went wrong while trying to load the full version of this site.
-      load_error_message: Ada yang salah ketika mencoba untuk memuat versi lengkap dari situs ini.
+      # load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
+      load_error_message: Ada yang salah ketika mencoba untuk memuat versi lengkap dari situs ini. Coba refresh halaman ini untuk memperbaiki kesalahan.
       loading_text: Loading...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
