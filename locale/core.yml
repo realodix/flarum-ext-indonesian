@@ -28,11 +28,9 @@ core:
       colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
       # custom_header_heading: Custom Header
       custom_footer_heading: Custom Footer
-      # custom_footer_text: "Add HTML to be displayed at the very bottom of the page."
-      custom_footer_text: "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman."
+      custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Modifikasi Header
-      # custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_header_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
+      custom_header_text: => core.ref.custom_header_text
       # custom_styles_heading: Custom Styles
       custom_styles_heading: Modifikasi Tampilan
       # custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
@@ -41,9 +39,8 @@ core:
       dark_mode_label: Mode Gelap
       # edit_css_button: Edit Custom CSS
       edit_css_button: Edit CSS
-      edit_footer_button: Edit Custom Footer
-      # edit_header_button: Edit Custom Header
-      edit_header_button: Edit
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       # enter_hex_message: Please enter a hexadecimal color code.
       enter_hex_message: Masukkan kode warna hexadecimal.
       favicon_heading: Favicon
@@ -94,15 +91,13 @@ core:
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
-      # customize_text: "Add HTML to be displayed at the very bottom of the page."
-      customize_text: "Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman."
+      customize_text: => core.ref.custom_footer_text
       submit_button: => core.ref.save_changes
-      title: Edit Custom Footer
+      title: => core.ref.custom_footer_title
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      # color_label: Color
-      color_label: Warna
+      color_label: => core.ref.color
       # delete_button: Delete Group
       delete_button: Hapus Grup
       # delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
@@ -121,11 +116,10 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      # customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      customize_text: "Tambahkan kode HTML yang akan ditampilkan di bagian paling atas halaman, di atas header Flarum."
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
       # title: Edit Custom Header
-      title: Modifikasi Header
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -255,8 +249,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      # remove_button: Remove
-      remove_button: Hapus
+      remove_button: => core.ref.remove
       # upload_button: Choose an Image...
       upload_button: Pilih gambar...
 
@@ -501,8 +494,7 @@ core:
       # all_discussions_button: 'Search all discussions for "{query}"'
       all_discussions_button: 'Pencarian untuk "{query}"'
       discussions_heading: => core.ref.discussions
-      # users_heading: Users
-      users_heading: User
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -536,8 +528,7 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      # avatar_remove_button: Remove
-      avatar_remove_button: Hapus
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: Upload
       # avatar_upload_tooltip: Upload a new avatar
       avatar_upload_tooltip: Upload avatar baru
@@ -716,10 +707,18 @@ core:
     change_email: Ubah Email
     # change_password: Change Password
     change_password: Ubah Password
+    # color: Color                                 # Referenced by flarum-tags.yml
+    color: Warna
     # confirm_password: Confirm Password
     confirm_password: Konfirmasi Password
     # confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     confirmation_email_sent: "Kami telah mengirimkan email konfirmasi ke {email}. Jika dalam beberapa menit tidak ada, mohon periksa folder spam Anda.."
+    # custom_footer_text: Add HTML to be displayed at the very bottom of the page.
+    custom_footer_text: Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.
+    custom_footer_title: Edit Custom Footer
+    # custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+    custom_header_text: "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum."
+    custom_header_title: Edit Custom Header
     # delete: Delete
     delete: Hapus
     # delete_forever: Delete Forever
@@ -743,6 +742,8 @@ core:
     okay: OK                                       # Referenced by flarum-tags.yml
     password: Password
     posts: Posts                                   # Referenced by flarum-statistics.yml
+    # remove: Remove
+    remove: Hapus
     # previous_page: Previous Page
     previous_page: Halaman Sebelumnya
     # rename: Rename
@@ -765,6 +766,7 @@ core:
     start_a_discussion: Mulai Diskusi
     # username: Username
     username: Nama User
+    users: Users                                   # Referenced by flarum-statistics.yml
     # write_a_reply: Write a Reply...
     write_a_reply: Tulis balasan...
     # you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
