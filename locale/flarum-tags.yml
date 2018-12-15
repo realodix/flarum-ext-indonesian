@@ -94,6 +94,10 @@ flarum-tags:
       #edit_tags_button: Edit Tags
       edit_tags_button: Edit Tag
 
+    header:
+      # back_to_tags_tooltip: Back to Tag List
+      back_to_tags_tooltip: Kembali ke Daftar Tag
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: More...
