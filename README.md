@@ -23,40 +23,6 @@ Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola depende
 Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa mempengaruhi paket lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
 
 
-### Extensi Yang Didukung
-Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
-
-- [Antoinefr - Money ](https://github.com/AntoineFr/flarum-ext-money) v0.5.0 ([Discuss](https://discuss.flarum.org/d/4699))
-- [Avatar4eg - Geotags](https://github.com/avatar4eg/flarum-ext-geotags) v0.2.0 ([Discuss](https://discuss.flarum.org/d/3545))
-- [CDK2020 - Filter](https://github.com/CDK2020/flarum-ext-filter) v1.2.2 ([Discuss](https://discuss.flarum.org/d/5131))
-- [CDK2020 - Two Factor](https://github.com/CDK2020/flarum-ext-twofactor) v1.0.1 ([Discuss](https://discuss.flarum.org/d/5226))
-- [Datitisev - Dashboard](https://github.com/datitisev/flarum-ext-admindashboard) v0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/2958))
-- [Dav-is - Social Profile](https://github.com/dav-is/flarum-ext-socialprofile) v0.2.3 ([Discuss](https://discuss.flarum.org/d/1929))
-- [Flagrow - Analytics](https://github.com/flagrow/flarum-ext-analytics) v0.6.0 ([Discuss](https://discuss.flarum.org/d/1983))
-- [Flagrow - Flagrow Ads](https://github.com/flagrow/ads) v0.1.0-beta.4 ([Discuss](https://discuss.flarum.org/d/4785))
-- [Flagrow - Flagrow Bazaar](https://github.com/flagrow/bazaar) v0.2.4 ([Discuss](https://discuss.flarum.org/d/5151))
-- [Flagrow - Flagrow Byōbu](https://github.com/flagrow/byobu) v0.1.1 ([Discuss](https://discuss.flarum.org/d/4762))
-- [Flagrow - Flagrow Fonts](https://github.com/flagrow/fonts) v0.1.2  ([Discuss](https://discuss.flarum.org/d/6207))
-- [Flagrow - Flagrow Masquerade](https://github.com/flagrow/masquerade) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5791))
-- [Flagrow - Flagrow Passport](https://github.com/flagrow/passport) v0.1.0-beta.1 ([Discuss](https://discuss.flarum.org/d/5203))
-- [Flagrow - Flagrow Split](https://github.com/flagrow/split) v0.2
-- [Flagrow - Flagrow Upload](https://github.com/flagrow/upload) v0.6.0-beta ([Discuss](https://discuss.flarum.org/d/4154))
-- [Flagrow - Flagrow Users List](https://github.com/flagrow/users-list) v0.1.3 ([Discuss](https://discuss.flarum.org/d/6009))
-- [Manelizzard - Notify](https://github.com/manelizzard/flarum-notify) v0.2.1 ([Discuss](https://discuss.flarum.org/d/4345))
-- [ReFlar - ReFlar Gamification](https://gitlab.com/ReDevelopers/ReFlar/gamification) v2.0.2 ([Discuss](https://discuss.flarum.org/d/5588))
-- [ReFlar - ReFlar Reactions](https://gitlab.com/ReDevelopers/ReFlar/reactions) v0.1.0-beta.5 ([Discuss](https://discuss.flarum.org/d/6542))
-- [ReFlar - ReFlar User Managemen](https://gitlab.com/ReDevelopers/ReFlar/user-management) v0.1.4 ([Discuss](https://discuss.flarum.org/d/5444))
-- [Sijad - Links](https://github.com/sijad/flarum-ext-links) v0.1.0-beta.6 ([Discuss](https://discuss.flarum.org/d/2230))
-- [Sijad - Pages](https://github.com/sijad/flarum-ext-pages) v0.1.0-beta.3 ([Discuss](https://discuss.flarum.org/d/2605))
-- [WiseClock - Login2See](https://github.com/WiseClock/flarum-ext-login2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5168))
-- [WiseClock - Post Copyright](https://github.com/WiseClock/flarum-ext-post-copyright) v0.1.7 ([Discuss](https://discuss.flarum.org/d/5119))
-- [WiseClock - Reply2See](https://github.com/WiseClock/flarum-ext-reply2see) v0.1.1 ([Discuss](https://discuss.flarum.org/d/5190))
-- [Wiwatsrt - Best Answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.1.0-beta.11 ([Discuss](https://discuss.flarum.org/d/3868))
-- [2016] [AmauryCarrade - Syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) v0.1.5 ([Discuss](https://discuss.flarum.org/d/4395))
-- [2016] [XEngine - Signature](https://github.com/XEngine/flarum-ext-signature) v0.1.2 ([Discuss](https://discuss.flarum.org/d/4222))
-
-
-
 ### Catatan
 - Sejauh ini sudah hampir 100% diterjemahkan.
 - Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Sebagai contoh kata _password_ tetap Saya tulis _password_ (harusnya kata sandi), dan kata _upload_ tetap Saya tulis _upload_ (harusnya unggah).
