@@ -1,0 +1,33 @@
+amaurycarrade-syndication:
+  forum:
+    autodiscovery:
+      #forum_activity: "Forum activity"
+      forum_activity: "Aktivitas Forum"
+      #forum_new_discussions: "Forum's new discussions"
+      forum_new_discussions: "Diskusi baru forum"
+      #tag_activity: "Activity for the {tag} tag"
+      tag_activity: "Aktivitas untuk tag {tag}"
+      #tag_new_discussions: "Discussions in the {tag} tag"
+      tag_new_discussions: "Diskusi pada tag {tag}"
+      #discussion_last_posts: "This discussion"
+      discussion_last_posts: "Diskusi"
+    feeds:
+      titles:
+        main_title: "{forum_name}"
+        #main_subtitle: "Last posts in the forum"
+        main_subtitle: "Post terakhir di forum"
+        #main_d_title: "New discussions in {forum_name}"
+        main_d_title: "Diskusi baru pada {forum_name}"
+        #main_d_subtitle: "The newest discussions in the forum"
+        main_d_subtitle: "Diskusi terbaru di forum"
+        #tag_title: "Activity in the {tag} tag"
+        tag_title: "Aktivitas pada tag {tag}"
+        #tag_subtitle: "Last posts in the {tag} tag"
+        tag_subtitle: "Post terakhir pada tag {tag}"
+        #tag_d_title: "New discussions in the {tag} tag"
+        tag_d_title: "Diskusi baru pada tag {tag}"
+        #tag_d_subtitle: "The newest discussions in the {tag} tag"
+        tag_d_subtitle: "Diskusi terbaru pada tag {tag}"
+        discussion_title: "{discussion_name}"
+        #discussion_subtitle: "Derniers messages dans cette discussion"
+        discussion_subtitle: "Post terbaru dalam diskusi ini"

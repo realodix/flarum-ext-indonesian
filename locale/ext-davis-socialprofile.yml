@@ -1,0 +1,19 @@
+davis-socialprofile:
+  forum:
+    edit:
+      edit: "Edit"
+      #add: "Add"
+      add: "Tambah"
+      #headtitle: "Edit Buttons"
+      headtitle: "Edit Tombol"
+      #title: "Title"
+      title: "Judul"
+      url: "Url"
+      #submit: "Save"
+      submit: "Simpan"
+      #delete: "Delete"
+      delete: "Hapus"
+      #deletetitle: "Delete Button"
+      deletetitle: "Hapus Tombol"
+  admin:
+    test: "Test"
