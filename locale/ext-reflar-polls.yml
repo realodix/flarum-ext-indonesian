@@ -6,26 +6,39 @@ reflar-polls:
       vote: Vote on polls
       self_edit: Allow users to edit their own polls
   forum:
-    no_permission: You don't have permission to vote
+    # no_permission: You don't have permission to vote
+    no_permission: Anda tidak memiliki izin untuk memilih
     poll_ended: This poll has ended
     days_remaining: "Poll ends {time}"
-    public_poll: View voters
+    # public_poll: View voters
+    public_poll: Lihat pemilih
     votes_modal:
-      title: Voters
+      # title: Voters
+      title: Pemilih
     modal:
       submit: Submit
-      no_voters: No Votes
-      switch: Allow people to see who voted
-      min: You must include a minimum of 2 answers
-      max: You can have a maximum of 10 answers
-      include_question: You must include a question
-      date_placeholder: Poll end date (Optional)
-      answer_placeholder: Answer
-      add: Add an Option
-      question_placeholder: Question
+      # no_voters: No Votes
+      no_voters: Tidak ada suara
+      # switch: Allow people to see who voted
+      switch: Izinkan orang melihat siapa yang memberikan suara
+      # min: You must include a minimum of 2 answers
+      min: Anda harus memasukkan minimal 2 jawaban
+      # max: You can have a maximum of 10 answers
+      max: Anda dapat memiliki maksimal 10 jawaban
+      # include_question: You must include a question
+      include_question: Anda harus memasukkan pertanyaan
+      # date_placeholder: Poll end date (Optional)
+      date_placeholder: Tanggal berakhir (Opsional)
+      # answer_placeholder: Answer
+      answer_placeholder: Jawaban
+      # add: Add an Option
+      add: Tambahkan Opsi
+      # question_placeholder: Question
+      question_placeholder: Pertanyaan
       add_title: Add a Poll
       edit_title: Edit Poll
-      answers: Answers
+      # answers: Answers
+      answers: Jawaban
     moderation:
       edit: Edit Poll
       delete: Remove Poll
