@@ -11,11 +11,16 @@ fof-pages:
     edit_page:
       content_label: => fof-pages.ref.content
       content_placeholder: => fof-pages.ref.content
-      delete_page_button: Delete Page
-      delete_page_confirmation: "Are you sure you want to delete this page?"
-      hidden_label: Save as Draft
-      html_label: Enable Html
-      set_as_home_page_confirmation: "Are you sure you want to want to set this page as your home page?"
+      # delete_page_button: Delete Page
+      delete_page_button: Hapus Halaman
+      # delete_page_confirmation: "Are you sure you want to delete this page?"
+      delete_page_confirmation: "Anda yakin ingin menghapus halaman ini?"
+      # hidden_label: Save as Draft
+      hidden_label: Simpan sebagai Draft
+      # html_label: Enable Html
+      html_label: Aktifkan HTML
+      # set_as_home_page_confirmation: "Are you sure you want to want to set this page as your home page?"
+      set_as_home_page_confirmation: "Anda yakin ingin mengatur halaman ini sebagai home page?"
       slug_label: => fof-pages.ref.slug
       slug_placeholder: => fof-pages.ref.slug
       submit_button: => core.ref.save_changes
@@ -28,23 +33,30 @@ fof-pages:
     # These strings are used in the pages page.
     nav:
       pages_button: => fof-pages.ref.pages
-      pages_text: Create custom static Pages.
+      # pages_text: Create custom static Pages.
+      pages_text: Buat halaman statis yang disesuaikan.
 
     # Strings in this namespace are referenced by two or more unique keys.
     pages:
-      about_text: Create and manage static Pages.
+      # about_text: Create and manage static Pages.
+      about_text: Buat dan kelola halaman statis.
       create_button: => fof-pages.ref.create_page
 
     # These strings are used in the pages list.
     pages_list:
-      empty_text: It looks like there are no pages here.
+      # empty_text: It looks like there are no pages here.
+      empty_text: Sepertinya tidak ada halaman di sini.
       title: => fof-pages.ref.title
 
   # These strings are used in the navigation bar.
   ref:
-    content: Content
-    create_page: Create Page
-    pages: Pages
+    # content: Content
+    content: Konten
+    # create_page: Create Page
+    create_page: Buat Halaman
+    # pages: Pages
+    pages: Halaman
     slug: Slug
-    title: Title
+    # title: Title
+    title: Judul
     url: Url
