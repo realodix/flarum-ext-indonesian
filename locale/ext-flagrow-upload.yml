@@ -2,7 +2,7 @@ flagrow-upload:
     forum:
         buttons:
             # attach: Attach
-            attach: Lampirkan
+            attach: Lampiran
         states:
             loading: Loading
             # success: Success
@@ -12,8 +12,10 @@ flagrow-upload:
         templates:
             image: Default image download template
             image_description: >
-                Shows a thumbnail of the image and proxies download through php.
-                Allowing statistics to be gathered and hotlink protection.
+#                Shows a thumbnail of the image and proxies download through php.
+#                Allowing statistics to be gathered and hotlink protection.
+                Menampilkan thumbnail dari gambar dan proxies download melalui php.
+                Mengizinkan statistik dikumpulkan dan hotlink protection.
             file: Default file download template
             file_description: >
                 Shows the file name and some general information. Proxies downloads
@@ -49,43 +51,54 @@ flagrow-upload:
                 # max_height: Maximum image height
                 max_height: Tinggi maksimal gambar
             watermark:
-                title: Watermark images
-                toggle: Watermark images
+                # title: Watermark images
+                title: Pemberian Watermark Pada Gambar
+                # toggle: Watermark images
+                toggle: Berikan watermark
                 # position: Watermark position
                 position: Posisi Watermark
                 # file: Upload your watermark image
                 file: Upload gambar watermark Anda
             local:
-                title: Local storage settings
+                # title: Local storage settings
+                title: Pengaturan Local storage
                 cdn_url: Content Delivery URL (prefixes files)
             imgur:
-                title: Imgur image storage settings
+                # title: Imgur image storage settings
+                title: Pengaturan Imgur image storage
                 client_id: Imgur client ID
             aws-s3:
-                title: AWS S3 storage settings
+                # title: AWS S3 storage settings
+                title: Pengaturan AWS S3 storage
                 key: Key
                 secret: Secret
                 bucket: Bucket
                 region: Region
             ovh-svfs:
-                title: OVH SVFS storage settings
+                # title: OVH SVFS storage settings
+                title: Pengaturan OVH SVFS storage
                 container: Container
                 tenantid: Tenant ID
                 username: Username
                 password: Password
                 region: Region
             disable-hotlink-protection:
-                title: Disable hotlink protection
-                toggle: Disable
+                # title: Disable hotlink protection
+                title: Nonaktifkan hotlink protection
+                # toggle: Disable
+                toggle: Nonaktifkan
             disable-download-logging:
-                title: Disable logging downloads
-                toggle: Disable
+                # title: Disable logging downloads
+                title: Nonaktifkan log download
+                # toggle: Disable
+                toggle: Nonaktifkan
 
         buttons:
             # save: Save settings
             save: Simpan pengaturan
         help_texts:
             description: >
+#                Set up uploading services and preferences.
                 Mengatur layanan dan preferensi meng-upload.
             mime_types: >
                 Please configure your mapping here. Each mime type
