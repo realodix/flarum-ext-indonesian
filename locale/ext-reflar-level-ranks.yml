@@ -1,8 +1,10 @@
 reflar-level-ranks:
   admin:
     settings:
-      title: Level Ranks Settings
-      levelText: Enter the text to be displayed for the points (e.g. Rank, Level)
+      # title: Level Ranks Settings
+      title: Pengaturan Level Ranks
+      # levelText: Enter the text to be displayed for the points (e.g. Rank, Level)
+      levelText: Masukkan teks yang akan ditampilkan untuk poin (e.g. Rank, Level)
   forum:
     desc:
       expText: EXP
