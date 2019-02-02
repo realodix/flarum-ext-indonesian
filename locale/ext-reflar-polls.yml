@@ -1,15 +1,20 @@
 reflar-polls:
   admin:
     permissions:
-      moderate: Edit & remove polls
-      start: Start a poll
-      vote: Vote on polls
-      self_edit: Allow users to edit their own polls
+      # moderate: Edit & remove polls
+      moderate: Edit & hapus polling
+      # start: Start a poll
+      start: Mulai polling
+      # vote: Vote on polls
+      vote: Voting pada polling
+      # self_edit: Allow users to edit their own polls
+      self_edit: Izinkan pengguna mengedit polling yang mereka buat
   forum:
     # no_permission: You don't have permission to vote
     no_permission: Anda tidak memiliki izin untuk memilih
-    poll_ended: This poll has ended
-    days_remaining: "Poll ends {time}"
+    # poll_ended: This poll has ended
+    poll_ended: Polling telah berakhir
+    days_remaining: "Polling berakhir pada {time}"
     # public_poll: View voters
     public_poll: Lihat pemilih
     votes_modal:
@@ -35,18 +40,25 @@ reflar-polls:
       add: Tambahkan Opsi
       # question_placeholder: Question
       question_placeholder: Pertanyaan
-      add_title: Add a Poll
-      edit_title: Edit Poll
+      # add_title: Add a Poll
+      add_title: Tambah Polling
+      # edit_title: Edit Poll
+      edit_title: Edit Polling
       # answers: Answers
       answers: Jawaban
     moderation:
-      edit: Edit Poll
-      delete: Remove Poll
-      delete_confirm: Are you sure you want to delete this poll?
+      # edit: Edit Poll
+      edit: Edit Polling
+      # delete: Remove Poll
+      delete: Hapus Polling
+      # delete_confirm: Are you sure you want to delete this poll?
+      delete_confirm: Anda yakin ingin menghapusnya?
     composer_discussion:
-      add_poll: Add Poll
+      # add_poll: Add Poll
+      add_poll: Tambah Polling
       edit: => reflar-polls.forum.moderation.edit
     tooltip:
       votes: votes
       vote: vote
-      badge: Poll
+      # badge: Poll
+      badge: Polling
