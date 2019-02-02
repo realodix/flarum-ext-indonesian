@@ -18,12 +18,15 @@ flagrow-upload:
                 Mengizinkan statistik dikumpulkan dan hotlink protection.
             file: Default file download template
             file_description: >
-                Shows the file name and some general information. Proxies downloads
-                through php, allowing for statistics gathering and hotlink protection.
+#                Shows the file name and some general information. Proxies downloads
+#                through php, allowing for statistics gathering and hotlink protection.
+                Menampilkan nama file dan beberapa informasi umum. Proxies download
+                melalui PHP, memungkinkan untuk pengumpulan statistik dan hotlink protection.
             image-preview: Complete image preview template
             image-preview_description: >
-                Shows the complete image in-line. No download functionality, no statistics
-                are gathered and hotlink protection is ignored.
+#                Shows the complete image in-line. No download functionality, no statistics
+#                are gathered and hotlink protection is ignored.
+                Menunjukkan gambar lengkap di-line.  Tidak ada fungsionalitas download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.
         permissions:
             # upload_label: Upload files
             upload_label: Upload file
@@ -41,7 +44,7 @@ flagrow-upload:
                 # max_file_size: Maximum file size (in kilobytes)
                 max_file_size: Ukuran file maksimum (dalam kilobytes)
                 # mime_types: Configure your mime type, upload adapter mapping
-                mime_types: Konfigurasikan tipe mime Anda, upload pemetaan adaptor
+                mime_types: Konfigurasikan tipe mime Anda, upload adapter mapping
             resize:
                 title: Image resize
                 # toggle: Resize images
@@ -52,7 +55,7 @@ flagrow-upload:
                 max_height: Tinggi maksimal gambar
             watermark:
                 # title: Watermark images
-                title: Pemberian Watermark Pada Gambar
+                title: Pemberian watermark pada gambar
                 # toggle: Watermark images
                 toggle: Berikan watermark
                 # position: Watermark position
@@ -101,21 +104,33 @@ flagrow-upload:
 #                Set up uploading services and preferences.
                 Mengatur layanan dan preferensi meng-upload.
             mime_types: >
-                Please configure your mapping here. Each mime type
-                regular expression will be handled by a specific
-                upload adapter and download template.
+#              Please configure your mapping here. Each mime type
+#              regular expression will be handled by a specific
+#              upload adapter and download template.
+                Harap konfigurasikan pemetaan Anda di sini. Setiap ekspresi
+                reguler tipe mime akan ditangani oleh upload adapter dan
+                download template.
             download_templates: >
-                Download templates are how uploads are shown on your forum,
-                eg like previews, buttons. Currently available:
+#              Download templates are how uploads are shown on your forum,
+#              eg like previews, buttons. Currently available:
+                Download templates adalah bagaimana tampilan upload ditampilkan,
+                dalam forum seperti pratinjau, tombol. Saat ini tersedia:
             resize: >
-                Choose whether you want to resize your images before
-                they get uploaded. You can choose a maximum width
-                and height, in pixels. The resizing process keeps the
-                aspect ratio of the images.
+#                Choose whether you want to resize your images before
+#                they get uploaded. You can choose a maximum width
+#                and height, in pixels. The resizing process keeps the
+#                aspect ratio of the images.
+                Pilih apakah Anda ingin mengubah ukuran gambar sebelum
+                di-upload. Anda dapat memilih lebar dan tinggi maksimum,
+                dalam pixel. Proses pengubahan ukuran menjaga rasio aspek
+                gambar.
             watermark: >
-                Choose whether images will have a watermark added during
-                upload. Watermarks are added to non-gifs based on your
-                preferences below.
+#                Choose whether images will have a watermark added during
+#                upload. Watermarks are added to non-gifs based on your
+#                preferences below.
+                Pilih gambar apapun yang akan dijadikan watermark saat gambar
+                di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi
+                Anda di bawah ini.
             disable-hotlink-protection: >
                 Hotlink protection prevents opening downloads from other sites.
                 Current method requires a csrf token and post id.
