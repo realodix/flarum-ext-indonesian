@@ -1,0 +1,23 @@
+core:
+  forum:
+    index_sort:
+      # popular_button: Popular
+      popular_button: Populer
+      # unpopular_button: Unpopular
+      unpopular_button: Tidak populer
+
+flarum_discussion_views:
+  forum:
+    modal_resetviews:
+      # title: Reset discussion view count
+      title: Setel ulang jumlah tampilan diskusi
+      submit: Submit
+      # label: Set to view count
+      label: Setel untuk melihat jumlah
+    discussion_controls:
+      # resetviews_button: Set view count
+      resetviews_button: Tetapkan jumlah tampilan
+  admin:
+      permissions:
+          # reset_views_label: Set discussion views
+          reset_views_label: Tetapkan tampilan diskusi
