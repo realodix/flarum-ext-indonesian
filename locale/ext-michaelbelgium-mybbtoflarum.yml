@@ -1,0 +1,44 @@
+mybbtoflarum:
+  admin:
+    nav:
+      title: MyBB to Flarum
+      # description: Convert a MyBB forum into this Flarum instance
+      description: Konversikan forum MyBB menjadi Flarum instance
+    page:
+      # text: Convert a Mybb forum into this Flarum instance. Fill in the required data, aftwards click on "migrate".
+      text: Konversikan forum MyBB menjadi Flarum instance. Isi data yang diperlukan, lalu klik "migrasi".
+      # btnConvert: Migrate
+      btnConvert: Migrasi
+      form:
+        general:
+          # title: General settings
+          title: Pengaturan umum
+          # migrateAvatars: Migrate avatars
+          migrateAvatars: Migrasikan avatar
+          # migrateSoftThreads: Migrate soft deleted threads
+          migrateSoftThreads: Migrasikan soft deleted threads
+          # migrateSoftPosts: Migrate soft deleted posts
+          migrateSoftPosts: Migrasikan soft deleted posts
+        mybb:
+          # title: MyBB settings
+          title: Pengaturan MyBB
+          host: Database host
+          # user: Database user
+          user: Nama user database
+          # password: Database password
+          password: Password database
+          # db: Database name
+          db: Nama database
+          prefix: Table prefix
+          mybbPath: Absolute MyBB path
+        options:
+          # title: General migrate options
+          title: Opsi migrasi umum
+          # migrateUsers: Migrate users
+          migrateUsers: Migrasikan user
+          # migrateThreadsPosts: Migrate threads and posts
+          migrateThreadsPosts: Migrasikan thread dan post
+          # migrateUserGroups: Migrate user groups
+          migrateUserGroups: Migrasikan user group
+          # migrateCategories: Migrate categories
+          migrateCategories: Migrasikan kategori
