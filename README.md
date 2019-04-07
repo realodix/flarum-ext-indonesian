@@ -16,6 +16,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [flagrow/split](https://github.com/flagrow/split) v0.3.2
 - [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
 - [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
+- [FriendsOfFlarum/secure-https](https://github.com/FriendsOfFlarum/secure-https) v0.1.0
 - [FriendsOfFlarum/user-bio](https://github.com/FriendsOfFlarum/user-bio) v0.1.2
 - [MichaelBelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views) v0.1.0-beta.8
 - [ReFlar/level-ranks](https://github.com/ReFlar/level-ranks) v1.2.1

@@ -1,0 +1,12 @@
+fof-secure-https:
+  admin:
+    settings:
+      # title: Configuration
+      title: Konfigurasi
+      # replace: Proxy images through HTTPS
+      replace: Proxy gambar melalui HTTPS
+  forum:
+    # removed: Image removed due to the lack of support for HTTPS.
+    removed: Gambar dihapus karena kurangnya dukungan untuk HTTPS.
+    # show: Show Anyway
+    show: Tampilkan Pokoknya
