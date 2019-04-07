@@ -3,7 +3,7 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).
 
 ## Informasi
-[![Latest Stable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/stable)](https://github.com/realodix/flarum-ext-indonesian/releases/tag/1.4.1)
+[![Latest Stable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/stable)](https://github.com/realodix/flarum-ext-indonesian)
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
