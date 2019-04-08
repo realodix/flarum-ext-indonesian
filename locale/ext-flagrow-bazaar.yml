@@ -1,0 +1,153 @@
+flagrow-bazaar:
+    admin:
+        loader:
+            is_loading: Processing..
+            error: An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            # refresh: Refresh page
+            refresh: Refresh halaman
+            # close: Close
+            close: Tutup
+            # report_issue: Report an issue
+            report_issue: Laporkan masalah
+        nav:
+            title: Bazaar
+            description: The extension marketplace.
+        header:
+            extensions: Browse extensions
+            tasks: Tasks history
+        modal:
+            dashboard:
+                title: Dashboard
+                visit-remote-dashboard: Visit dashboard
+                sync:
+                    switch: Sync
+                    description: >
+                        Sinkronkan informasi ekstensi Anda dengan {host} untuk menerima pemberitahuan tepat waktu tentang
+                        versi baru ekstensi yang Anda pasang. Selain itu, kami akan mengirimi Anda pemberitahuan berkala
+                        tentang ekstensi usang pada semua instalasi Flarum yang diaktifkan Bazaar yang disinkronkan.
+            settings:
+                title: Flagrow Bazaar
+                field:
+                    token:
+                        label: API token
+                        # description: This api token is required to access the Flagrow extension api. If already set, you're good to go!
+                        description: Token api ini diperlukan untuk mengakses api ekstensi Flagrow. Jika sudah diatur, Anda siap menggunakannya!
+                    use_cron_for_tasks:
+                        label: Cronjobs
+                        description: >
+                           Dengan mengizinkan cronjobs untuk memproses tugas-tugas Bazaar,
+                           proses-proses ini cenderung tidak akan habis. Harap dicatat bahwa
+                           Anda harus dapat mengkonfigurasi cronjob, lihat <a>the wiki</a>.
+                        toggle: Use crons for task processing
+            connect-bazaar:
+                title: Connect
+                description: >
+                    Hubungkan forum Flarum Anda ke akun pribadi Anda di {host} untuk membuka advanced features; termasuk
+                    dashboard yang memberi Anda gambaran umum kesehatan dari semua instalasi Flarum Anda yang terhubung.
+                    Kami akan menambahkan lebih banyak fungsi seperti notifikasi ketika forum Anda berisi ekstensi yang
+                    sudah usang atau kemampuan untuk memperbarui semua instalasi Flarum secara terpusat.
+            requirements:
+                file-permissions:
+                    title: File permissions
+                    description: >
+                        Tampaknya Bazaar tidak memiliki izin yang cukup untuk menulis file
+                        dan/atau folder, silahkan tinjau daftar di bawah ini. Untuk informasi
+                        lebih lanjut, lihat <a>wiki</a>.
+                php-memory_limit:
+                    title: Memory limit
+                    description: >
+                        Kami menyarankan agar PHP menggunakan setidaknya {required} memori, pengaturan php.ini Anda saat ini
+                        hanya memberikan {limit}. Meskipun kami mencoba meningkatkan batas memori selama runtime, kesuksesan
+                        tergantung pada lingkungan hosting Anda.
+                        Untuk informasi lebih lanjut, lihat <a>wiki</a>.
+        page:
+            state:
+                no_results_available: >
+                    Tampaknya tidak ada hasil yang tersedia saat ini.
+                not_authorized: >
+                    Otorisasi Anda terhadap flagrow.io api kami gagal. Mungkin penyebabnya adalah koneksi internet yang sedang tidak stabil.
+                    Coba refresh kembali halaman ini setelah Anda merasa koneksi Anda sudah cukup stabil. Jika masalah ini tetap terjadi, silakan hubungi kami.
+            button:
+                more: "More, load page {current} of {total}"
+                install: Install
+                uninstall: Uninstall
+                enable: Enable
+                disable: Disable
+                update: Update
+                connect: Connect
+                # favorite_button: "Favorite extension"
+                favorite_button: "Ekstensi favorit"
+                # remove_favorite_button: "Remove extension from your favorites"
+                remove_favorite_button: "Hapus ekstensi dari favorit Anda"
+                # subscribe: Buy subscription
+                subscribe: Beli subscription
+                # unsubscribe: Cancel subscription
+                unsubscribe: Batalkan subscription
+                # connect_to_subscribe: Connect your Bazaar to subcribe to extensions
+                connect_to_subscribe: Hubungkan Bazaar Anda untuk subcribe ekstensi
+            extension:
+                installed: Extension is installed
+                enabled: Extension is enabled
+                vendor: By {vendor}
+                downloads: Downloads
+                installed_version: Installed version
+                highest_version: Latest version
+                favorites: Favorited
+                favorited: One of your favorites
+                pending: Extension waits on a background task to complete
+                # outdated: "Extension is outdated, please update to version {new}"
+                outdated: "Ekstensi kedaluwarsa, harap perbarui ke versi {new}"
+                premium: Premium
+                subscribed: Subscribed
+                # subscribe_check_failed: It looks like you cancelled the checkout process.
+                subscribe_check_failed: Sepertinya Anda membatalkan proses checkout.
+                # incompatible: Incompatible with your current Flarum version
+                incompatible: Tidak kompatibel dengan versi Flarum Anda saat ini
+                # next_incompatible: Incompatible with the upcoming Flarum version
+                next_incompatible: Tidak kompatibel dengan versi Flarum yang akan datang
+                # latest_incompatible: Incompatible with the latest Flarum version
+                latest_incompatible: Tidak kompatibel dengan versi Flarum terbaru
+            task:
+                header:
+                    status: Status
+                    command: Command
+                    output: Output
+                    time: Time
+                    details: Details
+                attribute:
+                    # created_at: Created at
+                    created_at: Dibuat pada
+                    # started_at: Started at
+                    started_at: Dimulai pada
+                    # finished_at: Finished at
+                    finished_at: Diselesaikan pada
+                status:
+                    success: Success
+                    exception: An exception occured
+                    working: Work in progress
+                    unknown: Unknown
+                command:
+                    sync-lock: Sync composer.lock file
+                    sync-version: Sync {extension} version
+                    install: Install {extension}
+                    update: Update {extension}
+                    uninstall: Uninstall {extension}
+                group:
+                    # today: Today
+                    today: Hari ini
+                    # lastmonth: Last month
+                    lastmonth: Bulan kemarin
+                    #older: Older
+                    older: Lebih lama
+        search:
+            # placeholder: Search extensions
+            placeholder: Cari ekstensi
+            filter_installed: Installed
+            # filter_update: Has update
+            filter_update: Telah diperbarui
+            filter_favorited: Favorited
+            filter_subscribed: Subscribed
+            filter_premium: Premium
+            filter_pending: Pending
+            # filter_languages: Languages
+            filter_languages: Bahasa
