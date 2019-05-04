@@ -1,0 +1,26 @@
+fof-merge-discussions:
+  forum:
+    modal:
+      # title: Merge Discussions
+      title: Gabungkan Diskusi
+      # help_text: Choose discussion(s) to merge into <b>{title}</b>.
+      help_text: Pilih diskusi untuk digabung menjadi <b>{title}</b>.
+      # load_preview_button: Preview
+      load_preview_button: Pratinjau
+      submit_button: => fof-merge-discussions.ref.merge
+
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+
+    post:
+      # merged: Merged <b>{count}</b> post from {titles}.|Merged <b>{count}</b> posts from {titles}.
+      merged: Menggabungkan <b>{count}</b> post dari {titles}.|Menggabungkan <b>{count}</b> post dari {titles}.
+
+  admin:
+    permissions:
+      # merge_discussions_label: Merge discussions
+      merge_discussions_label: Gabungkan Diskusi
+
+  ref:
+    # merge: Merge
+    merge: Gabungkan
