@@ -4,7 +4,7 @@ fof-merge-discussions:
       # title: Merge Discussions
       title: Gabungkan Diskusi
       # help_text: Choose discussion(s) to merge into <b>{title}</b>.
-      help_text: Pilih diskusi untuk digabung menjadi <b>{title}</b>.
+      help_text: Pilih diskusi untuk digabungkan menjadi <b>{title}</b>.
       # load_preview_button: Preview
       load_preview_button: Pratinjau
       submit_button: => fof-merge-discussions.ref.merge
