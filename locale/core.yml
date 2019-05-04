@@ -126,23 +126,33 @@ core:
     email:
       # addresses_heading: Addresses
       addresses_heading: Alamat
-      # driver_heading: Choose a driver
-      driver_heading: Pilih driver
-      # smtp_heading: SMTP Settings
-      smtp_heading: Pengaturan SMTP
+      # driver_heading: Choose a Driver
+      driver_heading: Pilih Driver
       driver_label: Driver
-      # encryption_label: Encryption
-      encryption_label: Enkripsi
       # from_label: Sender
       from_label: Pengirim
       heading: => core.ref.email
-      host_label: Host
-      password_label: => core.ref.password
-      port_label: Port
+      # mailgun_heading: Mailgun Settings
+      mailgun_heading: Pengaturan Mailgun
+      # mail_encryption_label: Encryption
+      mail_encryption_label: Enkripsi
+      mail_host_label: Host
+      mail_mailgun_secret_label: Secret key
+      mail_mailgun_domain_label: Domain
+      mail_mandrill_secret_label: Secret key
+      mail_password_label: => core.ref.password
+      mail_port_label: Port
+      mail_ses_key_label: Key
+      mail_ses_region_label: Region
+      mail_ses_secret_label: Secret
+      mail_username_label: => core.ref.username
+      # mandrill_heading: Mandrill Settings
+      mandrill_heading: Pengaturan Mandrill
+      ses_heading: SES Settings
+      smtp_heading: SMTP Settings
       submit_button: => core.ref.save_changes
-      # text: Configure the SMTP settings and addresses your forum will use to send email.
-      text: Mengkonfigurasi pengaturan SMTP dan alamat forum Anda yang akan digunakan untuk mengirim email.
-      username_label: => core.ref.username
+      # text: Configure the driver, settings and addresses your forum will use to send email.
+      text: Mengkonfigurasi driver, pengaturan, dan alamat yang akan digunakan forum Anda untuk mengirim email.
 
     # These translations are used in the Extensions page.
     extensions:
