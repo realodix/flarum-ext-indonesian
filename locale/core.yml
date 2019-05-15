@@ -132,13 +132,11 @@ core:
       # from_label: Sender
       from_label: Pengirim
       heading: => core.ref.email
-      # mailgun_heading: Mailgun Settings
-      mailgun_heading: Pengaturan Mailgun
       # mail_encryption_label: Encryption
       mail_encryption_label: Enkripsi
       mail_host_label: Host
-      mail_mailgun_secret_label: Secret key
       mail_mailgun_domain_label: Domain
+      mail_mailgun_secret_label: Secret key
       mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
@@ -146,6 +144,8 @@ core:
       mail_ses_region_label: Region
       mail_ses_secret_label: Secret
       mail_username_label: => core.ref.username
+      # mailgun_heading: Mailgun Settings
+      mailgun_heading: Pengaturan Mailgun
       # mandrill_heading: Mandrill Settings
       mandrill_heading: Pengaturan Mandrill
       ses_heading: SES Settings
