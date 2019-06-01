@@ -14,14 +14,14 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.3.10
-- [flagrow/byobu](https://github.com/flagrow/byobu) v0.3.0-beta
-- [flagrow/split](https://github.com/flagrow/split) v0.3.2
-- [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
 - [FriendsOfFlarum/ads](https://github.com/FriendsOfFlarum/ads) v0.2.0-beta.1
+- [FriendsOfFlarum/byobu](https://github.com/FriendsOfFlarum/byobu) v0.3.0-beta
 - [FriendsOfFlarum/formatting](https://github.com/FriendsOfFlarum/formatting) v0.1.2
 - [FriendsOfFlarum/merge-discussions](https://github.com/FriendsOfFlarum/merge-discussions) v0.2.0
 - [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
 - [FriendsOfFlarum/secure-https](https://github.com/FriendsOfFlarum/secure-https) v0.1.0
+- [FriendsOfFlarum/split](https://github.com/FriendsOfFlarum/split) v0.3.2
+- [FriendsOfFlarum/upload](https://github.com/FriendsOfFlarum/upload) v0.7.1
 - [FriendsOfFlarum/user-bio](https://github.com/FriendsOfFlarum/user-bio) v0.1.2
 - [MichaelBelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views) v0.1.0-beta.8
 - [MichaelBelgium/mybb_to_flarum](https://github.com/MichaelBelgium/mybb_to_flarum) v3.0-beta.3
