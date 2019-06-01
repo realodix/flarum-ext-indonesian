@@ -1,0 +1,12 @@
+fof-custom-footer:
+  admin:
+    settings:
+      # title: Custom Footer Configuration
+      title: Konfigurasi Custom Footer
+
+      # text: Text for Footer
+      text: Teks untuk Footer
+      # height: Height of Footer
+      height: Tinggi Footer
+      css: CSS
+      js: JS
