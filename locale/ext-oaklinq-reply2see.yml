@@ -1,0 +1,6 @@
+wiseclock-reply2see:
+  forum:
+    # hidden_content: HIDDEN CONTENT
+    hidden_content: KONTEN DISEMBUNYIKAN
+    # reply_to_see: "You need to {reply} and refresh to see the content"
+    reply_to_see: "Kamu harus {reply} dan refresh untuk melihat konten"
