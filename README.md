@@ -13,8 +13,8 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
+- [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.3.10
 - [flagrow/ads](https://github.com/flagrow/ads) v0.2.0-beta.1
-- [flagrow/bazaar](https://github.com/flagrow/bazaar) v0.3.10
 - [flagrow/byobu](https://github.com/flagrow/byobu) v0.3.0-beta
 - [flagrow/split](https://github.com/flagrow/split) v0.3.2
 - [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
