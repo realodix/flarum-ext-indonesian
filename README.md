@@ -14,6 +14,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.3.10
+- [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [FriendsOfFlarum/ads](https://github.com/FriendsOfFlarum/ads) v0.2.0-beta.1
 - [FriendsOfFlarum/byobu](https://github.com/FriendsOfFlarum/byobu) v0.3.0-beta
 - [FriendsOfFlarum/formatting](https://github.com/FriendsOfFlarum/formatting) v0.1.2
