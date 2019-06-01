@@ -14,10 +14,10 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.3.10
-- [flagrow/ads](https://github.com/flagrow/ads) v0.2.0-beta.1
 - [flagrow/byobu](https://github.com/flagrow/byobu) v0.3.0-beta
 - [flagrow/split](https://github.com/flagrow/split) v0.3.2
 - [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
+- [FriendsOfFlarum/ads](https://github.com/FriendsOfFlarum/ads) v0.2.0-beta.1
 - [FriendsOfFlarum/formatting](https://github.com/FriendsOfFlarum/formatting) v0.1.2
 - [FriendsOfFlarum/merge-discussions](https://github.com/FriendsOfFlarum/merge-discussions) v0.2.0
 - [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
