@@ -635,6 +635,10 @@ core:
       404_message: Halaman tidak ditemukan.
       # 404_return_link: "Return to {forum}"
       404_return_link: "Kembali ke halaman depan"
+      # 419_message: You have been inactive for too long.
+      419_message: Anda sudah lama tidak aktif.
+      # 419_return_link: Go back, to try again
+      419_return_link: Kembali, untuk mencoba lagi
       # 500_message: An error occurred while trying to load this page.
       500_message: Terjadi kesalahan saat mencoba memuat halaman ini.
       # 503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
