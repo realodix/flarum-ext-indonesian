@@ -103,10 +103,8 @@ core:
       delete_button: Hapus Grup
       # delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
       delete_confirmation: "Apakah Anda yakin ingin menghapus grup ini? Member yang ada di dalam grup ini tidak ikut terhapus."
-      # icon_label: Icon
-      icon_label: Ikon
-      # icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fa-</code> prefix."
-      icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       # name_label: Name
       name_label: Nama
       plural_placeholder: Plural (e.g. Mods)
@@ -746,6 +744,10 @@ core:
     discussions: Total Diskusi
     edit: Edit
     email: Email
+    # icon_label: Icon
+    icon_label: Ikon
+    # icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fa-</code> prefix."
+    icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
     # load_more: Load More
     load_more: Muat lebih
     # log_in: Log In
