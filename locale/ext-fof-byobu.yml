@@ -1,0 +1,59 @@
+flagrow-byobu:
+    forum:
+        badges:
+            is_private:
+                # tooltip: Private discussion
+                tooltip: Diskusi pribadi
+        buttons:
+            # add_recipients: Recipients
+            add_recipients: Penerima
+            submit: OK
+            # edit_recipients: Edit Recipients
+            edit_recipients: Ubah Penerima
+            # send_pd: "Send {username} a message"
+            send_pd: "Kirim pesan ke {username}"
+        labels:
+            # recipients: "{count} Recipient|{count} Recipients"
+            recipients: "{count} Penerima|{count} Penerima"
+            # user_deleted: -deleted-
+            user_deleted: -dihapus-
+        nav:
+            # private_discussions: Private discussion
+            private_discussions: Diskusi Pribadi
+        input:
+            # search_recipients: Search recipient by typing first three characters...
+            search_recipients: Cari penerima dengan mengetikkan tiga karakter pertama..
+        search:
+            headings:
+                # groups: Permission Groups
+                groups: Hak Akses
+        modal:
+            titles:
+                # update_recipients: Update recipients of {title}
+                update_recipients: Ubah penerima untuk {title}
+                # add_recipients: Add recipients to your discussion
+                add_recipients: Tambahkan penerima untuk diskusi Anda
+        post:
+            recipients_modified:
+                # added_and_removed: "{username} added recipients {added} and removed {removed}."
+                added_and_removed: "{username} menambahkan {added} dan menghapus {removed}."
+                # added: "{username} added recipients {added}."
+                added: "{username} menambahkan {added}."
+                # removed: "{username} removed recipients {removed}."
+                removed: "{username} menghapus {removed}."
+        user:
+            settings:
+                # block_pd: Block private discussions
+                block_pd: Blokir diskusi pribadi
+    admin:
+        permission:
+            # create_private_discussions_with_users: Create private discussions with users
+            create_private_discussions_with_users: Buat diskusi pribadi dengan user
+            # create_private_discussions_with_groups: Create private discussions with groups
+            create_private_discussions_with_groups: Buat diskusi pribadi dengan group
+            # create_private_discussions_with_blocking_users: Create private discussions with users that block it
+            create_private_discussions_with_blocking_users: Buat diskusi pribadi dengan user yang memblokirnya
+            # edit_user_recipients: Edit users partaking in private discussions
+            edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
+            # edit_group_recipients: Edit groups partaking in private discussions
+            edit_group_recipients: Edit group yang mengambil bagian dalam diskusi pribadi
