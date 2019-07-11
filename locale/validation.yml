@@ -36,6 +36,7 @@ validation:
   dimensions: ":attribute tidak valid dengan dimensi gambar."
   distinct: ":attribute memiliki duplikat."
   email: ":attribute harus berupa alamat email yang valid."
+  ends_with: ":attribute harus diakhiri dengan salah satu dari yang berikut: :values"
   exists: ":attribute yang dipilih tidak valid."
   file: ":attribute harus berupa berkas."
   filled: ":attribute harus memiliki nilai."
