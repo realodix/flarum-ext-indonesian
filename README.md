@@ -23,7 +23,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [FriendsOfFlarum/merge-discussions](https://github.com/FriendsOfFlarum/merge-discussions) v0.2.0
 - [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
 - [FriendsOfFlarum/secure-https](https://github.com/FriendsOfFlarum/secure-https) v0.1.0
-- [FriendsOfFlarum/split](https://github.com/FriendsOfFlarum/split) v0.3.2
+- [FriendsOfFlarum/split](https://github.com/FriendsOfFlarum/split) v0.4.3
 - [FriendsOfFlarum/upload](https://github.com/FriendsOfFlarum/upload) v0.7.1
 - [FriendsOfFlarum/user-bio](https://github.com/FriendsOfFlarum/user-bio) v0.1.2
 - [MichaelBelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views) v0.1.0-beta.8
