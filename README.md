@@ -30,7 +30,6 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [MichaelBelgium/mybb_to_flarum](https://github.com/MichaelBelgium/mybb_to_flarum) v3.0-beta.3
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
 - [ReFlar/level-ranks](https://github.com/ReFlar/level-ranks) v1.2.1
-- [ReFlar/polls](https://github.com/ReFlar/polls) v1.3.2
 - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.2.1
 
 ### Cara Menggunakan
