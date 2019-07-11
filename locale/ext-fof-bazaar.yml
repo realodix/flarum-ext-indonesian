@@ -38,7 +38,8 @@ bazaar:
                            Dengan mengizinkan cronjobs untuk memproses tugas-tugas Bazaar,
                            proses-proses ini cenderung tidak akan habis. Harap dicatat bahwa
                            Anda harus dapat mengkonfigurasi cronjob, lihat <a>the wiki</a>.
-                        toggle: Use crons for task processing
+                        #toggle: Use crons for task processing
+                        toggle: Gunakan crons untuk memproses tugas
             connect-bazaar:
                 title: Connect
                 description: >
