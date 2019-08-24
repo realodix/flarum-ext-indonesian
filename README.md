@@ -7,7 +7,7 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
-**Requires**: Flarum v0.1.0 Beta 8 | **Compatible up to**: Flarum v0.1.0-beta.8.1
+**Requires**: Flarum v0.1.0 Beta 8 | **Compatible up to**: Flarum v0.1.0-beta.9
 
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
