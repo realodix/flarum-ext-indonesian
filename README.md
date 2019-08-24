@@ -21,7 +21,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [FriendsOfFlarum/custom-footer](https://github.com/FriendsOfFlarum/custom-footer) v0.1.3
 - [FriendsOfFlarum/formatting](https://github.com/FriendsOfFlarum/formatting) v0.1.2
 - [FriendsOfFlarum/merge-discussions](https://github.com/FriendsOfFlarum/merge-discussions) v0.2.0
-- [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
+- [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.7
 - [FriendsOfFlarum/secure-https](https://github.com/FriendsOfFlarum/secure-https) v0.1.0
 - [FriendsOfFlarum/split](https://github.com/FriendsOfFlarum/split) v0.4.3
 - [FriendsOfFlarum/upload](https://github.com/FriendsOfFlarum/upload) v0.7.1

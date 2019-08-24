@@ -19,8 +19,8 @@ fof-pages:
       hidden_label: Simpan sebagai Draft
       # html_label: Enable Html
       html_label: Aktifkan HTML
-      # set_as_home_page_confirmation: "Are you sure you want to want to set this page as your home page?"
-      set_as_home_page_confirmation: "Anda yakin ingin mengatur halaman ini sebagai home page?"
+      # set_as_home_page_confirmation: "Are you sure you want to set this page as your home page?"
+      set_as_home_page_confirmation: "Apakah Anda yakin ingin mengatur halaman ini sebagai home page?"
       slug_label: => fof-pages.ref.slug
       slug_placeholder: => fof-pages.ref.slug
       submit_button: => core.ref.save_changes
