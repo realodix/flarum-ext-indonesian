@@ -635,14 +635,16 @@ core:
       csrf_token_mismatch: Anda sudah tidak aktif terlalu lama.
       # csrf_token_mismatch_return_link: Go back, to try again
       csrf_token_mismatch_return_link: Kembali, dan coba lagi
-      # forbidden: You do not have permission to access this page.
-      forbidden: Anda tidak memiliki izin untuk mengakses halaman ini.
       # invalid_confirmation_token: This confirmation link has already been used or is invalid.
       invalid_confirmation_token: URL konfirmasi ini telah digunakan atau tidak valid.
+      # not_authenticated: You do not have permission to access this page. Try again after logging in.
+      not_authenticated: Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah login.
       # not_found: The page you requested could not be found.
       not_found: Halaman yang Anda minta tidak dapat ditemukan.
       # not_found_return_link: "Return to {forum}"
       not_found_return_link: "Kembali ke {forum}"
+      # permission_denied: You do not have permission to access this page.
+      permission_denied: Anda tidak memiliki izin untuk mengakses halaman ini.
       # unknown: An error occurred while trying to load this page.
       unknown: Terjadi kesalahan saat mencoba memuat halaman ini.
 
