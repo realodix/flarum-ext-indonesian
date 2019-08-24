@@ -643,8 +643,6 @@ core:
       419_return_link: Kembali, untuk mencoba lagi
       # 500_message: An error occurred while trying to load this page.
       500_message: Terjadi kesalahan saat mencoba memuat halaman ini.
-      # 503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
-      503_message: "{forum} sedang menjalani pemeliharaan. Terima kasih atas kesabaran Anda!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
