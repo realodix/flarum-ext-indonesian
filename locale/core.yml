@@ -637,6 +637,8 @@ core:
       csrf_token_mismatch_return_link: Kembali, dan coba lagi
       # forbidden: You do not have permission to access this page.
       forbidden: Anda tidak memiliki izin untuk mengakses halaman ini.
+      # invalid_confirmation_token: This confirmation link has already been used or is invalid.
+      invalid_confirmation_token: URL konfirmasi ini telah digunakan atau tidak valid.
       # not_found: The page you requested could not be found.
       not_found: Halaman yang Anda minta tidak dapat ditemukan.
       # not_found_return_link: "Return to {forum}"
