@@ -200,8 +200,7 @@ core:
       allow_post_editing_label: Edit Post
       # allow_renaming_label: Allow renaming
       allow_renaming_label: Ganti Judul
-      # create_heading: Create
-      create_heading: Penulisan
+      create_heading: Create
       # delete_discussions_forever_label: Delete discussions forever
       delete_discussions_forever_label: Hapus Diskusi Selamanya
       # delete_discussions_label: Delete discussions
@@ -213,14 +212,11 @@ core:
       # edit_posts_label: Edit posts
       edit_posts_label: Edit Post
       global_heading: Global
-      # moderate_heading: Moderate
-      moderate_heading: Moderasi
+      moderate_heading: Moderate
       # new_group_button: New Group
       new_group_button: Tambah Grup
-      # participate_heading: Participate
-      participate_heading: Berpartisipasi
-      # read_heading: Read
-      read_heading: Membaca
+      participate_heading: Participate
+      read_heading: Read
       # rename_discussions_label: Rename discussions
       rename_discussions_label: Ganti Judul Diskusi
       # reply_to_discussions_label: Reply to discussions
