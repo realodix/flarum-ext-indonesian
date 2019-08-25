@@ -9,7 +9,7 @@ fof-username-request:
     action:
       title: => fof-username-request.forum.results.title
       # help_text: Make sure the username follows the forum guidelines.
-      help_text: Pastikan nama username mengikuti pedoman forum.
+      help_text: Pastikan username mengikuti pedoman forum.
       # decision_title: Decision
       decision_title: Keputusan
       # approval_label: Approve
