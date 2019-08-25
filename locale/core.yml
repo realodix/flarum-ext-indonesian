@@ -228,7 +228,7 @@ core:
       # view_discussions_label: View discussions
       view_discussions_label: Lihat Diskusi
       # view_last_seen_at_label: View user last seen time
-      view_last_seen_at_label: Lihat waktu terakhir user terlihat
+      view_last_seen_at_label: Lihat Waktu Terakhir User Terlihat
       # view_post_ips_label: View post IP addresses
       view_post_ips_label: Lihat IP Address
       # view_user_list_label: View user list
