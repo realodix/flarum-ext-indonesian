@@ -210,7 +210,8 @@ core:
       delete_posts_forever_label: Hapus Post Selamanya
       # delete_posts_label: Delete posts
       delete_posts_label: Hapus post
-      edit_posts_label: Edit posts
+      # edit_posts_label: Edit posts
+      edit_posts_label: Edit Post
       global_heading: Global
       # moderate_heading: Moderate
       moderate_heading: Moderasi
@@ -221,7 +222,7 @@ core:
       # read_heading: Read
       read_heading: Membaca
       # rename_discussions_label: Rename discussions
-      rename_discussions_label: Mengganti Judul Diskusi
+      rename_discussions_label: Ganti Judul Diskusi
       # reply_to_discussions_label: Reply to discussions
       reply_to_discussions_label: Ikut Berdiskusi
       # sign_up_label: Sign up
@@ -235,7 +236,7 @@ core:
       # view_post_ips_label: View post IP addresses
       view_post_ips_label: Lihat IP Address
       # view_user_list_label: View user list
-      view_user_list_label: Lihat daftar user
+      view_user_list_label: Lihat Daftar User
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:

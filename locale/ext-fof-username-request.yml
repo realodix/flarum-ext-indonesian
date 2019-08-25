@@ -3,8 +3,8 @@ fof-username-request:
     permissions:
       # start: Request username change
       # moderate: Approve username change requests
-      start: Ganti username
-      moderate: Setujui permintaan perubahan username
+      start: Ganti Username
+      moderate: Setujui Permintaan Perubahan Username
   forum:
     action:
       title: => fof-username-request.forum.results.title

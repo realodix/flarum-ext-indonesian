@@ -8,4 +8,4 @@ fof-spamblock:
   admin:
     permissions:
       # spamblock_users_label: Mark user as spammer
-      spamblock_users_label: Tandai user ini sebagai spammer
+      spamblock_users_label: Tandai User Ini Sebagai Spammer
