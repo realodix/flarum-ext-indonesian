@@ -26,6 +26,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [FriendsOfFlarum/split](https://github.com/FriendsOfFlarum/split) v0.4.3
 - [FriendsOfFlarum/upload](https://github.com/FriendsOfFlarum/upload) v0.7.1
 - [FriendsOfFlarum/user-bio](https://github.com/FriendsOfFlarum/user-bio) v0.1.2
+- [FriendsOfFlarum/username-request](https://github.com/FriendsOfFlarum/username-request) v0.1.3
 - [MichaelBelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views) v0.1.0-beta.8.2
 - [MichaelBelgium/mybb_to_flarum](https://github.com/MichaelBelgium/mybb_to_flarum) v4.0
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2

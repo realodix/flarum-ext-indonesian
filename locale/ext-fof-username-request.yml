@@ -1,0 +1,65 @@
+fof-username-request:
+  admin:
+    permissions:
+      # start: Request username change
+      # moderate: Approve username change requests
+      start: Ganti username
+      moderate: Setujui permintaan perubahan username
+  forum:
+    action:
+      title: => fof-username-request.forum.results.title
+      # help_text: Make sure the username follows the forum guidelines.
+      help_text: Pastikan nama username mengikuti pedoman forum.
+      # decision_title: Decision
+      decision_title: Keputusan
+      # approval_label: Approve
+      approval_label: Setuju
+      # denial_label: Deny
+      denial_label: Tolak
+      submit_button: Submit
+      # reason_title: Reason for Denial
+      reason_title: Alasan penolakan
+      # success: Decision sent.
+      success: Keputusan dikirim.
+      # name: '{username} has requested their username be changed to "{newUsername}"'
+      name: '{username} meminta untuk mengganti username-nya menjadi "{newUsername}"'
+    results:
+      # title: Username Change
+      title: Ganti Username
+      # approved: 'Your username change request has been approved!'
+      approved: 'Username yang Anda minta telah disetujui!'
+      # new_username: 'Your username is now "{username}"'
+      new_username: 'Username Anda sekarang "{username}"'
+      # denied: Your username request was denied
+      denied: Permintaan ganti username Anda ditolak
+      # reason: 'Reason: <i>"{reason}"</i>'
+      reason: 'Alasan: <i>"{reason}"</i>'
+      # resubmit: You may resubmit a new username request from your account settings.
+      resubmit: Anda dapat mengirim kembali permintaan ganti username baru dari pengaturan akun Anda.
+    request:
+      # title: Request Username Change
+      title: Permintaan Ganti Username
+      # current_request: You have already requested the username "{username}." You can update or delete this request.
+      current_request: Anda sudah pernah meminta username "{username}." Anda dapat memperbarui atau menghapus permintaan ini.
+      # submit_button: Submit Request
+      submit_button: Kirim Permintaan
+      # delete_button: Delete Request
+      delete_button: Batal
+      # confirmation_message: Your request has been received and will be reviewed soon.
+      confirmation_message: Permintaan Anda telah Kami terima dan akan segera ditinjau.
+      # dismiss_button: Understood
+      dismiss_button: Mengerti
+      # deleted: Username request deleted.
+      deleted: Permintaan ganti username dihapus.
+    # account_label: Change Username
+    account_label: Ganti Username
+    profile_link: Username History
+    dropdown:
+      # empty_text: No username requests found
+      empty_text: Tidak ada permintaan ganti username
+      tooltip: => fof-username-request.forum.dropdown.title
+      # title: Username Change Requests
+      title: Permintaan Ganti Username
+      # item_text: "{username} requested a username change"
+      item_text: "{username} meminta untuk mengganti username"
+      exerpt: "Username yang diminta: {requestedUsername}"
