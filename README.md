@@ -23,7 +23,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.1
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
 - [friendsofflarum/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
-- [FriendsOfFlarum/spamblock](https://github.com/FriendsOfFlarum/spamblock) v0.2.1
+- [friendsofflarum/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.1
 - [friendsofflarum/split](https://github.com/friendsofflarum/split) v0.4.3
 - [friendsofflarum/upload](https://github.com/friendsofflarum/upload) v0.7.1
 - [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.2
