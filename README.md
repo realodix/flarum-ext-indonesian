@@ -17,6 +17,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [flagrow/impersonate](https://github.com/flagrow/impersonate) v0.2.0
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [friendsofflarum/ads](https://github.com/friendsofflarum/ads) v0.2.4
+- [friendsofflarum/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
 - [friendsofflarum/byobu](https://github.com/friendsofflarum/byobu) v0.3.3
 - [friendsofflarum/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.2
