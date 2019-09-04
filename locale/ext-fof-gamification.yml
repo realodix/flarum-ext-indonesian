@@ -1,0 +1,100 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Trending
+
+fof-gamification:
+  forum:
+    votes: Votes
+    # vote_title: Show Who Voted
+    vote_title: Tampilkan Siapa Yang Memberikan Vote
+    nav:
+      # name: Rankings
+      name: Peringkat
+    ranking:
+      rank: Place
+      name: User
+      amount: Points
+    notification:
+      # upvote: "{username} upvoted your post"
+      upvote: "{username} upvote post Anda"
+      # downvote: "{username} downvoted your post"
+      downvote: "{username} downvote post Anda"
+    user:
+      points: "Points: {points}"
+      rank: "{rank}"
+    modal:
+      title: Voters
+      upvotes_label: 'Upvoters:'
+      downvotes_label: 'Downvoters:'
+    # mod_item: View Voters
+    mod_item: Lihat Voters
+  admin:
+    permissions:
+      # vote_label: Upvote/Downvote posts
+      vote_label: Upvote/Downvote post
+      # see_votes_label: See post upvotes/downvotes
+      see_votes_label: Lihat post upvotes/downvotes
+      # see_ranking_page: See ranking page
+      see_ranking_page: Lihat halaman peringkat
+    nav:
+      # desc: Gamification for your Flarum community
+      desc: Gamifikasi untuk komunitas Flarum Anda
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          # title: Ignored Users
+          title: User Yang Di-Ignore
+          # help: These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.
+          help: User ini tidak akan ditampilkan di halaman peringkat. Nama user harus dipisahkan oleh koma diikuti oleh spasi.
+        # title: Rankings Page
+        title: Halaman Peringkat
+        # enable: Enable custom images
+        enable: Aktifkan image khusus
+        # custom_image_1: 1st place image
+        custom_image_1: Image 1
+        # custom_image_2: 2nd place image
+        custom_image_2: Image 2
+        # custom_image_3: 3rd place image
+        custom_image_3: Image 3
+      votes:
+        points_title: Points Placeholder
+        points_placeholder: "Points: "
+        color_holder: '#ffffff'
+        # auto_upvote: Auto upvote posts when posted
+        auto_upvote: Otomatis upvote post ketika diposting
+        # rate_limit: Enforce a vote rate limit (10 seconds)
+        rate_limit: Terapkan batas limit per vote (10 detik)
+        # discussion_page: Show total votes of original post on discussions list
+        discussion_page: Tampilkan total vote dari post asli di discussions list
+        title: Votes
+        vote_color: Voted color
+        icon_name: Upvote/downvote icon
+        # icon_help: "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+        icon_help: "Masukkan ikon Font-Awesome yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron"
+      # save_settings: Save settings
+      save_settings: Simpan pengaturan
+      convert:
+        # button: Convert likes to upvotes
+        button: Convert like ke upvote
+        # help: Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
+        help: Konversikan like dari flarum-ext-likes menjadi upvotes, serta hitung hotness untuk semua diskusi saat ini.
+        # converting: Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
+        converting: Like Anda sekarang sedang dikonversi. Refresh halaman ini setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memakan waktu cukup lama tergantung pada jumlah like pada forum Anda)
+        # converted: "Successfully converted all {number} likes"
+        converted: "Berhasil mengonversi 100 like"
+      ranks:
+        # title: Ranks
+        title: Peringkat
+        # ranks: Custom ranks
+        ranks: Peringkat khusus
+        # number_title: How many rank badges should be shown?
+        number_title: Berapa banyak rank badge yang harus ditampilkan?
+        help:
+          color: '#ffffff'
+          # help: "Input the required number of upvotes, the name of the rank, and the hex color of the rank"
+          help: "Masukkan jumlah upvote yang dibutuhkan, nama peringkat, dan warna heksa peringkat"
+          points: Points
+          # name: Name
+          name: Nama
