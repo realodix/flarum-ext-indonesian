@@ -24,6 +24,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.4
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.1
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
+- [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.1.4
 - [friendsofflarum/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
 - [friendsofflarum/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.1
 - [friendsofflarum/split](https://github.com/friendsofflarum/split) v0.4.3
