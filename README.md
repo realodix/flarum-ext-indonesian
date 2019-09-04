@@ -28,6 +28,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
 - [friendsofflarum/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.1
 - [friendsofflarum/split](https://github.com/friendsofflarum/split) v0.4.3
+- [friendsofflarum/subscribed](https://github.com/friendsofflarum/subscribed) v0.1.0
 - [friendsofflarum/upload](https://github.com/friendsofflarum/upload) v0.7.1
 - [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.2
 - [friendsofflarum/username-request](https://github.com/friendsofflarum/username-request) v0.1.3
