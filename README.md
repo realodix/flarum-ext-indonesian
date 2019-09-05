@@ -22,6 +22,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.2
 - [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.4
+- [friendsofflarum/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.1
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
 - [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.1.4

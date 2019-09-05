@@ -1,0 +1,83 @@
+fof-masquerade:
+    forum:
+        alerts:
+            profile-completion-required: >
+                Silakan isi field profil yang diperlukan di bawah ini.
+        buttons:
+            # view-profile: View profile
+            view-profile: Lihat profil
+            # save-profile: Save
+            save-profile: Simpan
+        fields:
+            select:
+                # none-optional: No option selected (optional)
+                none-optional: Tidak ada opsi yang dipilih (optional)
+                # none-required: Please select an option (required)
+                none-required: Silakan pilih satu opsi (dibutuhkan)
+            boolean:
+                yes: Yes
+                no: No
+    admin:
+        title: Masquerade
+        # general-options: General options
+        general-options: Pilihan umum
+        buttons:
+            # add-field: Create field
+            add-field: Buat field
+            # edit-field: Save changes
+            edit-field: Simpan perubahan
+            # delete-field: Delete field
+            delete-field: Hapus field
+        permissions:
+            have-profile: Have masquerade profile
+            view-profile: View masquerade profile
+        menu:
+            description: >
+                Konfigurasikan field untuk profil pengguna.
+        fields:
+            title: Fields
+            # add: Add field {field}
+            add: Tambah field {field}
+            edit: Edit field {field}
+            # name: Field name
+            name: Nama field
+            name-help: >
+                Label field yang terlihat secara publik (tidak dapat diterjemahkan).
+            # description: Field description
+            description: Deskripsi
+            description-help: >
+                Deskripsi opsional untuk menjelaskan penggunaan / kebutuhan field ini.
+            # required: Mark field obligatory
+            required: Tandai field yang wajib diisi
+            # on_bio: Show answer to this field in user bio
+            on_bio: Tampilkan jawaban untuk field ini dalam halaman bio user
+            type: Type
+            # validation: Validation
+            validation: Validasi
+            validation-help: >
+                Check the supported <a>Laravel validation rules</a>. Eg:
+                "string|min:5" or "url".
+            prefix: Field prefix
+            prefix-help: >
+                Menampilkankan awalan di depan nilai yang dimasukkan oleh user untuk field ini.
+            icon: Icon
+            icon-help: >
+                Menampilkankan ikon di depan nilai yang dimasukkan oleh user. Untuk referensi
+                ikon yang tersedia, periksa <a>FontAwesome website</a>. Gunakan nama ikon
+                dengan awalan "fa-", seperti "fas fa-info".
+            # force-user-to-completion: Force user to complete profile
+            force-user-to-completion: Paksa user untuk melengkapi profil
+            # disable-user-bio: Disable user bio field
+            disable-user-bio: Nonaktifkan field pada halaman bio user
+            # options: Options
+            options: Opsi
+            # option-new: New option
+            option-new: Buat opsi
+            # option-coma-warning: The label of an option cannot contain any coma (",").
+            option-coma-warning: Label opsi tidak boleh mengandung koma (",").
+        types:
+            advanced: Advanced
+            boolean: Checkbox
+            email: Email
+            select: Dropdown
+            url: Url
