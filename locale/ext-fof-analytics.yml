@@ -1,0 +1,52 @@
+flagrow-analytics:
+    admin:
+        popup:
+            #title: Analytics Settings
+            title: Pengaturan Analytics
+
+            section:
+                # googleAnalytics: Google Analytics
+                googleAnalytics: Google Analytics
+                # piwik: Piwik
+                piwik: Piwik
+
+            field:
+                # googleTrackingCode: Tracking Code ID
+                googleTrackingCode: Kode ID Pelacakan
+                piwikAliasUrl: Alias Url
+                # piwikAuthToken: Authentication Token
+                piwikAuthToken: Token Otentikasi
+                # piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
+                piwikHideAliasUrl: Dalam laporan "Link keluar", sembunyikan klik ke URL alias yang dikenal
+                # piwikPrependDomain: Prepend the site domain to the page title when tracking
+                piwikPrependDomain: Tambahkan domain situs ke judul halaman saat melacak
+                piwikSiteId: Site ID
+                # piwikTrackAccounts: Track individual user accounts
+                piwikTrackAccounts: Lacak setiap akun user
+                # piwikTrackSubdomain: Track visitors across all subdomains of Flarum
+                piwikTrackSubdomain: Lacak pengunjung di semua subdomain Flarum
+                # piwikUrl: Piwik domain or url
+                piwikUrl: Domain Piwik atau url
+                # statusGoogle: Enable Google Analytics
+                statusGoogle: Aktifkan Google Analytics
+                # statusPiwik: Enable Piwik
+                statusPiwik: Aktifkan Piwik
+
+            placeholder:
+                piwikAuthToken: |
+                    Isi token ini untuk mengaktifkan tab statistik Piwik di panel admin.
+                    Anda dapat menemukannya di Settings > Personal > API Authentication Token.
+
+            trackAccounts:
+                # email: Track by email
+                email: Lacak dengan email
+                # none: Do not track
+                none: Jangan dilacak
+                # username: Track by username
+                username: Lacak dengan username
+
+        page:
+            nav:
+                title: Analytics
+                # description: Take a look at Statistics
+                description: Lihatlah Statistik

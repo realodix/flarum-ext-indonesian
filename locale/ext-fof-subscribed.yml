@@ -1,0 +1,25 @@
+fof-subscribed:
+    forum:
+        settings:
+            # defaults_label: Set "{setting}" enabled by default
+            defaults_label: "{setting}" secara default
+            # forced_label: Force enable "{setting}" for everyone
+            forced_label: Aktifkan "{setting}" untuk semua user
+            # notify_discussion_created_label: Someone creates a discussion
+            notify_discussion_created_label: Seseorang membuat diskusi
+            # notify_user_created_label: When someone registers
+            notify_user_created_label: Ketika seseorang mendaftar
+        notifications:
+            # discussion_created_text: "{username} created a new discussion"
+            discussion_created_text: "{username} membuat diskusi baru"
+            # user_created_text: "{username} had just signed up"
+            user_created_text: "{username} baru saja mendaftar"
+    admin:
+        menu:
+            # description: Configure (default) user subscriptions
+            description: Konfigurasikan user subscribe (default)
+        permission:
+            # subscribe_to_discussion_created: Allowed to receive notification upon new discussion
+            subscribe_to_discussion_created: Izinkan terima notifikasi pada diskusi baru
+            # subscribe_to_user_created: Allowed to receive notification upon new user
+            subscribe_to_user_created: Izinkan terima notifikasi pada user baru

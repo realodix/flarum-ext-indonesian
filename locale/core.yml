@@ -200,8 +200,7 @@ core:
       allow_post_editing_label: Edit Post
       # allow_renaming_label: Allow renaming
       allow_renaming_label: Ganti Judul
-      # create_heading: Create
-      create_heading: Penulisan
+      create_heading: Create
       # delete_discussions_forever_label: Delete discussions forever
       delete_discussions_forever_label: Hapus Diskusi Selamanya
       # delete_discussions_label: Delete discussions
@@ -210,20 +209,18 @@ core:
       delete_posts_forever_label: Hapus Post Selamanya
       # delete_posts_label: Delete posts
       delete_posts_label: Hapus post
-      edit_posts_label: Edit posts
+      # edit_posts_label: Edit posts
+      edit_posts_label: Edit Post
       # edit_users_label: Edit users
       edit_users_label: Edit user
       global_heading: Global
-      # moderate_heading: Moderate
-      moderate_heading: Moderasi
+      moderate_heading: Moderate
       # new_group_button: New Group
       new_group_button: Tambah Grup
-      # participate_heading: Participate
-      participate_heading: Berpartisipasi
-      # read_heading: Read
-      read_heading: Membaca
+      participate_heading: Participate
+      read_heading: Read
       # rename_discussions_label: Rename discussions
-      rename_discussions_label: Mengganti Judul Diskusi
+      rename_discussions_label: Ganti Judul Diskusi
       # reply_to_discussions_label: Reply to discussions
       reply_to_discussions_label: Ikut Berdiskusi
       # sign_up_label: Sign up
@@ -232,11 +229,12 @@ core:
       start_discussions_label: Mulai Diskusi
       # view_discussions_label: View discussions
       view_discussions_label: Lihat Diskusi
-      view_last_seen_at_label: View user last seen time
+      # view_last_seen_at_label: View user last seen time
+      view_last_seen_at_label: Lihat Waktu Terakhir User Terlihat
       # view_post_ips_label: View post IP addresses
       view_post_ips_label: Lihat IP Address
       # view_user_list_label: View user list
-      view_user_list_label: Lihat daftar user
+      view_user_list_label: Lihat Daftar User
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:

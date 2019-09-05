@@ -1,12 +1,17 @@
 flarum-best-answer:
     admin:
         permissions:
-            best_answer: => flarum-best-answer.ref.best_answer
+            # best_answer: Select Best Answer (own Discussion)
+            best_answer: Pilih Jawaban Terbaik (Diskusi sendiri)
+            # best_answer_not_own_discussion: Select Best Answer (not own Discussion)
+            best_answer_not_own_discussion: Pilih Jawaban Terbaik (Bukan diskusi sendiri)
         settings:
             # title: "Best Answer Settings"
             title: "Pengaturan Best Answer"
-            # allow_select_own_post: "Allow user can select own post"
-            allow_select_own_post: "Izinkan pengguna dapat memilih post sendiri"
+            # allow_select_own_post: "Allow user to select their own post"
+            allow_select_own_post: "Izinkan pengguna memilih post mereka sendiri"
+            # select_best_answer_reminder_days: Remind user to select best answer after X days
+            select_best_answer_reminder_days: Ingatkan pengguna untuk memilih jawaban terbaik setelah X hari
     forum:
         # this_best_answer: "This is the best answer"
         this_best_answer: "Ini jawaban terbaik"
@@ -14,7 +19,14 @@ flarum-best-answer:
         remove_best_answer: "Hapus jawaban terbaik saat ini"
         # header_best_answer: "Tagged by the post creator as the best answer"
         header_best_answer: "Ditandai oleh post creator sebagai jawaban terbaik"
-        best_answer_button: => flarum-best-answer.ref.best_answer
+        # best_answer_button: Best Answer
+        best_answer_button: Jawaban Terbaik
+        # best_answer_label: set by <a>{username}</a>
+        best_answer_label: ditetapkan oleh <a>{username}</a>
         best_answer: => flarum-best-answer.ref.best_answer
+
+        notification:
+            # content: Please select a best answer if your question has been answered
+            content: Silakan pilih jawaban terbaik jika pertanyaan Anda telah dijawab
     ref:
       best_answer: 'Best Answer'
