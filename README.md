@@ -33,6 +33,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.2
 - [friendsofflarum/username-request](https://github.com/friendsofflarum/username-request) v0.1.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v0.1.0-beta.8.2
+- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v0.1.0-beta-8-5
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v4.0
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.1
