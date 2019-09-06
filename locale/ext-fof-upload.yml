@@ -99,7 +99,7 @@ flagrow-upload:
         help_texts:
             description: >
                 # Set up uploading services and preferences.
-                Mengatur layanan dan preferensi meng-upload.
+                Siapkan layanan dan preferensi meng-upload.
             mime_types: >
                 # Please configure your mapping here. Each mime type
                 # regular expression will be handled by a specific

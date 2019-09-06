@@ -176,9 +176,9 @@ core:
       # appearance_text: "Customize your forum's colors, logos, and other variables."
       appearance_text: "Sesuaikan warna, logo, dan lainnya."
       # basics_button: Basics
-      basics_button: Umum
+      basics_button: Basic
       # basics_text: "Set your forum title, language, and other basic settings."
-      basics_text: "Mengatur judul forum, bahasa, dan pengaturan dasar lainnya."
+      basics_text: "Tetapkan judul forum Anda, bahasa, dan pengaturan dasar lainnya."
       dashboard_button: Dashboard
       # dashboard_text: Your forum at a glance.
       dashboard_text: Sekilas tentang forum Anda.

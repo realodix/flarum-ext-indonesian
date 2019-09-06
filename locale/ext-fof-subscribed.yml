@@ -2,7 +2,7 @@ fof-subscribed:
     forum:
         settings:
             # defaults_label: Set "{setting}" enabled by default
-            defaults_label: "{setting}" secara default
+            defaults_label: "Atur {setting}" secara default
             # forced_label: Force enable "{setting}" for everyone
             forced_label: Aktifkan "{setting}" untuk semua user
             # notify_discussion_created_label: Someone creates a discussion
