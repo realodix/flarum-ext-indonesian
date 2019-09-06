@@ -4,4 +4,4 @@ flarum_profile_views:
       # title_last_viewers: Last profile viewers
       title_last_viewers: Terakhir dilihat oleh
       # views_count_text: 'viewed {viewcount} time|viewed {viewcount} times'
-      views_count_text: 'dilihat {viewcount} kali|dilihat {viewcount} kali'
+      views_count_text: 'Dilihat {viewcount} kali|Dilihat {viewcount} kali'
