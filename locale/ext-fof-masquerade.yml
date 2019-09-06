@@ -29,8 +29,10 @@ fof-masquerade:
             # delete-field: Delete field
             delete-field: Hapus field
         permissions:
-            have-profile: Have masquerade profile
-            view-profile: View masquerade profile
+            # have-profile: Have masquerade profile
+            have-profile: Membuat masquerade profile
+            # view-profile: View masquerade profile
+            view-profile: Melihat masquerade profile
         menu:
             description: >
                 Konfigurasikan field untuk profil pengguna.
