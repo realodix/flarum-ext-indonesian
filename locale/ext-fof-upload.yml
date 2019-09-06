@@ -12,18 +12,14 @@ flagrow-upload:
         templates:
             image: Default image download template
             image_description: >
-                # Shows a thumbnail of the image and proxies download through php.
-                # Allowing statistics to be gathered and hotlink protection.
                 Menampilkan thumbnail dari gambar dan proxies download melalui php.
                 Mengizinkan statistik dikumpulkan dan hotlink protection.
             file: Default file download template
             file_description: >
-                Shows the file name and some general information. Proxies downloads
-                through php, allowing for statistics gathering and hotlink protection.
+                Memperlihatkan nama file dan beberapa informasi umum. Proxy donwload melalui PHP, memungkinkan pengumpulan statistik dan hotlink protection.
             image-preview: Complete image preview template
             image-preview_description: >
-                Shows the complete image in-line. No download functionality, no statistics
-                are gathered and hotlink protection is ignored.
+                Memperlihatkan secara lengkap image in-line. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.
         permissions:
             # upload_label: Upload files
             upload_label: Upload file
@@ -98,12 +94,8 @@ flagrow-upload:
             save: Simpan pengaturan
         help_texts:
             description: >
-                # Set up uploading services and preferences.
-                Siapkan layanan dan preferensi meng-upload.
+                Siapkan layanan dan preferensi upload.
             mime_types: >
-                # Please configure your mapping here. Each mime type
-                # regular expression will be handled by a specific
-                # upload adapter and download template.
                 Harap konfigurasikan pemetaan Anda di sini. Setiap ekspresi
                 reguler tipe mime akan ditangani oleh upload adapter dan
                 download template tertentu.
@@ -111,29 +103,17 @@ flagrow-upload:
                 Download templates are how uploads are shown on your forum,
                 eg like previews, buttons. Currently available:
             resize: >
-                # Choose whether you want to resize your images before
-                # they get uploaded. You can choose a maximum width
-                # and height, in pixels. The resizing process keeps the
-                # aspect ratio of the images.
                 Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload.
                 Anda dapat memilih lebar dan tinggi maksimum, dalam piksel.
                 Proses pengubahan ukuran akan menjaga rasio aspek gambar.
             watermark: >
-                # Choose whether images will have a watermark added during
-                # upload. Watermarks are added to non-gifs based on your
-                # preferences below.
                 Pilih apakah gambar akan memiliki watermark yang ditambahkan
                 selama proses upload. Watermark ditambahkan ke gambar non-gif
                 berdasarkan preferensi Anda di bawah ini.
             disable-hotlink-protection: >
-                # Hotlink protection prevents opening downloads from other sites.
-                # Current method requires a csrf token and post id.
                 Hotlink protection mencegah seseorang download dari situs lain.
                 Metode saat ini membutuhkan csrf token dan post id.
             disable-download-logging: >
-                # Disable logging every download made by users of your forum. Keeping it
-                # enabled allows you to view the number of downloads and other metrics
-                # in the nearby future.
                 Nonaktifkan pencatatan setiap download yang dilakukan oleh
                 pengguna forum Anda. Dengan tetap mengaktifkannya memungkinkan
                 Anda untuk melihat jumlah download dan metrik lainnya di lain
