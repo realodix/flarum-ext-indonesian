@@ -1,0 +1,35 @@
+kilowhat-mailing:
+    admin:
+        permissions:
+            # mail_individual: Send emails to individual users
+            mail_individual: Kirim email ke pengguna individu
+            # mail_all: Send emails to all users
+            mail_all: Kirim email ke semua pengguna
+
+    forum:
+        links:
+            # mail_individual: Send an email to this user
+            mail_individual: Kirim email ke user ini
+            # mail_all: Send an email to all users
+            mail_all: Kirim email ke semua user
+        modal_mail:
+            # title_text: Message for
+            title_text: Pesan untuk
+            # title_all_text: all users
+            title_all_text: semua user
+            # email_label: To
+            email_label: Ke
+            # subject_label: Subject
+            subject_label: Judul
+            default_subject: => kilowhat-mailing.ref.default_subject
+            # message_label: Message
+            message_label: Pesan
+            # submit_button: Send
+            submit_button: Kirim
+
+    email:
+        default_subject: => kilowhat-mailing.ref.default_subject
+
+    ref:
+        # default_subject: Message from forum administration
+        default_subject: Pesan dari admin forum
