@@ -57,7 +57,7 @@ fof-masquerade:
             # validation: Validation
             validation: Validasi
             validation-help: >
-                Check the supported <a>Laravel validation rules</a>. Eg:
+                Periksa <a>aturan validasi Laravel</a> yang didukung. Eg:
                 "string|min:5" or "url".
             prefix: Field prefix
             prefix-help: >
