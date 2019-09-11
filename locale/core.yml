@@ -453,6 +453,8 @@ core:
       # empty_text: No Notifications
       empty_text: Tidak ada notifikasi
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      # mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: Tandai Sudah Dibaca
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
