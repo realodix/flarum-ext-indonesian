@@ -22,7 +22,7 @@ fof-byobu:
             private_discussions: Diskusi Pribadi
         input:
             # search_recipients: Search recipient by typing first three characters...
-            search_recipients: Cari penerima dengan mengetikkan tiga karakter pertama..
+            search_recipients: Cari username penerima dengan mengetikkan tiga karakter pertama..
         search:
             headings:
                 # groups: Permission Groups
