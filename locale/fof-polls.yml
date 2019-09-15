@@ -29,7 +29,7 @@ fof-polls:
       options_label: Jawaban
       public_poll_label: Izinkan orang lain melihat siapa yang sudah memilih
       question_placeholder: Pertanyaan
-      submit: Masukan
+      submit: Masukkan
 
     moderation:
       delete: Hapus pemungutan suara
