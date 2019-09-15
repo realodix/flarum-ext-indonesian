@@ -302,7 +302,7 @@ core:
       # discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
       discard_confirmation: "Artikel yang Anda tulis belum Anda posting. Apakah Anda ingin membuangnya?"
       # submit_button: Post Discussion
-      submit_button: Post
+      submit_button: Publikasikan Diskusi
       title: => core.ref.start_a_discussion
       # title_placeholder: Discussion Title
       title_placeholder: Judul Diskusi
