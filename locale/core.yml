@@ -413,7 +413,7 @@ core:
       mark_all_as_read_confirmation: "Anda yakin ingin menandai semua diskusi sudah terbaca?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       # refresh_tooltip: Refresh
-      refresh_tooltip: Segarkan Halaman
+      refresh_tooltip: Refresh Halaman
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
