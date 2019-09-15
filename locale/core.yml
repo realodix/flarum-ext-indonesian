@@ -176,9 +176,9 @@ core:
       # appearance_text: "Customize your forum's colors, logos, and other variables."
       appearance_text: "Sesuaikan warna, logo, dan lainnya."
       # basics_button: Basics
-      basics_button: Umum
+      basics_button: Basic
       # basics_text: "Set your forum title, language, and other basic settings."
-      basics_text: "Mengatur judul forum, bahasa, dan pengaturan dasar lainnya."
+      basics_text: "Tetapkan judul forum Anda, bahasa, dan pengaturan dasar lainnya."
       dashboard_button: Dashboard
       # dashboard_text: Your forum at a glance.
       dashboard_text: Sekilas tentang forum Anda.
@@ -230,7 +230,7 @@ core:
       # view_discussions_label: View discussions
       view_discussions_label: Lihat Diskusi
       # view_last_seen_at_label: View user last seen time
-      view_last_seen_at_label: Lihat Waktu Terakhir User Terlihat
+      view_last_seen_at_label: Lihat Waktu User Terakhir Terlihat
       # view_post_ips_label: View post IP addresses
       view_post_ips_label: Lihat IP Address
       # view_user_list_label: View user list
@@ -361,7 +361,7 @@ core:
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
       # activate_button: Activate User
-      activate_button: Actifkan User
+      activate_button: Aktifkan User
       email_heading: => core.ref.email
       email_label: => core.ref.email
       # groups_heading: Groups

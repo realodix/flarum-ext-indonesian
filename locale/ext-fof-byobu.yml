@@ -52,11 +52,11 @@ fof-byobu:
     admin:
         permission:
             # create_private_discussions_with_users: Create private discussions with users
-            create_private_discussions_with_users: Buat diskusi pribadi dengan user
+            create_private_discussions_with_users: Diskusi pribadi dengan user
             # create_private_discussions_with_groups: Create private discussions with groups
-            create_private_discussions_with_groups: Buat diskusi pribadi dengan group
+            create_private_discussions_with_groups: Diskusi pribadi dengan group
             # create_private_discussions_with_blocking_users: Create private discussions with users that block it
-            create_private_discussions_with_blocking_users: Buat diskusi pribadi dengan user yang memblokirnya
+            create_private_discussions_with_blocking_users: Diskusi pribadi dengan user yang memblokirnya
             # edit_user_recipients: Edit users partaking in private discussions
             edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
             # edit_group_recipients: Edit groups partaking in private discussions

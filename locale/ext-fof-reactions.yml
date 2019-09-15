@@ -1,0 +1,66 @@
+fof-reactions:
+  forum:
+    # warning: Your reaction was converted
+    warning: Reaksi telah dikonversi
+    # notification: '{username} reacted with {reaction} to your post'
+    notification: '{username} memberikan reaction dengan {reaction} ke post Anda'
+    settings:
+        # notify_post_reacted_label: Someone reacts to one of my posts
+        notify_post_reacted_label: Seseorang memberikan reaction ke salah satu post Saya
+
+  admin:
+    permissions:
+        # react_posts_label: React to posts
+        react_posts_label: Memberikan reaction
+
+    nav:
+      # desc: Add custom reactions and change settings.
+      desc: Tambahkan custom reaction dan ubah pengaturan.
+
+    page:
+      reactions:
+        title: Custom Reactions
+        # reactions: Current Reactions
+        reactions: Reaction Saat Ini
+        # Helptext: Input the name (identifier) of the emoji or font-awesome icon and select which type you would like.
+        Helptext: Masukkan nama (pengidentifikasi) dari emoji atau ikon font-awesome dan pilih jenis yang Anda inginkan.
+        help:
+          # identifier: Identifier
+          identifier: Pengidentifikasi
+
+      convert:
+        # help: If you just updated your extension, your reactions will have to be converted. If you just installed this extension, you can saftely ignore this message.
+        help: Jika Anda baru saja memperbarui ekstensi, reaction Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda dapat dengan aman mengabaikan pesan ini.
+        # button: Convert old reactions
+        button: Ubah reaction yang lama
+        # converting: Your reactions are now converting. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total number of reactions)
+        converting: Reaction Anda sekarang berubah. Refresh halaman ini setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memakan waktu cukup lama tergantung pada jumlah total reaction Anda)
+        # converted: "Successfully converted all {number} likes"
+        converted: "Berhasil mengkonversi {number} like"
+
+      settings:
+        # save_settings: Save Settings
+        save_settings: Simpan Pengaturan
+        integrations:
+          # legend: Integrations
+          legend: Integrasi
+          # warning: The same reaction <strong>cannot</strong> be converted to a like <strong>and</strong> an upvote
+          warning: Reaction yang sama <strong>tidak dapat</strong> dikonversi menjadi like <strong>dan</strong> upvote
+          gamification:
+            legend: Gamification
+            # upvoteLabel: Convert reactions to upvotes
+            upvoteLabel: Ubah reactions menjadi upvote
+            # upvoteHelptext: Input the identifier of the reaction you would like to automatically convert into an upvote
+            upvoteHelptext: Masukkan pengidentifikasi reaction yang ingin Anda konversi secara otomatis menjadi upvote
+            # downvoteLabel: Convert reactions to downvotes
+            downvoteLabel: Ubah reactions menjadi downvote
+            # downvoteHelptext: Input the identifier of the reaction you would like to automatically convert into an downvote
+            downvoteHelptext: Masukkan pengidentifikasi reaction yang ingin Anda konversi secara otomatis menjadi downvote
+
+          likes:
+            # legend: Likes
+            legend: Like
+            # Label: Convert reactions to likes
+            Label: Ubah reactions menjadi like
+            # Helptext: Input the identifier of the reaction you would like to automatically convert into an likes
+            Helptext: Masukkan pengidentifikasi reaction yang ingin Anda konversi secara otomatis menjadi like

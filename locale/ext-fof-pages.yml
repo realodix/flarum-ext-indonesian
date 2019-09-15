@@ -54,8 +54,7 @@ fof-pages:
     content: Konten
     # create_page: Create Page
     create_page: Buat Halaman
-    # pages: Pages
-    pages: Halaman
+    pages: Pages
     slug: Slug
     # title: Title
     title: Judul

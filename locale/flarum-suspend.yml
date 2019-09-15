@@ -10,34 +10,36 @@ flarum-suspend:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       #suspend_users_label: Suspend users
-      suspend_users_label: Membekukan User
+      suspend_users_label: Suspend User
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} suspended you for {timeReadable}"
-      user_unsuspended_text: "{username} unsuspended you"
+      # user_suspended_text: "{username} suspended you for {timeReadable}"
+      user_suspended_text: "{username} men-suspend Anda selama {timeReadable}"
+      # user_unsuspended_text: "{username} unsuspended you"
+      user_unsuspended_text: "{username} membuka suspend Anda"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       #indefinitely_label: Suspended indefinitely
-      indefinitely_label: Bekukan tanpa batas waktu
+      indefinitely_label: Suspend tanpa batas waktu
       #limited_time_days_text: " days"
       limited_time_days_text: "hari"
       #limited_time_label: Suspended for a limited time...
-      limited_time_label: Bekukan dengan batas waktu...
+      limited_time_label: Suspend dengan batas waktu...
       #not_suspended_label: Not suspended
-      not_suspended_label: Tidak dibekukan
+      not_suspended_label: Tidak di-suspend
       #status_heading: Suspension Status
       status_heading: Status
       submit_button: => core.ref.save_changes
-      title: "Bekukan {username}"
+      title: "Suspend {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Dibekukan
+      suspended_tooltip: Di-Suspend
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Bekukan
+      suspend_button: Suspend

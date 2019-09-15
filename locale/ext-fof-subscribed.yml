@@ -2,7 +2,7 @@ fof-subscribed:
     forum:
         settings:
             # defaults_label: Set "{setting}" enabled by default
-            defaults_label: "{setting}" secara default
+            defaults_label: "Atur {setting} secara default"
             # forced_label: Force enable "{setting}" for everyone
             forced_label: Aktifkan "{setting}" untuk semua user
             # notify_discussion_created_label: Someone creates a discussion
@@ -20,6 +20,6 @@ fof-subscribed:
             description: Konfigurasikan user subscribe (default)
         permission:
             # subscribe_to_discussion_created: Allowed to receive notification upon new discussion
-            subscribe_to_discussion_created: Izinkan terima notifikasi pada diskusi baru
+            subscribe_to_discussion_created: Notifikasi pada diskusi baru
             # subscribe_to_user_created: Allowed to receive notification upon new user
-            subscribe_to_user_created: Izinkan terima notifikasi pada user baru
+            subscribe_to_user_created: Notifikasi pada user baru
