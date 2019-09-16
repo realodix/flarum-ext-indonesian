@@ -44,16 +44,24 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.1
 - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.2.4
 
+
+### Kompatibilitas Versi Flarum
+
+ Flarum          | Package
+:----------------|:----------
+ v.0.1.0-beta.9  | [1.5.x](https://github.com/realodix/flarum-ext-indonesian/tree/1.5)
+ v.0.1.0-beta.10 | 1.6.x
+
 ### Cara Menggunakan
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
 
 1. Jalankan perintah ini pada folder Anda menginstall Flarum
 
-       composer require realodix/flarum-ext-indonesian
+       composer require realodix/flarum-ext-indonesian 1.6.x
 
     Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
 
-       composer require realodix/flarum-ext-indonesian 1.5.x-dev
+       composer require realodix/flarum-ext-indonesian 1.6.x-dev
 
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
 
