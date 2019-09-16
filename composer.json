@@ -20,7 +20,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.5-dev"
+      "dev-master": "1.5.x-dev"
     },
     "flarum-extension": {
       "title": "Indonesian",
