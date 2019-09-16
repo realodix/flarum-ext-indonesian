@@ -19,6 +19,9 @@
     "flarum/core": "^0.1.0-beta.9"
   },
   "extra": {
+    "branch-alias": {
+      "dev-master": "beta.10"
+    },
     "flarum-extension": {
       "title": "Indonesian",
       "icon": {
