@@ -2,7 +2,13 @@
   "name": "realodix/flarum-ext-indonesian",
   "type": "flarum-extension",
   "description": "Indonesian language pack.",
-  "keywords": ["locale"],
+  "keywords": [
+    "flarum",
+    "flarum-extension",
+    "indonesia",
+    "indonesian-language",
+    "translation"
+  ],
   "license": "MIT",
   "authors": [
     {
