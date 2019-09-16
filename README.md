@@ -7,7 +7,22 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
-**Requires**: Flarum 0.1.0-beta.10 | **Compatible up to**: Flarum 0.1.0-beta.10
+**Requires**: Flarum 0.1.0-beta.9 | **Compatible up to**: Flarum 0.1.0-beta.10
+
+### Cara Memasang
+Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
+
+1. Jalankan perintah ini pada folder Anda menginstall Flarum
+
+       composer require realodix/flarum-ext-indonesian
+
+    Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
+
+       composer require realodix/flarum-ext-indonesian 1.5.x-dev
+
+2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
+
+Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa mempengaruhi paket lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
 
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
@@ -44,35 +59,10 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.1
 - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.2.4
 
-
-### Kompatibilitas Versi Flarum
-
- Flarum          | Package
-:----------------|:----------
- v.0.1.0-beta.9  | [1.5.x](https://github.com/realodix/flarum-ext-indonesian/tree/1.5)
- v.0.1.0-beta.10 | 1.6.x
-
-### Cara Menggunakan
-Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
-
-1. Jalankan perintah ini pada folder Anda menginstall Flarum
-
-       composer require realodix/flarum-ext-indonesian 1.6.x
-
-    Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
-
-       composer require realodix/flarum-ext-indonesian 1.6.x-dev
-
-2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
-
-Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa mempengaruhi paket lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
-
-
 ### Catatan
 - Sejauh ini sudah hampir 100% diterjemahkan.
 - Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Sebagai contoh kata _password_ tetap Saya tulis _password_ (harusnya kata sandi), dan kata _upload_ tetap Saya tulis _upload_ (harusnya unggah).
 - Teks bahasa Inggris masih ada dalam bentuk komentar yaml, diharapkan Anda bisa dengan mudah membantu Saya untuk mengkoreksi terjemahan yang sudah ada.
-
 
 ## Berkontribusi
 Terima kasih banyak untuk Anda yang ingin berkontribusi. Saya sangat menghargai komitmen Anda. Menggunakan paket bahasa sudah merupakan dukungan besar, tetapi cara terbaik lainnya untuk berkontribusi adalah:
