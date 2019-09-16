@@ -53,7 +53,7 @@ Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola depende
 
     Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
 
-       composer require realodix/flarum-ext-indonesian dev-master
+       composer require realodix/flarum-ext-indonesian 1.5-dev
 
 2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
 
