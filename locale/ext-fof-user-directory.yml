@@ -1,0 +1,25 @@
+fof-user-directory:
+    forum:
+        search:
+            users_heading: 'Cari semua pengguna untuk "{query}"'
+        page:
+            nav: Daftar Pengguna
+            sort:
+                relevance: Relevansi
+                default: Default
+                username_az: Nama Pengguna (a-z)
+                username_za: Nama Pengguna (z-a)
+                newest: Terbaru
+                oldest: Terlama
+                seen_recent: Baru-baru ini online
+                seen_oldest: Sudah lama tidak online
+                most_posts: Paling banyak posting
+                least_posts: Paling sedikit posting
+                most_discussions: Paling banyak diskusi
+                least_discussions: Paling sedikit diskusi
+    admin:
+        permissions:
+            view_user_directory: Lihat daftar pengguna
+        settings:
+            title: Pengaturan Daftar Pengguna
+            link: Tambahkan daftar pengguna pada halaman utama agar pengguna dapat melihat 

@@ -1,0 +1,44 @@
+fof-polls:
+  admin:
+    permissions:
+      moderate: Ubah & hapus pemungutan suara
+      self_edit: Izinkan pengguna untuk merubah pemungutan suaranya
+      start: Memulai pemungutan suara
+      vote: Memilih pemungutan suara
+
+  forum:
+    days_remaining: "Pemungutan suara berakhir pada {time}"
+    no_permission: Anda tidak memiliki izin untuk melakukan pemungutan suara
+    poll_ended: Pemungutan suara ini sudah berakhir
+    public_poll: Lihat pemilih
+
+    composer_discussion:
+      add_poll: Membuat Pemungutan Suara
+      edit_poll: => fof-polls.forum.moderation.edit
+
+    modal:
+      add_title: Membuat Pemungutan Suara
+      add_option_label: Masukkan Pilihan
+      date_placeholder: Waktu berakhirnya pemungutan suara (Opsional)
+      edit_title: Ubah Pemungutan Suara
+      include_question: Anda harus memasukkan pertanyaan
+      max: Anda dapat memiliki maksimal 10 jawaban
+      min: Memasukkan minimal 2 jawaban
+      no_voters: Belum Ada Suara
+      option_placeholder: Jawaban
+      options_label: Jawaban
+      public_poll_label: Izinkan orang lain melihat siapa yang sudah memilih
+      question_placeholder: Pertanyaan
+      submit: Masukkan
+
+    moderation:
+      delete: Hapus Pemungutan Suara
+      delete_confirm: Apakah anda yakin ingin menghapus pemungutan suara ini?
+      edit: Ubah pemungutan suara
+
+    tooltip:
+      badge: Pemungutan Suara
+      votes: "1 suara|{count} suara"
+
+    votes_modal:
+      title: Pemilih
