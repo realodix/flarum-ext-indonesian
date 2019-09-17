@@ -33,12 +33,12 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [friendsofflarum/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [friendsofflarum/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
-- [friendsofflarum/byobu](https://github.com/friendsofflarum/byobu) v0.3.3
+- [friendsofflarum/byobu](https://github.com/friendsofflarum/byobu) v0.3.4
 - [friendsofflarum/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.2
 - [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.4
 - [friendsofflarum/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
-- [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.1
+- [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.2
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
 - [friendsofflarum/polls](https://github.com/friendsofflarum/polls) v0.1.1
 - [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.1.4
@@ -48,7 +48,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [friendsofflarum/split](https://github.com/friendsofflarum/split) v0.4.3
 - [friendsofflarum/subscribed](https://github.com/friendsofflarum/subscribed) v0.1.0
 - [friendsofflarum/upload](https://github.com/friendsofflarum/upload) v0.7.1
-- [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.2
+- [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.3
 - [friendsofflarum/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.3
 - [friendsofflarum/username-request](https://github.com/friendsofflarum/username-request) v0.1.3
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.1.1
