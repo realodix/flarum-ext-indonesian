@@ -211,6 +211,8 @@ core:
       delete_posts_label: Hapus post
       # edit_posts_label: Edit posts
       edit_posts_label: Edit Post
+      # edit_users_label: Edit users
+      edit_users_label: Edit user
       global_heading: Global
       moderate_heading: Moderate
       # new_group_button: New Group
@@ -451,6 +453,8 @@ core:
       # empty_text: No Notifications
       empty_text: Tidak ada notifikasi
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      # mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: Tandai Sudah Dibaca
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
@@ -560,6 +564,10 @@ core:
       delete_button: => core.ref.delete
       # delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
       delete_confirmation: "Apakah Anda yakin ingin menghapus user ini? Semua post dari user ini akan ikut terhapus."
+      # delete_error_message: "Deletion of user <i>{username} ({email})</i> failed"
+      delete_error_message: "Gagal menghapus user <i>{username} ({email})</i>"
+      # delete_success_message: "User <i>{username} ({email})</i> was deleted"
+      delete_success_message: "User <i>{username} ({email})</i> berhasil dihapus"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -625,20 +633,22 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      # 403_message: You do not have permission to access this page.
-      403_message: Anda tidak memiliki izin untuk mengakses halaman ini.
-      # 404_message: The page you requested could not be found.
-      404_message: Halaman tidak ditemukan.
-      # 404_return_link: "Return to {forum}"
-      404_return_link: "Kembali ke halaman depan"
-      # 419_message: You have been inactive for too long.
-      419_message: Anda sudah lama tidak aktif.
-      # 419_return_link: Go back, to try again
-      419_return_link: Kembali, untuk mencoba lagi
-      # 500_message: An error occurred while trying to load this page.
-      500_message: Terjadi kesalahan saat mencoba memuat halaman ini.
-      # 503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
-      503_message: "{forum} sedang menjalani pemeliharaan. Terima kasih atas kesabaran Anda!"
+      # csrf_token_mismatch: You have been inactive for too long.
+      csrf_token_mismatch: Anda sudah lama tidak aktif.
+      # csrf_token_mismatch_return_link: Go back, to try again
+      csrf_token_mismatch_return_link: Kembali, dan coba lagi
+      # invalid_confirmation_token: This confirmation link has already been used or is invalid.
+      invalid_confirmation_token: URL konfirmasi ini sudah digunakan atau tidak valid.
+      # not_authenticated: You do not have permission to access this page. Try again after logging in.
+      not_authenticated: Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah Anda login kembali.
+      # not_found: The page you requested could not be found.
+      not_found: Halaman yang Anda minta tidak dapat ditemukan.
+      # not_found_return_link: "Return to {forum}"
+      not_found_return_link: "Kembali ke {forum}"
+      # permission_denied: You do not have permission to access this page.
+      permission_denied: Anda tidak memiliki izin untuk mengakses halaman ini.
+      # unknown: An error occurred while trying to load this page.
+      unknown: Terjadi kesalahan saat mencoba menampilkan halaman ini.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
