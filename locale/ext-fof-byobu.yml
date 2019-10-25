@@ -49,6 +49,12 @@ fof-byobu:
             #byobu_link: Private Discussions
             byobu_link: Diskusi Pribadi
 
+        notifications:
+            # pd_label: Someone includes me in a Private discussion
+            pd_label: Seseorang memasukkan Saya dalam Diskusi pribadi
+            # pd_text: "{username} started a new private discussion with you"
+            pd_text: "{username} memulai diskusi pribadi baru dengan Anda"
+
     admin:
         permission:
             # create_private_discussions_with_users: Create private discussions with users
@@ -65,3 +71,8 @@ fof-byobu:
         settings:
             # byobu_users_page_label: Add private discussions to user page
             byobu_users_page_label: Tambahkan diskusi pribadi ke halaman user
+
+    notifications:
+        private_discussion_created:
+            # title: "[forum-name] New private discussion"
+            title: "[forum-name] Diskusi pribadi baru"
