@@ -41,7 +41,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.2
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
 - [friendsofflarum/polls](https://github.com/friendsofflarum/polls) v0.1.1
-- [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.1.4
+- [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.2.0
 - [friendsofflarum/reactions](https://github.com/friendsofflarum/reactions) v0.1.0
 - [friendsofflarum/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
 - [friendsofflarum/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.1
