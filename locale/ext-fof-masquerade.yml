@@ -75,7 +75,7 @@ fof-masquerade:
             options: Opsi
             # option-new: New option
             option-new: Buat opsi
-            # option-coma-warning: The label of an option cannot contain any coma (",").
+            # option-coma-warning: The label of an option cannot contain any comma (",").
             option-coma-warning: Label opsi tidak boleh mengandung koma (",").
         types:
             advanced: Advanced
