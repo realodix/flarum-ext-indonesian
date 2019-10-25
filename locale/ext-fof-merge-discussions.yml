@@ -18,6 +18,15 @@ fof-merge-discussions:
       # merge_discussions_label: Merge discussions
       merge_discussions_label: Gabungkan Diskusi
 
+  api:
+    error:
+      # merging_failed: Failed to merge discussions.
+      merging_failed: Gagal menggabungkan diskusi.
+      # updating_failed: Failed to update discussion details.
+      updating_failed: Gagal memperbarui detail diskusi.
+      # deleting_failed: Failed to delete empty discussions.
+      deleting_failed: Gagal menghapus diskusi kosong.
+
   ref:
     # merge: Merge
     merge: Gabungkan

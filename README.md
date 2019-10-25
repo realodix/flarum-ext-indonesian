@@ -38,7 +38,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.2
 - [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.5
 - [friendsofflarum/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
-- [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.2
+- [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
 - [friendsofflarum/polls](https://github.com/friendsofflarum/polls) v0.1.1
 - [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.2.0
