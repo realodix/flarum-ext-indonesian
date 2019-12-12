@@ -7,7 +7,7 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
-**Requires**: Flarum 0.1.0-beta.9 | **Compatible up to**: Flarum 0.1.0-beta.10
+**Requires**: Flarum 0.1.0-beta.10 | **Compatible up to**: Flarum 0.1.0-beta.11
 
 ### Cara Memasang
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
