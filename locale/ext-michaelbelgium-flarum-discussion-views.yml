@@ -11,13 +11,27 @@ flarum_discussion_views:
     modal_resetviews:
       # title: Reset discussion view count
       title: Setel ulang jumlah tampilan diskusi
-      submit: Submit
-      # label: Set to view count
-      label: Setel untuk melihat jumlah
+      # submit: Yes, remove all
+      submit: Ya, hapus semua
+      # label: This will remove {count} view of this discussion. Continue?|This will remove {count} views of this discussion. Continue?
+      label: Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan? | Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan?
     discussion_controls:
-      # resetviews_button: Set view count
-      resetviews_button: Tetapkan jumlah tampilan
+      # resetviews_button: Reset views
+      resetviews_button: Reset jumlah tampilan
+    viewlist:
+      title: Latest viewers
   admin:
       permissions:
           # reset_views_label: Set discussion views
           reset_views_label: Tetapkan tampilan diskusi
+      settings:
+        # title: Discussionviews settings
+        title: Pengaturan jumlah tamlan diskusi
+        # track_unique: Track unique views
+        track_unique: Lacak jumlah tampilan unik
+        # abbr_numbers: Abbreviate view numbers
+        abbr_numbers: Persingkat angka jumlah tampilan
+        show_filter: Enable (un)popular sort field
+        max_viewcount: Maximum viewlist items
+        # show_viewlist: Enable viewlist
+        show_viewlist: Aktifkan daftar jumlah tampilan
