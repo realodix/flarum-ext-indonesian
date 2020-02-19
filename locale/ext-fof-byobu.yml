@@ -12,6 +12,13 @@ fof-byobu:
             edit_recipients: Ubah Penerima
             # send_pd: "Send {username} a message"
             send_pd: "Kirim pesan ke {username}"
+            # cancel: Cancel
+            cancel: Batalkan
+        composer_private_discussion:
+            # submit_button: Post Private Discussion
+            submit_button: Post Diskusi Pribadi
+            # title_placeholder: Private Discussion Title
+            title_placeholder: Judul Diskusi Pribadi
         labels:
             # recipients: "{count} Recipient|{count} Recipients"
             recipients: "{count} Penerima|{count} Penerima"
@@ -20,6 +27,8 @@ fof-byobu:
         nav:
             # private_discussions: Private discussion
             private_discussions: Diskusi Pribadi
+            # start_button: New Private Discussion
+            start_button: Diskusi Pribadi Baru
         input:
             # search_recipients: Search recipient by typing first three characters...
             search_recipients: Cari username penerima dengan mengetikkan tiga karakter pertama..
@@ -33,6 +42,11 @@ fof-byobu:
                 update_recipients: Ubah penerima untuk {title}
                 # add_recipients: Add recipients to your discussion
                 add_recipients: Tambahkan penerima untuk diskusi Anda
+            help:
+                # add_recipients: This discussion will only be visible to the users you choose here. At least 1 recipient (other than yourself) is required
+                add_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini. Diperlukan setidaknya 1 penerima (selain Anda)
+                # update_recipients: This discussion will only be visible to the users you choose here.
+                update_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini.
         post:
             recipients_modified:
                 # added_and_removed: "{username} added recipients {added} and removed {removed}."
@@ -46,12 +60,18 @@ fof-byobu:
                 # block_pd: Block private discussions
                 block_pd: Blokir diskusi pribadi
 
-            #byobu_link: Private Discussions
+            # byobu_link: Private Discussions
             byobu_link: Diskusi Pribadi
+            # dropdown_label: Private Discussions
+            dropdown_label: Diskusi Pribadi
 
         notifications:
             # pd_label: Someone includes me in a Private discussion
             pd_label: Seseorang memasukkan Saya dalam Diskusi pribadi
+            # pd_reply_label: Someone posts in a private discussion I'm a recipient of
+            pd_reply_label: Seseorang memposting dalam diskusi pribadi yang saya terima
+            # pd_reply_text: "{username} posted in a private discussion you're a part of"
+            pd_reply_text: "{username} memposting dalam diskusi pribadi dimana Anda ada di dalamnya"
             # pd_text: "{username} started a new private discussion with you"
             pd_text: "{username} memulai diskusi pribadi baru dengan Anda"
 
@@ -67,12 +87,17 @@ fof-byobu:
             edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
             # edit_group_recipients: Edit groups partaking in private discussions
             edit_group_recipients: Edit group yang mengambil bagian dalam diskusi pribadi
+            # view_private_discussions-when-flagged: View private discussions of other users if flagged
+            view_private_discussions-when-flagged: Lihat diskusi pribadi user lain jika ditandai
 
         settings:
-            # byobu_users_page_label: Add private discussions to user page
-            byobu_users_page_label: Tambahkan diskusi pribadi ke halaman user
+            # nothing_here: Nothing to see here, yet
+            nothing_here: Belum ada yang bisa dilihat di sini
 
     notifications:
         private_discussion_created:
             # title: "[forum-name] New private discussion"
             title: "[forum-name] Diskusi pribadi baru"
+        private_discussion_replied:
+            # title: "[Private Discussion] user posted in a private discussion"
+            title: "[Diskusi Pribadi] user memposting dalam diskusi pribadi"
