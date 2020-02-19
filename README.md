@@ -28,15 +28,15 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
-- [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.0
-- [flagrow/impersonate](https://github.com/flagrow/impersonate) v0.2.0
+- [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
+- [flagrow/impersonate](https://github.com/flagrow/impersonate) v0.3.0
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [friendsofflarum/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [friendsofflarum/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
 - [friendsofflarum/byobu](https://github.com/friendsofflarum/byobu) v0.4.1
 - [friendsofflarum/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
-- [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.2
-- [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.5
+- [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.4
+- [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.6
 - [friendsofflarum/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
