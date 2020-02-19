@@ -2,9 +2,9 @@ kilowhat-mailing:
     admin:
         permissions:
             # mail_individual: Send emails to individual users
-            mail_individual: Kirim email ke pengguna individu
-            # mail_all: Send emails to all users
-            mail_all: Kirim email ke semua pengguna
+            mail_individual: Kirim email ke user individu
+            # mail_all: Send emails to groups or all users
+            mail_all: Kirim email ke grup atau semua user
 
     forum:
         links:
@@ -13,12 +13,12 @@ kilowhat-mailing:
             # mail_all: Send an email to all users
             mail_all: Kirim email ke semua user
         modal_mail:
-            # title_text: Message for
-            title_text: Pesan untuk
-            # title_all_text: all users
-            title_all_text: semua user
-            # email_label: To
-            email_label: Ke
+            # title_text: Compose Mail
+            title_text: Tulis Pesan
+            # recipients_label: Recipients
+            recipients_label: Penerima
+            # recipients_placeholder: Type other recipients...
+            recipients_placeholder: Ketik penerima lain...
             # subject_label: Subject
             subject_label: Judul
             default_subject: => kilowhat-mailing.ref.default_subject
@@ -26,6 +26,19 @@ kilowhat-mailing:
             message_label: Pesan
             # submit_button: Send
             submit_button: Kirim
+        modal_sent:
+            # title_text: Mail Sent!
+            title_text: Pesan Terkirim!
+            # on_its_way: High Five! Your mail is on its way to {recipientsCount} recipients!
+            on_its_way: High Five! Pesan ada sudah terkirim ke {recipientsCount} penerima!
+        recipient_kinds:
+            user: User
+            group: Group
+            email: Email
+
+    api:
+        # no_recipients: No recipient were matched
+        no_recipients: Tidak ada penerima yang cocok
 
     email:
         default_subject: => kilowhat-mailing.ref.default_subject
