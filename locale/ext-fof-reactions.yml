@@ -1,5 +1,7 @@
 fof-reactions:
   forum:
+    # disabled-reaction: You can't use this reaction right now, please refresh the page
+    disabled-reaction: Kamu tidak dapat menggunakan reaction saat ini, coba refresh halaman ini
     # warning: Your reaction was converted
     warning: Reaksi telah dikonversi
     # notification: '{username} reacted with {reaction} to your post'
@@ -7,6 +9,8 @@ fof-reactions:
     settings:
         # notify_post_reacted_label: Someone reacts to one of my posts
         notify_post_reacted_label: Seseorang memberikan reaction ke salah satu post Saya
+    # reacting-own-post: You cannot react to your own post
+    reacting-own-post: Anda tidak dapat memberikan reaksi terhadap post Anda sendiri
 
   admin:
     permissions:
@@ -25,6 +29,7 @@ fof-reactions:
         # Helptext: Input the name (identifier) of the emoji or font-awesome icon and select which type you would like.
         Helptext: Masukkan nama (pengidentifikasi) dari emoji atau ikon font-awesome dan pilih jenis yang Anda inginkan.
         help:
+          display: Display
           # identifier: Identifier
           identifier: Pengidentifikasi
 
