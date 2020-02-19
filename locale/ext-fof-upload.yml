@@ -1,120 +1,101 @@
-flagrow-upload:
-    forum:
-        buttons:
-            # attach: Attach
-            attach: Lampiran
-        states:
-            loading: Loading
-            # success: Success
-            success: Sukses
-            error: Error
-    admin:
-        templates:
-            image: Default image download template
-            image_description: >
-                Menampilkan thumbnail dari gambar dan proxies download melalui php.
-                Mengizinkan statistik dikumpulkan dan hotlink protection.
-            file: Default file download template
-            file_description: >
-                Memperlihatkan nama file dan beberapa informasi umum. Proxy donwload melalui PHP, memungkinkan pengumpulan statistik dan hotlink protection.
-            image-preview: Complete image preview template
-            image-preview_description: >
-                Memperlihatkan secara lengkap image in-line. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.
-        permissions:
-            # upload_label: Upload files
-            upload_label: Upload file
-            # download_label: Download files
-            download_label: Download file
-        upload_methods:
-            local: Local
-            aws-s3: Amazon S3
-            imgur: Imgur
-            ovh-svfs: OVH SVFS
-        labels:
-            preferences:
-                # title: General preferences
-                title: Prefensi Umum
-                # max_file_size: Maximum file size (in kilobytes)
-                max_file_size: Ukuran file maksimum (dalam kilobytes)
-                # mime_types: Configure your mime type, upload adapter mapping
-                mime_types: Konfigurasikan tipe mime Anda, upload pemetaan adaptor
-            resize:
-                title: Image resize
-                # toggle: Resize images
-                toggle: Ubah ukuran gambar
-                # max_width: Maximum image width
-                max_width: Lebar maksimal gambar
-                # max_height: Maximum image height
-                max_height: Tinggi maksimal gambar
-            watermark:
-                # title: Watermark images
-                title: Pemberian Watermark Pada Gambar
-                # toggle: Watermark images
-                toggle: Berikan watermark
-                # position: Watermark position
-                position: Posisi Watermark
-                # file: Upload your watermark image
-                file: Upload gambar watermark Anda
-            local:
-                # title: Local storage settings
-                title: Pengaturan Local storage
-                cdn_url: Content Delivery URL (prefixes files)
-            imgur:
-                # title: Imgur image storage settings
-                title: Pengaturan Imgur image storage
-                client_id: Imgur client ID
-            aws-s3:
-                # title: AWS S3 storage settings
-                title: Pengaturan AWS S3 storage
-                key: Key
-                secret: Secret
-                bucket: Bucket
-                region: Region
-            ovh-svfs:
-                # title: OVH SVFS storage settings
-                title: Pengaturan OVH SVFS storage
-                container: Container
-                tenantid: Tenant ID
-                username: Username
-                password: Password
-                region: Region
-            disable-hotlink-protection:
-                # title: Disable hotlink protection
-                title: Nonaktifkan hotlink protection
-                # toggle: Disable
-                toggle: Nonaktifkan
-            disable-download-logging:
-                # title: Disable logging downloads
-                title: Nonaktifkan log download
-                # toggle: Disable
-                toggle: Nonaktifkan
-
-        buttons:
-            # save: Save settings
-            save: Simpan pengaturan
-        help_texts:
-            description: >
-                Siapkan layanan dan preferensi upload.
-            mime_types: >
-                Harap konfigurasikan pemetaan Anda di sini. Setiap ekspresi
-                reguler tipe mime akan ditangani oleh upload adapter dan
-                download template tertentu.
-            download_templates: >
-                Download templates are how uploads are shown on your forum,
-                eg like previews, buttons. Currently available:
-            resize: >
-                Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload.
-                Anda dapat memilih lebar dan tinggi maksimum, dalam piksel.
-                Proses pengubahan ukuran akan menjaga rasio aspek gambar.
-            watermark: >
-                Pilih apakah gambar akan memiliki watermark yang ditambahkan
-                selama proses upload. Watermark ditambahkan ke gambar non-gif
-                berdasarkan preferensi Anda di bawah ini.
-            disable-hotlink-protection: >
-                Hotlink protection mencegah seseorang download dari situs lain.
-                Metode saat ini membutuhkan csrf token dan post id.
-            disable-download-logging: >
-                Nonaktifkan pencatatan setiap download yang dilakukan oleh
-                pengguna forum Anda. Dengan tetap mengaktifkannya memungkinkan
-                Anda untuk melihat jumlah download dan metrik lainnya di lain
-                waktu.
+fof-upload:
+  admin:
+    buttons:
+      # save: Save settings
+      save: Simpan pengaturan
+    help_texts:
+      description: |
+        Siapkan layanan dan preferensi upload.
+      disable-download-logging: |
+        Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya di waktu dekat.
+      disable-hotlink-protection: |
+        Hotlink protection mencegah seseorang download dari situs lain. Metode saat ini membutuhkan csrf token dan post id.
+      download_templates: |
+        Template download adalah cara peng-upload-an ditampilkan di forum Anda, mis. Seperti pratinjau, tombol. Saat ini tersedia:
+      mime_types: |
+        Harap konfigurasikan mapping Anda di sini. Setiap regular expression tipe mime akan ditangani oleh upload adapter dan template download tertentu.
+      resize: |
+        Pilih apakah Anda ingin mengubah ukuran gambar sebelum di-upload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran menjaga rasio aspek gambar.
+      watermark: |
+        Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.
+    labels:
+      aws-s3:
+        bucket: Bucket
+        key: Key
+        region: Region
+        secret: Secret
+        # title: AWS S3 storage settings
+        title: Pengaturan AWS S3 storage
+      disable-download-logging:
+        # title: Disable logging downloads
+        title: Nonaktifkan pencatatan download
+        # toggle: Disable
+        toggle: Nonaktifkan
+      disable-hotlink-protection:
+        # title: Disable hotlink protection
+        title: Nonaktifkan hotlink protection
+        # toggle: Disable
+        toggle: Nonaktifkan
+      imgur:
+        client_id: Imgur client ID
+        # title: Imgur image storage settings
+        title: Pengaturan Imgur image storage
+      local:
+        cdn_url: Content Delivery URL (prefixes files)
+        # title: Local storage settings
+        title: Pengaturan local storage
+      qiniu:
+        # title: Qiniu storage settings
+        title: Pengaturan Qiniu storage
+        key: Key
+        secret: Secret
+        bucket: Bucket
+      preferences:
+        # max_file_size: Maximum file size (in kilobytes)
+        max_file_size: Ukuran file maksimum (dalam kilobytes)
+        # mime_types: 'Configure your mime type, upload adapter mapping'
+        mime_types: 'Konfigurasikan tipe mime Anda, upload adapter mapping'
+        # title: General preferences
+        title: Prefensi Umum
+      resize:
+        max_width: Maximum image width
+        title: Image resize
+        toggle: Resize images
+      watermark:
+        # file: Upload your watermark image
+        file: Upload gambar watermark Anda
+        # position: Watermark position
+        position: Posisi Watermark
+        title: Watermark images
+        toggle: Watermark images
+    permissions:
+      download_label: Download files
+      upload_label: Upload files
+    templates:
+      # file: Default file download template
+      file: Template download file default
+      file_description: |
+        Memperlihatkan nama file dan beberapa informasi umum. Proxies download melalui php, memungkinkan pengumpulan statistik dan hotlink protection.
+      # image: Default image download template
+      image: Template download gambar default
+      # image-preview: Complete image preview template
+      image-preview: Template pratinjau gambar yang lengkap
+      image-preview_description: |
+        Memperlihatkan gambar lengkap in-line. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.
+      image_description: |
+        Memperlihatkan thumbnail gambar dan proxies download melalui php. Mengizinkan statistik dikumpulkan dan hotlink protection.
+    upload_methods:
+      aws-s3: Amazon S3
+      imgur: Imgur
+      local: Local
+      ovh-svfs: OVH SVFS
+      qiniu: QiNiu
+  forum:
+    buttons:
+      # attach: Attach
+      attach: Lampiran
+    states:
+      error: Error
+      loading: Uploading
+      # unauthorized: You are not allowed to download files
+      unauthorized: Anda tidak diixinkan untuk men-download file ini
