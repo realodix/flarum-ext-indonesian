@@ -52,7 +52,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [friendsofflarum/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.3
 - [friendsofflarum/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.1.1
-- [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v0.1.0-beta.8.2
+- [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v3.1.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v0.1.0-beta-8-5
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v4.0
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
