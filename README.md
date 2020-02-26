@@ -35,6 +35,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [friendsofflarum/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
 - [friendsofflarum/byobu](https://github.com/friendsofflarum/byobu) v0.4.1
 - [friendsofflarum/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
+- [friendsofflarum/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [friendsofflarum/formatting](https://github.com/friendsofflarum/formatting) v0.1.4
 - [friendsofflarum/gamification](https://github.com/friendsofflarum/gamification) v0.1.6
 - [friendsofflarum/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
