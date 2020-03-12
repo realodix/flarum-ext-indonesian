@@ -222,7 +222,10 @@ core:
       moderate_heading: Moderate
       # new_group_button: New Group
       new_group_button: Tambah Grup
-      participate_heading: Participate
+      # participate_heading: Participate
+      participate_heading: Ikut Serta
+      # post_without_throttle_label: Reply multiple times without waiting
+      post_without_throttle_label: Jawab beberapa kali tanpa menunggu
       read_heading: Read
       # rename_discussions_label: Rename discussions
       rename_discussions_label: Ganti Judul Diskusi
