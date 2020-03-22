@@ -1,0 +1,22 @@
+fof-drafts:
+  admin:
+    permissions:
+      # start: Create discussion drafts
+      start: Buat draft diskusi
+  forum:
+    composer:
+      # title: Save Draft
+      title: Simpan Draft
+      # alert: Draft saved.
+      alert: Draft disimpan.
+      # exit_alert: Discard changes to draft?
+      exit_alert: Buang perubahan?
+    dropdown:
+      # empty_text: You didn't save any drafts
+      empty_text: Anda tidak menyimpan draft apa pun
+      title: Drafts
+      # button: Delete Draft
+      button: Hapus Draft
+      tooltip: => fof-drafts.forum.dropdown.title
+      # alert: Are you sure you want to delete your draft?
+      alert: Anda yakin ingin menghapus draft Anda?
