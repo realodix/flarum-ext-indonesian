@@ -1,0 +1,69 @@
+askvortsov-moderator-warnings:
+  admin:
+    permissions:
+      # manage_warnings: Create and hide moderator warnings
+      manage_warnings: Buat dan sembunyikan peringatan moderator
+      # view_warnings: View moderator warnings
+      view_warnings: Lihat peringatan moderator
+      # delete_warnings: Delete moderator warnings
+      delete_warnings: Hapus peringatan moderator
+  forum:
+    notifications:
+      # warning_text: You were warned with {strikes} strikes by {mod_username}
+      warning_text: Anda diperingatkan dengan {strikes} teguran oleh {mod_username}
+      # warning_no_strikes_text: You were warned by {mod_username} (no strikes)
+      warning_no_strikes_text: Anda diperingatkan oleh {mod_username} (tidak ada teguran)
+    post:
+      # warning: Warned with {strikes} strikes by {mod_username}
+      warning: Diperingatkan dengan {strike} strike oleh {mod_username}
+      # warning_no_strikes: Warned with no strikes by {mod_username}
+      warning_no_strikes: Diperingatkan tanpa hukuman oleh {mod_username}
+    post_controls:
+      # warning_button: Apply Warning
+      warning_button: Terapkan Peringatan
+    user:
+      # warnings: Moderator Warnings
+      warnings: Peringatan Moderator
+    settings:
+      # warning_notification_label: A moderator warns me
+      warning_notification_label: Seorang moderator memperingatkan saya
+    warning_controls:
+      # delete_button: Delete
+      delete_button: Hapus
+      # restore_button: Restore
+      restore_button: Pulihkan
+      # delete_forever_button: Delete Forever
+      delete_forever_button: Hapus Selamanya
+    warning_list:
+      # add_button: New warning
+      add_button: Peringatan baru
+      # no-warnings: It looks like there are no warnings here.
+      no-warnings: Sepertinya tidak ada peringatan di sini.
+      # warnings: "Moderator Warnings: {strikes} Strikes Received"
+      warnings: "Peringatan Moderator: {strike} Strike Diterima"
+    warning_list_item:
+      # list_item_heading: <strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes
+      list_item_heading: <strong>{mod_username}</strong> diperingatkan dengan <strong>{strikes}</strong> strikes
+      # list_item_heading_hidden: <strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes <strong>(deleted)</strong>
+      list_item_heading_hidden: <strong>{mod_username}</strong> diperingatkan dengan <strong>{strikes}</strong> strikes <strong>(deleted)</strong>
+      # public_comment: User-Visible Comments
+      public_comment: Komentar Yang Terlihat Oleh User
+      # private_comment: Moderator-Visible Comments
+      private_comment: Komentar yang Terlihat Moderator
+      linked_post: Linked Post
+    warning_modal:
+      # confirmation_message: Your warning has been saved. You may need to refresh the page to see it.
+      confirmation_message: Peringatan Anda telah disimpan. Anda mungkin perlu refresh halaman untuk melihatnya.
+      # create-heading: Create a new moderator warning
+      create-heading: Buat peringatan moderator baru
+      dismiss_button: Done
+      # strikes_heading: How many strikes should be applied?
+      strikes_heading: Berapa banyak teguran yang harus diterapkan?
+      # public_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will be visible to the user and other moderators.
+      public_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh pengguna dan moderator lainnya.
+      # private_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will ONLY be visible to other moderators.
+      private_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini HANYA akan terlihat oleh moderator lain.
+      # no_content_given: An empty warning is not permitted.
+      no_content_given: Peringatan kosong tidak diizinkan.
+      # submit_button: Save warning
+      submit_button: Simpan peringatan
