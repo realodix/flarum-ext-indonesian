@@ -41,11 +41,11 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.1.1
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.4
-- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.1.7
+- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.1.8
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.2.7
-- [fof/polls](https://github.com/friendsofflarum/polls) v0.1.1
+- [fof/polls](https://github.com/friendsofflarum/polls) v0.1.2
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.2.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v0.2.2
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
