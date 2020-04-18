@@ -22,8 +22,10 @@ flarum_discussion_views:
       title: Latest viewers
   admin:
       permissions:
-          # reset_views_label: Set discussion views
-          reset_views_label: Tetapkan tampilan diskusi
+          # can_reset_views: Reset discussion views
+          can_reset_views: Reset tampilan diskusi
+          # can_view_number: View discussion viewcount
+          can_view_number: Lihat jumlah tampilan diskusi
       settings:
         # title: Discussionviews settings
         title: Pengaturan jumlah tamlan diskusi
