@@ -36,7 +36,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
-- [fof/byobu](https://github.com/friendsofflarum/byobu) v0.4.5
+- [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.0
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.5
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.5
