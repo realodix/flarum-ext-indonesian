@@ -345,7 +345,7 @@ core:
       cannot_reply_text: Anda tidak diperbolehkan ikut berdiskusi.
       delete_button: => core.ref.delete
       # delete_confirmation: "Are you sure you want to delete this discussion?"
-      delete_confirmation: "Apakah Anda yakin ingin meng ini?"
+      delete_confirmation: "Anda yakin ingin menghapus diskusi ini?"
       delete_forever_button: => core.ref.delete_forever
       # log_in_to_reply_button: Log In to Reply
       log_in_to_reply_button: Balas
@@ -443,7 +443,7 @@ core:
       # forgot_password_link: "Forgot password?"
       forgot_password_link: "Lupa password?"
       # invalid_login_message: Your login details were incorrect.
-      invalid_login_message: Rincian login yang Anda masukkan tidak tepat.
+      invalid_login_message: Rincian login yang Anda masukkan tidak benar.
       password_placeholder: => core.ref.password
       # remember_me_label: Remember Me
       remember_me_label: Ingat Saya
@@ -469,7 +469,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       # edited_text: Edited
-      edited_text: Sudah diubah
+      edited_text: Telah diubah
       # edited_tooltip: "{username} edited {ago}"
       edited_tooltip: "Diubah oleh {username} {ago}"
       number_tooltip: "Post #{number}"
@@ -668,7 +668,7 @@ core:
     log_out:
       log_out_button: => core.ref.log_out
       # log_out_confirmation: "Are you sure you want to log out of {forum}?"
-      log_out_confirmation: "Apakah Anda yakin ingin logout dari {forum}?"
+      log_out_confirmation: "Apakah Anda yakin ingin keluar dari {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
@@ -684,49 +684,49 @@ core:
   # Translations in this namespace are used in messages output by the API.
   api:
     # invalid_username_message: "The username may only contain letters, numbers, and dashes."
-    invalid_username_message: "Username dapat mengandung huruf, angka, dan tanda hubung."
+    invalid_username_message: "Username dapat mengandung huruf, angka, dan tanda hubung (_)."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Aktifkan Akun Baru Anda
       body: |
-        Hey {username}!
+        Halo {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Seseorang (semoga Anda!) Telah mendaftar ke {forum} dengan alamat email ini.
 
-        If this was you, simply click the following link and your account will be activated:
+        Jika ini adalah Anda, cukup klik tautan berikut dan akun Anda segera diaktifkan:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Jika Anda tidak mendaftar, abaikan email ini.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Konfirmasikan Alamat Email Baru Anda
       body: |
-        Hey {username}!
+        Halo {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Seseorang (semoga Anda!) Telah mengubah alamat email di {forum} menjadi email yang ini.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Jika ini adalah Anda, cukup klik tautan berikut dan email Anda akan dikonfirmasi:
         {url}
 
-        If this was not you, please ignore this email.
+        Jika ini bukan Anda, abaikan email ini.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        Halo {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Seseorang (semoga Anda!) Telah mengirimkan permintaan atur ulang password untuk akun Anda di {forum}.
 
-        If this was you, click the following link to reset your password:
+        Jika ini adalah Anda, klik tautan berikut untuk mereset password Anda:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Jika Anda tidak ingin mengubah password, abaikan saja email ini dan tidak akan terjadi apa-apa.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
