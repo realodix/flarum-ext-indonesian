@@ -1,12 +1,12 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
-      # manage_warnings: Create and hide moderator warnings
-      manage_warnings: Buat dan sembunyikan peringatan moderator
+      # manage_warnings: Create and remove moderator warnings
+      manage_warnings: Buat dan hapus peringatan moderator
       # view_warnings: View moderator warnings
       view_warnings: Lihat peringatan moderator
-      # delete_warnings: Delete moderator warnings
-      delete_warnings: Hapus peringatan moderator
+      # delete_warnings: Permanently delete moderator warnings
+      delete_warnings: Hapus peringatan moderator secara permanen
   forum:
     notifications:
       # warning_text: You were warned with {strikes} strikes by {mod_username}
@@ -17,10 +17,10 @@ askvortsov-moderator-warnings:
       # warning: Warned with {strikes} strikes by {mod_username}
       warning: Diperingatkan dengan {strike} strike oleh {mod_username}
       # warning_no_strikes: Warned with no strikes by {mod_username}
-      warning_no_strikes: Diperingatkan tanpa hukuman oleh {mod_username}
+      warning_no_strikes: Diperingatkan tanpa strike oleh {mod_username}
     post_controls:
-      # warning_button: Apply Warning
-      warning_button: Terapkan Peringatan
+      # warning_button: Warn User
+      warning_button: Peringatkan User
     user:
       # warnings: Moderator Warnings
       warnings: Peringatan Moderator
@@ -28,12 +28,12 @@ askvortsov-moderator-warnings:
       # warning_notification_label: A moderator warns me
       warning_notification_label: Seorang moderator memperingatkan saya
     warning_controls:
-      # delete_button: Delete
+      # delete_button: Remove
       delete_button: Hapus
       # restore_button: Restore
       restore_button: Pulihkan
-      # delete_forever_button: Delete Forever
-      delete_forever_button: Hapus Selamanya
+      # delete_forever_button: Permanently Delete
+      delete_forever_button: Hapus secara permanen
     warning_list:
       # add_button: New warning
       add_button: Peringatan baru
@@ -41,6 +41,8 @@ askvortsov-moderator-warnings:
       no-warnings: Sepertinya tidak ada peringatan di sini.
       # warnings: "Moderator Warnings: {strikes} Strikes Received"
       warnings: "Peringatan Moderator: {strike} Strike Diterima"
+      # warnings_no_strikes: "Moderator Warnings: No Strikes Received"
+      warnings_no_strikes: "Peringatan Moderator: Tidak Ada Strike yang Diterima"
     warning_list_item:
       # list_item_heading: <strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes
       list_item_heading: <strong>{mod_username}</strong> diperingatkan dengan <strong>{strikes}</strong> strikes
@@ -54,9 +56,10 @@ askvortsov-moderator-warnings:
     warning_modal:
       # confirmation_message: Your warning has been saved. You may need to refresh the page to see it.
       confirmation_message: Peringatan Anda telah disimpan. Anda mungkin perlu refresh halaman untuk melihatnya.
-      # create-heading: Create a new moderator warning
-      create-heading: Buat peringatan moderator baru
-      dismiss_button: Done
+      # dismiss_button: Done
+      dismiss_button: Selesai
+      # heading: Warn <strong>{username}</strong>
+      heading: Memperingatkan <strong>{username}</strong>
       # strikes_heading: How many strikes should be applied?
       strikes_heading: Berapa banyak teguran yang harus diterapkan?
       # public_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will be visible to the user and other moderators.
