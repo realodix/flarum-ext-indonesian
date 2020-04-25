@@ -691,7 +691,7 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Aktifkan Akun Baru Anda
+      subject: 💌 Aktifkan Akun Baru Anda
       body: |
         Halo {username}!
 
@@ -704,7 +704,7 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Konfirmasikan Alamat Email Baru Anda
+      subject: 📧 Konfirmasikan Alamat Email Baru Anda
       body: |
         Halo {username}!
 
