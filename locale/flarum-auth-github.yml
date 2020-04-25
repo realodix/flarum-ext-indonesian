@@ -20,4 +20,4 @@ flarum-auth-github:
     # These translations are used in the Log In modal dialog.
     log_in:
       #with_github_button: Log In with GitHub
-      with_github_button: Masuk dengan GitHub
+      with_github_button: Masuk menggunakan GitHub
