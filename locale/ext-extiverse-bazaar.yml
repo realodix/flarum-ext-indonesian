@@ -2,7 +2,8 @@ bazaar:
     admin:
         loader:
             is_loading: Processing..
-            error: An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            # error: An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            error: Kesalahan terjadi. Periksa tab History dan log Flarum Anda untuk detailnya. Jangan takut untuk melaporkannya kepada kami.
             # refresh: Refresh page
             refresh: Refresh halaman
             # close: Close
@@ -51,7 +52,7 @@ bazaar:
                 file-permissions:
                     title: File permissions
                     description: >
-                        Tampaknya Bazaar tidak memiliki izin yang cukup untuk menulis file
+                        Tampaknya Bazaar tidak memiliki izin yang cukup untuk membuat file
                         dan/atau folder, silahkan tinjau daftar di bawah ini. Untuk informasi
                         lebih lanjut, lihat <a>wiki</a>.
                 php-memory_limit:
@@ -72,8 +73,10 @@ bazaar:
                 more: "More, load page {current} of {total}"
                 install: Install
                 uninstall: Uninstall
-                enable: Enable
-                disable: Disable
+                # enable: Enable
+                enable: Aktifkan
+                # disable: Disable
+                disable: Nonaktifkan
                 update: Update
                 connect: Connect
                 # favorite_button: "Favorite extension"
@@ -88,14 +91,20 @@ bazaar:
                 connect_to_subscribe: Hubungkan Bazaar Anda untuk subcribe ekstensi
             extension:
                 installed: Extension is installed
-                enabled: Extension is enabled
+                # enabled: Extension is enabled
+                enabled: Ekstensi diaktifkan
                 vendor: By {vendor}
-                downloads: Downloads
-                installed_version: Installed version
-                highest_version: Latest version
+                # downloads: Downloads
+                downloads: Download
+                # installed_version: Installed version
+                installed_version: Versi yang diinstal
+                # highest_version: Latest version
+                highest_version: Versi terbaru
                 favorites: Favorited
-                favorited: One of your favorites
-                pending: Extension waits on a background task to complete
+                # favorited: One of your favorites
+                favorited: Salah satu favorit Anda
+                # pending: Extension waits on a background task to complete
+                pending: Ekstensi menunggu background task untuk diselesaikan
                 # outdated: "Extension is outdated, please update to version {new}"
                 outdated: "Ekstensi kedaluwarsa, harap perbarui ke versi {new}"
                 premium: Premium
