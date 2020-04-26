@@ -22,7 +22,7 @@ flagrow-users-list:
       subject_label: Subject
       default_subject: => flagrow-users-list.ref.default_subject
       # message_label: Message
-      message_label: Kirim
+      message_label: Pesan
       # submit_button: Send
       submit_button: Kirim
 
@@ -31,6 +31,6 @@ flagrow-users-list:
 
   ref:
     # default_subject: Message from forum administration
-    default_subject: Pesan dari admini forum
+    default_subject: Pesan dari admin forum
     # users_title: Users
     users_title: User
