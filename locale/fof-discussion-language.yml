@@ -1,0 +1,30 @@
+fof-discussion-language:
+  forum:
+    discussion_controls:
+      # change_language_button: Language
+      change_language_button: Bahasa
+
+    index_language:
+      # any: Any Language
+      any: Semua Bahasa
+
+    change_language:
+      # edit_title: Editing Language for {title}
+      edit_title: Edit Bahasa {title}
+      # title: Editing Language
+      title: Edit Bahasa
+
+      submit_button: => core.ref.save_changes
+
+  admin:
+    settings:
+      title: FriendsOfFlarum Discussion Language
+
+    permissions:
+      # allow_change_language_label: Allow language editing
+      allow_change_language_label: Izinkan Edit Bahasa
+
+  api:
+    discussion:
+      # validation_error: You must select your discussion's language.
+      validation_error: Anda harus memilih bahasa yang Anda gunakan.
