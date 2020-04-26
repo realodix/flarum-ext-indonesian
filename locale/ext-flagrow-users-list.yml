@@ -31,6 +31,6 @@ flagrow-users-list:
 
   ref:
     # default_subject: Message from forum administration
-    default_subject: Pesan dari administrasi forum
+    default_subject: Pesan dari admini forum
     # users_title: Users
     users_title: User
