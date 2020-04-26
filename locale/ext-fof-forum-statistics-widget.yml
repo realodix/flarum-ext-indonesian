@@ -1,11 +1,16 @@
 fof-forum-statistics-widget:
   forum:
     navbar:
-      widget_title: Forum Statistics
-      discussions_count: "Discussions: {discussionsCount}"
-      posts_count: "Posts: {postsCount}"
-      users_count: "Members: {usersCount}"
-      latest_member: "Latest Member: "
+      # widget_title: Forum Statistics
+      widget_title: Statistik Forum
+      # discussions_count: "Discussions: {discussionsCount}"
+      discussions_count: "Diskusi: {discussionsCount}"
+      # posts_count: "Posts: {postsCount}"
+      posts_count: "Post: {postsCount}"
+      # users_count: "Members: {usersCount}"
+      users_count: "Member: {usersCount}"
+      # latest_member: "Latest Member: "
+      latest_member: "Anggota terbaru: "
   admin:
     settings:
       # title: Widget Settings
