@@ -481,7 +481,11 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      # delete_confirmation: "Are you sure you want to delete this post forever? This action cannot be undone."
+      delete_confirmation: "Anda yakin ingin menghapus post ini selamanya? Tindakan ini tidak bisa dibatalkan."
       delete_forever_button: => core.ref.delete_forever
+      # hide_confirmation: "Are you sure you want to delete this post?"
+      hide_confirmation: "Anda yakin ingin menghapus post ini?"
       edit_button: => core.ref.edit
       restore_button: => core.ref.restore
 
