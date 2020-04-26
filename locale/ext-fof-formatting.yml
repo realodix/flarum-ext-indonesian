@@ -12,4 +12,4 @@ fof-formatting:
       # MediaEmbed: Embed content from allowed sites
       MediaEmbed: Sematkan konten dari situs yang diizinkan
       # PipeTables: ASCII-style tables
-      PipeTables: Table ASCII
+      PipeTables: Table ASCII-style
