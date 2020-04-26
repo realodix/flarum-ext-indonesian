@@ -1,0 +1,32 @@
+fof-stopforumspam:
+  admin:
+    settings:
+      title: FriendsOfFlarum Stop Forum Spam
+
+      # username_label: Username Spam Check
+      username_label: Periksa Username Spam
+      # ip_label: IP Address Spam Check
+      ip_label: Periksa IP Address Spam
+      # email_label: Email Spam Check
+      email_label: Periksa Email Spam
+
+      frequency_label: Threshold
+      frequency_text: The number of spam reports between all enabled checks that will trip the spam filter.
+      # frequency_example_text: "Ex: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less it will prevent the registration."
+      frequency_example_text: "Contoh: Jika email memiliki 1 hit, dan ip memiliki 2 hit, total akan ada 3 hit. Jika ambang diatur ke 3 atau kurang itu akan mencegah pendaftaran."
+
+      api_key_label: API Key
+      # api_key_text: You have fof/spamblock enabled, you now have the option to report spammers to StopForumSpam in order to keep the greater forum community spam free.
+      api_key_text: Anda mengaktifkan fof/spamblock, Anda sekarang memiliki opsi untuk melaporkan spammer ke StopForumSpam untuk menjaga komunitas Anda dari spam.
+      # api_key_instructions_text: <register>Sign up for StopForumSpam</register>. Then you will need to <key>obtain an API key</key>.
+      api_key_instructions_text: <register>Daftar StopForumSpam</register>. Maka Anda perlu <key>mendapatkan kunci API</key>.
+
+  forum:
+    message:
+      # spam: Your info has been marked as spam.
+      spam: Info Anda telah ditandai sebagai spam.
+
+  api:
+    error:
+      # unknown: Failed to report user to StopForumSpam.
+      unknown: Gagal melaporkan user ke StopForumSpam.
