@@ -32,7 +32,6 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.1.5 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.2
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
-- [flagrow/impersonate](https://github.com/flagrow/impersonate) v0.3.0
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
@@ -45,6 +44,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.4
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.1.1
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v0.1.8
+- [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.4.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.2.7
