@@ -99,3 +99,11 @@ fof-upload:
       loading: Uploading
       # unauthorized: You are not allowed to download files
       unauthorized: Anda tidak diixinkan untuk men-download file ini
+  api:
+    upload_errors:
+      # forbidden_type: Uploading files of this type is not allowed.
+      forbidden_type: Meng-upload file jenis ini tidak diizinkan.
+      # unsupported_type: 'Upload adapter does not support the provided mime type: {mime}.'
+      unsupported_type: 'Upload adapter tidak mendukung tipe file yang disediakan: {mime}.'
+      # could_not_detect_mime: Could not detect the MIME type of this file, please try again.
+      could_not_detect_mime: Tidak dapat mendeteksi tipe MIME dari file ini, silakan coba lagi.
