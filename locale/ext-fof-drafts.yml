@@ -12,9 +12,10 @@ fof-drafts:
       # exit_alert: Discard changes to draft?
       exit_alert: Buang perubahan?
     dropdown:
-      # empty_text: You didn't save any drafts
-      empty_text: Anda tidak menyimpan draft apa pun
-      title: Drafts
+      # empty_text: You haven't saved any drafts
+      empty_text: Anda tidak memiliki draft
+      # title: Drafts
+      title: Draft
       # button: Delete Draft
       button: Hapus Draft
       tooltip: => fof-drafts.forum.dropdown.title
