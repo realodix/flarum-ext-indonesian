@@ -56,7 +56,7 @@ fof-upload:
         # mime_types: 'Configure your mime type, upload adapter mapping'
         mime_types: 'Konfigurasikan tipe mime Anda, upload adapter mapping'
         # title: General preferences
-        title: Prefensi Umum
+        title: Preferensi umum
       resize:
         # max_width: Maximum image width
         max_width: Lebar maksimum
