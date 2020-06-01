@@ -4,11 +4,11 @@ fof-stopforumspam:
       title: FriendsOfFlarum Stop Forum Spam
 
       # username_label: Username Spam Check
-      username_label: Periksa Username Spam
+      username_label: Periksa Spam Username
       # ip_label: IP Address Spam Check
-      ip_label: Periksa IP Address Spam
+      ip_label: Periksa Spam IP Address
       # email_label: Email Spam Check
-      email_label: Periksa Email Spam
+      email_label: Periksa Spam Email
 
       frequency_label: Threshold
       frequency_text: The number of spam reports between all enabled checks that will trip the spam filter.
