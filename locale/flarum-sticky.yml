@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      #sticky_discussions_label: Sticky discussions
+      # sticky_discussions_label: Sticky discussions
       sticky_discussions_label: Sticky Diskusi
 
   # Translations in this namespace are used by the forum user interface.
@@ -22,14 +22,14 @@ flarum-sticky:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       sticky_button: => flarum-sticky.ref.sticky
-      #unsticky_button: Unsticky
+      # unsticky_button: Unsticky
       unsticky_button: Hapus Sticky
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      #discussion_stickied_text: "{username} stickied the discussion."
+      # discussion_stickied_text: "{username} stickied the discussion."
       discussion_stickied_text: "{username} memberikan Sticky untuk diskusi ini."
-      #discussion_unstickied_text: "{username} unstickied the discussion."
+      # discussion_unstickied_text: "{username} unstickied the discussion."
       discussion_unstickied_text: "{username} menghapus Sticky pada diskusi ini."
 
   ##

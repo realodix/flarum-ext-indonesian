@@ -15,9 +15,9 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      #unfollow_button: Unfollow
+      # unfollow_button: Unfollow
       unfollow_button: Batal Ikuti
-      #unignore_button: Unignore
+      # unignore_button: Unignore
       unignore_button: Abaikan
 
     # These translations are used on the index page, peripheral to the discussion list.
@@ -26,32 +26,32 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      #new_post_text: "{username} posted"
+      # new_post_text: "{username} posted"
       new_post_text: "{username} memposting"
 
     # These translations are used in the Settings page.
     settings:
-      #follow_after_reply_label: Automatically follow discussions that I reply to
+      # follow_after_reply_label: Automatically follow discussions that I reply to
       follow_after_reply_label: Follow diskusi yang Saya jawab secara otomatis
-      #notify_new_post_label: Someone posts in a discussion I'm following
+      # notify_new_post_label: Someone posts in a discussion I'm following
       notify_new_post_label: Ada post baru pada diskusi yang Saya follow
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      #following_text: Be notified of all replies.
+      # following_text: Be notified of all replies.
       following_text: Dapatkan notifikasi dari semua balasan.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      #ignoring_text: Never be notified. Hide from the discussion list.
+      # ignoring_text: Never be notified. Hide from the discussion list.
       ignoring_text: Jangan terima notifikasi. Sembunyikan dari daftar diskusi.
-      #not_following_button: Not Following
+      # not_following_button: Not Following
       not_following_button: Tidak Mengikuti
-      #not_following_text: "Be notified only when @mentioned."
+      # not_following_text: "Be notified only when @mentioned."
       not_following_text: "Dapatkan notifikasi hanya ketika di-@mention."
-      #notify_alert_tooltip: Get a forum notification when there are new posts
+      # notify_alert_tooltip: Get a forum notification when there are new posts
       notify_alert_tooltip: Dapatkan notifikasi ketika ada pesan baru
-      #notify_email_tooltip: Get an email when there are new posts
+      # notify_email_tooltip: Get an email when there are new posts
       notify_email_tooltip: Kirim email ketika ada pesan baru
 
   ##
@@ -60,9 +60,9 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    #follow: Follow
+    # follow: Follow
     follow: Ikuti
-    #following: Following
+    # following: Following
     following: Mengikuti
-    #ignoring: Ignoring
+    # ignoring: Ignoring
     ignoring: Abaikan

@@ -1,7 +1,7 @@
 flagrow-analytics:
     admin:
         popup:
-            #title: Analytics Settings
+            # title: Analytics Settings
             title: Pengaturan Analytics
 
             section:
