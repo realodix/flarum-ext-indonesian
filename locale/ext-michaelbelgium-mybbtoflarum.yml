@@ -23,12 +23,9 @@ mybbtoflarum:
           # title: MyBB settings
           title: Pengaturan MyBB
           host: Database host
-          # user: Database user
-          user: Nama user database
-          # password: Database password
-          password: Password database
-          # db: Database name
-          db: Nama database
+          user: Database user
+          password: Database password
+          db: Database name
           prefix: Table prefix
           mybbPath: Absolute MyBB path
         options:
