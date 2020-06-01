@@ -46,5 +46,5 @@ askvortsov-categories:
       discussion_label: Diskusi
       post_label: Posts
     last_discussion_widget:
-      #no_discussions: No Discussions (Yet!)
+      # no_discussions: No Discussions (Yet!)
       no_discussions: Belum Ada Diskusi (Belum!)
