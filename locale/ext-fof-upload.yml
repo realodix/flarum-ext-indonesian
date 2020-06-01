@@ -66,13 +66,13 @@ fof-upload:
         toggle: Ubah ukuran
       watermark:
         # file: Upload your watermark image
-        file: Upload gambar watermark Anda
+        file: Upload watermark Anda
         # position: Watermark position
         position: Posisi Watermark
         # title: Watermark images
-        title: Gambar watermark
+        title: Watermark
         # toggle: Watermark images
-        toggle: Gambar watermark
+        toggle: Watermark
     permissions:
       # download_label: Download files
       download_label: Download file
