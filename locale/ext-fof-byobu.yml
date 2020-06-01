@@ -116,7 +116,7 @@ fof-byobu:
             # use_tag_slug: Specify the slug of the tag to force all private discussions into
             use_tag_slug: Tentukan tag untuk memaksa semua diskusi pribadi
             # use_tag_slug_help: Leave blank to allow users to select their own tag, applies to newly created private discussions only
-            use_tag_slug_help: Biarkan kosong untuk memungkinkan pengguna memilih tag mereka sendiri, hanya berlaku untuk diskusi pribadi yang baru dibuat
+            use_tag_slug_help: Biarkan kosong untuk memungkinkan user memilih tag mereka sendiri, hanya berlaku untuk diskusi pribadi yang baru dibuat
 
     notifications:
         private_discussion_created:

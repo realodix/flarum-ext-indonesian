@@ -7,7 +7,7 @@ fof-upload:
       description: |
         Siapkan layanan dan preferensi upload.
       disable-download-logging: |
-        Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya di waktu dekat.
+        Nonaktifkan pencatatan setiap download yang dilakukan oleh user forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya di waktu dekat.
       disable-hotlink-protection: |
         Hotlink protection mencegah seseorang download dari situs lain. Metode saat ini membutuhkan csrf token dan post id.
       download_templates: |

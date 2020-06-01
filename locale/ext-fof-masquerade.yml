@@ -35,7 +35,7 @@ fof-masquerade:
             view-profile: Melihat masquerade profile
         menu:
             description: >
-                Konfigurasikan field untuk profil pengguna.
+                Konfigurasikan field untuk profil user.
         fields:
             title: Fields
             # add: Add field {field}

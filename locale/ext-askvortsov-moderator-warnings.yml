@@ -63,7 +63,7 @@ askvortsov-moderator-warnings:
       # strikes_heading: How many strikes should be applied?
       strikes_heading: Berapa banyak teguran yang harus diterapkan?
       # public_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will be visible to the user and other moderators.
-      public_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh pengguna dan moderator lainnya.
+      public_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh user dan moderator lainnya.
       # private_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will ONLY be visible to other moderators.
       private_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini HANYA akan terlihat oleh moderator lain.
       # no_content_given: An empty warning is not permitted.

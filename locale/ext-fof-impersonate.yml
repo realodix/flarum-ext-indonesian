@@ -2,7 +2,7 @@ fof-impersonate:
     admin:
         permissions:
             # login: Login as other users
-            login: Login sebagai pengguna lain
+            login: Login sebagai user lain
 
     forum:
         user_controls:
