@@ -1,23 +1,66 @@
 fof-drafts:
   admin:
     permissions:
-      # start: Create discussion drafts
-      start: Buat draft diskusi
+      # start: Create drafts
+      start: Buat draft
+      # schedule: Schedule drafts
+      schedule: Penjadwalan draft
+    settings:
+      # title: Drafts Settings
+      title: Pengaturan Draft
+      # enable_scheduled_drafts: Enable Scheduled Drafts
+      enable_scheduled_drafts: Aktifkan Draft Terjadwal
+    console:
+      # scheduled_drafts_disabled: Scheduled drafts are currently disabled in settings.
+      scheduled_drafts_disabled: Draft terjadwal saat ini dinonaktifkan dalam pengaturan.
   forum:
     composer:
       # title: Save Draft
       title: Simpan Draft
-      # alert: Draft saved.
-      alert: Draft disimpan.
+      # saving: Saving...
+      saving: Menyimpan...
+      # saved: Saved!
+      saved: Berhasil Disimpan!
       # exit_alert: Discard changes to draft?
       exit_alert: Buang perubahan?
+      # discard_empty_draft_alert: Discard empty draft?
+      discard_empty_draft_alert: Buang draft kosong?
     dropdown:
       # empty_text: You haven't saved any drafts
       empty_text: Anda tidak memiliki draft
       # title: Drafts
       title: Draft
-      # button: Delete Draft
-      button: Hapus Draft
+      # delete_button: Delete Draft
+      delete_button: Hapus Draft
+      # schedule_button: Schedule Draft
+      schedule_button: Jadwalkan Draft
       tooltip: => fof-drafts.forum.dropdown.title
       # alert: Are you sure you want to delete your draft?
       alert: Anda yakin ingin menghapus draft Anda?
+    schedule_draft_modal:
+      # title: Schedule Draft
+      title: Penjadwalan Draft
+      # text: Schedule your draft to automatically post at a later time!
+      text: Jadwalkan draft Anda untuk diposting secara otomatis di lain waktu!
+      # scheduled_text: Scheduled to post on {datetime}.
+      scheduled_text: Dijadwalkan untuk diposting secara otomatis pada {datetime}.
+      # scheduled_error: "Unable to post because: {error}."
+      scheduled_error: "Tidak dapat memposting karena: {error}."
+      # unschedule_button: Unschedule
+      unschedule_button: Tidak dijadwalkan
+      # reschedule_button: Reschedule
+      reschedule_button: Menjadwal ulang
+      # schedule_button: Schedule
+      schedule_button: Jadwalkan
+    user:
+      settings:
+        # drafts_heading: Drafts
+        drafts_heading: Draft
+        # draft_autosave_enable: Enable Draft Autosave?
+        draft_autosave_enable: Aktifkan Penyimpanan Otomatis?
+        # draft_autosave_interval_label: Autosave Interval (seconds)
+        draft_autosave_interval_label: Interval Penyimpanan Otomatis (detik)
+        # draft_autosave_interval_button: Update Interval
+        draft_autosave_interval_button: Perbarui Interval
+        # draft_autosave_interval_invalid: The interval must be an integer greater than 4.
+        draft_autosave_interval_invalid: Interval harus bilangan bulat lebih besar dari 4.
