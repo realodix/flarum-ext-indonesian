@@ -58,19 +58,26 @@ fof-upload:
         # title: General preferences
         title: Prefensi Umum
       resize:
-        max_width: Maximum image width
-        title: Image resize
-        toggle: Resize images
+        # max_width: Maximum image width
+        max_width: Lebar maksimum
+        # title: Image resize
+        title: Ubah ukuran
+        # toggle: Resize images
+        toggle: Ubah ukuran
       watermark:
         # file: Upload your watermark image
         file: Upload gambar watermark Anda
         # position: Watermark position
         position: Posisi Watermark
-        title: Watermark images
-        toggle: Watermark images
+        # title: Watermark images
+        title: Gambar watermark
+        # toggle: Watermark images
+        toggle: Gambar watermark
     permissions:
-      download_label: Download files
-      upload_label: Upload files
+      # download_label: Download files
+      download_label: Download file
+      # upload_label: Upload files
+      upload_label: Upload file
     templates:
       # file: Default file download template
       file: Template download file default
@@ -98,7 +105,7 @@ fof-upload:
       error: Error
       loading: Uploading
       # unauthorized: You are not allowed to download files
-      unauthorized: Anda tidak diixinkan untuk men-download file ini
+      unauthorized: Anda tidak diizinkan untuk men-download file ini
   api:
     upload_errors:
       # forbidden_type: Uploading files of this type is not allowed.
