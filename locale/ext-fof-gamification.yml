@@ -51,16 +51,18 @@ fof-gamification:
         # title: Rankings Page
         title: Halaman Peringkat
         # enable: Enable custom images
-        enable: Aktifkan image khusus
+        enable: Aktifkan gambar khusus
         # custom_image_1: 1st place image
-        custom_image_1: Image 1
+        custom_image_1: Gambar 1
         # custom_image_2: 2nd place image
-        custom_image_2: Image 2
+        custom_image_2: Gambar 2
         # custom_image_3: 3rd place image
-        custom_image_3: Image 3
+        custom_image_3: Gambar 3
       votes:
-        points_title: Points Placeholder
-        points_placeholder: "Points: "
+        # points_title: Points Placeholder
+        points_title: Point Placeholder
+        # points_placeholder: "Points: "
+        points_placeholder: "Point: "
         color_holder: '#ffffff'
         # auto_upvote: Auto upvote posts when posted
         auto_upvote: Otomatis upvote post ketika diposting
@@ -83,7 +85,7 @@ fof-gamification:
         # converting: Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
         converting: Like Anda sekarang sedang dikonversi. Refresh halaman ini setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memakan waktu cukup lama tergantung pada jumlah like pada forum Anda)
         # converted: "Successfully converted all {number} likes"
-        converted: "Berhasil mengonversi 100 like"
+        converted: "Berhasil mengonversi {number} like"
       ranks:
         # title: Ranks
         title: Peringkat
@@ -95,6 +97,7 @@ fof-gamification:
           color: '#ffffff'
           # help: "Input the required number of upvotes, the name of the rank, and the hex color of the rank"
           help: "Masukkan jumlah upvote yang dibutuhkan, nama peringkat, dan warna heksa peringkat"
-          points: Points
+          # points: Points
+          points: Point
           # name: Name
           name: Nama
