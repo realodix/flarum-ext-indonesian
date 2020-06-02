@@ -113,10 +113,14 @@ fof-byobu:
             view_private_discussions-when-flagged: Lihat diskusi pribadi user lain jika ditandai
 
         settings:
-            # use_tag_slug: Specify the slug of the tag to force all private discussions into
-            use_tag_slug: Tentukan tag untuk memaksa semua diskusi pribadi
-            # use_tag_slug_help: Leave blank to allow users to select their own tag, applies to newly created private discussions only
-            use_tag_slug_help: Biarkan kosong untuk memungkinkan user memilih tag mereka sendiri, hanya berlaku untuk diskusi pribadi yang baru dibuat
+            # use_tag_slug: Specify the which tag that all private discussions should use
+            use_tag_slug: Tentukan tag mana yang harus digunakan oleh semua diskusi pribadi
+            # use_tag_slug_help: Leave blank to allow users to select their own tag, applies to newly created private discussions only. Only primary tags are supported.
+            use_tag_slug_help: Biarkan kosong untuk memungkinkan user memilih tag mereka sendiri, hanya berlaku untuk diskusi pribadi yang baru dibuat. Hanya tag primer yang didukung.
+            # byobu_index: Display a link to Private Discussions on the index page
+            byobu_index: Tampilkan link ke Diskusi Pribadi di halaman index
+            # byobu_index_help: When this option is enabled, a link from the forum main nav items to Private Discussions will be displayed
+            byobu_index_help: Ketika opsi ini diaktifkan, link dari item utama forum ke Diskusi Pribadi akan ditampilkan
 
     notifications:
         private_discussion_created:
