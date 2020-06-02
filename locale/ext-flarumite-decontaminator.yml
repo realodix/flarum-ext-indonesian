@@ -1,0 +1,38 @@
+flarumite-decontaminator:
+  admin:
+    delete_rule_confirmation: Apakah Anda yakin?
+    edit_rule:
+      # applywhen_label: Apply When
+      applywhen_label: Terapkan Disaat
+      # applywhen_help: By default, 'saving a post' should be selected. 'Loading a post' should be used sparingly and only on a needs-must scenario.
+      applywhen_help: Secara default, 'menyimpan posting' harus dipilih. 'Memuat post' harus digunakan dengan hemat dan hanya pada skenario kebutuhan-keharusan.
+      delete_confirmation: Apakah Anda yakin ingin menghapus ini?
+      flag_label: Flag
+      # flag_help: If a match is found, and flarum/flags is enabled, the post will be flagged for moderator review.
+      lag_help: Jika ditemukan kecocokan, dan flarum/flag diaktifkan, post akan ditandai untuk ditinjau oleh moderator.
+      name_label: Nama
+      # name_help: The name given to this rule. Will also be displayed in the post flag border if flagging is enabled.
+      name_help: Nama yang diberikan untuk aturan ini. Juga akan ditampilkan di post flag border jika penandaan diaktifkan.
+      regex_label: Regex
+      regex_help: The full regex pattern to match.
+      regex_help: Pola regex lengkap untuk mencocokkan.
+      replacement_label: Replacement
+      # replacement_help: If a match is found, replace with this text. Leave blank for no replacement.
+      replacement_help: Jika ditemukan kecocokan, ganti dengan teks ini. Biarkan kosong jika tidak ingin ada yang diganti.
+      delete_button: Hapus
+      submit_button: Simpan Perubahan
+      # title: Create/Edit Decontaminator Rule
+      title: Buat / Edit Aturan Dekontaminator
+      action:
+        save: Simpan Post
+        load: Loading a Post (ini dapat berdampak buruk bagi kinerja)
+
+    decontaminator:
+      about_text: Buat dan kelola aturan filter.
+      create_button: Buat
+
+    list:
+      empty_text: Sepertinya tidak ada aturan di sini.
+
+    permissions:
+      bypass-filter: Aturan bypass didefinisikan dalam dekontaminator
