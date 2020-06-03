@@ -6,10 +6,13 @@ fof-drafts:
       # schedule: Schedule drafts
       schedule: Penjadwalan draft
     settings:
-      # title: Drafts Settings
-      title: Pengaturan Draft
+      title: FoF Drafts
       # enable_scheduled_drafts: Enable Scheduled Drafts
       enable_scheduled_drafts: Aktifkan Draft Terjadwal
+      # schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+      schedule_on_one_server: Gunakan 'onOneServer()' untuk penjadwalan tugas (membutuhkan Redis / Memcache)
+      # schedule_log_output: Append scheduler output to log storage
+      schedule_log_output: Tambahkan output penjadwalan ke penyimpanan log
     console:
       # scheduled_drafts_disabled: Scheduled drafts are currently disabled in settings.
       scheduled_drafts_disabled: Draft terjadwal saat ini dinonaktifkan dalam pengaturan.
