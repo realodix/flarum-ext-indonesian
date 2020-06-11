@@ -1,0 +1,70 @@
+kyrne-shout:
+  admin:
+    settings:
+      # title: Shout Settings
+      title: Pengaturan Shout
+      # set_own_password: "Let users make their own password - SSO Compatibility"
+      set_own_password: "Biarkan user membuat password mereka sendiri - SSO Compatibility"
+    permissions:
+      # start_label: Start private conversations
+      start_label: Mulai percakapan pribadi
+  forum:
+    dropdown:
+      # tooltip: Conversations
+      tooltip: Percakapan
+    setup:
+      # title: Setup Private Messaging
+      title: Pengaturan Pesan Pribadi
+      # header_setup: Enter your account login password to setup private messaging.
+      header_setup: Masukkan password Anda untuk mengatur pesan pribadi.
+      # header_import: Enter your account login password to import your private messages.
+      header_import: Masukkan password Anda untuk mengimpor pesan pribadi Anda.
+      # header_set_own: Enter a password to setup private messages.
+      header_set_own: Masukkan password untuk mengatur pesan pribadi.
+      # passwords_mismatch: The passwords didn't match
+      passwords_mismatch: Password tidak cocok
+      # invalid_password: Your password was incorrect.
+      invalid_password: Password Anda salah
+      button_import: Import
+      button_setup: Setup
+      # confirm_password: Confirm Password
+      confirm_password: Konfirmasi Password
+      # success: Private messaging is now ready, your page will now reload...
+      success: Perpesanan pribadi sekarang siap, halaman Anda sekarang akan dimuat ulang ...
+    modal:
+      # title: Start Conversation
+      title: Mulai Percakapan
+      help: Ketik username untuk memulai obrolan.
+      # help_start: "Type your first message. This will be the only message you can send until {username} responds. Click the user to select a different recipient."
+      help_start: "Ketik pesan Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim sampai {username} merespons. Klik user untuk memilih penerima yang berbeda."
+      # search_recipients: Enter username...
+      search_recipients: Masukkan username...
+      # submit: Send & Start Conversation
+      submit: Kirim & Mulai Percakapan
+      # copied: Your message has been copied to the clipboard.
+      copied: Pesan Anda telah di-copy ke clipboard.
+      more_users: Jika Anda tidak melihat user yang Anda cari, mereka tidak memiliki pengaturan pesan pribadi.
+      # already: "You already have a conversation with {username}."
+      already: "Anda sudah melakukan percakapan dengan {username}."
+    # user_modal_alert: "{username} has private messaging setup, their password cannot be safely changed."
+    user_modal_alert: "{username} memiliki pengaturan pesan pribadi, password mereka tidak dapat diubah dengan aman."
+    chat:
+      # chat_with: "Chat with {username}"
+      chat_with: "Chat dengan {username}"
+      messages_multiple: "{count} total messages"
+      messages_single: Percakapan baru
+      start: Mulai Percakapan
+      cant_start: Tidak Dapat Memulai Percakapan
+      text_placeholder: Ketik pesan anda
+      send: Kirim
+      # recovery_message: "System message: Encryption sync lost and recovered"
+      recovery_message: "Pesan sistem: Sinkronisasi enkripsi hilang dan telah di-recovery"
+      # failed_message: "Failed to decrypt message, attempting recovery method #{method}"
+      failed_message: "Gagal mendekripsi pesan, mencoba recovery method # {metode}"
+      # cant_send: "You can't send a message until {username} responds (first message only)"
+      cant_send: "Anda tidak dapat mengirim pesan hingga {username} merespons (hanya pesan pertama)"
+      # cant_send_toomany: "Please wait for {username}'s reply before sending more messages"
+      cant_send_toomany: "Harap tunggu balasan dari {username} sebelum mengirim pesan lagi"
+      failed_to_decrypt: "[Failed to decrypt]"
+      # start_of_conversation: Start of Conversation
+      start_of_conversation: Mulai dari Percakapan
