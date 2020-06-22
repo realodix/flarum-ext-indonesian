@@ -38,12 +38,12 @@ fof-analytics:
                     Anda dapat menemukannya di Settings > Personal > API Authentication Token.
 
             trackAccounts:
-                # email: Track by email
-                email: Tracking dengan email
                 # none: Do not track
                 none: Jangan ditracking
                 # username: Track by username
                 username: Tracking dengan username
+                # email: Track by email
+                email: Tracking dengan email
 
         page:
             nav:
