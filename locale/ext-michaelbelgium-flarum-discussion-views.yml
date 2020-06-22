@@ -14,7 +14,7 @@ michaelbelgium-discussion-views:
       # submit_button: Yes, remove all
       submit_button: Ya, hapus semua
       # label: This will remove {count} view of this discussion. Continue?|This will remove {count} views of this discussion. Continue?
-      label: Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan? | Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan?
+      label: Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan?|Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan?
     discussion_controls:
       # resetviews_button: Reset views
       resetviews_button: Reset jumlah tampilan

@@ -53,25 +53,25 @@ flarum-flags:
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      #empty_text: No Flags
+      # empty_text: No Flags
       empty_text: Tidak ada laporan
-      #item_text: "{username} in <em>{discussion}</em>"
+      # item_text: "{username} in <em>{discussion}</em>"
       item_text: "{username} di <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      #dismiss_flag_button: Dismiss Flag
+      # dismiss_flag_button: Dismiss Flag
       dismiss_flag_button: Abaikan
-      #flagged_by_text: "Flagged by {username}"
+      # flagged_by_text: "Flagged by {username}"
       flagged_by_text: "Dilaporkan oleh {username}"
-      #flagged_by_with_reason_text: "Flagged by {username} as {reason}"
+      # flagged_by_with_reason_text: "Flagged by {username} as {reason}"
       flagged_by_with_reason_text: "Dilaporkan oleh {username} dengan alasan {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
-      #flag_button: Flag
+      # flag_button: Flag
       flag_button: Laporkan
 
   ##
@@ -80,7 +80,7 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    #flag_post: Flag Post
+    # flag_post: Flag Post
     flag_post: Laporkan Post
-    #flagged_posts: Flagged Posts
+    # flagged_posts: Flagged Posts
     flagged_posts: Post Terlapor

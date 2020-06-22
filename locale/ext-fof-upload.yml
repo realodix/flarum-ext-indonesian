@@ -7,7 +7,7 @@ fof-upload:
       description: |
         Siapkan layanan dan preferensi upload.
       disable-download-logging: |
-        Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya di waktu dekat.
+        Nonaktifkan pencatatan setiap download yang dilakukan oleh user forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya di waktu dekat.
       disable-hotlink-protection: |
         Hotlink protection mencegah seseorang download dari situs lain. Metode saat ini membutuhkan csrf token dan post id.
       download_templates: |
@@ -56,7 +56,7 @@ fof-upload:
         # mime_types: 'Configure your mime type, upload adapter mapping'
         mime_types: 'Konfigurasikan tipe mime Anda, upload adapter mapping'
         # title: General preferences
-        title: Prefensi Umum
+        title: Preferensi umum
       resize:
         # max_width: Maximum image width
         max_width: Lebar maksimum
@@ -66,13 +66,13 @@ fof-upload:
         toggle: Ubah ukuran
       watermark:
         # file: Upload your watermark image
-        file: Upload gambar watermark Anda
+        file: Upload watermark Anda
         # position: Watermark position
         position: Posisi Watermark
         # title: Watermark images
-        title: Gambar watermark
+        title: Watermark
         # toggle: Watermark images
-        toggle: Gambar watermark
+        toggle: Watermark
     permissions:
       # download_label: Download files
       download_label: Download file

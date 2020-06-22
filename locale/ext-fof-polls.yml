@@ -2,7 +2,7 @@ fof-polls:
   admin:
     permissions:
       moderate: Ubah & hapus pemungutan suara
-      self_edit: Izinkan pengguna untuk merubah pemungutan suaranya
+      self_edit: Izinkan user untuk merubah pemungutan suaranya
       start: Memulai pemungutan suara
       vote: Memilih pemungutan suara
 

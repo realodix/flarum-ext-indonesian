@@ -257,7 +257,7 @@ core:
       # allow_indefinitely_button: Indefinitely
       allow_indefinitely_button: Tidak diatur
       # allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_some_minutes_button: "Untuk {count} menit"
+      allow_some_minutes_button: "Untuk {count} menit|Untuk {count} menit"
       # allow_ten_minutes_button: For 10 minutes
       allow_ten_minutes_button: Untuk 10 menit
       # allow_until_reply_button: Until next reply

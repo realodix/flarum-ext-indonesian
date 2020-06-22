@@ -10,9 +10,9 @@ fof-split:
             # was_split_from: "{count} post was split from {target}.|{count} posts were split from {target}."
             was_split_from: "{count} post dipisahkan dari {target}.|{count} post dipisahkan dari {target}."
         split:
-            #from: Split from here
+            # from: Split from here
             from: Dipisahkan dari sini
-            #to: Split to here
+            # to: Split to here
             to: Pisahkan ke sini
         modal:
             title: Split discussion
