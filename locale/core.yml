@@ -145,9 +145,6 @@ core:
       mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
-      mail_ses_key_label: Key
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Secret
       mail_username_label: => core.ref.username
       # mailgun_heading: Mailgun Settings
       mailgun_heading: Pengaturan Mailgun
@@ -155,8 +152,6 @@ core:
       mandrill_heading: Pengaturan Mandrill
       # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
       not_sending_message: Flarum saat ini tidak mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
-      # ses_heading: SES Settings
-      ses_heading: Pengaturan SES
       # smtp_heading: SMTP Settings
       smtp_heading: Pengaturan SMTP
       submit_button: => core.ref.save_changes
