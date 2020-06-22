@@ -1,34 +1,36 @@
-flagrow-analytics:
+fof-analytics:
     admin:
         popup:
-            # title: Analytics Settings
-            title: Pengaturan Analytics
+            title: FoF Analytics
 
             section:
                 googleAnalytics: Google Analytics
                 piwik: Piwik
 
             field:
-                # googleTrackingCode: Tracking Code ID
-                googleTrackingCode: Kode ID Tracking
-                piwikAliasUrl: Alias Url
-                # piwikAuthToken: Authentication Token
-                piwikAuthToken: Token Otentikasi
-                # piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
-                piwikHideAliasUrl: Dalam laporan "Link keluar", sembunyikan klik ke URL alias yang dikenal
-                # piwikPrependDomain: Prepend the site domain to the page title when tracking
-                piwikPrependDomain: Tambahkan domain situs ke judul halaman saat men-tracking
-                piwikSiteId: Site ID
-                # piwikTrackAccounts: Track individual user accounts
-                piwikTrackAccounts: Tracking setiap akun user
-                # piwikTrackSubdomain: Track visitors across all subdomains of Flarum
-                piwikTrackSubdomain: Tracking pengunjung di semua subdomain Flarum
-                # piwikUrl: Piwik domain or url
-                piwikUrl: Domain Piwik atau url
                 # statusGoogle: Enable Google Analytics
                 statusGoogle: Aktifkan Google Analytics
+                # optTrackingCode: Optimize Tracking Code (optional)
+                optTrackingCode: Optimalkan Kode Pelacakan (opsional)
+                # googleTrackingCode: Tracking Code ID
+                googleTrackingCode: Kode ID Tracking
+                googleGTMCode: GTM code ID (optional)
                 # statusPiwik: Enable Piwik
                 statusPiwik: Aktifkan Piwik
+                # piwikUrl: Piwik domain or URL
+                piwikUrl: Domain Piwik atau URL
+                piwikSiteId: Site ID
+                # piwikTrackSubdomain: Track visitors across all subdomains of Flarum
+                piwikTrackSubdomain: Tracking pengunjung di semua subdomain Flarum
+                # piwikPrependDomain: Prepend the site domain to the page title when tracking
+                piwikPrependDomain: Tambahkan domain situs ke judul halaman saat men-tracking
+                # piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
+                piwikHideAliasUrl: Dalam laporan "Link keluar", sembunyikan klik ke URL alias yang dikenal
+                piwikAliasUrl: Alias URL
+                # piwikTrackAccounts: Track individual user accounts
+                piwikTrackAccounts: Tracking setiap akun user
+                # piwikAuthToken: Authentication Token
+                piwikAuthToken: Token Otentikasi
 
             placeholder:
                 piwikAuthToken: |

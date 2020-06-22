@@ -35,7 +35,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [flarumite/flarum-decontaminator](https://github.com/flarumite/flarum-decontaminator) v0.1.4
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
-- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
+- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.9.1
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
