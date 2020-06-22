@@ -13,3 +13,4 @@ fof-formatting:
       MediaEmbed: Sematkan konten dari situs yang diizinkan
       # PipeTables: ASCII-style tables
       PipeTables: Table ASCII-style
+      TaskLists: GitHub/GitLab flavored task lists
