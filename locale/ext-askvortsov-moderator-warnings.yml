@@ -9,13 +9,13 @@ askvortsov-moderator-warnings:
       delete_warnings: Hapus peringatan moderator secara permanen
   forum:
     notifications:
-      # warning_text: You were warned with {strikes} strikes by {mod_username}
-      warning_text: Anda diperingatkan dengan {strikes} teguran oleh {mod_username}
+      # warning_text: 'You were warned with {strikes} strike by {mod_username}|You were warned with {strikes} strikes by {mod_username}'
+      warning_text: Anda diperingatkan dengan {strikes} teguran oleh {mod_username}|Anda diperingatkan dengan {strikes} teguran oleh {mod_username}
       # warning_no_strikes_text: You were warned by {mod_username} (no strikes)
       warning_no_strikes_text: Anda diperingatkan oleh {mod_username} (tidak ada teguran)
     post:
-      # warning: Warned with {strikes} strikes by {mod_username}
-      warning: Diperingatkan dengan {strike} strike oleh {mod_username}
+      # warning: 'Warned with {strikes} strike by {mod_username}|Warned with {strikes} strikes by {mod_username}'
+      warning: Diperingatkan dengan {strike} strike oleh {mod_username}|Diperingatkan dengan {strike} strike oleh {mod_username}
       # warning_no_strikes: Warned with no strikes by {mod_username}
       warning_no_strikes: Diperingatkan tanpa strike oleh {mod_username}
     post_controls:
@@ -27,6 +27,11 @@ askvortsov-moderator-warnings:
     settings:
       # warning_notification_label: A moderator warns me
       warning_notification_label: Seorang moderator memperingatkan saya
+    validation:
+      # public_comment_required: You most provide a public comment.
+      public_comment_required: Anda paling banyak memberikan komentar publik.
+      # invalid_strike_count: The number of strikes must be an integer between 0 and 5.
+      invalid_strike_count: Jumlah teguran harus berupa bilangan bulat antara 0 dan 5.
     warning_controls:
       # delete_button: Remove
       delete_button: Hapus
@@ -35,20 +40,18 @@ askvortsov-moderator-warnings:
       # delete_forever_button: Permanently Delete
       delete_forever_button: Hapus secara permanen
     warning_list:
-      # add_button: New warning
+      # add_button: New Warning
       add_button: Peringatan baru
-      # no-warnings: It looks like there are no warnings here.
-      no-warnings: Sepertinya tidak ada peringatan di sini.
-      # warnings: "Moderator Warnings: {strikes} Strikes Received"
-      warnings: "Peringatan Moderator: {strike} Strike Diterima"
+      # no_warnings: It looks like there are no warnings here.
+      no_warnings: Sepertinya tidak ada peringatan di sini.
+      # warnings: "Moderator Warnings: {strikes} Strike Received|Moderator Warnings: {strikes} Strikes Received"
+      warnings: "Peringatan Moderator: {strike} Strike Diterima|Peringatan Moderator: {strike} Strike Diterima"
       # warnings_no_strikes: "Moderator Warnings: No Strikes Received"
       warnings_no_strikes: "Peringatan Moderator: Tidak Ada Strike yang Diterima"
     warning_list_item:
-      # list_item_heading: <strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes
-      list_item_heading: <strong>{mod_username}</strong> diperingatkan dengan <strong>{strikes}</strong> strikes
-      # list_item_heading_hidden: <strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes <strong>(deleted)</strong>
-      list_item_heading_hidden: <strong>{mod_username}</strong> diperingatkan dengan <strong>{strikes}</strong> strikes <strong>(deleted)</strong>
-      # public_comment: User-Visible Comments
+      list_item_heading: '<strong>{strikes}</strong> strike, {time}|<strong>{strikes}</strong> strikes, {time}'
+      list_item_heading_hidden: '<strong>{strikes}</strong> strike, {time} <strong>(removed)</strong>|<strong>{strikes}</strong> strikes, {time} <strong>(removed)</strong>'
+      # public_comment: Warning
       public_comment: Komentar Yang Terlihat Oleh User
       # private_comment: Moderator-Visible Comments
       private_comment: Komentar yang Terlihat Moderator
@@ -56,8 +59,6 @@ askvortsov-moderator-warnings:
     warning_modal:
       # confirmation_message: Your warning has been saved. You may need to refresh the page to see it.
       confirmation_message: Peringatan Anda telah disimpan. Anda mungkin perlu refresh halaman untuk melihatnya.
-      # dismiss_button: Done
-      dismiss_button: Selesai
       # heading: Warn <strong>{username}</strong>
       heading: Memperingatkan <strong>{username}</strong>
       # strikes_heading: How many strikes should be applied?
@@ -66,7 +67,5 @@ askvortsov-moderator-warnings:
       public_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh user dan moderator lainnya.
       # private_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will ONLY be visible to other moderators.
       private_comment_heading: Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini HANYA akan terlihat oleh moderator lain.
-      # no_content_given: An empty warning is not permitted.
-      no_content_given: Peringatan kosong tidak diizinkan.
       # submit_button: Save warning
       submit_button: Simpan peringatan
