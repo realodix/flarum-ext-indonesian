@@ -26,7 +26,6 @@ fof-gamification:
     modal:
       title: Voters
       upvotes_label: 'Upvoters:'
-      downvotes_label: 'Downvoters:'
     # mod_item: View Voters
     mod_item: Lihat Voters
   admin:
@@ -70,6 +69,8 @@ fof-gamification:
         rate_limit: Terapkan batas limit per vote (10 detik)
         # discussion_page: Show total votes of original post on discussions list
         discussion_page: Tampilkan total vote dari post asli di discussions list
+        # alternate_layout: Use alternate layout to show and/or do upvotes/downvotes
+        alternate_layout: Gunakan layout alternatif untuk menampilkan dan/atau melakukan upvotes/downvotes
         title: Votes
         vote_color: Voted color
         icon_name: Upvote/downvote icon
