@@ -16,6 +16,10 @@ fof-upload:
         Harap konfigurasikan mapping Anda di sini. Setiap regular expression tipe mime akan ditangani oleh upload adapter dan template download tertentu.
       resize: |
         Pilih apakah Anda ingin mengubah ukuran gambar sebelum di-upload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran menjaga rasio aspek gambar.
+      client_extension: |
+        Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.
+        Untuk beberapa jenis file yang didasarkan pada ZIP atau data biner, hal ini dapat mengakibatkan ekstensi generik digunakan, bukan yang diharapkan.
+        Di sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.
       watermark: |
         Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.
     labels:
@@ -58,12 +62,15 @@ fof-upload:
         # title: General preferences
         title: Preferensi umum
       resize:
-        # max_width: Maximum image width
-        max_width: Lebar maksimum
+        # max_width: Maximum image width/height
+        max_width: Lebar / tinggi gambar maksimum
         # title: Image resize
         title: Ubah ukuran
         # toggle: Resize images
         toggle: Ubah ukuran
+      client_extension:
+        # title: User-provided file extensions
+        title: Ekstensi file yang disediakan oleh user
       watermark:
         # file: Upload your watermark image
         file: Upload watermark Anda
@@ -91,6 +98,9 @@ fof-upload:
         Memperlihatkan gambar lengkap in-line. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.
       image_description: |
         Memperlihatkan thumbnail gambar dan proxies download melalui php. Mengizinkan statistik dikumpulkan dan hotlink protection.
+      just-url: Just URL
+      just-url_description: |
+        Hanya menyisipkan URL. Perenderan dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection diabaikan.
     upload_methods:
       aws-s3: Amazon S3
       imgur: Imgur
