@@ -425,6 +425,7 @@ core:
       # mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_confirmation: "Anda yakin ingin menandai semua diskusi sudah terbaca?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       # refresh_tooltip: Refresh
       refresh_tooltip: Refresh Halaman
       start_discussion_button: => core.ref.start_a_discussion
