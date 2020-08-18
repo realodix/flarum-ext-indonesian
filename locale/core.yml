@@ -153,10 +153,10 @@ core:
       send_test_mail_button: Kirim
       # send_test_mail_heading: Send Test Mail
       send_test_mail_heading: Kirim Email percobaan
-      # send_test_mail_success: Test mail sent successfully!
-      send_test_mail_success: Email percobaan berhasil dikirim!
-      # send_test_mail_text: This will send an email using the above configuration to your email, {email}.
-      send_test_mail_text: Ini akan mengirimkan email menggunakan konfigurasi di atas ke email Anda, {email}.
+      # send_test_mail_success: "Test mail sent successfully!"
+      send_test_mail_success: "Email percobaan berhasil dikirim!"
+      # send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
+      send_test_mail_text: "Ini akan mengirimkan email menggunakan konfigurasi di atas ke email Anda, {email}."
       # smtp_heading: SMTP Settings
       smtp_heading: Pengaturan SMTP
       submit_button: => core.ref.save_changes
