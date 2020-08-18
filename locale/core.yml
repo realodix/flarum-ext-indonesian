@@ -149,6 +149,14 @@ core:
       mailgun_heading: Pengaturan Mailgun
       # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
       not_sending_message: Flarum saat ini tidak mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
+      # send_test_mail_button: Send
+      send_test_mail_button: Kirim
+      # send_test_mail_heading: Send Test Mail
+      send_test_mail_heading: Kirim Email percobaan
+      # send_test_mail_success: Test mail sent successfully!
+      send_test_mail_success: Email percobaan berhasil dikirim!
+      # send_test_mail_text: This will send an email using the above configuration to your email, {email}.
+      send_test_mail_text: Ini akan mengirimkan email menggunakan konfigurasi di atas ke email Anda, {email}.
       # smtp_heading: SMTP Settings
       smtp_heading: Pengaturan SMTP
       submit_button: => core.ref.save_changes
@@ -732,6 +740,18 @@ core:
         {url}
 
         Jika Anda tidak ingin mengubah password, abaikan saja email ini dan tidak akan terjadi apa-apa.
+
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum Email Test
+      body: |
+        Hey {username}!
+
+        Ini adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan benar.
+
+        Jika ini adalah Anda, email ini berarti konfigurasi yang Anda buat berfungsi!
+
+        Jika ini bukan Anda, abaikan email ini.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
