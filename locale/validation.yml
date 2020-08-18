@@ -83,6 +83,7 @@ validation:
   not_in: ":attribute yang dipilih tidak valid."
   not_regex: "The :attribute format is invalid."
   numeric: ":attribute harus berupa angka."
+  password: "Password salah."
   present: ":attribute harus ada."
   regex: "Format :attribute tidak valid."
   required: "Bidang :attribute harus diisi."
