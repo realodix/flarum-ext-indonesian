@@ -270,7 +270,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       # incorrect_password_message: The password you entered is incorrect.
-      incorrect_password_message: Password yang Anda masukan salah.
+      incorrect_password_message: Password yang Anda masukkan salah.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
