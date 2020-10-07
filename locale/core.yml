@@ -331,7 +331,7 @@ core:
       # cannot_reply_button: Can't Reply
       cannot_reply_button: Tidak dapat membalas
       # cannot_reply_text: You don't have permission to reply to this discussion.
-      cannot_reply_text: Anda tidak diperbolehkan ikut berdiskusi.
+      cannot_reply_text: Anda tidak memiliki izin untuk membalas diskusi ini.
       delete_button: => core.ref.delete
       # delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_confirmation: "Anda yakin ingin menghapus diskusi ini?"
