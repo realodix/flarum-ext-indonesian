@@ -69,14 +69,12 @@ fof-masquerade:
                 dengan awalan "fa-", seperti "fas fa-info".
             # force-user-to-completion: Force user to complete profile
             force-user-to-completion: Paksa user untuk melengkapi profil
-            # disable-user-bio: Disable user bio field
-            disable-user-bio: Nonaktifkan field pada halaman bio user
             # options: Options
             options: Opsi
             # option-new: New option
             option-new: Buat opsi
             # option-coma-warning: The label of an option cannot contain any comma (",").
-            option-coma-warning: Label opsi tidak boleh mengandung koma (",").
+            option-comma-warning: Label opsi tidak boleh mengandung koma (",").
         types:
             advanced: Advanced
             boolean: Checkbox

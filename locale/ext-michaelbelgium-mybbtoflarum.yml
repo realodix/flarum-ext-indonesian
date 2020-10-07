@@ -1,41 +1,41 @@
-mybbtoflarum:
+michaelbelgium-mybb-to-flarum:
   admin:
     nav:
       title: MyBB to Flarum
-      # description: Convert a MyBB forum into this Flarum instance
-      description: Konversikan forum MyBB menjadi Flarum instance
-    page:
-      # text: Convert a Mybb forum into this Flarum instance. Fill in the required data, aftwards click on "migrate".
-      text: Konversikan forum MyBB menjadi Flarum instance. Isi data yang diperlukan, lalu klik "migrasi".
-      # btnConvert: Migrate
-      btnConvert: Migrasi
+      # description_text: Convert a MyBB forum into this Flarum instance
+      description_text: Konversikan forum MyBB menjadi Flarum instance
+    content:
+      # description_text: Convert a Mybb forum into this Flarum instance. Fill in the required data, aftwards click on "migrate".
+      description_text: Konversikan forum MyBB menjadi Flarum instance. Isi data yang diperlukan, lalu klik "migrasi".
+      # convert_button: Migrate
+      convert_button: Migrasi
       form:
         general:
           # title: General settings
           title: Pengaturan umum
-          # migrateAvatars: Migrate avatars
-          migrateAvatars: Migrasikan avatar
-          # migrateSoftThreads: Migrate soft deleted threads
-          migrateSoftThreads: Migrasikan soft deleted threads
-          # migrateSoftPosts: Migrate soft deleted posts
-          migrateSoftPosts: Migrasikan soft deleted posts
+          # migrate_avatars_label: Migrate avatars
+          migrate_avatars_label: Migrasikan avatar
+          # migrate_soft_threads_label: Migrate soft deleted threads
+          migrate_soft_threads_label: Migrasikan soft deleted threads
+          # migrate_soft_posts_label: Migrate soft deleted posts
+          migrate_soft_posts_label: Migrasikan soft deleted posts
         mybb:
           # title: MyBB settings
           title: Pengaturan MyBB
-          host: Database host
-          user: Database user
-          password: Database password
-          db: Database name
-          prefix: Table prefix
-          mybbPath: Absolute MyBB path
+          host_label: Database host
+          user_label: Database user
+          password_label: Database password
+          db_label: Database name
+          prefix_label: Table prefix
+          path_label: Absolute MyBB path
         options:
           # title: General migrate options
           title: Opsi migrasi umum
-          # migrateUsers: Migrate users
-          migrateUsers: Migrasikan user
-          # migrateThreadsPosts: Migrate threads and posts
-          migrateThreadsPosts: Migrasikan thread dan post
-          # migrateUserGroups: Migrate user groups
-          migrateUserGroups: Migrasikan user group
-          # migrateCategories: Migrate categories
-          migrateCategories: Migrasikan kategori
+          # migrate_users_label: Migrate users
+          migrate_users_label: Migrasikan user
+          # migrate_threadsPosts_label: Migrate threads and posts
+          migrate_threadsPosts_label: Migrasikan thread dan post
+          # migrate_userGroups_label: Migrate user groups
+          migrate_userGroups_label: Migrasikan user group
+          # migrate_categories_label: Migrate categories
+          migrate_categories_label: Migrasikan kategori

@@ -15,6 +15,8 @@ fof-forum-statistics-widget:
     settings:
       # title: Widget Settings
       title: Pengaturan Widget
+      # widget_ignore_private_discussions_label: Ignore Private Discussions
+      widget_ignore_private_discussions_label: Abaikan Diskusi Pribadi
       widget_order_label: Widget Order
       # widget_helper_text: "Edit this setting to adjust this widget's position on the sidenav section of your Flarum forum. The higher the number, the higher this widget will be on the sidenav items list (this value can be either positive or negative)."
       widget_helper_text: "Edit pengaturan ini untuk menyesuaikan posisi widget di bagian sidenav dari forum Flarum Anda. Semakin tinggi angkanya, semakin tinggi widget ini akan ada di daftar item sidenav (nilai ini bisa positif atau negatif)."

@@ -9,46 +9,34 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      # developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      developer_text: "Jika Anda seorang developer, Anda dapat membaca <a>dokumen bantuan</a> dan membangun ekstensi Anda sendiri."
+      developer_text: "Jika Anda seorang pengembang, Anda dapat <a>membaca dokumentasi</a> dan membuat ekstensi Anda sendiri."
       # install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      install_text: "Saat ini, Anda dapat melihat ekstensi pada <a>situs Komunitas Flarum</a> dan memasangnya secara manual dengan menggunakan Composer."
+      install_text: "Saat ini, Anda dapat melihat ekstensi pada <a>situs Komunitas Flarum</a> dan memasangnya secara manual dengan Composer."
       # temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      temporary_text: "Suatu hari dialog ini akan mengizinkan Anda untuk menambahkan ekstensi ke dalam forum Anda dengan mudah."
+      temporary_text: "Suatu hari dialog ini akan membantu Anda untuk menambahkan ekstensi ke dalam forum Anda dengan mudah. Saat ini Kami sedang membuat ekosistemnya."
       # title: Add Extension
       title: Tambah Extensi
 
     # These translations are used in the Appearance page.
     appearance:
-      # colored_header_label: Colored Header
-      colored_header_label: Header Berwarna
-      # colors_heading: Colors
+      colored_header_label: Colored Header
       colors_heading: Warna
-      # colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      colors_text: "Tentukan dua warna untuk tema forum Anda. Warna pertama untuk highlight, dan yang kedua untuk latar belakang."
-      # custom_header_heading: Custom Header
+      colors_text: "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai highlight color, sedangkan yang kedua akan digunakan untuk mengatur style background elements."
       custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Modifikasi Header
+      custom_header_heading: Custom Header
       custom_header_text: => core.ref.custom_header_text
-      # custom_styles_heading: Custom Styles
-      custom_styles_heading: Modifikasi Tampilan
-      # custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      custom_styles_text: Menyesuaikan penampilan forum Anda dengan menambahkan kode LESS/CSS yang Anda buat.
-      # dark_mode_label: Dark Mode
-      dark_mode_label: Mode Gelap
-      # edit_css_button: Edit Custom CSS
-      edit_css_button: Edit CSS
+      custom_styles_heading: Custom Styles
+      custom_styles_text: Sesuaikan tampilan forum Anda dengan menambahkan kode LESS / CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.
+      dark_mode_label: Dark Mode
+      edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
-      # enter_hex_message: Please enter a hexadecimal color code.
-      enter_hex_message: Masukkan kode warna hexadecimal.
+      enter_hex_message: Masukkan hexadecimal color code.
       favicon_heading: Favicon
-      # favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      favicon_text: Upload gambar yang akan ditampilkan sebagai ikon shortcut forum ini.
+      favicon_text: Upload gambar untuk ditampilkan pada forum's shortcut icon.
       logo_heading: Logo
-      # logo_text: Upload an image to be displayed in place of the forum title.
-      logo_text: Upload gambar yang akan ditampilkan di tempat judul forum.
+      logo_text: Upload gambar untuk ditampilkan pada forum title.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -88,11 +76,9 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      # customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
-      customize_text: "Sesuaikan tampilan forum Anda dengan menambahkan kode LESS/CSS milik Anda untuk diterapkan pada <a>gaya standar</a> Flarum."
+      customize_text: "Sesuaikan tampilan forum Anda dengan menambahkan kode LESS/CSS milik Anda untuk diterapkan pada Flarum's <a>default styles</a>."
       submit_button: => core.ref.save_changes
-      # title: Edit Custom CSS
-      title: Edit CSS
+      title: Edit Custom CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -148,7 +134,7 @@ core:
       # mailgun_heading: Mailgun Settings
       mailgun_heading: Pengaturan Mailgun
       # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
-      not_sending_message: Flarum saat ini tidak mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
+      not_sending_message: Flarum saat ini tidak dapat mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
       # send_test_mail_button: Send
       send_test_mail_button: Kirim
       # send_test_mail_heading: Send Test Mail
@@ -177,7 +163,6 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      # title: Please Wait...
       title: Mohon menunggu...
 
     # These translations are used in the navigation bar.
@@ -289,7 +274,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       # incorrect_password_message: The password you entered is incorrect.
-      incorrect_password_message: Password yang Anda masukan salah.
+      incorrect_password_message: Password yang Anda masukkan salah.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -318,7 +303,7 @@ core:
       # body_placeholder: Write a Post...
       body_placeholder: Tulis artikel di sini..
       # discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      discard_confirmation: "Artikel yang Anda tulis belum Anda posting. Apakah Anda ingin membuangnya?"
+      discard_confirmation: "Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?"
       # submit_button: Post Discussion
       submit_button: Publikasikan Diskusi
       title: => core.ref.start_a_discussion
@@ -350,7 +335,7 @@ core:
       # cannot_reply_button: Can't Reply
       cannot_reply_button: Tidak dapat membalas
       # cannot_reply_text: You don't have permission to reply to this discussion.
-      cannot_reply_text: Anda tidak diperbolehkan ikut berdiskusi.
+      cannot_reply_text: Anda tidak memiliki izin untuk membalas diskusi ini.
       delete_button: => core.ref.delete
       # delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_confirmation: "Anda yakin ingin menghapus diskusi ini?"
