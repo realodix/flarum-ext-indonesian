@@ -270,7 +270,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       # incorrect_password_message: The password you entered is incorrect.
-      incorrect_password_message: Password yang Anda masukan salah.
+      incorrect_password_message: Password yang Anda masukkan salah.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -299,7 +299,7 @@ core:
       # body_placeholder: Write a Post...
       body_placeholder: Tulis artikel di sini..
       # discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      discard_confirmation: "Artikel yang Anda tulis belum Anda posting. Apakah Anda ingin membuangnya?"
+      discard_confirmation: "Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?"
       # submit_button: Post Discussion
       submit_button: Publikasikan Diskusi
       title: => core.ref.start_a_discussion
