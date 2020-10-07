@@ -1,7 +1,13 @@
-flarum_profile_views:
+michaelbelgium-flarum-profile-views:
   forum:
     user:
-      # title_last_viewers: Last profile viewers
-      title_last_viewers: Terakhir dilihat oleh
-      # views_count_text: 'viewed {viewcount} time|viewed {viewcount} times'
-      views_count_text: 'Dilihat {viewcount} kali|Dilihat {viewcount} kali'
+      # last_viewers_heading: Last visitors
+      last_viewers_heading: Terakhir dilihat oleh
+      # view_count_text: 'viewed {viewcount} time|viewed {viewcount} times'
+      view_count_text: 'Dilihat {viewcount} kali|Dilihat {viewcount} kali'
+  admin:
+    settings:
+      # title: 'Profileviews settings'
+      title: 'Pengaturan Profileviews'
+      track_guests_label: 'Track guests'
+      max_viewcount_label: 'Maximum visitorlist items'
