@@ -136,7 +136,7 @@ core:
       # mandrill_heading: Mandrill Settings
       mandrill_heading: Pengaturan Mandrill
       # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
-      not_sending_message: Flarum saat ini tidak mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
+      not_sending_message: Flarum saat ini tidak dapat mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
       # ses_heading: SES Settings
       ses_heading: Pengaturan SES
       # smtp_heading: SMTP Settings
