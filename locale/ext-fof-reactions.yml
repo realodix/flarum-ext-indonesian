@@ -11,11 +11,15 @@ fof-reactions:
         notify_post_reacted_label: Seseorang bereaksi terhadap salah satu post Saya
     # reacting-own-post: You cannot react to your own post
     reacting-own-post: Anda tidak dapat memberikan reaction terhadap post Anda sendiri
+    modal:
+      title: Reactions
+    mod_item: Lihat Reactions
 
   admin:
     permissions:
         # react_posts_label: React to posts
         react_posts_label: Bereaksi terhadap post
+        see_reactions_label: Lihat siapa yang bereaksi terhadap post
 
     nav:
       # desc: Add custom reactions and change settings.
