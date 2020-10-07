@@ -43,7 +43,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.5
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.2.0
-- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.4
+- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.6
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
