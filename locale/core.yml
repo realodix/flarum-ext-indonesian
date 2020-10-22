@@ -44,6 +44,8 @@ core:
       all_discussions_label: => core.ref.all_discussions
       # default_language_heading: Default Language
       default_language_heading: Bahasa Yang Digunakan
+      display_name_heading: Nama User Yang Ditampilkan
+      display_name_text: Pilih driver yang harus digunakan untuk nama user yang ditampilkan. Secara default, nama user ditampilkan.
       # forum_description_heading: Forum Description
       forum_description_heading: Deskripsi Forum
       # forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
@@ -124,21 +126,17 @@ core:
       mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: Secret key
-      mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
-      mail_ses_key_label: Key
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Secret
       mail_username_label: => core.ref.username
       # mailgun_heading: Mailgun Settings
       mailgun_heading: Pengaturan Mailgun
-      # mandrill_heading: Mandrill Settings
-      mandrill_heading: Pengaturan Mandrill
       # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
       not_sending_message: Flarum saat ini tidak dapat mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
-      # ses_heading: SES Settings
-      ses_heading: Pengaturan SES
+      send_test_mail_button: Kirim
+      send_test_mail_heading: Kirim Email percobaan
+      send_test_mail_success: "Email percobaan berhasil dikirim!"
+      send_test_mail_text: "Ini akan mengirimkan email menggunakan konfigurasi di atas ke email Anda, {email}."
       # smtp_heading: SMTP Settings
       smtp_heading: Pengaturan SMTP
       submit_button: => core.ref.save_changes
@@ -411,6 +409,7 @@ core:
       # mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_confirmation: "Anda yakin ingin menandai semua diskusi sudah terbaca?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       # refresh_tooltip: Refresh
       refresh_tooltip: Refresh Halaman
       start_discussion_button: => core.ref.start_a_discussion
@@ -589,6 +588,8 @@ core:
 
     # These translations are displayed as error messages.
     error:
+      dependent_extensions_message: "Tidak dapat menonaktifkan {extension} hingga dependent extension berikut ini dinonaktifkan: {extensions}"
+      missing_dependencies_message: "Tidak dapat mengaktifkan {extension} hingga dependensi berikut diaktifkan: {extensions}"
       # generic_message: "Oops! Something went wrong. Please reload the page and try again."
       generic_message: "Oops! Sepertinya ada masalah. Coba refresh halaman dan coba lagi."
       # not_found_message: The requested resource was not found.
@@ -720,6 +721,18 @@ core:
         {url}
 
         Jika Anda tidak ingin mengubah password, abaikan saja email ini dan tidak akan terjadi apa-apa.
+
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum Email Test
+      body: |
+        Hey {username}!
+
+        Ini adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan benar.
+
+        Jika ini adalah Anda, email ini berarti konfigurasi yang Anda buat berfungsi!
+
+        Jika ini bukan Anda, abaikan email ini.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

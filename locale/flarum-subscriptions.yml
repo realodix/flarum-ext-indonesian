@@ -20,6 +20,10 @@ flarum-subscriptions:
       # unignore_button: Unignore
       unignore_button: Abaikan
 
+    # These translations are used on the page that displays all subscriptions.
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       following_link: => flarum-subscriptions.ref.following
@@ -53,6 +57,28 @@ flarum-subscriptions:
       notify_alert_tooltip: Dapatkan notifikasi ketika ada pesan baru
       # notify_email_tooltip: Get an email when there are new posts
       notify_email_tooltip: Kirim email ketika ada pesan baru
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is made in a subscribed discussion
+    new_post:
+      subject: "[New Post] {title}"
+      body: |
+        Hey {recipient_display_name}!
+
+        {poster_display_name} made a post in a discussion you're following: {title}.
+
+        To view the new activity, check out the following link:
+        {url}
+
+        ---
+
+        {content}
+
+        ---
+
+        You won't receive any more notifications about this discussion until you're up-to-date.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

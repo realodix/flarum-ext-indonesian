@@ -42,7 +42,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.13
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.5
-- [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.2.0
+- [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.3.0
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.6
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
@@ -55,11 +55,11 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v0.3.4
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.2
-- [fof/split](https://github.com/friendsofflarum/split) v0.4.4
+- [fof/split](https://github.com/friendsofflarum/split) v0.5.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.2.3
 - [fof/upload](https://github.com/friendsofflarum/upload) v0.10.0
-- [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.2.0
+- [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.3.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.4
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
