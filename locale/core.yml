@@ -44,9 +44,7 @@ core:
       all_discussions_label: => core.ref.all_discussions
       # default_language_heading: Default Language
       default_language_heading: Bahasa Yang Digunakan
-      # display_name_heading: User Display Name
       display_name_heading: Nama User Yang Ditampilkan
-      # display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
       display_name_text: Pilih driver yang harus digunakan untuk nama user yang ditampilkan. Secara default, nama user ditampilkan.
       # forum_description_heading: Forum Description
       forum_description_heading: Deskripsi Forum
