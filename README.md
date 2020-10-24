@@ -41,7 +41,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.6
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.13
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
-- [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.5
+- [fof/formatting](https://github.com/friendsofflarum/formatting) v0.2.0
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.3.0
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.6
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.6.0
