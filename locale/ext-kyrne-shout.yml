@@ -19,10 +19,10 @@ kyrne-shout:
       header_setup: Masukkan password Anda untuk mengatur pesan pribadi.
       # header_import: Enter your account login password to import your private messages.
       header_import: Masukkan password Anda untuk mengimpor pesan pribadi Anda.
-      # header_set_own: Enter a paassword to setup private messages.
+      # header_set_own: Enter a password to setup private messages.
       header_set_own: Masukkan password untuk mengatur pesan pribadi.
-      # header_set_own_import: Enter your private messages paassword to import them.
-      header_set_own_import: Masukkan paassword pesan pribadi Anda untuk mengimpornya.
+      # header_set_own_import: Enter your private messages password to import them.
+      header_set_own_import: Masukkan password pesan pribadi Anda untuk mengimpornya.
       # passwords_mismatch: The passwords didn't match
       passwords_mismatch: Password tidak cocok
       # invalid_password: Your password was incorrect.
