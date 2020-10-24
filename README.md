@@ -44,7 +44,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.5
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.3.0
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.6
-- [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.5.0
+- [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.6.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.2.5
@@ -63,10 +63,10 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.4
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
-- [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v4.0.1
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.4-beta.1
-- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v3.1.0
-- [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v5.1
+- [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v5.0.0
+- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v4.0.0
+- [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v6.0
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.2
 
