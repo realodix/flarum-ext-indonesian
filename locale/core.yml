@@ -21,22 +21,22 @@ core:
     appearance:
       colored_header_label: Colored Header
       colors_heading: Warna
-      colors_text: "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai highlight color, sedangkan yang kedua akan digunakan untuk mengatur gaya elemen-elemen latar"
+      colors_text: "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai highlight color, sedangkan yang kedua akan digunakan untuk mengatur style background elements."
       custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Custom Header
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Custom Styles
-      custom_styles_text: Sesuaikan tampilan forum Anda dengan menambahkan kode LESS / CSS Anda sendiri untuk diterapkan di atas style Flarum default.
-      dark_mode_label: Mode Gelap
+      custom_styles_text: Sesuaikan tampilan forum Anda dengan menambahkan kode LESS / CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.
+      dark_mode_label: Dark Mode
       edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Masukkan hexadecimal color code.
       favicon_heading: Favicon
-      favicon_text: Unggah gambar untuk ditampilkan pada shortcut icon forum.
+      favicon_text: Upload gambar untuk ditampilkan pada forum's shortcut icon.
       logo_heading: Logo
-      logo_text: Unggah gambar untuk ditampilkan pada forum title.
+      logo_text: Upload gambar untuk ditampilkan pada forum title.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -47,7 +47,7 @@ core:
       display_name_heading: Nama User Yang Ditampilkan
       display_name_text: Pilih driver yang harus digunakan untuk nama user yang ditampilkan. Secara default, nama user ditampilkan.
       # forum_description_heading: Forum Description
-      forum_description_heading: Keterangan Forum
+      forum_description_heading: Deskripsi Forum
       # forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
       forum_description_text: Tulis beberapa kalimat yang menggambarkan komunitas Anda. Ini akan muncul di meta tag dan mesin pencari.
       # forum_title_heading: Forum Title
@@ -55,22 +55,22 @@ core:
       # home_page_heading: Home Page
       home_page_heading: Halaman Utama
       # home_page_text: Choose the page which users will first see when they visit your forum.
-      home_page_text: Tentukan halaman yang akan pengguna-pengguna lihat pada halaman utama.
+      home_page_text: Tentukan halaman yang akan ditampilkan pada halaman utama.
       # saved_message: Your changes were saved.
       saved_message: Perubahan berhasil disimpan.
       # show_language_selector_label: Show language selector
       show_language_selector_label: Tampilkan pilihan bahasa
       submit_button: => core.ref.save_changes
       # welcome_banner_heading: Welcome Banner
-      welcome_banner_heading: Banner Selamat Datang
+      welcome_banner_heading: Pesan Selamat Datang
       # welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
-      welcome_banner_text: Konfigurasi pesan selamat datang yang akan ditampilkan dalam bentuk banner di halaman All Discussions. Gunakan ini untuk menyambut tamu yang datang ke forum Anda.
+      welcome_banner_text: Pesan selamat datang akan ditampilkan dalam bentuk banner. Gunakan ini untuk menyambut tamu yang datang ke forum Anda.
 
     # These translations are used in the Dashboard page.
     dashboard:
       # clear_cache_button: Clear Cache
       clear_cache_button: Hapus Cache
-      tools_button: Alat-alat
+      tools_button: Tools
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -97,11 +97,11 @@ core:
       icon_text: => core.ref.icon_text
       # name_label: Name
       name_label: Nama
-      plural_placeholder: Plural (contoh Mods)
-      singular_placeholder: Singular (contoh Mod)
+      plural_placeholder: Plural (e.g. Mods)
+      singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
       # title: Create Group
-      title: Buat Grup
+      title: Membuat Grup
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -132,7 +132,7 @@ core:
       # mailgun_heading: Mailgun Settings
       mailgun_heading: Pengaturan Mailgun
       # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
-      not_sending_message: Flarum saat ini tidak mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
+      not_sending_message: Flarum saat ini tidak dapat mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
       send_test_mail_button: Kirim
       send_test_mail_heading: Kirim Email percobaan
       send_test_mail_success: "Email percobaan berhasil dikirim!"
@@ -141,7 +141,7 @@ core:
       smtp_heading: Pengaturan SMTP
       submit_button: => core.ref.save_changes
       # text: Configure the driver, settings and addresses your forum will use to send email.
-      text: Konfigurasi driver, pengaturan, dan alamat yang akan digunakan forum Anda untuk mengirim email.
+      text: Mengkonfigurasi driver, pengaturan, dan alamat yang akan digunakan forum Anda untuk mengirim email.
 
     # These translations are used in the Extensions page.
     extensions:
@@ -169,12 +169,12 @@ core:
       basics_button: Basic
       # basics_text: "Set your forum title, language, and other basic settings."
       basics_text: "Tetapkan judul forum Anda, bahasa, dan pengaturan dasar lainnya."
-      dashboard_button: Dasbor
+      dashboard_button: Dashboard
       # dashboard_text: Your forum at a glance.
       dashboard_text: Sekilas tentang forum Anda.
       email_button: => core.ref.email
       # email_text: "Configure your forum's email settings."
-      email_text: "Konfigurasi pengaturan email untuk forum Anda."
+      email_text: "Mengkonfigurasi pengaturan email untuk forum Anda."
       # extensions_button: Extensions
       extensions_button: Ekstensi
       # extensions_text: Add extra functionality to your forum and make it your own.
@@ -190,7 +190,7 @@ core:
       allow_post_editing_label: Edit Post
       # allow_renaming_label: Allow renaming
       allow_renaming_label: Ganti Judul
-      create_heading: Buat
+      create_heading: Create
       # delete_discussions_forever_label: Delete discussions forever
       delete_discussions_forever_label: Hapus Diskusi Selamanya
       # delete_discussions_label: Delete discussions
@@ -210,14 +210,14 @@ core:
       # participate_heading: Participate
       participate_heading: Ikut Serta
       # post_without_throttle_label: Reply multiple times without waiting
-      post_without_throttle_label: Balas beberapa kali tanpa menunggu
-      read_heading: Baca
+      post_without_throttle_label: Jawab beberapa kali tanpa menunggu
+      read_heading: Read
       # rename_discussions_label: Rename discussions
       rename_discussions_label: Ganti Judul Diskusi
       # reply_to_discussions_label: Reply to discussions
       reply_to_discussions_label: Ikut Berdiskusi
       # sign_up_label: Sign up
-      sign_up_label: Daftar
+      sign_up_label: Pendaftaran Akun
       # start_discussions_label: Start discussions
       start_discussions_label: Mulai Diskusi
       # view_discussions_label: View discussions
@@ -257,7 +257,7 @@ core:
     upload_image:
       remove_button: => core.ref.remove
       # upload_button: Choose an Image...
-      upload_button: Pilih sebuah gambar...
+      upload_button: Pilih gambar...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -275,7 +275,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       # send_button: Send Password Reset Email
-      send_button: Kirim Email Password Reset
+      send_button: Kirim
       # text: Click the button below and check your email for a link to change your password.
       text: Kami akan mengirimkan link untuk reset password ke email Anda.
       title: => core.ref.change_password
@@ -285,7 +285,7 @@ core:
       # close_tooltip: Close
       close_tooltip: Tutup
       # exit_full_screen_tooltip: Exit Full Screen
-      exit_full_screen_tooltip: Keluar dari Layar Penuh
+      exit_full_screen_tooltip: Tutup Layar Penuh
       # full_screen_tooltip: Full Screen
       full_screen_tooltip: Layar Penuh
       # minimize_tooltip: Minimize
@@ -295,7 +295,7 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       # body_placeholder: Write a Post...
-      body_placeholder: Tulis sebuah postingan di sini..
+      body_placeholder: Tulis artikel di sini..
       # discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
       discard_confirmation: "Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?"
       # submit_button: Post Discussion
@@ -309,7 +309,7 @@ core:
       # discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
       discard_confirmation: "Anda belum menyimpan perubahan. Apakah Anda ingin membuangnya?"
       # post_link: "Post #{number} in {discussion}"
-      post_link: "Postingan #{number} di {discussion}"
+      post_link: "Pos #{number} di {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -335,7 +335,7 @@ core:
       delete_confirmation: "Anda yakin ingin menghapus diskusi ini?"
       delete_forever_button: => core.ref.delete_forever
       # log_in_to_reply_button: Log In to Reply
-      log_in_to_reply_button: Log In untuk membalas
+      log_in_to_reply_button: Balas
       # rename_button: => core.ref.rename
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
@@ -344,7 +344,7 @@ core:
     # These translations are used in the discussion list.
     discussion_list:
       # empty_text: It looks like there are no discussions here.
-      empty_text: "Kelihatannya tidak ada diskusi disini."
+      empty_text: "Belum ada diskusi yang dimulai."
       load_more_button: => core.ref.load_more
       # mark_as_read_tooltip: Mark as Read
       mark_as_read_tooltip: Tandai sudah dibaca
@@ -476,7 +476,7 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       # now_link: Now
-      now_link: Post Terakhir
+      now_link: Sekarang
       # original_post_link: Original Post
       original_post_link: Post Pertama
       # unread_text: "{count} unread"
@@ -505,7 +505,7 @@ core:
     # These translations are used by the search results dropdown list.
     search:
       # all_discussions_button: 'Search all discussions for "{query}"'
-      all_discussions_button: 'Pencarian untuk "{query}"'
+      all_discussions_button: 'Cari semua diskusi untuk "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
@@ -542,14 +542,14 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
+      avatar_upload_button: Unggah
       # avatar_upload_tooltip: Upload a new avatar
-      avatar_upload_tooltip: Upload avatar baru
+      avatar_upload_tooltip: Unggah avatar baru
       discussions_link: => core.ref.discussions
       # in_discussion_text: "In {discussion}"
       in_discussion_text: "Di {discussion}"
       # joined_date_text: "Joined {ago}"
-      joined_date_text: "Bergabung: {ago}"
+      joined_date_text: "Bergabung {ago}"
       online_text: Online
       # posts_empty_text: It looks like there are no posts here.
       posts_empty_text: Sepertinya tidak ada post di sini.
@@ -576,7 +576,7 @@ core:
       # resend_button: Resend Confirmation Email
       resend_button: Kirim ulang
       # sent_message: Sent
-      sent_message: Kirim
+      sent_message: Terkirim
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -595,7 +595,7 @@ core:
       # not_found_message: The requested resource was not found.
       not_found_message: Sumber yang diminta tidak ditemukan.
       # permission_denied_message: You do not have permission to do that.
-      permission_denied_message: Maaf, akun Anda tidak memiliki hak untuk melakukan ini.
+      permission_denied_message: Maaf, Anda tidak memiliki izin untuk melakukan ini.
       # rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
       rate_limit_exceeded_message: Maaf, Anda terlalu cepat. Silahkan coba lagi dalam beberapa detik.
 
@@ -614,7 +614,7 @@ core:
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[terhapus]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -678,7 +678,7 @@ core:
   # Translations in this namespace are used in messages output by the API.
   api:
     # invalid_username_message: "The username may only contain letters, numbers, and dashes."
-    invalid_username_message: "Username dapat mengandung huruf, angka, dan tanda hubung (_)."
+    invalid_username_message: "Username hanya dapat mengandung huruf, angka, dan tanda hubung (_)."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -726,7 +726,7 @@ core:
     send_test:
       subject: Flarum Email Test
       body: |
-        Hey {username}!
+        Halo {username}!
 
         Ini adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan benar.
 
@@ -761,7 +761,7 @@ core:
     # delete: Delete
     delete: Hapus
     # delete_forever: Delete Forever
-    delete_forever: Hapus Permanen
+    delete_forever: Hapus Selamanya
     # discussions: Discussions                     # Referenced by flarum-statistics.yml
     discussions: Total Diskusi
     edit: Edit
