@@ -1,14 +1,14 @@
 fof-nightmode:
   ref:
-    auto: Automatic (berdasarkan opsi browser atau perangkat)
-    light: Day Mode
-    dark: Night Mode
+    auto: Otomatis (berdasarkan opsi browser atau perangkat)
+    light: Mode Siang
+    dark: Mode Malam
 
   admin:
     settings:
       modal:
         title: FoF Night Mode
-        default_theme: Default forum theme
+        default_theme: Tema forum default
         default_theme_helper: Tema default secara otomatis ditetapkan untuk pengguna dan tamu baru.
         default_theme_important: Ini juga akan mempengaruhi pengguna yang sudah ada yang belum memilih tema secara manual!
         theme_auto: => fof-nightmode.ref.auto
