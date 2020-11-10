@@ -2,7 +2,7 @@ askvortsov-moderator-warnings:
   admin:
     permissions:
       # manage_warnings: Create and remove moderator warnings
-      manage_warnings: Buat dan hapus peringatan moderator
+      manage_warnings: Atur peringatan moderator
       # view_warnings: View moderator warnings
       view_warnings: Lihat peringatan moderator
       # delete_warnings: Permanently delete moderator warnings
@@ -15,9 +15,9 @@ askvortsov-moderator-warnings:
       warning_no_strikes_text: Anda diperingatkan oleh {mod_username} (tidak ada teguran)
     post:
       # warning: 'Warned with {strikes} strike by {mod_username}|Warned with {strikes} strikes by {mod_username}'
-      warning: Diperingatkan dengan {strike} strike oleh {mod_username}|Diperingatkan dengan {strike} strike oleh {mod_username}
+      warning: Diperingatkan dengan {strike} teguran oleh {mod_username}|Diperingatkan dengan {strike} strike oleh {mod_username}
       # warning_no_strikes: Warned with no strikes by {mod_username}
-      warning_no_strikes: Diperingatkan tanpa strike oleh {mod_username}
+      warning_no_strikes: Diperingatkan tanpa teguran oleh {mod_username}
     post_controls:
       # warning_button: Warn User
       warning_button: Peringatkan User
@@ -45,9 +45,9 @@ askvortsov-moderator-warnings:
       # no_warnings: It looks like there are no warnings here.
       no_warnings: Sepertinya tidak ada peringatan di sini.
       # warnings: "Moderator Warnings: {strikes} Strike Received|Moderator Warnings: {strikes} Strikes Received"
-      warnings: "Peringatan Moderator: {strike} Strike Diterima|Peringatan Moderator: {strike} Strike Diterima"
+      warnings: "Peringatan Moderator: {strike} Teguran Diterima|Peringatan Moderator: {strike} Teguran Diterima"
       # warnings_no_strikes: "Moderator Warnings: No Strikes Received"
-      warnings_no_strikes: "Peringatan Moderator: Tidak Ada Strike yang Diterima"
+      warnings_no_strikes: "Peringatan Moderator: Tidak Ada Teguran yang Diterima"
     warning_list_item:
       list_item_heading: '<strong>{strikes}</strong> strike, {time}|<strong>{strikes}</strong> strikes, {time}'
       list_item_heading_hidden: '<strong>{strikes}</strong> strike, {time} <strong>(removed)</strong>|<strong>{strikes}</strong> strikes, {time} <strong>(removed)</strong>'
@@ -58,7 +58,7 @@ askvortsov-moderator-warnings:
       linked_post: Linked Post
     warning_modal:
       # confirmation_message: Your warning has been saved. You may need to refresh the page to see it.
-      confirmation_message: Peringatan Anda telah disimpan. Anda mungkin perlu refresh halaman untuk melihatnya.
+      confirmation_message: Peringatan Anda telah disimpan. Anda mungkin perlu untuk refresh halaman untuk melihatnya.
       # heading: Warn <strong>{username}</strong>
       heading: Memperingatkan <strong>{username}</strong>
       # strikes_heading: How many strikes should be applied?

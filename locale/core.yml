@@ -240,7 +240,7 @@ core:
       # allow_ten_minutes_button: For 10 minutes
       allow_ten_minutes_button: Untuk 10 menit
       # allow_until_reply_button: Until next reply
-      allow_until_reply_button: Hingga komentar selanjutnya
+      allow_until_reply_button: Hingga balasan selanjutnya
       # everyone_button: Everyone
       everyone_button: Siapapun
       members_button: => core.group.members
@@ -476,7 +476,7 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       # now_link: Now
-      now_link: Post Terakhir
+      now_link: Sekarang
       # original_post_link: Original Post
       original_post_link: Post Pertama
       # unread_text: "{count} unread"
@@ -505,7 +505,7 @@ core:
     # These translations are used by the search results dropdown list.
     search:
       # all_discussions_button: 'Search all discussions for "{query}"'
-      all_discussions_button: 'Pencarian untuk "{query}"'
+      all_discussions_button: 'Cari semua diskusi untuk "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
@@ -542,14 +542,14 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
+      avatar_upload_button: Unggah
       # avatar_upload_tooltip: Upload a new avatar
-      avatar_upload_tooltip: Upload avatar baru
+      avatar_upload_tooltip: Unggah avatar baru
       discussions_link: => core.ref.discussions
       # in_discussion_text: "In {discussion}"
       in_discussion_text: "Di {discussion}"
       # joined_date_text: "Joined {ago}"
-      joined_date_text: "Bergabung: {ago}"
+      joined_date_text: "Bergabung {ago}"
       online_text: Online
       # posts_empty_text: It looks like there are no posts here.
       posts_empty_text: Sepertinya tidak ada post di sini.
@@ -576,7 +576,7 @@ core:
       # resend_button: Resend Confirmation Email
       resend_button: Kirim ulang
       # sent_message: Sent
-      sent_message: Kirim
+      sent_message: Terkirim
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -595,7 +595,7 @@ core:
       # not_found_message: The requested resource was not found.
       not_found_message: Sumber yang diminta tidak ditemukan.
       # permission_denied_message: You do not have permission to do that.
-      permission_denied_message: Maaf, akun Anda tidak memiliki hak untuk melakukan ini.
+      permission_denied_message: Maaf, Anda tidak memiliki izin untuk melakukan ini.
       # rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
       rate_limit_exceeded_message: Maaf, Anda terlalu cepat. Silahkan coba lagi dalam beberapa detik.
 
@@ -614,7 +614,7 @@ core:
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[terhapus]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -678,7 +678,7 @@ core:
   # Translations in this namespace are used in messages output by the API.
   api:
     # invalid_username_message: "The username may only contain letters, numbers, and dashes."
-    invalid_username_message: "Username dapat mengandung huruf, angka, dan tanda hubung (_)."
+    invalid_username_message: "Username hanya dapat mengandung huruf, angka, dan tanda hubung (_)."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -726,7 +726,7 @@ core:
     send_test:
       subject: Flarum Email Test
       body: |
-        Hey {username}!
+        Halo {username}!
 
         Ini adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan benar.
 
@@ -761,7 +761,7 @@ core:
     # delete: Delete
     delete: Hapus
     # delete_forever: Delete Forever
-    delete_forever: Hapus Permanen
+    delete_forever: Hapus Selamanya
     # discussions: Discussions                     # Referenced by flarum-statistics.yml
     discussions: Total Diskusi
     edit: Edit
@@ -771,7 +771,7 @@ core:
     # icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fa-</code> prefix."
     icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
     # load_more: Load More
-    load_more: Muat lebih
+    load_more: Muat lebih banyak
     # log_in: Log In
     log_in: Login
     # log_out: Log Out
@@ -784,7 +784,7 @@ core:
     notifications: Notifikasi
     okay: OK                                       # Referenced by flarum-tags.yml
     password: Password
-    posts: Posts                                   # Referenced by flarum-statistics.yml
+    posts: Postingan                                   # Referenced by flarum-statistics.yml
     # previous_page: Previous Page
     previous_page: Halaman Sebelumnya
     # remove: Remove

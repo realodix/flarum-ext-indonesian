@@ -44,7 +44,7 @@ fof-gamification:
         blocked:
           placeholder: CDK2020, Ralkage, AngelAvila
           # title: Ignored Users
-          title: User Yang Di-Ignore
+          title: User Yang Diabaikan
           # help: These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.
           help: User ini tidak akan ditampilkan di halaman peringkat. Nama user harus dipisahkan oleh koma diikuti oleh spasi.
         # title: Rankings Page
@@ -61,7 +61,7 @@ fof-gamification:
         # points_title: Points Placeholder
         points_title: Point Placeholder
         # points_placeholder: "Points: "
-        points_placeholder: "Point: "
+        points_placeholder: "Poin: "
         color_holder: '#ffffff'
         # auto_upvote: Auto upvote posts when posted
         auto_upvote: Otomatis upvote post ketika diposting
@@ -99,6 +99,6 @@ fof-gamification:
           # help: "Input the required number of upvotes, the name of the rank, and the hex color of the rank"
           help: "Masukkan jumlah upvote yang dibutuhkan, nama peringkat, dan warna heksa peringkat"
           # points: Points
-          points: Point
+          points: Poin
           # name: Name
           name: Nama

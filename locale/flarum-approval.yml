@@ -10,7 +10,7 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       # approve_posts_label: Approve posts
-      approve_posts_label: Menyetujui Post
+      approve_posts_label: Setujui Postingan
       # reply_without_approval_label: Reply to discussions without approval
       reply_without_approval_label: Ikut Berdiskusi Tanpa Persetujuan
       # start_discussions_without_approval_label: Start discussions without approval
@@ -30,7 +30,7 @@ flarum-approval:
     # These translations are used by the post control buttons.
     post_controls:
       # approve_button: Approve
-      approve_button: Setuju
+      approve_button: Setujui
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
