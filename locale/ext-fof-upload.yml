@@ -1,12 +1,11 @@
 fof-upload:
   admin:
-    pane:
-      title: Upload
-      description: Siapkan layanan upload dan preferensinya.
     buttons:
       # save: Save settings
       save: Simpan pengaturan
     help_texts:
+      description: |
+        Siapkan layanan dan preferensi upload.
       disable-download-logging: |
         Nonaktifkan pencatatan setiap download yang dilakukan oleh user forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya di waktu dekat.
       disable-hotlink-protection: |
