@@ -7,7 +7,7 @@ reflar-doorman:
 
         Anda telah diundang untuk mendaftar ke {forum}.
 
-        Saat Anda siap membuat akun, cukup klik tautan berikut dan masukkan kode saat mendaftar:
+        Saat Anda siap membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:
 
         Url: {url}
         Kode invitasi: {code}
@@ -75,6 +75,6 @@ reflar-doorman:
           max_uses: Penggunaan Maksimal
         allow-public:
           # title: Allow public Sign Up
-          title: Izinkan pendaftaran untuk umum
+          title: Izinkan Pendaftaran Untuk Umum
           # switch-label: Make invite code optional when signing up
           switch-label: Buat kode undangan opsional ketika mendaftar

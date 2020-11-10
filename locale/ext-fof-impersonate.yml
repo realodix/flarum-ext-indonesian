@@ -16,7 +16,7 @@ fof-impersonate:
             title: Login sebagai user lain
             # label: With great power comes great responsibility. By continuing, you will become {username} until you log out.
             label: Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.
-            placeholder_optional: (Opsional) Tambahkan alasan Anda berganti menjadi user ini
+            placeholder_optional: (Opsional) Berikan alasan Anda beralih ke user ini
             # placeholder_required: You must provide your reason for switching to this user before proceeding
             placeholder_required: Alasan
             # impersonate_username: Login as {username}

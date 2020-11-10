@@ -5,7 +5,7 @@ askvortsov-categories:
       categories_label: Kategori
     labels:
       # keep_tags_nav: Keep the tags page link in the nav sidebar?
-      keep_tags_nav: Simpan tautan halaman tag di nav sidebar?
+      keep_tags_nav: Simpan link halaman tag di nav sidebar?
       # child_bare_icon: Should icons on child categories be displayed without a circular background?
       child_bare_icon: Haruskah ikon pada kategori anak ditampilkan tanpa latar belakang lingkaran?
       # compact_mobile_mode: Compact mobile mode

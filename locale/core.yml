@@ -542,9 +542,9 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Unggah
+      avatar_upload_button: Upload
       # avatar_upload_tooltip: Upload a new avatar
-      avatar_upload_tooltip: Unggah avatar baru
+      avatar_upload_tooltip: Upload avatar baru
       discussions_link: => core.ref.discussions
       # in_discussion_text: "In {discussion}"
       in_discussion_text: "Di {discussion}"
@@ -678,7 +678,7 @@ core:
   # Translations in this namespace are used in messages output by the API.
   api:
     # invalid_username_message: "The username may only contain letters, numbers, and dashes."
-    invalid_username_message: "Username hanya dapat mengandung huruf, angka, dan tanda hubung (_)."
+    invalid_username_message: "Username hanya boleh berisi huruf, angka, dan tanda hubung (dashes)."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -691,7 +691,7 @@ core:
 
         Seseorang (semoga Anda!) Telah mendaftar ke {forum} dengan alamat email ini.
 
-        Jika ini adalah Anda, cukup klik tautan berikut dan akun Anda segera diaktifkan:
+        Jika ini adalah Anda, cukup klik link berikut dan akun Anda segera diaktifkan:
         {url}
 
         Jika Anda tidak mendaftar, abaikan email ini.
@@ -704,7 +704,7 @@ core:
 
         Seseorang (semoga Anda!) Telah mengubah alamat email di {forum} menjadi email yang ini.
 
-        Jika ini adalah Anda, cukup klik tautan berikut dan email Anda akan dikonfirmasi:
+        Jika ini adalah Anda, cukup klik link berikut dan email Anda akan dikonfirmasi:
         {url}
 
         Jika ini bukan Anda, abaikan email ini.
@@ -717,7 +717,7 @@ core:
 
         Seseorang (semoga Anda!) Telah mengirimkan permintaan atur ulang password untuk akun Anda di {forum}.
 
-        Jika ini adalah Anda, klik tautan berikut untuk mereset password Anda:
+        Jika ini adalah Anda, klik link berikut untuk mereset password Anda:
         {url}
 
         Jika Anda tidak ingin mengubah password, abaikan saja email ini dan tidak akan terjadi apa-apa.
@@ -761,7 +761,7 @@ core:
     # delete: Delete
     delete: Hapus
     # delete_forever: Delete Forever
-    delete_forever: Hapus Selamanya
+    delete_forever: Hapus Permanen
     # discussions: Discussions                     # Referenced by flarum-statistics.yml
     discussions: Total Diskusi
     edit: Edit
@@ -771,7 +771,7 @@ core:
     # icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fa-</code> prefix."
     icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
     # load_more: Load More
-    load_more: Muat lebih banyak
+    load_more: Muat Lebih Banyak
     # log_in: Log In
     log_in: Login
     # log_out: Log Out
@@ -794,7 +794,7 @@ core:
     # reply: Reply                                 # Referenced by flarum-mentions.yml
     reply: Balas
     # reset_your_password: Reset Your Password
-    reset_your_password: Perbarui Password Anda
+    reset_your_password: Update Password Anda
     # restore: Restore
     restore: Pulihkan
     # save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml

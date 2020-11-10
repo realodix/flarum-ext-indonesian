@@ -18,8 +18,8 @@ bazaar:
             tasks: Riwayat tugas
         modal:
             dashboard:
-                title: Dasbor
-                visit-remote-dashboard: Kunjungi Dasbor
+                title: Dashboard
+                visit-remote-dashboard: Kunjungi Dashboard
                 sync:
                     switch: Sinkronisasi
                     description: >
@@ -70,15 +70,17 @@ bazaar:
                     Otorisasi Anda terhadap flagrow.io api kami gagal. Mungkin penyebabnya adalah koneksi internet yang sedang tidak stabil.
                     Coba refresh kembali halaman ini setelah Anda merasa koneksi Anda sudah cukup stabil. Jika masalah ini tetap terjadi, silakan hubungi kami.
             button:
-                more: "More, load page {current} of {total}"
-                install: Pasang
+                # more: "More, load page {current} of {total}"
+                more: "Lebih lanjut, muat halaman {current} dari {total}"
+                install: Install
                 uninstall: Uninstall
                 # enable: Enable
                 enable: Aktifkan
                 # disable: Disable
                 disable: Nonaktifkan
-                update: Perbarui
-                connect: Connect
+                update: Update
+                # connect: Connect
+                connect: Menghubungkan
                 # favorite_button: "Favorite extension"
                 favorite_button: "Ekstensi favorit"
                 # remove_favorite_button: "Remove extension from your favorites"
@@ -95,7 +97,7 @@ bazaar:
                 enabled: Ekstensi diaktifkan
                 vendor: Oleh {vendor}
                 # downloads: Downloads
-                downloads: Unduh
+                downloads: Download
                 # installed_version: Installed version
                 installed_version: Versi yang diinstal
                 # highest_version: Latest version
@@ -133,14 +135,16 @@ bazaar:
                     finished_at: Diselesaikan pada
                 status:
                     success: Berhasil
+                    # exception: An exception occured
                     exception: Sebuah pengecualian terjadi
                     working: Sedang bekerja
-                    unknown: Unknown
+                    # unknown: Unknown
+                    unknown: Tidak diketahui
                 command:
                     sync-lock: Sinkronisasi file composer.lock
                     sync-version: Sinkronisasi versi {extension}
-                    install: Pasang {extension}
-                    update: Perbarui {extension}
+                    install: Install {extension}
+                    update: Update {extension}
                     uninstall: Uninstall {extension}
                 group:
                     # today: Today
@@ -152,7 +156,7 @@ bazaar:
         search:
             # placeholder: Search extensions
             placeholder: Cari ekstensi
-            filter_installed: Terpasang
+            filter_installed: Ter-install
             # filter_update: Has update
             filter_update: Telah diperbarui
             filter_favorited: Favorited
