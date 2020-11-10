@@ -34,7 +34,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
-- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.9.1
+- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.10.0
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.2.0
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.3
@@ -57,7 +57,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v0.3.0
 - [fof/split](https://github.com/friendsofflarum/split) v0.5.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
-- [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.2.3
+- [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.3.0
 - [fof/upload](https://github.com/friendsofflarum/upload) v0.10.0
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.3.1
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.4
