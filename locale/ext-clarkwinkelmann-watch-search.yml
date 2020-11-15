@@ -1,0 +1,16 @@
+clarkwinkelmann-watch-search:
+    admin:
+        permissions:
+            use: Watch search queries
+
+    forum:
+        settings:
+            title: Watched searches
+            delete: Delete
+            notify_new_discussion_label: Someone creates a discussion matching a watched search
+
+        notifications:
+            new_discussion_text: "{username} started"
+
+    email:
+        newDiscussionInSearch: "New discussion: {title}"
