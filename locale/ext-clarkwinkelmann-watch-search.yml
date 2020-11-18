@@ -1,16 +1,19 @@
 clarkwinkelmann-watch-search:
     admin:
         permissions:
-            use: Watch search queries
+            # use: Watch search queries
+            use: Pengamatan kueri penelusuran
 
     forum:
         settings:
-            title: Watched searches
-            delete: Delete
-            notify_new_discussion_label: Someone creates a discussion matching a watched search
+            # title: Watched searches
+            title: Pencarian yang diamati
+            delete: Hapus
+            # notify_new_discussion_label: Someone creates a discussion matching a watched search
+            notify_new_discussion_label: Seseorang membuat diskusi yang cocok dengan penelusuran yang diamati
 
         notifications:
-            new_discussion_text: "{username} started"
+            new_discussion_text: "{username} dimulai"
 
     email:
-        newDiscussionInSearch: "New discussion: {title}"
+        newDiscussionInSearch: "Diskusi baru: {title}"
