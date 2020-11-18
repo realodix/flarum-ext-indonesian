@@ -30,6 +30,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 
 - [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.1.0 
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.3.0 
+- [clarkwinkelmann/flarum-ext-watch-search](https://github.com/clarkwinkelmann/flarum-ext-watch-search) dev-master
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.2
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
