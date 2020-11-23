@@ -1,0 +1,9 @@
+clarkwinkelmann-create-user-modal:
+    admin:
+        permissions:
+            view: Lihat modal (halaman popup) membuat user
+    forum:
+        link: Buat user baru
+        modal:
+            title: Buat User
+            submit: Buat User
