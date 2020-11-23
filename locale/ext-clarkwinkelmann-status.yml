@@ -1,19 +1,19 @@
 clarkwinkelmann-status:
     admin:
         settings:
-            title: Status Settings
-            only-countries: Only country flags
-            enable-text: Allow text status
+            title: Pengaturan Status
+            only-countries: Hanya bendera negara
+            enable-text: Izinkan status teks
         permissions:
-            see: See status
-            set: Define status
+            see: Lihat status
+            set: Tentukan status
             mod: Moderate user status
 
     forum:
         menu:
-            set-status: Set a status
+            set-status: Tentukan status
         modal:
-            title: Set status
-            text-placeholder: What's happening?
+            title: Tentukan status
+            text-placeholder: Apa yang sedang terjadi?
             submit: Submit
-            clear: Clear
+            clear: Hapus
