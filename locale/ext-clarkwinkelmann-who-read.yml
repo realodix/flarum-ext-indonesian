@@ -1,0 +1,44 @@
+clarkwinkelmann-who-read:
+    forum:
+        tooltip:
+            last-read-at: "{username} telah membaca {ago}"
+            last-read-at-behind: "{username} terakhir membaca {ago} dan is behind"
+            last-read-at-up-to-date: "{username} telah membaca post terakhir {ago}"
+        more:
+            show: Tampilkan {count} lagi
+            info: Dan {count} lagi
+        footer:
+            read-this-post: "{0} Tidak ada yang membaca post ini|{1} Satu user membaca post ini|]1,Inf] {count} user membaca post ini"
+            read-no-further: "{0} Semua orang membaca lebih lanjut|{1} Satu user tidak membaca lebih lanjut|]1,Inf] {count} user tidak membaca lebih lanjut"
+            read-to-end: "{0} Tidak ada yang membaca sampai akhir|{1} Satu user membaca sampai akhir|]1,Inf] {count} user membaca sampai akhir"
+        controls:
+            set-unread: Tandai belum dibaca
+            remove-unread: Hapus tanda belum dibaca
+        badges:
+            following: => flarum-subscriptions.forum.badge.following_tooltip
+            ignoring: => flarum-subscriptions.forum.badge.ignoring_tooltip
+            unread: Ditandai belum dibaca
+        modal:
+            title: Readers
+            up-to-this-post: User yang membaca sampai post ini
+            past-this-post: User yang membaca setelah post ini
+            to-the-end: User yang membaca sampai akhir
+            behind: User yang tidak membaca sampai akhir
+
+    admin:
+        permissions:
+            heading: Siapa yang membaca
+            see-read: Lihat status baca
+            see-subscription: Lihat subscription status
+            see-unread: Lihat status belum dibaca dari user lain
+            mark-unread: Tandai diskusi sebagai belum dibaca untuk user sendiri
+        settings:
+            title: Pengaturan siapa yang membaca
+            show-in-discussion-list: Tampilkan pembaca dalam daftar diskusi
+            show-in-hero: Tampilkan para pembaca di discussion hero
+            show-between-posts: Tampilkan status baca di antara postingan
+            show-count-of-readers-who-stopped: Tampilkan jumlah user yang berhenti membaca, bukan total membaca di antara postingan
+            hide-when-behind: Sembunyikan user sepenuhnya jika mereka berada di belakang banyak post tersebut
+            max-visible: Jumlah maksimum user untuk ditampilkan sebelum "baca lebih lanjut"
+            unread-icon: Ikon untuk lencana yang belum dibaca
+            only-groups: Hanya menampilkan status baca user yang termasuk dalam grup tersebut
