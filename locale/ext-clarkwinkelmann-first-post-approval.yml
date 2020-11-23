@@ -1,0 +1,9 @@
+clarkwinkelmann-first-post-approval:
+    admin:
+        permissions:
+            # bypass: Post without first post approval
+            bypass: Posting tanpa first post approval
+        settings:
+            title: Pengaturan First Post Approval
+            discussionCount: Jumlah diskusi baru yang memerlukan persetujuan
+            postCount: Jumlah postingan baru yang memerlukan persetujuan

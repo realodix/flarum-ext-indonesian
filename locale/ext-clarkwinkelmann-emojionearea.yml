@@ -1,0 +1,15 @@
+clarkwinkelmann-emojionearea:
+    forum:
+        picker_button: Emoji Picker
+        search_placeholder: Cari...
+
+    admin:
+        settings:
+            title: Pengaturan EmojioneArea
+            enableSearch: Aktifkan pencarian
+            enableRecent: Aktifkan recent
+            enableTones: Aktifkan tones
+            filtersPosition: Pindahkan kategori ke bagian bawah
+            searchPosition: Pindahkan pencarian dan tones ke bagian bawah
+            hideFlarumButton: Sembunyikan tombol Flarum emoji picker
+            hideFlarumButtonHelp: Ekstensi Emoji Picker harus diaktifkan setelah ekstensi Emoji agar setelan ini berfungsi
