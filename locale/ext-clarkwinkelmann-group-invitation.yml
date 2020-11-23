@@ -1,0 +1,41 @@
+clarkwinkelmann-group-invitation:
+    forum:
+        title: Anda telah diundang untuk bergabung dengan grup {group}!
+        generic-title: Undangan grup
+        user:
+            already-connected: >
+                Kami akan menambahkan grup {group} ke {username}.
+                Bukan user yang benar?  <a>Masuk ke akun lain</a>.
+            not-connected: <a>Masuk</a> untuk menerima undangan..
+            not-authorized: User Anda saat ini {username} tidak memiliki izin untuk bergabung dengan grup. <a>Masuk ke akun lain</a>.
+            already-member: >
+                Kabar baik, user {username} Anda sudah menjadi anggota grup {group}!
+                Ingin bergabung ke grup dengan user lain? <a>Masuk ke akun lain</a>.
+        invitation:
+            not-found: Maaf, undangan grup ini tidak ditemukan.
+            no-usages-left: Undangan grup ini tidak dapat digunakan lagi.
+        apply: Bergabung dengan grup
+        success-alert: Anda berhasil bergabung!
+
+    admin:
+        permissions:
+            use: Gunakan link undangan grup
+        settings:
+            title: Undangan Grup
+            head:
+                code: Kode
+                group: Grup
+                usage: Penggunaan
+            placeholder:
+                code: Auto-generated
+                group: Pilih...
+                usage: Kosong untuk unlimited
+            empty: Sejauh ini belum ada undangan yang dibuat.
+            unlimited: unlimited
+            create: Buat
+            delete: Hapus
+
+    api:
+        error:
+            not-found: Kode undangan tidak ditemukan
+            no-usages-left: Undangan tidak dapat digunakan lagi

@@ -1,0 +1,21 @@
+jslirola-login2seeplus:
+  forum:
+    # post: "You have to {login} or {register} to see the full post"
+    post: "Anda harus {login} atau {register} untuk melihat postingan lengkap"
+    link: Login untuk melihat link
+    image: Login untuk melihat gambar
+    code: Login untuk melihat code
+  admin:
+    title: Login2SeePlus
+    hide: Sembunyikan
+    link: Link
+    image: Gambar
+    code: Code
+    post:
+      title: Sembunyikan konten yang melebihi panjang ini
+      help: Tekan <em>-1</em> untuk melihat semuanya.
+    php:
+      title: Mode Legacy
+      # help: "*NOT RECOMMENDED* Do the work in the backend to support old browsers.  You need to have <code>mb_substr</code> and <code>mb_strlen</code> enabled."
+      help: "*TIDAK DIANJURKAN* Pekerjaan dilakukan pada backend untuk mendukung browser lama. Anda harus mengaktifkan <code>mb_substr</code> dan <code>mb_strlen</code>."
+      label: Gunakan PHP
