@@ -1,41 +1,41 @@
 clarkwinkelmann-group-invitation:
     forum:
-        title: You have been invited to join the {group} group!
-        generic-title: Group invitation
+        title: Anda telah diundang untuk bergabung dengan grup {group}!
+        generic-title: Undangan grup
         user:
             already-connected: >
-                We will add the {group} group to {username}.
-                Not the correct user? <a>Sign into another account</a>.
-            not-connected: <a>Sign in</a> to accept the invitation.
-            not-authorized: Your current user {username} doesn't have the permission to join groups. <a>Sign into another account</a>.
+                Kami akan menambahkan grup {group} ke {username}.
+                Bukan user yang benar?  <a>Masuk ke akun lain</a>.
+            not-connected: <a>Masuk</a> untuk menerima undangan..
+            not-authorized: User Anda saat ini {username} tidak memiliki izin untuk bergabung dengan grup. <a>Masuk ke akun lain</a>.
             already-member: >
-                Great news, your user {username} is already a member of the {group} group!
-                Want to join the group with another user? <a>Sign into another account</a>.
+                Kabar baik, user {username} Anda sudah menjadi anggota grup {group}!
+                Ingin bergabung ke grup dengan user lain? <a>Masuk ke akun lain</a>.
         invitation:
-            not-found: Sorry, this group invitation was not found.
-            no-usages-left: This group invitation can no longer be used.
-        apply: Join group
-        success-alert: You have successfully joined the group!
+            not-found: Maaf, undangan grup ini tidak ditemukan.
+            no-usages-left: Undangan grup ini tidak dapat digunakan lagi.
+        apply: Bergabung dengan grup
+        success-alert: Anda berhasil bergabung!
 
     admin:
         permissions:
-            use: Use group invitation links
+            use: Gunakan link undangan grup
         settings:
-            title: Group Invitation
+            title: Undangan Grup
             head:
-                code: Code
-                group: Group
-                usage: Usage
+                code: Kode
+                group: Grup
+                usage: Penggunaan
             placeholder:
                 code: Auto-generated
-                group: Select...
-                usage: Empty for unlimited
-            empty: No invitations created so far.
+                group: Pilih...
+                usage: Kosong untuk unlimited
+            empty: Sejauh ini belum ada undangan yang dibuat.
             unlimited: unlimited
-            create: Create
-            delete: Delete
+            create: Buat
+            delete: Hapus
 
     api:
         error:
-            not-found: Invitation code not found
-            no-usages-left: Invitation can no longer be used
+            not-found: Kode undangan tidak ditemukan
+            no-usages-left: Undangan tidak dapat digunakan lagi
