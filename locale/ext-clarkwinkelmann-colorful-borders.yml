@@ -1,0 +1,31 @@
+clarkwinkelmann-colorful-borders:
+    forum:
+        edit: Edit style
+        default: Default
+        apply: Terapkan
+        reset: Hapus custom styling
+        borderColor: Warna border
+        backgroundColor: Warna background
+        textColor: Warna teks
+        borderWidth: Lebar border
+        borderRadius: Border radius
+
+    admin:
+        permissions:
+            heading: Colorful Borders
+            editOwnPost: Edit post styling sendiri
+            editAnyPost: Edit post styling apapun
+        settings:
+            title: Pengaturan Colorful Borders
+            enableBorderColor: Warna border yang dapat disesuaikan
+            enableBackgroundColor: Warna background yang dapat disesuaikan
+            enableTextColor: Warna teks yang dapat disesuaikan
+            enableBorderWidth: Lebar border yang dapat disesuaikan
+            enableBorderRadius: Border radius yang dapat disesuaikan
+            min: Min
+            max: Max
+            colors:
+                simple: Kumpulan warna sederhana
+                all: Warna apa saja
+                custom: Daftar warna kustom
+                custom-help: 'Daftar nilai #hex atau rgb() yang dipisahkan koma'

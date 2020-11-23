@@ -1,0 +1,16 @@
+clarkwinkelmann-bookmarks:
+    forum:
+        dropdownButton:
+            add: Tambah ke bookmarks
+            remove: Hapus dari bookmarks
+        independentButton:
+            add: Bookmark
+            remove: Bookmarked
+        badge: Bookmarked
+        page:
+            link: Bookmark
+            title: Bookmark
+    admin:
+        settings:
+            title: Pengaturan bookmark
+            independentButton: Tampilkan kontrol bookmark di sidebar diskusi, bukan dropdown
