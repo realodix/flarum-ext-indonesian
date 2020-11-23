@@ -2,30 +2,30 @@ clarkwinkelmann-colorful-borders:
     forum:
         edit: Edit style
         default: Default
-        apply: Apply
-        reset: Remove custom styling
-        borderColor: Border color
-        backgroundColor: Background color
-        textColor: Text color
-        borderWidth: Border width
+        apply: Terapkan
+        reset: Hapus custom styling
+        borderColor: Warna border
+        backgroundColor: Warna background
+        textColor: Warna teks
+        borderWidth: Lebar border
         borderRadius: Border radius
 
     admin:
         permissions:
             heading: Colorful Borders
-            editOwnPost: Edit own post styling
-            editAnyPost: Edit any post styling
+            editOwnPost: Edit post styling sendiri
+            editAnyPost: Edit post styling apapun
         settings:
-            title: Colorful Borders settings
-            enableBorderColor: Customizable border color
-            enableBackgroundColor: Customizable background color
-            enableTextColor: Customizable text color
-            enableBorderWidth: Customizable border width
-            enableBorderRadius: Customizable border radius
+            title: Pengaturan Colorful Borders
+            enableBorderColor: Warna border yang dapat disesuaikan
+            enableBackgroundColor: Warna background yang dapat disesuaikan
+            enableTextColor: Warna teks yang dapat disesuaikan
+            enableBorderWidth: Lebar border yang dapat disesuaikan
+            enableBorderRadius: Border radius yang dapat disesuaikan
             min: Min
             max: Max
             colors:
-                simple: Simple color set
-                all: Any color
-                custom: Custom color list
-                custom-help: 'Comma-separated list of #hex or rgb() values'
+                simple: Kumpulan warna sederhana
+                all: Warna apa saja
+                custom: Daftar warna kustom
+                custom-help: 'Daftar nilai #hex atau rgb() yang dipisahkan koma'
