@@ -52,7 +52,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.10.1
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.2.0
-- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.3
+- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.6
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.2.0
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.3
