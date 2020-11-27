@@ -1,44 +1,44 @@
 the-turk-diff:
   forum:
     revisions: "{revisionCount} revision | {revisionCount} revisions"
-    emptyText: No Revisions
+    emptyText: Tidak Ada Revisi
     editedText: => core.forum.post.edited_text
-    deletedText: (deleted)
+    deletedText: (dihapus)
 
     tooltips:
       # Revision List Tooltips
-      mostRecent: most recent
+      mostRecent: terbaru
       originalContent: => the-turk-diff.ref.originalContent
       revisionWithNumber: => the-turk-diff.ref.revisionWithNumber
       ## Renderer Switcher Tooltips
       sideBySide: Side by Side
       inline: Line by Line
-      combined: Combined
+      combined: Gabungan
       preview: => core.forum.composer.preview_tooltip
 
     # Buttons
-    optionsButton: Options
+    optionsButton: Pilihan
     deleteButton: => core.forum.post_controls.delete_button
-    rollbackButton: "Rollback to Revision {number}"
-    rollbackToOriginalButton: Rollback to Original
-    revertChangesButton: Revert Changes
+    rollbackButton: "Rollback ke Revision {number}"
+    rollbackToOriginalButton: Rollback ke Original
+    revertChangesButton: Kembalikan Perubahan
 
     # Confirmation Messages
-    confirmRollback: Are you sure you want to change your current post?
-    confirmDelete: Are you sure you want to delete this edit's contents from the history?
+    confirmRollback: Apakah Anda yakin ingin mengubah post Anda saat ini?
+    confirmDelete: Apakah Anda yakin ingin menghapus konten edit ini dari history?
 
     # Error Messages
-    rollbackErrorMessage: Reverting of changes failed.
-    deleteErrorMessage: Deletion of edit's contents failed.
+    rollbackErrorMessage: Gagal mengembalikan perubahan.
+    deleteErrorMessage: Penghapusan konten edit gagal.
 
     # Informative Messages
-    rollbackSuccessMessage: Your changes were reverted.
-    deleteSuccessMessage: Edit's contents were deleted.
+    rollbackSuccessMessage: Perubahan Anda telah dikembalikan.
+    deleteSuccessMessage: Konten edit telah dihapus.
     editedInfo: => core.forum.post.edited_tooltip
-    deletedInfo: "{username} deleted this content {ago}"
-    createdInfo: "{username} created {ago}"
-    revisionInfo: "Edited {revisionCount} time, newest at the top|Edited {revisionCount} times, newest at the top"
-    noDiff: No differences found between these two contents.
+    deletedInfo: "{username} menghapus konten ini {ago}"
+    createdInfo: "{username} membuat {ago}"
+    revisionInfo: "Diedit {revisionCount} kali, yang terbaru ada di atas|Diedit {revisionCount} kali, yang terbaru ada di atas"
+    noDiff: Tidak ada perbedaan yang ditemukan antara kedua konten ini.
 
     differences:
       # one of the following will be used in place of {old} or {new} in ‘sentence’ key
@@ -46,7 +46,7 @@ the-turk-diff:
       currentContent: => the-turk-diff.ref.currentContent
       revisionWithNumber: => the-turk-diff.ref.revisionWithNumber
       # ---
-      sentence: "You're viewing differences between {old} and {new}"
+      sentence: "Anda sedang melihat perbedaan antara {old} dan {new}"
 
     previewMode:
       # one of the following will be used in place of {content} in ‘sentence’ key
@@ -54,23 +54,23 @@ the-turk-diff:
       currentContent: => the-turk-diff.ref.currentContent
       revisionWithNumber: => the-turk-diff.ref.revisionWithNumber
       # ---
-      sentence: "You're previewing {content}"
+      sentence: "Anda sedang melihat pratinjau {content}"
   admin:
     settings:
-      title: Diff Settings
+      title: Pengaturan Diff
 
       ####################
       # General Settings #
       ####################
 
       # Informative Messages
-      onlyUnsigned: Only <strong>unsigned integers</strong> are allowed!
-      usePoint: Use <strong>point</strong> as decimal seperator for float values.
+      onlyUnsigned: Hanya <strong>unsigned integers</strong> yang dibolehkan!
+      usePoint: Gunakan <strong>point</strong> sebagai pemisah desimal untuk nilai float.
 
       # Switch Components
-      separateBlock: Show a separator between different diff hunks in HTML renderers
-      mainPostOnly: Store main post's revisions only
-      textFormatting: Enable text formatting for previews
+      separateBlock: Tunjukkan pemisah antara perbedaan diff hunks di perender HTML
+      mainPostOnly: Simpan revisi post utama saja
+      textFormatting: Aktifkan text formatting untuk pratinjau
 
       # Select Component
       detailLevel: Detail Level
@@ -81,21 +81,21 @@ the-turk-diff:
 
       # Text Type Inputs
       neighborLines: Neighbor Lines
-      neighborLinesHelp: Specify the neighbor line count that you want to show.
+      neighborLinesHelp: Tentukan jumlah neighbor line yang ingin Anda tampilkan.
       # ---
-      mergeThreshold: Merge Threshold for the Combined Renderer
-      mergeThresholdHelp: This determines whether a replace-type block should be merged or not depending on the content changed ratio, which values between 0 and 1.
+      mergeThreshold: Gabungkan Threshold untuk Combined Renderer
+      mergeThresholdHelp: Ini menentukan apakah blok tipe pengganti harus digabungkan atau tidak tergantung pada rasio konten yang diubah, yang nilainya antara 0 dan 1.
 
       ##################################
       # Database Optimisation Settings #
       ##################################
 
       dbOptimisation: Database Optimisation
-      archiveOlds: Archive old revisions
-      archiveOldsInfo: If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.
-      useCrons: Use crons to archive old revisions
-      useCronsHelp: You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.
-      archiveInfo: Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually.
+      archiveOlds: Arsipkan revisi lama
+      archiveOldsInfo: Jika <strong>x ≥ A</strong>, revisi <strong>y=mx+b</strong> untuk posting akan disimpan sebagai digabungkan & dikompresi.. <strong>x</strong> mengacu pada hitungan revisi postingan. Nilai float dari <strong>y</strong> akan dibulatkan ke nilai bilangan bulat terendah berikutnya.
+      useCrons: Gunakan crons untuk mengarsipkan revisi lama
+      useCronsHelp: Anda harus menambahkan entri Cron ke server Anda agar opsi ini berfungsi. Ini akan bekerja setiap minggu pada hari Minggu pukul 02:00. Jika Anda menonaktifkan opsi ini dan mengaktifkan di atas, semua revisi posting akan dipindai untuk diarsipkan ketika post yang terkait direvisi.
+      archiveInfo: Ingatlah bahwa Anda bisa menonaktifkan kedua opsi dan menjalankan perintah <code>php flarum diff:archive</code> untuk mengarsipkan revisi lama secara manual.
     permissions:
       viewEditHistory: View edit history
       deleteEditHistory: Delete others edit history
