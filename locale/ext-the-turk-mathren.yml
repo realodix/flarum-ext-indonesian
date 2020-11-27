@@ -1,0 +1,90 @@
+the-turk-mathren:
+  admin:
+    settings:
+      # Settings Pane
+      title: MathRen
+      description: Mengonfigurasi rendering matematika TeX.
+
+      ####################
+      #   KaTeX Options  #
+      ####################
+
+      katexOptionsHeading: Opsi KaTeX
+      katexOptionsInfo: Anda dapat menemukan informasi selengkapnya untuk opsi KaTeX <a>di sini</a>.
+
+      # Delimiters
+      delimiters: Delimiter
+      delimitersHelp: Pisahkan dengan koma. <strong>%e%</strong> adalah singkatan dari ekspresi matematika.
+      blockDelimiters: <strong>BBCode</strong> delimiter untuk block expression
+      inlineDelimiters: <strong>BBCode</strong> delimiter untuk inline expression
+      mainDelimitersInfo: Delimiter pertama dalam daftar di atas akan digunakan sebagai default oleh text editor.
+
+      # Ignoring Expressions
+      ignoringExpressions: Ignoring Expressions
+      ignoringExpressionsHelp: Pisahkan dengan koma.
+      decisiveKeywords: Daftar kata kunci yang menentukan untuk mengabaikan ekspresi
+      decisiveKeywordsHelp: >-
+        You will write one of these decisive keywords as <code>[math=<strong>keyword</strong>]%e%[/math]</code>
+        in order to prevent expressions from rendering.
+      ignoredTags: List of DOM node types to ignore when recursing through
+      ignoredClasses: List of DOM node class names to ignore when recursing through
+      ignoredClassesInfo: First class in this list will be used as default to wrap ignored expression with.
+
+      # Output mode
+      outputMode: Output mode
+      outputModeHelp: Choose the markup language for the output
+
+      # Unsupported commands
+      errorColor: Color of unsupported commands or invalid LaTeX
+      errorColorHelp: Choose the color that unsupported commands and invalid LaTeX are rendered in when error throwing is disabled.
+
+      # Sizing options
+      sizeSettings: Sizing options
+      sizeSettingsHelp: Use <strong>point</strong> as decimal seperator.
+      minRuleThickness: Minimum thickness (em)
+      maxSize: Maximum size (em)
+
+      # Macros
+      macros: Macros
+      macrosHelp: A collection of custom macros.
+      syntaxInfo: You have to write them using JavaScript's syntax.
+      maxExpand: Maximum expand limit
+
+      # Switch Components
+      enableFleqn: Enable flush left equations (fleqn)
+      enableLeqno: Enable left equation numbers (leqno)
+      enableColorIsTextColor: Allow <code>\color</code> command to take two arguments (colorIsTextColor)
+      enableThrowOnError: Throw an error on unsupported command or invalid LaTeX
+
+      # ---
+
+      # Warnings
+      regexInfo: They must be composed by uppercase or lowercase letters and dashes only.
+
+      ####################
+      #   Other Options  #
+      ####################
+
+      otherOptionsHeading: Other Options
+
+      # Switch Components
+      enableTextEditorButtons: Show buttons on text editor
+      enableCopyTeX: Allow copying the source of KaTeX-rendered elements
+
+      # ---
+
+      # Informations
+      mentions: You must enable the <code>flarum/mentions</code> extension to activate the quote button.
+
+      ####################
+      #  General Strings #
+      ####################
+
+      # Alerts
+      saved_message: => core.admin.basics.saved_message
+      validation: 'Validation of "{field_key}" field has failed.'
+  forum:
+    textEditor:
+      # Text Editor Buttons
+      blockExpression: Block Expression
+      inlineExpression: Inline Expression
