@@ -64,7 +64,7 @@ the-turk-diff:
       ####################
 
       # Informative Messages
-      onlyUnsigned: Hanya <strong>unsigned integers</strong> yang dibolehkan!
+      onlyUnsigned: Hanya <strong>unsigned integers</strong> yang diperbolehkan!
       usePoint: Gunakan <strong>point</strong> sebagai pemisah desimal untuk nilai float.
 
       # Switch Components
@@ -84,7 +84,7 @@ the-turk-diff:
       neighborLinesHelp: Tentukan jumlah neighbor line yang ingin Anda tampilkan.
       # ---
       mergeThreshold: Gabungkan Threshold untuk Combined Renderer
-      mergeThresholdHelp: Ini menentukan apakah blok tipe pengganti harus digabungkan atau tidak tergantung pada rasio konten yang diubah, yang nilainya antara 0 dan 1.
+      mergeThresholdHelp: Ini menentukan apakah tipe blok pengganti harus digabungkan atau tidak, tergantung pada rasio konten yang diubah, dimana nilainya antara 0 dan 1.
 
       ##################################
       # Database Optimisation Settings #
@@ -92,17 +92,17 @@ the-turk-diff:
 
       dbOptimisation: Database Optimisation
       archiveOlds: Arsipkan revisi lama
-      archiveOldsInfo: Jika <strong>x ≥ A</strong>, revisi <strong>y=mx+b</strong> untuk posting akan disimpan sebagai digabungkan & dikompresi.. <strong>x</strong> mengacu pada hitungan revisi postingan. Nilai float dari <strong>y</strong> akan dibulatkan ke nilai bilangan bulat terendah berikutnya.
+      archiveOldsInfo: If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.
       useCrons: Gunakan crons untuk mengarsipkan revisi lama
-      useCronsHelp: Anda harus menambahkan entri Cron ke server Anda agar opsi ini berfungsi. Ini akan bekerja setiap minggu pada hari Minggu pukul 02:00. Jika Anda menonaktifkan opsi ini dan mengaktifkan di atas, semua revisi posting akan dipindai untuk diarsipkan ketika post yang terkait direvisi.
+      useCronsHelp: Anda harus menambahkan entri Cron ke server Anda agar opsi ini berfungsi. Ini akan bekerja setiap minggu pada hari Minggu pukul 02:00. Jika Anda menonaktifkan opsi ini dan mengaktifkan di atas, semua revisi posting akan dipindai untuk diarsipkan ketika post yang terkait telah direvisi.
       archiveInfo: Ingatlah bahwa Anda bisa menonaktifkan kedua opsi dan menjalankan perintah <code>php flarum diff:archive</code> untuk mengarsipkan revisi lama secara manual.
     permissions:
-      viewEditHistory: View edit history
-      deleteEditHistory: Delete others edit history
-      selfDeleteEditHistory: Delete own edit history
-      rollbackEditHistory: Rollback others edit history
-      selfRollbackEditHistory: Rollback own edit history
+      viewEditHistory: Lihat riwayat pengeditan
+      deleteEditHistory: Hapus riwayat pengeditan oleh pengguna lain
+      selfDeleteEditHistory: Hapus riwayat pengeditan oleh Anda
+      rollbackEditHistory: Kembalikan riwayat pengeditan oleh pengguna lain
+      selfRollbackEditHistory: Kembalikan riwayat pengeditan oleh Anda
   ref:
-    originalContent: original content
-    currentContent: current content
-    revisionWithNumber: "revision {number}"
+    originalContent: konten asli
+    currentContent: konten saat ini
+    revisionWithNumber: "revisi {number}"
