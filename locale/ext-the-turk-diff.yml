@@ -92,7 +92,8 @@ the-turk-diff:
 
       dbOptimisation: Database Optimisation
       archiveOlds: Arsipkan revisi lama
-      archiveOldsInfo: If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.
+      # archiveOldsInfo: If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.
+      archiveOldsInfo: Jika <strong>x ≥ A</strong>, revisi <strong>y=mx+b</strong> pertama untuk pos akan disimpan sebagai digabung & dikompresi. <strong>x</strong> mengacu pada jumlah revisi posting. Nilai float dari <strong>y</strong> akan dibulatkan ke nilai bilangan bulat terendah berikutnya.
       useCrons: Gunakan crons untuk mengarsipkan revisi lama
       useCronsHelp: Anda harus menambahkan entri Cron ke server Anda agar opsi ini berfungsi. Ini akan bekerja setiap minggu pada hari Minggu pukul 02:00. Jika Anda menonaktifkan opsi ini dan mengaktifkan di atas, semua revisi posting akan dipindai untuk diarsipkan ketika post yang terkait telah direvisi.
       archiveInfo: Ingatlah bahwa Anda bisa menonaktifkan kedua opsi dan menjalankan perintah <code>php flarum diff:archive</code> untuk mengarsipkan revisi lama secara manual.
