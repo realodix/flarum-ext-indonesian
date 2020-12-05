@@ -54,11 +54,11 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.2.0
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.6
-- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.2.0
+- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.2.1
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.3
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.2.0
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.3.0
-- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.6
+- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.3.1
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.6.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.4.0
