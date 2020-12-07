@@ -301,16 +301,16 @@ core:
       # submit_button: Post Discussion
       submit_button: Publikasikan Diskusi
       title: => core.ref.start_a_discussion
-      # title_placeholder: Discussion Title
       title_placeholder: Judul Diskusi
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      # discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
       discard_confirmation: "Anda belum menyimpan perubahan. Apakah Anda ingin membuangnya?"
+      edited_message: Pengeditan Anda telah dibuat.
       # post_link: "Post #{number} in {discussion}"
-      post_link: "Pos #{number} di {discussion}"
+      post_link: "Post #{number} di {discussion}"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -321,8 +321,7 @@ core:
       posted_message: Balasan Anda sudah terkirim.
       # submit_button: Post Reply
       submit_button: Balas
-      # view_button: View
-      view_button: Lihat
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -810,6 +809,7 @@ core:
     # username: Username
     username: Nama User
     users: Users                                   # Referenced by flarum-statistics.yml
+    View: View
     # write_a_reply: Write a Reply...
     write_a_reply: Tulis balasan...
     # you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
