@@ -588,9 +588,9 @@ core:
     # These translations are displayed as error messages.
     error:
       dependent_extensions_message: "Tidak dapat menonaktifkan {extension} hingga dependent extension berikut ini dinonaktifkan: {extensions}"
-      missing_dependencies_message: "Tidak dapat mengaktifkan {extension} hingga dependensi berikut diaktifkan: {extensions}"
       # generic_message: "Oops! Something went wrong. Please reload the page and try again."
       generic_message: "Oops! Sepertinya ada masalah. Coba refresh halaman dan coba lagi."
+      missing_dependencies_message: "Tidak dapat mengaktifkan {extension} hingga dependensi berikut diaktifkan: {extensions}"
       # not_found_message: The requested resource was not found.
       not_found_message: Sumber yang diminta tidak ditemukan.
       # permission_denied_message: You do not have permission to do that.
