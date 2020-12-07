@@ -23,6 +23,10 @@ fof-upload:
         Di sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.
       watermark: |
         Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.
+      s3_compatible_storage: |
+        Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya kosong.
+      s3_acl: |
+        ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value yang bisa diisi, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
     labels:
       aws-s3:
         bucket: Bucket
@@ -31,6 +35,10 @@ fof-upload:
         secret: Secret
         # title: AWS S3 storage settings
         title: Pengaturan AWS S3 storage
+        advanced_title: Pengaturan AWS S3 storage (Advanced)
+        endpoint: Endpoint
+        use_path_style_endpoint: Gunakan path style endpoint
+        acl: Access Control List (ACL)
       disable-download-logging:
         # title: Disable logging downloads
         title: Nonaktifkan pencatatan download
@@ -103,7 +111,7 @@ fof-upload:
       just-url_description: |
         Hanya menyisipkan URL. Perenderan dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection diabaikan.
     upload_methods:
-      aws-s3: Amazon S3
+      aws-s3: S3/Compatible
       imgur: Imgur
       local: Local
       ovh-svfs: OVH SVFS
