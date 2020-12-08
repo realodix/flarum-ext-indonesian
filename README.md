@@ -53,7 +53,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.2.0
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.2.0
-- [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.2.0
+- [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.2.1
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.2.1
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.3
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.2.0
@@ -67,7 +67,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.5.1
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.2.1
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.3.0
-- [fof/reactions](https://github.com/friendsofflarum/reactions) v0.4.2
+- [fof/reactions](https://github.com/friendsofflarum/reactions) v0.4.4
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.2.1
 - [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v0.5.4
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v0.3.0
