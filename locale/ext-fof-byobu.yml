@@ -124,19 +124,56 @@ fof-byobu:
             # byobu_index_help: When this option is enabled, a link from the forum main nav items to Private Discussions will be displayed
             byobu_index_help: Ketika opsi ini diaktifkan, link dari item utama forum ke Diskusi Pribadi akan ditampilkan
 
-    notifications:
-        private_discussion_created:
-            # title: "[forum-name] New private discussion"
-            title: "[forum-name] Diskusi pribadi baru"
-        private_discussion_replied:
-            # title: "[Private Discussion] user posted in a private discussion"
-            title: "[Diskusi Pribadi] Seseorang memposting dalam diskusi pribadi"
-        recipient_removed:
-            # title: "[Private Discussion] user left the discussion"
-            title: "[Diskusi Pribadi] Seseorang meninggalkan diskusi"
-        private_discussion_added:
-            # title: "[Private Discussion] user added you to a private discussion"
-            title: "[Diskusi Pribadi] Seseorang menambahkan Anda ke diskusi pribadi"
-        made_public:
-            # title: "[Private Discussion] user made the discussion public"
-            title: "[Diskusi Pribadi] Seseorang membuat diskusi publik"
+    email:
+        subject:
+            private_discussion_created: "[Private Discussion] {display_name} memulai diskusi pribadi dengan Anda"
+            private_discussion_replied: "[Private Discussion] {display_name} memposting dalam diskusi pribadi"
+            recipient_removed: "[Private Discussion] {display_name} keluar dari diskusi"
+            private_discussion_added: "[Private Discussion] {display_name} menambahkan Anda ke diskusi pribadi"
+            made_public: "[Private Discussion] {display_name} membuat diskusi menjadi publik"
+        body:
+            private_discussion_created: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima, berjudul '{discussion_title}'.
+
+                Lihat di:
+                {discussion_url}
+
+                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+            private_discussion_replied: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima, berjudul '{discussion_title}'.
+
+                Lihat di:
+                {post_url}
+
+                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+            recipient_removed: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} keluar dari diskusi pribadi '{discussion_title}'. Mereka tidak dapat lagi melihat kontennya.
+
+                Lihat di:
+                {discussion_url}
+
+                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+            private_discussion_added: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} menambahkan Anda ke diskusi pribadi yang ada, berjudul '{discussion_title}'.
+
+                Lihat di:
+                {discussion_url}
+
+                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+            made_public: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} membuat diskusi pribadi menjadi publik, berjudul '{discussion_title}'. Isinya sekarang dapat dilihat oleh siapa saja yang dapat melihat tag di bawahnya.
+
+                Lihat di:
+                {discussion_url}
+
+                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
