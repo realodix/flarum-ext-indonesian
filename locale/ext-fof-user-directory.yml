@@ -4,22 +4,28 @@ fof-user-directory:
             users_heading: 'Cari semua user untuk "{query}"'
         page:
             nav: Daftar User
-            sort:
-                relevance: Relevansi
-                default: Default
-                username_az: Nama User (a-z)
-                username_za: Nama User (z-a)
-                newest: Terbaru
-                oldest: Terlama
-                seen_recent: Baru-baru ini online
-                seen_oldest: Sudah lama tidak online
-                most_posts: Paling banyak posting
-                least_posts: Paling sedikit posting
-                most_discussions: Paling banyak diskusi
-                least_discussions: Paling sedikit diskusi
+            refresh_tooltip: => core.forum.index.refresh_tooltip
+            load_more_button: => core.ref.load_more
+            empty_text: We could not find any user matching your search.
     admin:
         permissions:
             view_user_directory: Lihat daftar user
         settings:
             title: Pengaturan Daftar User
             link: Tambahkan daftar user pada halaman utama agar user dapat melihat
+            default-sort: Default sort
+
+    lib:
+        sort:
+            not_specified: Gunakan Flarum default
+            default: Default
+            username_az: Username (a-z)
+            username_za: Username (z-a)
+            newest: Terbaru
+            oldest: Terlama
+            seen_recent: Terakhir online
+            seen_oldest: Terjauh
+            most_posts: Most posts
+            least_posts: Least posts
+            most_discussions: Most discussions
+            least_discussions: Least discussions
