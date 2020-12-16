@@ -36,9 +36,6 @@ fof-gamification:
       see_votes_label: Lihat post upvotes/downvotes
       # see_ranking_page: See ranking page
       see_ranking_page: Lihat halaman peringkat
-    nav:
-      # desc: Gamification for your Flarum community
-      desc: Gamifikasi untuk komunitas Flarum Anda
     page:
       rankings:
         blocked:
