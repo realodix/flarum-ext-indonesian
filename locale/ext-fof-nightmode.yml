@@ -7,10 +7,8 @@ fof-nightmode:
   admin:
     settings:
       modal:
-        title: FoF Night Mode
         default_theme: Tema forum default
-        default_theme_helper: Tema default secara otomatis ditetapkan untuk pengguna dan tamu baru.
-        default_theme_important: Ini juga akan mempengaruhi pengguna yang sudah ada yang belum memilih tema secara manual!
+        default_theme_helper: Tema default secara otomatis diatur untuk pengguna baru, tamu dan mereka yang tidak memiliki preferensi.
         theme_auto: => fof-nightmode.ref.auto
         theme_light: => fof-nightmode.ref.light
         theme_dark: => fof-nightmode.ref.dark
