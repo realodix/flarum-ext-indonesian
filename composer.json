@@ -25,7 +25,14 @@
     "flarum/core": "^0.1.0-beta.14"
   },
   "conflict": {
+    "fof/custom-footer": "<0.3.0",
     "fof/doorman": "<0.2.0",
+    "fof/forum-statistics-widget": "<0.4.0",
+    "fof/gamification": "<0.4.0",
+    "fof/nightmode": "<0.7.0",
+    "fof/pages": "<0.6.0",
+    "fof/reactions": "<0.5.0",
+    "fof/secure-https": "<0.3.0",
     "fof/upload": "<0.11"
   },
   "extra": {
