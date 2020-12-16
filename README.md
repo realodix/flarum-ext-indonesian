@@ -74,7 +74,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/split](https://github.com/friendsofflarum/split) v0.6.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.4.0
-- [fof/upload](https://github.com/friendsofflarum/upload) v0.11.3
+- [fof/upload](https://github.com/friendsofflarum/upload) v0.12.0
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.4.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.0
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.0
