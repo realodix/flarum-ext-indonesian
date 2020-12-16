@@ -21,10 +21,6 @@ fof-reactions:
         react_posts_label: Bereaksi terhadap post
         see_reactions_label: Lihat siapa yang bereaksi terhadap post
 
-    nav:
-      # desc: Add custom reactions and change settings.
-      desc: Tambahkan reaction khusus dan ubah pengaturan.
-
     page:
       reactions:
         # title: Custom Reactions
