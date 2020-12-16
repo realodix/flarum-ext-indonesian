@@ -13,8 +13,6 @@ fof-forum-statistics-widget:
       latest_member: "Anggota terbaru: "
   admin:
     settings:
-      # title: Widget Settings
-      title: Pengaturan Widget
       # widget_ignore_private_discussions_label: Ignore Private Discussions
       widget_ignore_private_discussions_label: Abaikan Diskusi Pribadi
       widget_order_label: Widget Order
