@@ -1,8 +1,6 @@
 fof-secure-https:
   admin:
     settings:
-      # title: Configuration
-      title: Konfigurasi
       # replace: Proxy images through HTTPS
       replace: Proxy gambar melalui HTTPS
   forum:
