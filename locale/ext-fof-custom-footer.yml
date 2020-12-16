@@ -3,10 +3,8 @@ fof-custom-footer:
     settings:
       css: CSS
       js: JS
-      # height: Height of Footer
-      height: Tinggi Footer
+      # height: Height of Footer (px)
+      height: Tinggi Footer (px)
       js: JS
       # text: Text for Footer
       text: Teks untuk Footer
-      # title: Custom Footer Configuration
-      title: Konfigurasi Custom Footer
