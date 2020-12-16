@@ -29,3 +29,38 @@ fof-subscribed:
             subscribe_to_post_unapproved: Menerima notifikasi pada post baru yang tidak disetujui
             # subscribe_to_user_created: Allowed to receive notification upon new user
             subscribe_to_user_created: Menerima notifikasi pada user baru
+    email:
+        subject:
+            newDiscussion: "[Subscribed | New Discussion] {title}"
+            newUser: "[Subscribed | New User] {username}"
+            postUnapproved: "[Subscribed | Unapproved] {username} diposting di {title}"
+        body:
+            newDiscussion: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} memulai diskusi baru: {discussion_title}
+
+                Untuk melihat diskusi baru ini, lihat link berikut:
+                {discussion_url}
+
+                ---
+
+                {post_content}
+            newUser: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} baru bergabung di {forum_url}.
+
+                Untuk melihat profil user baru ini, lihat link berikut:
+                {user_url}
+            postUnapproved: |
+                Halo {recipient_display_name},
+
+                {actor_display_name} membuat post yang tidak disetujui secara otomatis di {discussion_title}
+
+                Untuk melihat post baru ini, lihat link berikut:
+                {post_url}
+
+                ---
+
+                {post_content}
