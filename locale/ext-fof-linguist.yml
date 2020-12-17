@@ -1,0 +1,36 @@
+fof-linguist:
+  admin:
+    buttons:
+      apply: Terapkan
+      reset: Kembalikan yang original
+      copy-original: Copy teks original
+      load-more: Load more
+    locales:
+      all: Semua
+    placeholder:
+      not-translated: Tidak diterjemahkan
+      all-locales: Teks yang ditentukan di sini akan ditampilkan dalam semua bahasa
+      hint: "Nilai original:"
+    filters:
+      search: Cari string terjemahan...
+      with-own-translations: Terjemahan saya
+      missing: Cari terjemahan yang hilang
+      missing-middle-label: terjemahan dalam
+      negation-options:
+        with: Dengan
+        without: Tanpa
+      type-options:
+        any: Original atau Custom
+        original: original
+        own: Custom
+      for-extension: Untuk ekstensi
+      for-extension-unavailable: >
+        Tidak ada terjemahan yang ditemukan dalam namespace yang diharapkan "{namespace}".
+        Mungkin ekstensi ini tidak memiliki teks untuk diterjemahkan atau menggunakan namespace yang berbeda.
+        Coba gunakan kolom pencarian untuk menemukan terjemahannya.
+      results: Menampilkan {shown} dari {total} terjemahan yang cocok
+    clear-cache:
+      text: >
+        Terjemahan yang baru belum diterapkan.
+        Note: membersihkan cache dapat memperlambat forum Anda untuk sementara.
+      button: Clear cache now
