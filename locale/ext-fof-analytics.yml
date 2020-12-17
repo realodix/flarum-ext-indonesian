@@ -1,8 +1,6 @@
 fof-analytics:
     admin:
         popup:
-            title: FoF Analytics
-
             section:
                 googleAnalytics: Google Analytics
                 piwik: Piwik
@@ -44,9 +42,3 @@ fof-analytics:
                 username: Tracking dengan username
                 # email: Track by email
                 email: Tracking dengan email
-
-        page:
-            nav:
-                title: Analytics
-                # description: Take a look at Statistics
-                description: Lihatlah Statistik
