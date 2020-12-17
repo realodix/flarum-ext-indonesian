@@ -17,8 +17,6 @@ fof-discussion-language:
 
   admin:
     settings:
-      title: FriendsOfFlarum Discussion Language
-
       native_label: Gunakan nama bahasa asli
 
     permissions:

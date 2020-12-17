@@ -26,6 +26,7 @@
   },
   "conflict": {
     "fof/custom-footer": "<0.3.0",
+    "fof/discussion-language": "<0.3.0",
     "fof/doorman": "<0.2.0",
     "fof/forum-statistics-widget": "<0.4.0",
     "fof/gamification": "<0.4.0",
