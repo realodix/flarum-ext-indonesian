@@ -54,7 +54,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.3.0
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.3.0
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.3.0
-- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.3.0
+- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.3.1
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.3.0
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.3.0
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.4.0
@@ -62,7 +62,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.7.0
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
-- [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.0
+- [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.1
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.4.0
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.7.0
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.6.0
