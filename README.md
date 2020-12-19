@@ -81,7 +81,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.0
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.7
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
-- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.4-beta.1
+- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.6
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v5.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v4.0.0
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v6.0
