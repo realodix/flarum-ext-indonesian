@@ -9,7 +9,6 @@ root = true
 # default charset to UTF-8, and trim trailing whitespace in all files.
 [*]
 indent_style = space
-indent_size = 4
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
