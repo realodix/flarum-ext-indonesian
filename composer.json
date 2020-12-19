@@ -29,6 +29,7 @@
     "fof/custom-footer": "<0.3.0",
     "fof/discussion-language": "<0.3.0",
     "fof/doorman": "<0.2.0",
+    "fof/formatting": "<0.3.1",
     "fof/forum-statistics-widget": "<0.4.0",
     "fof/gamification": "<0.4.0",
     "fof/nightmode": "<0.7.0",
