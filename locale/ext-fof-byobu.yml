@@ -16,8 +16,6 @@ fof-byobu:
             cancel: Batalkan
             # remove_from_discussion: Leave this private discussion
             remove_from_discussion: Tinggalkan diskusi pribadi ini
-            # make_public: Make this discussion public
-            make_public: Jadikan diskusi ini publik
         composer_private_discussion:
             # submit_button: Post Private Discussion
             submit_button: Post Diskusi Pribadi
