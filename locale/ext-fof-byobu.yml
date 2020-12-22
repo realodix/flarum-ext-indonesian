@@ -61,7 +61,8 @@ fof-byobu:
             settings:
                 # block_pd: Block private discussions
                 block_pd: Blokir diskusi pribadi
-
+                # unified_index: Combine private discussions inside unified index
+                unified_index: Gabungkan diskusi pribadi di dalam indeks terpadu
             # byobu_link: Private Discussions
             byobu_link: Diskusi Pribadi
             # dropdown_label: Private Discussions
