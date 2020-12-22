@@ -27,8 +27,8 @@ fof-byobu:
             # user_deleted: -deleted-
             user_deleted: -dihapus-
         nav:
-            # start_button: New Private Discussion
-            start_button: Diskusi Pribadi Baru
+            start_button: Diskusikan Secara Pribadi
+            nav_item: "Diskusi Pribadi"
         input:
             # search_recipients: Search recipient by typing first three characters...
             search_recipients: Cari username penerima dengan mengetikkan tiga karakter pertama..
