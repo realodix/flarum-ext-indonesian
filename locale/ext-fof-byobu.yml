@@ -16,8 +16,6 @@ fof-byobu:
             cancel: Batalkan
             # remove_from_discussion: Leave this private discussion
             remove_from_discussion: Tinggalkan diskusi pribadi ini
-            # make_public: Make this discussion public
-            make_public: Jadikan diskusi ini publik
         composer_private_discussion:
             # submit_button: Post Private Discussion
             submit_button: Post Diskusi Pribadi
@@ -29,8 +27,8 @@ fof-byobu:
             # user_deleted: -deleted-
             user_deleted: -dihapus-
         nav:
-            # start_button: New Private Discussion
-            start_button: Diskusi Pribadi Baru
+            start_button: Diskusikan Secara Pribadi
+            nav_item: "Diskusi Pribadi"
         input:
             # search_recipients: Search recipient by typing first three characters...
             search_recipients: Cari username penerima dengan mengetikkan tiga karakter pertama..
@@ -63,7 +61,8 @@ fof-byobu:
             settings:
                 # block_pd: Block private discussions
                 block_pd: Blokir diskusi pribadi
-
+                # unified_index: Combine private discussions inside unified index
+                unified_index: Gabungkan diskusi pribadi di dalam indeks terpadu
             # byobu_link: Private Discussions
             byobu_link: Diskusi Pribadi
             # dropdown_label: Private Discussions
@@ -86,10 +85,6 @@ fof-byobu:
             pd_added_text: "{username} menambahkan Anda ke diskusi pribadi"
             # pd_added_label: "Someone adds me to an existing private discussion"
             pd_added_label: "Seseorang menambahkan Saya ke diskusi pribadi yang sudah ada"
-            # pd_made_public_label: "A private discussion is made public"
-            pd_made_public_label: "Diskusi pribadi dipublikasikan"
-            # pd_made_public_text: "{username} made the discussion public"
-            pd_made_public_text: "{username} menjadikan diskusi tersebut publik"
 
         confirm:
             # make_public: This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding.
@@ -107,22 +102,12 @@ fof-byobu:
             edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
             # edit_group_recipients: Edit groups partaking in private discussions
             edit_group_recipients: Edit group yang mengambil bagian dalam diskusi pribadi
-            # make_private_into_public: Transform a private discussion into a public discussion
-            make_private_into_public: Ubah diskusi pribadi menjadi diskusi publik
             # view_private_discussions-when-flagged: View private discussions of other users if flagged
             view_private_discussions-when-flagged: Lihat diskusi pribadi user lain jika ditandai
 
         settings:
-            # use_tag_slug: Tentukan tag yang harus digunakan pada semua diskusi pribadi
-            use_tag_slug: Tentukan tag mana yang harus digunakan oleh semua diskusi pribadi
-            # use_tag_slug_help: 'Select "{no_restriction}" to allow users to select their own tag. This applies to newly created private discussions only.'
-            use_tag_slug_help: 'Pilih "{no_restriction}" untuk memungkinkan user memilih tag mereka sendiri. Ini hanya berlaku untuk diskusi pribadi yang baru dibuat.'
-            # se_tag_slug_no_restriction: "- No restriction -"
-            se_tag_slug_no_restriction: "- Tidak ada pembatasan -"
-            # byobu_index: Display a link to Private Discussions on the index page
-            byobu_index: Tampilkan link ke Diskusi Pribadi di halaman index
-            # byobu_index_help: When this option is enabled, a link from the forum main nav items to Private Discussions will be displayed
-            byobu_index_help: Ketika opsi ini diaktifkan, link dari item utama forum ke Diskusi Pribadi akan ditampilkan
+            badge-icon: Byobu Discussion Badge
+            post-event-icon: Byobu Post Events
 
     email:
         subject:

@@ -26,6 +26,7 @@
   },
   "conflict": {
     "fof/analytics": "<0.11.0",
+    "fof/byobu": "<0.6.0",
     "fof/custom-footer": "<0.3.0",
     "fof/discussion-language": "<0.3.0",
     "fof/doorman": "<0.2.0",
