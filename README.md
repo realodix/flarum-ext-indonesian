@@ -38,6 +38,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [clarkwinkelmann/flarum-ext-follow-tags-prompt](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) v0.2.0
 - [clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) v0.1.2
 - [clarkwinkelmann/flarum-ext-likes-received](https://github.com/clarkwinkelmann/flarum-ext-likes-received) v0.1.1
+- [clarkwinkelmann/flarum-ext-mailing](https://github.com/clarkwinkelmann/flarum-ext-mailing) v0.4.0
 - [clarkwinkelmann/flarum-ext-passwordless](https://github.com/clarkwinkelmann/flarum-ext-passwordless) v1.1.0
 - [clarkwinkelmann/flarum-ext-popular-discussion-badge](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) v0.2.1
 - [clarkwinkelmann/flarum-ext-see-past-first-post](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post) v1.0.3
@@ -80,7 +81,6 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.0
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.0
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.7
-- [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.10
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v5.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v4.0.0
