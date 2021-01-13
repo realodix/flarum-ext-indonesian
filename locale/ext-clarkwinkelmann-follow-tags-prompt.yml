@@ -9,7 +9,6 @@ clarkwinkelmann-follow-tags-prompt:
 
     admin:
         settings:
-            title: Pengaturan Follow Tags Prompt
             buttonOnFollowingPage: Tampilkan tombol di halaman Mengikuti
             allDiscussionsOnFollowingPageForGuests: Tampilkan semua diskusi di halaman Mengikuti untuk tamu
             availableTagStrategy: Tag untuk ditampilkan dalam jendela modal
