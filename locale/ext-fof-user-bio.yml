@@ -7,6 +7,10 @@ fof-user-bio:
       editOwn: Edit bio Anda
       # editAny: Edit any bio
       editAny: Edit setiap bio
+  setting:
+    # bioLimit: Bio character limit
+    bioLimit: Batas karakter bio
+
   forum:
     # userbioPlaceholder: Write something about yourself
     userbioPlaceholder: Tulis sesuatu tentang diri Anda
