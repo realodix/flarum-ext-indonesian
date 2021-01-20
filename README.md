@@ -39,7 +39,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) v0.1.2
 - [clarkwinkelmann/flarum-ext-likes-received](https://github.com/clarkwinkelmann/flarum-ext-likes-received) v0.1.1
 - [clarkwinkelmann/flarum-ext-mailing](https://github.com/clarkwinkelmann/flarum-ext-mailing) v0.4.0
-- [clarkwinkelmann/flarum-ext-passwordless](https://github.com/clarkwinkelmann/flarum-ext-passwordless) v1.1.0
+- [clarkwinkelmann/flarum-ext-passwordless](https://github.com/clarkwinkelmann/flarum-ext-passwordless) v1.2.0
 - [clarkwinkelmann/flarum-ext-popular-discussion-badge](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) v0.2.1
 - [clarkwinkelmann/flarum-ext-see-past-first-post](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post) v1.0.3
 - [clarkwinkelmann/flarum-ext-silent-mailchimp](https://github.com/clarkwinkelmann/flarum-ext-silent-mailchimp) v1.0.0
