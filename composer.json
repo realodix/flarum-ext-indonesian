@@ -27,6 +27,7 @@
   "conflict": {
     "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
     "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
+    "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
     "fof/analytics": "<0.11.0",
     "fof/byobu": "<0.6.0",
     "fof/custom-footer": "<0.3.0",
