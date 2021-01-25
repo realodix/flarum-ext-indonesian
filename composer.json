@@ -22,7 +22,7 @@
     "docs": "https://discuss.flarum.org/d/1358-indonesian-language-pack"
   },
   "require": {
-    "flarum/core": "^0.1.0-beta.14"
+    "flarum/core": "^0.1.0-beta.15"
   },
   "conflict": {
     "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
