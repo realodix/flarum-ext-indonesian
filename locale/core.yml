@@ -7,16 +7,6 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "Jika Anda seorang pengembang, Anda dapat <a>membaca dokumentasi</a> dan membuat ekstensi Anda sendiri."
-      # install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      install_text: "Saat ini, Anda dapat melihat ekstensi pada <a>situs Komunitas Flarum</a> dan memasangnya secara manual dengan Composer."
-      # temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      temporary_text: "Suatu hari dialog ini akan membantu Anda untuk menambahkan ekstensi ke dalam forum Anda dengan mudah. Saat ini Kami sedang membuat ekosistemnya."
-      # title: Add Extension
-      title: Tambah Extensi
-
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Colored Header
@@ -29,6 +19,7 @@ core:
       custom_styles_heading: Custom Styles
       custom_styles_text: Sesuaikan tampilan forum Anda dengan menambahkan kode LESS / CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.
       dark_mode_label: Dark Mode
+      description: "Sesuaikan warna forum, logo, dan variabel lainnya."
       edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -38,29 +29,28 @@ core:
       logo_heading: Logo
       logo_text: Upload gambar untuk ditampilkan pada forum title.
       submit_button: => core.ref.save_changes
+      title: Penampilan
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       # default_language_heading: Default Language
       default_language_heading: Bahasa Yang Digunakan
+      description: "Tetapkan judul forum Anda, bahasa, dan pengaturan dasar lainnya."
       display_name_heading: Nama User Yang Ditampilkan
       display_name_text: Pilih driver yang harus digunakan untuk nama user yang ditampilkan. Secara default, nama user ditampilkan.
-      # forum_description_heading: Forum Description
       forum_description_heading: Deskripsi Forum
-      # forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
       forum_description_text: Tulis beberapa kalimat yang menggambarkan komunitas Anda. Ini akan muncul di meta tag dan mesin pencari.
-      # forum_title_heading: Forum Title
       forum_title_heading: Judul Forum
-      # home_page_heading: Home Page
       home_page_heading: Halaman Utama
-      # home_page_text: Choose the page which users will first see when they visit your forum.
-      home_page_text: Tentukan halaman yang akan ditampilkan pada halaman utama.
-      # saved_message: Your changes were saved.
+      home_page_text: Pilih halaman yang akan dilihat pengguna saat pertama kali mengunjungi forum Anda.
       saved_message: Perubahan berhasil disimpan.
-      # show_language_selector_label: Show language selector
       show_language_selector_label: Tampilkan pilihan bahasa
+      slug_driver_heading: "Slug Driver: {model}"
+      slug_driver_text: Pilih driver yang akan digunakan untuk slugging model ini.
       submit_button: => core.ref.save_changes
+      # title: Basics
+      title: Basic
       # welcome_banner_heading: Welcome Banner
       welcome_banner_heading: Pesan Selamat Datang
       # welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
@@ -112,15 +102,11 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      # addresses_heading: Addresses
       addresses_heading: Alamat
-      # driver_heading: Choose a Driver
+      description: "Konfigurasikan driver, pengaturan dan alamat yang akan digunakan forum Anda untuk mengirim email."
       driver_heading: Pilih Driver
       driver_label: Driver
-      # from_label: Sender
       from_label: Pengirim
-      heading: => core.ref.email
-      # mail_encryption_label: Encryption
       mail_encryption_label: Enkripsi
       mail_host_label: Host
       mail_mailgun_domain_label: Domain
@@ -129,30 +115,39 @@ core:
       mail_password_label: => core.ref.password
       mail_port_label: Port
       mail_username_label: => core.ref.username
-      # mailgun_heading: Mailgun Settings
       mailgun_heading: Pengaturan Mailgun
-      # not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
       not_sending_message: Flarum saat ini tidak dapat mengirim email. Ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.
       send_test_mail_button: Kirim
       send_test_mail_heading: Kirim Email percobaan
       send_test_mail_success: "Email percobaan berhasil dikirim!"
       send_test_mail_text: "Ini akan mengirimkan email menggunakan konfigurasi di atas ke email Anda, {email}."
-      # smtp_heading: SMTP Settings
       smtp_heading: Pengaturan SMTP
       submit_button: => core.ref.save_changes
-      # text: Configure the driver, settings and addresses your forum will use to send email.
-      text: Mengkonfigurasi driver, pengaturan, dan alamat yang akan digunakan forum Anda untuk mengirim email.
+      title: => core.ref.email
 
-    # These translations are used in the Extensions page.
-    extensions:
-      # add_button: Add Extension
-      add_button: Tambah Ekstensi
-      settings_button: => core.ref.settings
-      # uninstall_button: Uninstall
+    # These translations are used on default extension pages.
+    extension:
+      confirm_uninstall: Menghapus instalasi akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Apakah Anda yakin ingin melanjutkan?
+      disabled: Disabled
+      enabled: Enabled
+      enable_to_see: Aktifkan ekstensi untuk melihat dan mengubah pengaturan.
+      info_links:
+        discuss: Discuss
+        documentation: Dokumentasi
+        donate: Donasi
+        source: Source
+        support: Support
+        website: Website
+      no_permissions: Ekstensi ini tidak memiliki izin.
+      no_settings: Ekstensi ini tidak memiliki pengaturan.
+      open_modal: Buka Pengaturan
+      permissions_title: Perizinan
+      saved_message: Perubahan Anda telah disimpan.
       uninstall_button: Hapus
 
-    # These translations are used in the session dropdown menu.
+    # These translations are used in the secondary header.
     header:
+      get_help: Bantuan
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
@@ -161,28 +156,27 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      # appearance_button: Appearance
-      appearance_button: Tampilan
-      # appearance_text: "Customize your forum's colors, logos, and other variables."
-      appearance_text: "Sesuaikan warna, logo, dan lainnya."
-      # basics_button: Basics
-      basics_button: Basic
-      # basics_text: "Set your forum title, language, and other basic settings."
-      basics_text: "Tetapkan judul forum Anda, bahasa, dan pengaturan dasar lainnya."
-      dashboard_button: Dashboard
-      # dashboard_text: Your forum at a glance.
-      dashboard_text: Sekilas tentang forum Anda.
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearance.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: Autentikasi
+        core: Konfigurasi Inti
+        discussion: Discussion
+        feature: Features
+        formatting: Formatting
+        language: Bahasa
+        moderation: Moderation
+        other: Ekstensi Lainnya
+        theme: Tema
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      # email_text: "Configure your forum's email settings."
-      email_text: "Mengkonfigurasi pengaturan email untuk forum Anda."
-      # extensions_button: Extensions
-      extensions_button: Ekstensi
-      # extensions_text: Add extra functionality to your forum and make it your own.
-      extensions_text: Menambahkan fungsi tambahan untuk forum Anda dan sesuai keinginan Anda.
-      # permissions_button: Permissions
-      permissions_button: Hak Akses
-      # permissions_text: Configure who can see and do what.
-      permissions_text: Konfigurasi hak akses user tentang apa yang bisa dilihat dan dilakukan.
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Pencarian Ekstensi
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -191,44 +185,33 @@ core:
       # allow_renaming_label: Allow renaming
       allow_renaming_label: Ganti Judul
       create_heading: Create
-      # delete_discussions_forever_label: Delete discussions forever
       delete_discussions_forever_label: Hapus Diskusi Selamanya
-      # delete_discussions_label: Delete discussions
       delete_discussions_label: Hapus Diskusi
-      # delete_posts_forever_label: Delete posts forever
       delete_posts_forever_label: Hapus Post Selamanya
-      # delete_posts_label: Delete posts
       delete_posts_label: Hapus post
-      # edit_posts_label: Edit posts
+      description: Konfigurasi siapa yang dapat melihat dan melakukan sesuatu.
       edit_posts_label: Edit Post
-      # edit_users_label: Edit users
       edit_users_label: Edit user
       global_heading: Global
       moderate_heading: Moderate
       # new_group_button: New Group
       new_group_button: Tambah Grup
-      # participate_heading: Participate
       participate_heading: Ikut Serta
       # post_without_throttle_label: Reply multiple times without waiting
       post_without_throttle_label: Jawab beberapa kali tanpa menunggu
       read_heading: Read
-      # rename_discussions_label: Rename discussions
       rename_discussions_label: Ganti Judul Diskusi
       # reply_to_discussions_label: Reply to discussions
       reply_to_discussions_label: Ikut Berdiskusi
       # sign_up_label: Sign up
       sign_up_label: Pendaftaran Akun
-      # start_discussions_label: Start discussions
       start_discussions_label: Mulai Diskusi
-      # view_discussions_label: View discussions
+      title: Perizinan
       view_discussions_label: Lihat Diskusi
-      # view_hidden_groups_label: View hidden group badges
       view_hidden_groups_label: Lihat Badge Grup Yang Tersembunyi
       # view_last_seen_at_label: Always view user last seen time
       view_last_seen_at_label: Selalu Tampilkan Waktu User Terakhir Terlihat
-      # view_post_ips_label: View post IP addresses
       view_post_ips_label: Lihat IP Address
-      # view_user_list_label: View user list
       view_user_list_label: Lihat Daftar User
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -296,7 +279,6 @@ core:
     composer_discussion:
       # body_placeholder: Write a Post...
       body_placeholder: Tulis artikel di sini..
-      # discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
       discard_confirmation: "Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?"
       # submit_button: Post Discussion
       submit_button: Publikasikan Diskusi
@@ -315,7 +297,6 @@ core:
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      # discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
       discard_confirmation: "Anda belum menyimpan perubahan. Apakah Anda ingin membuangnya?"
       # posted_message: Your reply was posted.
       posted_message: Balasan Anda sudah terkirim.
@@ -806,8 +787,7 @@ core:
     some_others: "{count} lainnya"
     # start_a_discussion: Start a Discussion
     start_a_discussion: Mulai Diskusi
-    # username: Username
-    username: Nama User
+    username: Username
     users: Users                                   # Referenced by flarum-statistics.yml
     View: View
     # write_a_reply: Write a Reply...
