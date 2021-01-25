@@ -47,44 +47,46 @@ fof-username-request:
         success: Keputusan dikirim.
         name: '{name} telah meminta untuk mengubah username mereka menjadi "{requestedName}"'
       results:
-        title: Username Change Request
-        approved: 'Your username change request has been approved'
+        title: Permintaan Perubahan Username
+        approved: 'Permintaan perubahan username Anda telah disetujui'
         dismiss_button: => core.ref.okay
-        new_name: 'Your username has been successfully changed to: {name}'
-        rejected: Your username change request was rejected
-        reason: 'Reason for rejection: <i>"{reason}"</i>.'
-        resubmit: At this time you may resubmit a new username change request from your account settings if you so choose to.
+        new_name: 'Username Anda telah berhasil diubah menjadi: {name}'
+        rejected: Permintaan perubahan username Anda ditolak
+        # reason: 'Reason for rejection: <i>"{reason}"</i>.'
+        reason: 'Alasan: <i>"{reason}"</i>.'
+        resubmit: Saat ini Anda dapat mengirim ulang permintaan perubahan username baru dari pengaturan akun Anda jika Anda mau.
       request:
-        title: Request Username Change
-        current_request: You have already requested to change your username to "{name}". You can either update your request or delete it.
-        submit_button: Submit Request
-        delete_button: Delete Request
-        confirmation_message: Your username change request has been submitted and is pending approval.
+        title: Minta Perubahan Username
+        current_request: Anda telah meminta untuk mengubah username Anda menjadi "{name}". Anda dapat memperbarui permintaan Anda atau menghapusnya.
+        submit_button: Kirim Permintaan
+        delete_button: Hapus Permintaan
+        confirmation_message: Permintaan perubahan username Anda telah dikirim dan menunggu persetujuan.
         dismiss_button: => core.ref.okay
-        deleted: Username request deleted.
+        deleted: Permintaan username dihapus.
 
     # Pending Requests Dropdown and List
     pending_requests:
-      empty_text: No name change requests found.
-      nickname_item_text: "{name} requested a nickname change"
-      nickname_exerpt: "Requested nickname: {requestedName}"
+      empty_text: Tidak ditemukan permintaan perubahan nama.
+      nickname_item_text: "{name} meminta perubahan nickname"
+      nickname_exerpt: "Nickname yang diminta: {requestedName}"
       tooltip: => fof-username-request.ref.name_change_requests
       title: => fof-username-request.ref.name_change_requests
-      username_item_text: "{name} requested a username change"
-      username_exerpt: "Requested username: {requestedName}"
+      username_item_text: "{name} meminta perubahan username"
+      username_exerpt: "Username yang diminta: {requestedName}"
 
     # Settings Page
     settings:
-      nickname_request_button: Change Nickname
-      username_request_button: Change Username
+      nickname_request_button: Ubah Nickname
+      username_request_button: Ubah Username
 
     user:
-      name_history_link: Name History
+      # name_history_link: Name History
+      name_history_link: History
 
   ref:
-    name_change_request: Name Change Request
-    name_change_requests: Name Change Requests
-    nickname_change_request: Nickname Change Request
-    nickname_change_requests: Nickname Change Requests
-    username_change_request: Username Change Request
-    username_change_requests: Username Change Requests
+    name_change_request: Permintaan Perubahan Nama
+    name_change_requests: Permintaan Perubahan Nama
+    nickname_change_request: Permintaan Perubahan Nickname
+    nickname_change_requests: Permintaan Perubahan Nickname
+    username_change_request: Permintaan Perubahan Username
+    username_change_requests: Permintaan Perubahan Username
