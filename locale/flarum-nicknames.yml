@@ -1,0 +1,24 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: Edit nickname sendiri
+    settings:
+      max_label: Panjang nickname maksimum
+      min_label: Panjang nickname minimum
+      regex_label: Regular expression untuk validasi
+      unique_label: Butuh  yang unik?
+    wrong_driver: Anda harus memilih "nickname" sebagai driver nama tampilan di <a><strong>Basics Page</strong></a> agar ekstensi ini berlaku.
+  api:
+    invalid_nickname_message: Nickname ini tidak valid. Silakan hubungi administrator forum Anda untuk informasi lebih lanjut tentang aturan nickname.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Nickname
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: Ubah Nickname
