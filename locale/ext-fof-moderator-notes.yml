@@ -5,14 +5,14 @@ fof-moderator-notes:
       viewnotes: Lihat catatan moderator
       deletenotes: Hapus catatan moderator
   forum:
+    # no_content_given: An empty note is not permitted.
+    no_content_given: Tidak boleh kosong.
     moderatorNotes:
       created_text: "{username} membuat catatan ini pada {date}"
       add_button: Catatan baru
       create-heading: Buat catatan moderator baru
       dismiss_button: Selesai
       input_heading: Masukkan catatan Anda untuk <strong>{username}</strong>, (markdown is supported)
-      # no_content_given: An empty note is not permitted.
-      no_content_given: Tidak boleh kosong.
       noNotes: Sepertinya tidak ada catatan di sini.
       # submit_button: Save note
       submit_button: Simpan
