@@ -1,0 +1,63 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: Pilih Jawaban Terbaik (Diskusi sendiri)
+      best_answer_not_own_discussion: Pilih Jawaban Terbaik (bukan Diskusi sendiri)
+    settings:
+      label:
+        general: General
+        reminders: Pengingat
+        advanced: Lanjutan
+        reminders_notice: Agar pengingat berfungsi dengan benar, Anda harus mengatur Flarum scheduler dengan benar.
+      allow_select_own_post: Izinkan user untuk memilih postingan mereka sendiri
+      select_best_answer_reminder_days: Ingatkan user untuk memilih jawaban terbaik setelah X hari
+      schedule_on_one_server: Gunakan 'onOneServer()' untuk task scheduler (dibutuhkan Redis/Memcache)
+      schedule_stop_overnight: Cegah reminder scheduler agar tidak berjalan selama jam-jam tidak sosial (jam 9 malam - 8 pagi waktu server)
+      #   schedule_log_output: Append scheduler output to log storage
+      schedule_log_output: Catat scheduler ke dalam log
+      remind_tag_ids: Untuk membatasi pengingat ke tag tertentu, masukkan ID tag di sini (dipisahkan dengan koma)
+      use_alt_ui: Gunakan tata letak alternatif (tombol best answer di post footer)
+  forum:
+    answered_badge: Terjawab
+    this_best_answer: Pilih Best Answer
+    remove_best_answer: Batalkan pilihan Best Answer
+    best_answer_button: Best Answer
+    best_answer_label: oleh <a>{username}</a> {time_set}
+    errors:
+      mismatch: "Post yang dipilih tidak ada dalam diskusi ini."
+
+    notification:
+      best_answer_in_discussion: "{username} memberikan best answer (jawaban terbaik) dalam diskusi ini"
+      content: Silakan pilih Best Answer (Jawaban Terbaik) jika pertanyaan Anda telah dijawab
+      awarded: Post Anda ditetapkan sebagai best answer (jawaban terbaik) oleh {username}
+
+      preferences:
+        awarded_best_answer: Saat seseorang menetapkan postingan saya sebagai best answer (jawaban terbaik)
+        best_answer_in_discussion: Ketika best answer (jawaban terbaik) ditetapkan dalam diskusi yang Saya ikuti
+  email:
+    subject:
+      awarded: Post Anda ditetapkan sebagai best answer (jawaban terbaik) oleh {display_name}
+      ba-set: Best answer (jawaban terbaik) ditetapkan oleh {display_name}
+      select: Apakah Anda berhasil mendapatkan jawaban atas pertanyaan Anda?
+    body:
+      awarded: |
+        Hey {recipient_display_name},
+
+        Hebat, {actor_display_name} baru saja menetapkan post Anda sebagai best answer (jawaban terbaik) dalam diskusi '{discussion_title}'. Terima kasih telah membantu.
+
+        Lihat di: {discussion_url}
+      ba-set: |
+        Hey {recipient_display_name},
+
+        {actor_display_name} cukup berikan best answer (jawaban terbaik) dalam diskusi '{discussion_title}', yang Anda ikuti.
+
+        Lihat di: {discussion_url}
+      select: |
+        Hey {recipient_display_name},
+
+        Just checking in; sekarang Anda seharusnya memiliki banyak balasan untuk pertanyaan Anda - '{discussion_title}'. Semoga salah satu dari mereka telah membantu Anda memecahkan masalah Anda.
+
+        Jika demikian, itu akan sangat membantu bagi anggota lainnya jika Anda bisa menetapkan best answer (jawaban terbaik) untuk pertanyaan Anda. Ini akan membantu orang dengan masalah yang sama menemukan jawaban yang mereka butuhkan, dan ini juga merupakan ucapan terima kasih yang besar kepada anggota yang telah membantu Anda. Mereka memberikan waktu mereka secara sukarela, jadi menyenangkan untuk memberi tahu mereka bahwa mereka sudah melakukannya dengan baik.
+
+        Lihat di: {discussion_url}, and select the most appropriate post as the best answer.
+        Thanks!
