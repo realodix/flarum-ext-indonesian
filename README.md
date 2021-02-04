@@ -65,7 +65,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.1
-- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.4.2
+- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.4.3
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.7.1
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.6.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.3.2
@@ -82,7 +82,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.0
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.1
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.7
-- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.1
+- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.2
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v5.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v4.0.0
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v6.0
