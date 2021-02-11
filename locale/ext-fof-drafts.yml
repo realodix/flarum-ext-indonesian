@@ -40,6 +40,8 @@ fof-drafts:
       tooltip: => fof-drafts.forum.dropdown.title
       # alert: Are you sure you want to delete your draft?
       alert: Anda yakin ingin menghapus draft Anda?
+      # delete_all_alert: Are you sure you want to delete all your drafts?
+      delete_all_alert: Apakah Anda yakin ingin menghapus semua draf Anda?
     schedule_draft_modal:
       # title: Schedule Draft
       title: Penjadwalan Draft
