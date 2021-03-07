@@ -20,6 +20,7 @@ fof-discussion-language:
       native_label: Gunakan nama bahasa asli
       show_flag_label: Tampilkan bendera negara dengan nama bahasa
       composer_default_label: Pra-pilih lokal saat ini dalam diskusi komposer
+      locale_sort_label: Gunakan bahasa yang terdeteksi untuk filter diskusi default
 
     permissions:
       # allow_change_language_label: Allow language editing
