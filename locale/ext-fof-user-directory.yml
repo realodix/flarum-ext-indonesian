@@ -1,12 +1,17 @@
 fof-user-directory:
     forum:
+        header:
+            back_to_user_directory_tooltip: Kembali ke User Directory
         search:
             users_heading: 'Cari semua user untuk "{query}"'
+            field:
+                placeholder:Cari semua user
         page:
             nav: Daftar User
             refresh_tooltip: => core.forum.index.refresh_tooltip
             load_more_button: => core.ref.load_more
             empty_text: We could not find any user matching your search.
+            filter_button: Filter Groups
     admin:
         permissions:
             view_user_directory: Lihat daftar user
