@@ -61,7 +61,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.3.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.3.1
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.4.0
-- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.4.2
+- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.4.3
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.7.0
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.7
@@ -82,7 +82,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.4.2
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.2
-- [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.7
+- [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.8.2
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v5.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v4.0.0
