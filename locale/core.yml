@@ -128,9 +128,9 @@ core:
     # These translations are used on default extension pages.
     extension:
       confirm_uninstall: Menghapus instalasi akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Apakah Anda yakin ingin melanjutkan?
-      disabled: Disabled
       enabled: Enabled
       enable_to_see: Aktifkan ekstensi untuk melihat dan mengubah pengaturan.
+      disabled: Disabled
       info_links:
         discuss: Discuss
         documentation: Dokumentasi
