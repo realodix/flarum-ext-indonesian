@@ -43,8 +43,10 @@
     "fof/pages": "<0.6.0",
     "fof/reactions": "<0.5.0",
     "fof/secure-https": "<0.3.0",
+    "fof/upload": "<0.11",
     "fof/username-request": "<0.4.1",
-    "fof/upload": "<0.11"
+    "jslirola/flarum-ext-login2seeplus": "<0.1.9",
+    "michaelbelgium/mybb-to-flarum": "<7.0"
   },
   "extra": {
     "flarum-extension": {
