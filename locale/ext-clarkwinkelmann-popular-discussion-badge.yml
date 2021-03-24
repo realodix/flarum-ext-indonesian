@@ -4,7 +4,6 @@ clarkwinkelmann-popular-discussion-badge:
 
     admin:
         settings:
-            title: Pengaturan lencana diskusi populer
             mode: Mode operasi
             mode_help: >
                 Mode frontend adalah solusi efisien yang tidak menggunakan database.
