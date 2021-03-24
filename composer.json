@@ -28,6 +28,7 @@
     "clarkwinkelmann/flarum-ext-first-post-approval": "<0.1.4",
     "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
     "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
+    "clarkwinkelmann/flarum-ext-popular-discussion-badge": "<0.2.3",
     "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
     "fof/analytics": "<0.11.0",
     "fof/byobu": "<0.6.0",
