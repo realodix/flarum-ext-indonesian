@@ -27,13 +27,11 @@ clarkwinkelmann-who-read:
 
     admin:
         permissions:
-            heading: Siapa yang membaca
             see-read: Lihat status baca
             see-subscription: Lihat subscription status
             see-unread: Lihat status belum dibaca dari user lain
             mark-unread: Tandai diskusi sebagai belum dibaca untuk user sendiri
         settings:
-            title: Pengaturan siapa yang membaca
             show-in-discussion-list: Tampilkan pembaca dalam daftar diskusi
             show-in-hero: Tampilkan para pembaca di discussion hero
             show-between-posts: Tampilkan status baca di antara postingan
