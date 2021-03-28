@@ -1,10 +1,23 @@
 fof-linguist:
-  admin:
+    admin:
+      tabs:
+      strings: Terjemahan
+      coverage: Cakupan
+      export: Export
+      import: Import
     buttons:
       apply: Terapkan
       reset: Kembalikan yang original
       copy-original: Copy teks original
       load-more: Load more
+      delete-redundant: Hapus terjemahan yang berlebihan
+      delete-redundant-confirm: >
+          Ini akan menghapus terjemahan {count} yang memiliki nilai asli dan kustom yang identik.
+          Ini dapat berguna untuk membersihkan setelah pembaruan language pack.
+      delete-all: Hapus semua terjemahan
+      delete-all-confirm: >
+          Ini akan menghapus SEMUA terjemahan kustom {count} Anda.
+          Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.
     locales:
       all: Semua
     placeholder:
@@ -23,14 +36,75 @@ fof-linguist:
         any: Original atau Custom
         original: original
         own: Custom
+      operation-options:
+        or: Salah satu dari
+        and: Semua
       for-extension: Untuk ekstensi
-      for-extension-unavailable: >
-        Tidak ada terjemahan yang ditemukan dalam namespace yang diharapkan "{namespace}".
-        Mungkin ekstensi ini tidak memiliki teks untuk diterjemahkan atau menggunakan namespace yang berbeda.
-        Coba gunakan kolom pencarian untuk menemukan terjemahannya.
+      frontend: For frontend
+      frontend-all-except-admin: Semua kecuali Admin
+      mass-edit: Pengeditan massal
       results: Menampilkan {shown} dari {total} terjemahan yang cocok
     clear-cache:
       text: >
         Terjemahan yang baru belum diterapkan.
         Note: membersihkan cache dapat memperlambat forum Anda untuk sementara.
       button: Clear cache now
+    coverage:
+        column-options:
+            locale: By language
+            namespace: By frontend
+        total-options:
+            percent: Percent
+            count: Count
+        columns:
+            namespace: Namespace
+            total: Total
+            all-except-admin: Forum dan frontend lainnya
+            all-frontends: Tampilkan semua frontend
+        count:
+            percent: '{percent} %'
+            total: '{translated} / {total}'
+            details: '{total} total / {original} original / {custom} custom'
+        all-namespaces: All
+        apply-missing-filter: Tampilkan terjemahan yang hilang yang cocok
+    export:
+        title: Export
+        warning: >
+            Format ekspor menggunakan file terjemahan berbasis Yaml Flarum dan dirancang untuk berbagi terjemahan antar forum dan dengan pengelola paket bahasa.
+            Formatnya tidak dirancang untuk memindahkan semua terjemahan ke forum baru.
+            Bergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.
+        locale: Locale
+        locale-all: Pseudo-locale "All"
+        namespace: Namespace
+        namespace-all: All
+        include-originals: Sertakan terjemahan asli
+        include-all: Sertakan terjemahan yang ditentukan untuk "Semua" bahasa
+        output: Output
+        output-loading: Loading output...
+        output-empty: Empty output
+        download: Download
+    import:
+        title: Import
+        input: Input
+        input-placeholder: Drag and drop atau paste file Yaml di sini
+        locale: Locale
+        locale-all: Pseudo-locale "All"
+        override-existing: Timpa terjemahan custom saya yang ada
+        submit: Import
+        results: >
+            Impor sudah selesai.
+            {imported} string telah diimpor dan {identical} string identik dilewati.
+            Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.
+        results-with-ignore: >
+            Impor sudah selesai.
+            {imported} string telah diimpor, {ignored} string yang ada telah diabaikan dan {identical} string identik dilewati.
+            Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.
+    known-namespace:
+        core: Flarum Core
+        validation: Validation Errors
+    known-frontend:
+        forum: Forum
+        admin: Admin
+        lib: Lib (used on both Forum and Admin)
+        ref: Ref (re-used in other keys)
+        api: API
