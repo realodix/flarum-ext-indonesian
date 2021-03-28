@@ -7,7 +7,5 @@ michaelbelgium-flarum-profile-views:
       view_count_text: 'Dilihat {viewcount} kali|Dilihat {viewcount} kali'
   admin:
     settings:
-      # title: 'Profileviews settings'
-      title: 'Pengaturan Profileviews'
       track_guests_label: 'Track guests'
       max_viewcount_label: 'Maximum visitorlist items'
