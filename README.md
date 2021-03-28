@@ -31,7 +31,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [askvortsov/flarum-trust-levels](https://github.com/askvortsov/flarum-trust-levels) v0.1.2
 - [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.1.0
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.3.0
-- [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v0.1.1
+- [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v0.1.3
 - [clarkwinkelmann/flarum-ext-colorful-borders](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders) v0.1.0
 - [clarkwinkelmann/flarum-ext-create-user-modal](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) v1.2.1  
 - [clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) v0.3.0

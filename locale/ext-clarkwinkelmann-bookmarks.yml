@@ -12,5 +12,4 @@ clarkwinkelmann-bookmarks:
             title: Bookmark
     admin:
         settings:
-            title: Pengaturan bookmark
             independentButton: Tampilkan kontrol bookmark di sidebar diskusi, bukan dropdown
