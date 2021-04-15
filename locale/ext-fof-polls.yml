@@ -1,26 +1,28 @@
 fof-polls:
   admin:
     permissions:
-      moderate: Ubah & hapus pemungutan suara
-      self_edit: Izinkan user untuk merubah pemungutan suaranya
-      start: Memulai pemungutan suara
-      vote: Memilih pemungutan suara
+      view_results_without_voting: Lihat hasil tanpa pemungutan suara
+      start: Mulai polling
+      self_edit: Izinkan user untuk merubah pollingnya
+      vote:  Pemungutan suara pada polling
+      change_vote: Edit suara
+      moderate: Edit & hapus polling
 
   forum:
-    days_remaining: "Pemungutan suara berakhir pada {time}"
-    no_permission: Anda tidak memiliki izin untuk melakukan pemungutan suara
-    poll_ended: Pemungutan suara ini sudah berakhir
+    days_remaining: "Polling berakhir pada {time}"
+    no_permission: Anda tidak memiliki izin untuk melakukan polling
+    poll_ended: Polling ini sudah berakhir
     public_poll: Lihat pemilih
 
     composer_discussion:
-      add_poll: Membuat Pemungutan Suara
+      add_poll: Membuat Polling
       edit_poll: => fof-polls.forum.moderation.edit
 
     modal:
-      add_title: Membuat Pemungutan Suara
+      add_title: Membuat Polling
       add_option_label: Masukkan Pilihan
-      date_placeholder: Waktu berakhirnya pemungutan suara (Opsional)
-      edit_title: Ubah Pemungutan Suara
+      date_placeholder: Waktu berakhirnya polling (Opsional)
+      edit_title: Edit polling
       include_question: Anda harus memasukkan pertanyaan
       max: Anda dapat memiliki maksimal 10 jawaban
       min: Memasukkan minimal 2 jawaban
@@ -32,12 +34,12 @@ fof-polls:
       submit: Masukkan
 
     moderation:
-      delete: Hapus Pemungutan Suara
-      delete_confirm: Apakah anda yakin ingin menghapus pemungutan suara ini?
-      edit: Ubah pemungutan suara
+      delete: Hapus Polling
+      delete_confirm: Apakah anda yakin ingin menghapus polling ini?
+      edit: Edit polling
 
     tooltip:
-      badge: Pemungutan Suara
+      badge: Polling
       votes: "1 suara|{count} suara"
 
     votes_modal:
