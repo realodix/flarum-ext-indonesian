@@ -28,8 +28,6 @@ fof-user-directory:
             username_za: Username (z-a)
             newest: Terbaru
             oldest: Terlama
-            seen_recent: Terakhir online
-            seen_oldest: Terjauh
             most_posts: Most posts
             least_posts: Least posts
             most_discussions: Most discussions
