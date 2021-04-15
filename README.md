@@ -64,11 +64,11 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v0.4.3
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.8.0
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.6.0
-- [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.7
+- [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.4.0
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.1
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.5.0
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.8.0
-- [fof/pages](https://github.com/friendsofflarum/pages) v0.6.0
+- [fof/pages](https://github.com/friendsofflarum/pages) v0.7.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.3.2
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.5.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v0.6.0
@@ -78,11 +78,11 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/split](https://github.com/friendsofflarum/split) v0.7.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.5.0
-- [fof/upload](https://github.com/friendsofflarum/upload) v0.13.1
+- [fof/upload](https://github.com/friendsofflarum/upload) v0.14.0
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.5.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.6.0
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.5.0
-- [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.9
+- [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.9.1
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v6.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v5.0.0
