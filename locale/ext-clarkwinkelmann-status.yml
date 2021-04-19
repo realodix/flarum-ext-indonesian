@@ -1,7 +1,6 @@
 clarkwinkelmann-status:
     admin:
         settings:
-            title: Pengaturan Status
             only-countries: Hanya bendera negara
             enable-text: Izinkan status teks
         permissions:

@@ -32,6 +32,7 @@
     "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
     "clarkwinkelmann/flarum-ext-popular-discussion-badge": "<0.2.3",
     "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
+    "clarkwinkelmann/flarum-ext-status": "<0.1.2",
     "clarkwinkelmann/flarum-ext-who-read": "<1.3.0",
     "fof/analytics": "<0.11.0",
     "fof/byobu": "<0.6.0",
