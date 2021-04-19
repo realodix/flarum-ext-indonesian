@@ -21,7 +21,6 @@ clarkwinkelmann-group-invitation:
         permissions:
             use: Gunakan link undangan grup
         settings:
-            title: Undangan Grup
             head:
                 code: Kode
                 group: Grup
