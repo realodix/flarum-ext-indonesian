@@ -96,7 +96,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 
 ### Catatan
 - Sejauh ini sudah hampir 100% diterjemahkan.
-- Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Sebagai contoh kata _password_ tetap Saya tulis _password_ (harusnya kata sandi), dan kata _upload_ tetap Saya tulis _upload_ (harusnya unggah).
+- Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Sebagai contoh kata _password_ tetap Saya tulis _password_ (harusnya kata sandi, dan kata _upload_ tetap Saya tulis _upload_ (harusnya unggah).
 - Teks bahasa Inggris masih ada dalam bentuk komentar yaml, diharapkan Anda bisa dengan mudah membantu Saya untuk mengkoreksi terjemahan yang sudah ada.
 
 ## Berkontribusi
