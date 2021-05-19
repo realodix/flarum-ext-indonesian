@@ -66,7 +66,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.6.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.4.0
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.1
-- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.5.0
+- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.0.0
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.8.0
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.7.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.4.1
