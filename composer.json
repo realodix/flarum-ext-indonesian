@@ -58,6 +58,9 @@
     "michaelbelgium/mybb-to-flarum": "<7.0"
   },
   "extra": {
+    "branch-alias": {
+        "dev-master": "2.x-dev"
+    },
     "flarum-extension": {
       "title": "Indonesian",
       "icon": {
