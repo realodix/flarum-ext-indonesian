@@ -19,6 +19,7 @@ fof-user-directory:
             title: Pengaturan Daftar User
             link: Tambahkan daftar user pada halaman utama agar user dapat melihat
             default-sort: Default sort
+            use-small-cards: Gunakan user cards kecil
 
     lib:
         sort:
