@@ -24,39 +24,6 @@
   "require": {
     "flarum/core": "^1.0.0"
   },
-  "conflict": {
-    "clarkwinkelmann/flarum-ext-bookmarks": "<0.1.3",
-    "clarkwinkelmann/flarum-ext-emojionearea": "<0.3.1",
-    "clarkwinkelmann/flarum-ext-first-post-approval": "<0.1.4",
-    "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
-    "clarkwinkelmann/flarum-ext-group-invitation": "<0.1.3",
-    "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
-    "clarkwinkelmann/flarum-ext-popular-discussion-badge": "<0.2.3",
-    "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
-    "clarkwinkelmann/flarum-ext-status": "<0.1.2",
-    "clarkwinkelmann/flarum-ext-who-read": "<1.3.0",
-    "fof/analytics": "<0.11.0",
-    "fof/byobu": "<0.6.0",
-    "fof/custom-footer": "<0.3.0",
-    "fof/discussion-language": "<0.3.0",
-    "fof/doorman": "<0.2.0",
-    "fof/formatting": "<0.3.1",
-    "fof/forum-statistics-widget": "<0.4.0",
-    "fof/gamification": "<0.4.0",
-    "fof/linguist": "<0.6.0",
-    "fof/masquerade": "<0.3.7",
-    "fof/moderator-notes": "<0.4.1",
-    "fof/nightmode": "<0.7.0",
-    "fof/pages": "<0.6.0",
-    "fof/reactions": "<0.5.0",
-    "fof/secure-https": "<0.3.0",
-    "fof/upload": "<0.11",
-    "fof/user-directory": "<0.6.1",
-    "fof/username-request": "<0.4.1",
-    "jslirola/flarum-ext-login2seeplus": "<0.1.9",
-    "michaelbelgium/flarum-profile-views": "<5.0.0",
-    "michaelbelgium/mybb-to-flarum": "<7.0"
-  },
   "extra": {
     "branch-alias": {
       "dev-master": "2.x-dev"
