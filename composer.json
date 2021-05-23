@@ -25,9 +25,6 @@
     "flarum/core": "^1.0.0"
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "2.x-dev"
-    },
     "flarum-extension": {
       "title": "Indonesian",
       "icon": {
@@ -40,6 +37,9 @@
     "flarum-locale": {
       "code": "id",
       "title": "Indonesian"
+    },
+    "branch-alias": {
+      "dev-master": "2.x-dev"
     }
   }
 }
