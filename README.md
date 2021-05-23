@@ -71,7 +71,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.7.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.4.1
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.5.0
-- [fof/reactions](https://github.com/friendsofflarum/reactions) v0.6.0
+- [fof/reactions](https://github.com/friendsofflarum/reactions) v1.0.0
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.3.0
 - [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v0.5.4
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v0.5.0
