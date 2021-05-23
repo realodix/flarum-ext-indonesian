@@ -54,7 +54,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.12.0
 - [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v0.3.5
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.6.1
-- [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.4.0
+- [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v1.0.0
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.4.0
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.4.1
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.4.0
@@ -80,8 +80,8 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.5.0
 - [fof/upload](https://github.com/friendsofflarum/upload) v0.14.0
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.0.0
-- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.6.2
-- [fof/username-request](https://github.com/friendsofflarum/username-request) v0.5.0
+- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.0.0
+- [fof/username-request](https://github.com/friendsofflarum/username-request) v1.0.0
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.9.1
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v6.0.0
