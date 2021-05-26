@@ -75,7 +75,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.3.0
 - [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v0.5.4
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.0
-- [fof/split](https://github.com/friendsofflarum/split) v0.7.0
+- [fof/split](https://github.com/friendsofflarum/split) v1.0.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.5.0
 - [fof/upload](https://github.com/friendsofflarum/upload) v0.14.0

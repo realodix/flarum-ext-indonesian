@@ -5,10 +5,8 @@ fof-split:
             split_discussion_label: Pisahkan post dari diskusi
     forum:
         post:
-            # was_split_to: "{count} post was split to {target}.|{count} posts were split to {target}."
-            was_split_to: "{count} dipisahkan ke {target}.|{count} dipisahkan ke {target}."
-            # was_split_from: "{count} post was split from {target}.|{count} posts were split from {target}."
-            was_split_from: "{count} post dipisahkan dari {target}.|{count} post dipisahkan dari {target}."
+            was_split_to: "{count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}"
+            was_split_from: "{count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}"
         split:
             # from: Split from here
             from: Dipisahkan dari sini
@@ -16,6 +14,5 @@ fof-split:
             to: Pisahkan ke sini
         modal:
             title: Split discussion
-            # new_discussion_label: Specify the title for the new discussion
             new_discussion_label: Tentukan judul untuk diskusi yang baru
             submit_button: Pisahkan
