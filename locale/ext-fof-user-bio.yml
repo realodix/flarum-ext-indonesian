@@ -1,16 +1,13 @@
 fof-user-bio:
   admin:
     permission:
-      # view: View bio
       view: Lihat bio
-      # editOwn: Edit own bio
       editOwn: Edit bio Anda
-      # editAny: Edit any bio
       editAny: Edit setiap bio
   setting:
     # bioLimit: Bio character limit
-    bioLimit: Batas karakter bio
+    bioLimit: Batas karakter
 
   forum:
-    # userbioPlaceholder: Write something about yourself
     userbioPlaceholder: Tulis sesuatu tentang diri Anda
+    userbioPlaceholderOtherUser: Tulis biografi untuk {username}

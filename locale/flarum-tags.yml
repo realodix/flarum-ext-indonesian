@@ -74,10 +74,8 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      # choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_primary_placeholder: "Pilih satu tag primer|Pilih {count} tag primer"
-      # choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      choose_secondary_placeholder: "Pilih 1 tag lagi|Pilih {count} tag lagi"
+      choose_primary_placeholder: "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}"
+      choose_secondary_placeholder: "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}"
       # edit_title: "Edit Tags for {title}"
       edit_title: "Edit Tag untuk {title}"
       submit_button: => core.ref.okay
@@ -111,8 +109,7 @@ flarum-tags:
       added_tags_text: "{username} menambahkan {tagsAdded}."
       # removed_tags_text: "{username} removed the {tagsRemoved}."
       removed_tags_text: "{username} menghapus {tagsRemoved}."
-      # tags_text: "{tags} tag|{tags} tags"
-      tags_text: "{tags} tag"
+      tags_text: "{count, plural, one {{tags} tag} other {{tags} tags}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:

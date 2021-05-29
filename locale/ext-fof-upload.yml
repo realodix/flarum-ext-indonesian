@@ -121,7 +121,7 @@ fof-upload:
       modal_empty_desktop: Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk di-upload.
       modal_empty_phone: Daftar file Anda kosong. Ketuk tombol di atas untuk men-upload file.
       select_file_a11y_label: Pilih file "{fileName}"
-      confirm_selection_btn: Pilih file|Pilih file
+      confirm_selection_btn: "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}"
       load_more_files_btn: Load more files
       hide_file:
         btn_a11y_label: Hide "{fileName}" from media manager

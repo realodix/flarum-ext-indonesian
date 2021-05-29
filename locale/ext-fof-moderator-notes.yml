@@ -23,6 +23,6 @@ fof-moderator-notes:
       notes: Catatan Moderator
 
   api:
-    auto_note: "_Saya beralih ke user ini:_ alasan"
-    auto_note_actor: "_Beralih ke_ @username: alasan"
+    auto_note: "_Saya beralih ke user ini:_ {reason}"
+    auto_note_actor: "_Beralih ke_ @{username}: {reason}"
     no_reason_provided: Tidak ada alasan yang diberikan

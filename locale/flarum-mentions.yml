@@ -4,6 +4,16 @@ flarum-mentions:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the mentions Settings page.
+    settings:
+      allow_username_format_label: Allow username mention format (@Username)
+      allow_username_format_text: |
+        Format saat ini untuk  user mentions adalah @"Display Name"#ID.
+        Pengaturan ini memungkinkan penggunaan format lama @Username, namun akan tetap dikonversi ke format baru setelah disimpan.
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 
@@ -44,6 +54,10 @@ flarum-mentions:
     user:
       # mentions_link: Mentions
       mentions_link: Mention
+
+    # These translations are used in the post mentions
+    post_mention:
+      deleted_text: "[unknown]"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
