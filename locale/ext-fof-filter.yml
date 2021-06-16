@@ -1,43 +1,31 @@
 fof-filter:
     forum:
         flagger_name: Auto Moderator
-        # flaged_text: Contained blocked strings
-        flaged_text : Mengandung string yang diblokir
+        flag_message : Mengandung string yang diblokir
     admin:
         title: Filter
-        # help: Input text or words to filter, separated by comma + space. If the content of a user’s post contains a string you want to filter, it will be flagged for approval. Resistant against 133t.
-        help: Masukkan teks atau kata-kata untuk disaring, dipisahkan dengan koma + spasi. Jika konten berisi string yang ingin Anda filter, itu akan ditandai untuk disetujui. Tahan terhadap 133t.
+        help: Masukkan teks atau kata-kata untuk difilter, dipisahkan dengan koma + spasi. Jika konten berisi string yang ingin Anda filter, itu akan ditandai untuk disetujui. Tahan terhadap 133t.
         # help2: Interval in minutes in which posts from the same user in the same discussion will be automatically merged.
         help2: Interval dalam beberapa menit di mana post dari user yang sama dalam diskusi yang sama akan secara otomatis digabungkan.
         # email_help: Body of flagged email. Accepts html or plaintext.
         email_help: Isi pesan email yang ditandai. Menerima html atau plaintext.
-        # filter_label: Strings to filter
         filter_label: String untuk memfilter
-        # countLabel: Censor Tolorance
         countLabel: Sensor Tolorance
         cooldownLabel: Merge Post Cooldown
         input:
-            # placeholder: Strings to be filtered
             placeholder: String yang akan difilter
-            # filter_title: Strings to filter
             filter_title: String untuk memfilter
-            # email_label: Email Settings
             email_label: Pengaturan Email
             switch:
-              # email: Email user when post is filtered
               email: Email user saat post telah difilter
-              # merge: Auto merge double posts
               merge: Gabungkan post secara otomatis
-            # email_subject: Subject
             email_subject: Judul
             # email_body: Body
             email_body: Isi pesan
         nav:
             text: Filter
-            # desc: Filter posts by words
             desc: Filter post dengan kata-kata
         email:
-            # default_subject: Regarding Your Recent Post
             default_subject: Mengenai Post Terbaru Anda
             default_text: |
                 Terima kasih telah mengirim! Sayangnya, post Anda dihapus karena berisi sesuatu yang tidak ingin kami lihat di forum kami.

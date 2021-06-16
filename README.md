@@ -58,7 +58,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v1.0.0
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v1.0.0
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v1.0.0
-- [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.4.0
+- [fof/filter](https://github.com/FriendsOfFlarum/filter) v1.0.0
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v1.0.0
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v1.0.0
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v1.0.0
