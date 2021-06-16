@@ -51,7 +51,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
-- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.12.0
+- [fof/analytics](https://github.com/friendsofflarum/analytics) v1.0.0
 - [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v0.3.5
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.6.1
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v1.0.0

@@ -3,20 +3,15 @@ fof-analytics:
         popup:
             section:
                 googleAnalytics: Google Analytics
-                piwik: Piwik
+                Matomo: Matomo
 
             field:
-                # statusGoogle: Enable Google Analytics
                 statusGoogle: Aktifkan Google Analytics
-                # optTrackingCode: Optimize Tracking Code (optional)
                 optTrackingCode: Optimalkan Kode Pelacakan (opsional)
-                # googleTrackingCode: Tracking Code ID
-                googleTrackingCode: Kode ID Tracking
+                googleTrackingCode: Kode ID Pelacakan
                 googleGTMCode: GTM code ID (optional)
-                # statusPiwik: Enable Piwik
-                statusPiwik: Aktifkan Piwik
-                # piwikUrl: Piwik domain or URL
-                piwikUrl: Domain Piwik atau URL
+                statusPiwik: Aktifkan Matomo
+                piwikUrl: Domain Matomo atau URL
                 piwikSiteId: Site ID
                 # piwikTrackSubdomain: Track visitors across all subdomains of Flarum
                 piwikTrackSubdomain: Tracking pengunjung di semua subdomain Flarum
@@ -25,14 +20,12 @@ fof-analytics:
                 # piwikHideAliasUrl: In the "Outlinks" report, hide clicks to known alias URLs
                 piwikHideAliasUrl: Dalam laporan "Link keluar", sembunyikan klik ke URL alias yang dikenal
                 piwikAliasUrl: Alias URL
-                # piwikTrackAccounts: Track individual user accounts
                 piwikTrackAccounts: Tracking setiap akun user
-                # piwikAuthToken: Authentication Token
                 piwikAuthToken: Token Otentikasi
 
             placeholder:
                 piwikAuthToken: |
-                    Isi token ini untuk mengaktifkan tab Piwik stats di panel admin.
+                    Isi token ini untuk mengaktifkan tab Matomo stats di panel admin.
                     Anda dapat menemukannya di Settings > Personal > API Authentication Token.
 
             trackAccounts:
@@ -42,3 +35,6 @@ fof-analytics:
                 username: Tracking dengan username
                 # email: Track by email
                 email: Tracking dengan email
+
+        matomo-widget:
+            title: Matomo
