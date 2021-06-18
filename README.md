@@ -36,7 +36,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [clarkwinkelmann/flarum-ext-create-user-modal](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) v1.3.0  
 - [clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) v1.0.0
 - [clarkwinkelmann/flarum-ext-first-post-approval](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval) v1.0.0
-- [clarkwinkelmann/flarum-ext-follow-tags-prompt](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) v0.2.1
+- [clarkwinkelmann/flarum-ext-follow-tags-prompt](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) v1.0.0
 - [clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) v1.0.0
 - [clarkwinkelmann/flarum-ext-likes-received](https://github.com/clarkwinkelmann/flarum-ext-likes-received) v0.1.2
 - [clarkwinkelmann/flarum-ext-mailing](https://github.com/clarkwinkelmann/flarum-ext-mailing) v1.0.0
