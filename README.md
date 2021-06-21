@@ -28,9 +28,9 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [askvortsov1/flarum-trust-levels](https://github.com/askvortsov1/flarum-trust-levels) v0.1.2
 - [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.1.0
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.3.0
+- [askvortsov1/flarum-trust-levels](https://github.com/askvortsov1/flarum-trust-levels) v0.2.1
 - [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v1.0.0
 - [clarkwinkelmann/flarum-ext-colorful-borders](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders) v0.1.0
 - [clarkwinkelmann/flarum-ext-create-user-modal](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) v1.3.0  
