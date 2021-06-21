@@ -28,7 +28,7 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [askvortsov/flarum-trust-levels](https://github.com/askvortsov/flarum-trust-levels) v0.1.2
+- [askvortsov1/flarum-trust-levels](https://github.com/askvortsov1/flarum-trust-levels) v0.1.2
 - [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.1.0
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.3.0
 - [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v1.0.0
@@ -47,7 +47,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [clarkwinkelmann/flarum-ext-status](https://github.com/clarkwinkelmann/flarum-ext-status) v0.1.2
 - [clarkwinkelmann/flarum-ext-watch-search](https://github.com/clarkwinkelmann/flarum-ext-watch-search) dev-master
 - [clarkwinkelmann/flarum-ext-who-read](https://github.com/askvortsov1/flarum-categories) v1.3.0
-- [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.2
+- [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.9.2
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
@@ -70,14 +70,14 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.0.0
 - [fof/pages](https://github.com/friendsofflarum/pages) v1.0.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v1.0.2
-- [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.5.0
+- [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.0.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v1.0.0
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.0.0
-- [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v0.5.4
+- [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v1.0.0
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.0
 - [fof/split](https://github.com/friendsofflarum/split) v1.0.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
-- [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.5.0
+- [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.0.0
 - [fof/upload](https://github.com/friendsofflarum/upload) v1.0.1
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.0.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.0.1
