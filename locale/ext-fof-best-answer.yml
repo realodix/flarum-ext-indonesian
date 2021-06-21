@@ -43,19 +43,19 @@ fof-best-answer:
       awarded: |
         Hey {recipient_display_name},
 
-        Hebat, {actor_display_name} baru saja menetapkan post Anda sebagai best answer (jawaban terbaik) dalam diskusi '{discussion_title}'. Terima kasih telah membantu.
+        Hebat, {actor_display_name} baru saja menetapkan post Anda sebagai best answer (jawaban terbaik) dalam diskusi: {discussion_title}. Terima kasih telah membantu.
 
         Lihat di: {discussion_url}
       ba-set: |
         Hey {recipient_display_name},
 
-        {actor_display_name} cukup berikan best answer (jawaban terbaik) dalam diskusi '{discussion_title}', yang Anda ikuti.
+        {actor_display_name} cukup berikan best answer (jawaban terbaik) dalam diskusi: {discussion_title}, yang Anda ikuti.
 
         Lihat di: {discussion_url}
       select: |
         Hey {recipient_display_name},
 
-        Just checking in; sekarang Anda seharusnya memiliki banyak balasan untuk pertanyaan Anda - '{discussion_title}'. Semoga salah satu dari mereka telah membantu Anda memecahkan masalah Anda.
+        Just checking in; sekarang Anda seharusnya memiliki banyak balasan untuk pertanyaan Anda: {discussion_title}. Semoga salah satu dari mereka telah membantu Anda memecahkan masalah Anda.
 
         Jika demikian, itu akan sangat membantu bagi anggota lainnya jika Anda bisa menetapkan best answer (jawaban terbaik) untuk pertanyaan Anda. Ini akan membantu orang dengan masalah yang sama menemukan jawaban yang mereka butuhkan, dan ini juga merupakan ucapan terima kasih yang besar kepada anggota yang telah membantu Anda. Mereka memberikan waktu mereka secara sukarela, jadi menyenangkan untuk memberi tahu mereka bahwa mereka sudah melakukannya dengan baik.
 
