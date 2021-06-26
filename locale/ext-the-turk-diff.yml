@@ -1,6 +1,6 @@
 the-turk-diff:
   forum:
-    revisions: "{revisionCount} revision | {revisionCount} revisions"
+    revisions: "{revisionCount, plural, one {{revisionCount} revision} other {{revisionCount} revisions}}"
     emptyText: Tidak Ada Revisi
     editedText: => core.forum.post.edited_text
     deletedText: (dihapus)
@@ -37,7 +37,7 @@ the-turk-diff:
     editedInfo: => core.forum.post.edited_tooltip
     deletedInfo: "{username} menghapus konten ini {ago}"
     createdInfo: "{username} membuat {ago}"
-    revisionInfo: "Diedit {revisionCount} kali, yang terbaru ada di atas|Diedit {revisionCount} kali, yang terbaru ada di atas"
+    revisionInfo: "Edited {revisionCount, plural, one {{revisionCount} time} other {{revisionCount} times}}, newest at the top"
     noDiff: Tidak ada perbedaan yang ditemukan antara kedua konten ini.
 
     differences:

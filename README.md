@@ -89,7 +89,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v7.1
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.3
-- [the-turk/flarum-diff](https://github.com/the-turk/flarum-diff) v1.0.8 (tags)
+- [the-turk/flarum-diff](https://github.com/the-turk/flarum-diff) v1.1.0
 - [the-turk/flarum-extended-appearance](https://github.com/the-turk/flarum-extended-appearance) v0.1.1
 - [the-turk/flarum-password-strength](https://github.com/the-turk/flarum-password-strength) v1.0.2
 
