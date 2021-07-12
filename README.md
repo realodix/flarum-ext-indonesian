@@ -69,7 +69,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.0.0
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.0.0
 - [fof/pages](https://github.com/friendsofflarum/pages) v1.0.0
-- [fof/polls](https://github.com/friendsofflarum/polls) v1.0.2
+- [fof/polls](https://github.com/friendsofflarum/polls) v1.0.3
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.0.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v1.0.0
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.0.0
