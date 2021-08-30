@@ -60,7 +60,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v1.0.1
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v1.0.1
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v1.0.0
-- [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v1.0.0
+- [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v1.0.1
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v1.0.0
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v1.0.0
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v1.0.0
