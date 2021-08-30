@@ -8,9 +8,9 @@ clarkwinkelmann-who-read:
             show: Tampilkan {count} lagi
             info: Dan {count} lagi
         footer:
-            read-this-post: "{0} Tidak ada yang membaca post ini|{1} Satu user membaca post ini|]1,Inf] {count} user membaca post ini"
-            read-no-further: "{0} Semua orang membaca lebih lanjut|{1} Satu user tidak membaca lebih lanjut|]1,Inf] {count} user tidak membaca lebih lanjut"
-            read-to-end: "{0} Tidak ada yang membaca sampai akhir|{1} Satu user membaca sampai akhir|]1,Inf] {count} user membaca sampai akhir"
+            read-this-post: "{count, plural, =0 {Nobody read this post} one {One user read this post} other {# users read this post}}"
+            read-no-further: "{count, plural, =0 {Everybody read further} one {One user did not read further} other {# did not read further}}"
+            read-to-end: "{count, plural, =0 {Nobody read to the end} one {One user read to the end} other {# users read to the end}}"
         controls:
             set-unread: Tandai belum dibaca
             remove-unread: Hapus tanda belum dibaca
