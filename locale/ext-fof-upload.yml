@@ -84,14 +84,20 @@ fof-upload:
     templates:
       file: Template download file default
       file_description: |
-        Memperlihatkan nama file dan beberapa informasi umum. Proxies download melalui php, memungkinkan pengumpulan statistik dan hotlink protection.
+        Memperlihatkan nama file dan beberapa informasi umum. Proxies download melalui PHP, memungkinkan pengumpulan statistik dan hotlink protection.
       image: Template download gambar default
+      image_description: |
+        Menampilkan thumbnail gambar dan proxy yang didownload melalui PHP. Mengizinkan pengumpulan statistik dan hotlink protection.
       # image-preview: Complete image preview template
       image-preview: Template pratinjau gambar yang lengkap
       image-preview_description: |
         Memperlihatkan gambar lengkap in-line. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.
-      image_description: |
-        Memperlihatkan thumbnail gambar dan proxies download melalui php. Mengizinkan statistik dikumpulkan dan hotlink protection.
+      markdown-image: Markdown image template
+      markdown-image_description: |
+        Menampilkan gambar lengkap sebaris menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown agar ini berfungsi.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection diabaikan.
+      bbcode-image: BBCode image template
+      bbcode-image_description: |
+        Menampilkan gambar lengkap sebaris menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode agar ini berfungsi.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection.
       just-url: Just URL
       just-url_description: |
         Hanya menyisipkan URL. Perenderan dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection diabaikan.
