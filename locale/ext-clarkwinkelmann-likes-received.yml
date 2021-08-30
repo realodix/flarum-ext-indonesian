@@ -1,7 +1,7 @@
 clarkwinkelmann-likes-received:
     forum:
         user-card:
-            likes: "{likes} like diterima"
+            likes: "{likes, plural, one {# like received} other {# likes received}}"
 
     admin:
         permission:
