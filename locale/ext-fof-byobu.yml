@@ -97,6 +97,7 @@ fof-byobu:
                 {discussion_url}
 
                 Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+
             private_discussion_replied: |
                 Halo {recipient_display_name},
 
@@ -106,6 +107,7 @@ fof-byobu:
                 {post_url}
 
                 Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+
             recipient_removed: |
                 Halo {recipient_display_name},
 
@@ -115,19 +117,11 @@ fof-byobu:
                 {discussion_url}
 
                 Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+
             private_discussion_added: |
                 Halo {recipient_display_name},
 
                 {actor_display_name} menambahkan Anda ke diskusi pribadi yang ada: '{discussion_title}'.
-
-                Lihat di:
-                {discussion_url}
-
-                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
-            made_public: |
-                Halo {recipient_display_name},
-
-                {actor_display_name} membuat diskusi pribadi menjadi publik: {discussion_title}. Isinya sekarang dapat dilihat oleh siapa saja yang dapat melihat tag di bawahnya.
 
                 Lihat di:
                 {discussion_url}
