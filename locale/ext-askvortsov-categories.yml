@@ -25,7 +25,7 @@ askvortsov-categories:
     title: Pengaturan Kategori
   forum:
     all_categories:
-      meta_description_text: All Categories
+      meta_description_text: Semua Kategori
       meta_title_text: => askvortsov-categories.ref.categories
     header:
       back_to_categories_tooltip: Kembali ke Kategori
