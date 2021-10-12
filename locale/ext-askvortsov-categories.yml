@@ -13,9 +13,9 @@ askvortsov-categories:
       parent_remove_last_discussion: Sembunyikan sebagian besar diskusi terbaru untuk tag top-level?
       small_forum_optimized: Optimalkan untuk forum kecil?
     help:
-      child_bare_icon: Should icons on child categories be displayed without a circular background?
-      full_page_desktop: Should the sidebar nav menu be collapsed to a row (like on the traditional tags page)? This will also hide widgets (such as Friends of Flarum Forum Statistics) from the categories page navbar.
-      small_forum_optimized:  This will give more accurate discussion/post counts, but will slow medium and large forums dramatically.
+      child_bare_icon: Haruskah ikon pada kategori anak ditampilkan tanpa circular background?
+      full_page_desktop: Haruskah menu navigasi sidebar diciutkan menjadi satu baris (seperti pada halaman tag tradisional)? Ini juga akan menyembunyikan widget (seperti Friends of Flarum Forum Statistics) dari navbar halaman kategori.
+      small_forum_optimized: Ini akan memberikan jumlah diskusi/post yang lebih akurat, tetapi akan memperlambat forum menengah dan besar secara dramatis.
     headings:
       nav: Navigasi
       layout: Layout
