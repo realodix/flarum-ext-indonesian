@@ -18,7 +18,6 @@ fof-byobu:
 
         labels:
             recipients: "{count, plural, one {{count} Recipient} other {{count} Recipients}}"
-            user_deleted: -dihapus-
 
         nav:
             start_button: Diskusikan Secara Pribadi
