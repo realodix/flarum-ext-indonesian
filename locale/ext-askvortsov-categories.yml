@@ -4,14 +4,18 @@ askvortsov-categories:
       categories_label: Kategori
     labels:
       keep_tags_nav: Simpan link halaman tag di nav sidebar?
-      child_bare_icon: Haruskah ikon pada kategori anak ditampilkan tanpa latar belakang lingkaran?
+      child_bare_icon: Bare child icons?
       compact_mobile_mode: Mode compact mobile
-      full_page_desktop: Haruskah menu nav sidebar diciutkan menjadi satu baris (seperti pada halaman tag tradisional)? Ini juga akan menyembunyikan widget (seperti Friends of Flarum Forum Statistics) dari halaman kategori navbar.
+      full_page_desktop: Full page desktop?
       parent_remove_icon: Sembunyikan ikon untuk tag top-level?
       parent_remove_description: Sembunyikan deskripsi untuk tag top-level?
       parent_remove_stats: Sembunyikan statistik untuk tag top-level?
       parent_remove_last_discussion: Sembunyikan sebagian besar diskusi terbaru untuk tag top-level?
-      small_forum_optimized: Optimalkan untuk forum kecil? Ini akan memberikan jumlah diskusi / posting yang lebih akurat, tetapi akan memperlambat forum menengah dan besar secara dramatis.
+      small_forum_optimized: Optimalkan untuk forum kecil?
+    help:
+      child_bare_icon: Should icons on child categories be displayed without a circular background?
+      full_page_desktop: Should the sidebar nav menu be collapsed to a row (like on the traditional tags page)? This will also hide widgets (such as Friends of Flarum Forum Statistics) from the categories page navbar.
+      small_forum_optimized:  This will give more accurate discussion/post counts, but will slow medium and large forums dramatically.
     headings:
       nav: Navigasi
       layout: Layout
@@ -20,15 +24,18 @@ askvortsov-categories:
       performance: Performa
     title: Pengaturan Kategori
   forum:
-    categories:
+    all_categories:
+      meta_description_text: All Categories
+      meta_title_text: => askvortsov-categories.ref.categories
     header:
       back_to_categories_tooltip: Kembali ke Kategori
     index:
-      categories_link: Kategori
-    meta:
-      categories_title: Kategori
+      categories_link: => askvortsov-categories.ref.categories
     stat-widgets:
       discussion_label: Diskusi
       post_label: Posts
     last_discussion_widget:
       no_discussions: Belum Ada Diskusi (Belum!)
+
+  ref:
+    categories: Categories
