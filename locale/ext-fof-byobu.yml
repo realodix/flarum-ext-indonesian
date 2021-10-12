@@ -15,14 +15,18 @@ fof-byobu:
         composer_private_discussion:
             submit_button: Post Diskusi Pribadi
             title_placeholder: Judul Diskusi Pribadi
+
         labels:
-            recipients: "{count} Penerima|{count} Penerima"
+            recipients: "{count, plural, one {{count} Recipient} other {{count} Recipients}}"
             user_deleted: -dihapus-
+
         nav:
             start_button: Diskusikan Secara Pribadi
             nav_item: "Diskusi Pribadi"
+
         input:
             search_recipients: Cari username penerima dengan mengetikkan tiga karakter pertama..
+
         search:
             headings:
                 groups: Hak Akses
@@ -30,9 +34,15 @@ fof-byobu:
             titles:
                 update_recipients: Ubah penerima untuk {title}
                 add_recipients: Tambahkan penerima untuk diskusi Anda
+
+            labels:
+                selected_users: User terpilih
+                search_field: Cari user
+
             help:
                 add_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini. Diperlukan setidaknya 1 penerima (selain Anda).
                 update_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini.
+
         post:
             recipients_modified:
                 added_and_removed: "{username} menambahkan {added} dan menghapus {removed}."
@@ -42,7 +52,6 @@ fof-byobu:
         user:
             settings:
                 block_pd: Blokir diskusi pribadi
-                unified_index: Gabungkan diskusi pribadi di dalam indeks terpadu
             byobu_link: Diskusi Pribadi
             dropdown_label: Diskusi Pribadi
 
@@ -55,9 +64,6 @@ fof-byobu:
             pd_user_left_text: "{username} meninggalkan diskusi pribadi"
             pd_added_text: "{username} menambahkan Anda ke diskusi pribadi"
             pd_added_label: "Seseorang menambahkan Saya ke diskusi pribadi yang sudah ada"
-
-        confirm:
-            make_public: Ini akan membuat diskusi pribadi terlihat oleh semua orang. Pertimbangkan apakah ini tindakan yang benar sebelum melanjutkan.
 
     admin:
         permission:
@@ -79,11 +85,12 @@ fof-byobu:
             recipient_removed: "[Private Discussion] {display_name} keluar dari diskusi"
             private_discussion_added: "[Private Discussion] {display_name} menambahkan Anda ke diskusi pribadi"
             made_public: "[Private Discussion] {display_name} membuat diskusi menjadi publik"
+
         body:
             private_discussion_created: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima, berjudul '{discussion_title}'.
+                {actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima: {discussion_title}.
 
                 Lihat di:
                 {discussion_url}
@@ -92,7 +99,7 @@ fof-byobu:
             private_discussion_replied: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima, berjudul '{discussion_title}'.
+                {actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima: {discussion_title}.
 
                 Lihat di:
                 {post_url}
@@ -110,7 +117,7 @@ fof-byobu:
             private_discussion_added: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} menambahkan Anda ke diskusi pribadi yang ada, berjudul '{discussion_title}'.
+                {actor_display_name} menambahkan Anda ke diskusi pribadi yang ada: '{discussion_title}'.
 
                 Lihat di:
                 {discussion_url}
@@ -119,7 +126,7 @@ fof-byobu:
             made_public: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} membuat diskusi pribadi menjadi publik, berjudul '{discussion_title}'. Isinya sekarang dapat dilihat oleh siapa saja yang dapat melihat tag di bawahnya.
+                {actor_display_name} membuat diskusi pribadi menjadi publik: {discussion_title}. Isinya sekarang dapat dilihat oleh siapa saja yang dapat melihat tag di bawahnya.
 
                 Lihat di:
                 {discussion_url}
