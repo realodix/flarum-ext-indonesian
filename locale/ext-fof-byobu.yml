@@ -2,107 +2,77 @@ fof-byobu:
     forum:
         badges:
             is_private:
-                # tooltip: Private discussion
                 tooltip: Diskusi pribadi
+
         buttons:
-            # add_recipients: Recipients
             add_recipients: Penerima
             submit: OK
-            # edit_recipients: Edit Recipients
             edit_recipients: Ubah Penerima
-            # send_pd: "Send {username} a message"
             send_pd: "Kirim pesan ke {username}"
-            # cancel: Cancel
             cancel: Batalkan
-            # remove_from_discussion: Leave this private discussion
             remove_from_discussion: Tinggalkan diskusi pribadi ini
+
         composer_private_discussion:
-            # submit_button: Post Private Discussion
             submit_button: Post Diskusi Pribadi
-            # title_placeholder: Private Discussion Title
             title_placeholder: Judul Diskusi Pribadi
+
         labels:
-            # recipients: "{count} Recipient|{count} Recipients"
-            recipients: "{count} Penerima|{count} Penerima"
-            # user_deleted: -deleted-
-            user_deleted: -dihapus-
+            recipients: "{count, plural, one {{count} Recipient} other {{count} Recipients}}"
+
         nav:
             start_button: Diskusikan Secara Pribadi
             nav_item: "Diskusi Pribadi"
+
         input:
-            # search_recipients: Search recipient by typing first three characters...
             search_recipients: Cari username penerima dengan mengetikkan tiga karakter pertama..
+
         search:
             headings:
-                # groups: Permission Groups
                 groups: Hak Akses
         modal:
             titles:
-                # update_recipients: Update recipients of {title}
                 update_recipients: Ubah penerima untuk {title}
-                # add_recipients: Add recipients to your discussion
                 add_recipients: Tambahkan penerima untuk diskusi Anda
+
+            labels:
+                selected_users: User terpilih
+                search_field: Cari user
+
             help:
-                # add_recipients: This discussion will only be visible to the users you choose here. At least 1 recipient (other than yourself) is required.
                 add_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini. Diperlukan setidaknya 1 penerima (selain Anda).
-                # update_recipients: This discussion will only be visible to the users you choose here.
                 update_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini.
+                selected_users: Klik nama user untuk menghapusnya.
+                click_user_to_remove_tooltip: Klik untuk menghapus
+
         post:
             recipients_modified:
-                # added_and_removed: "{username} added recipients {added} and removed {removed}."
                 added_and_removed: "{username} menambahkan {added} dan menghapus {removed}."
-                # added: "{username} added recipients {added}."
                 added: "{username} menambahkan {added}."
-                # removed: "{username} removed recipients {removed}."
                 removed: "{username} menghapus {removed}."
-                # removed_self: "{username} left the private discussion."
                 removed_self: "{username} meninggalkan diskusi pribadi."
         user:
             settings:
-                # block_pd: Block private discussions
                 block_pd: Blokir diskusi pribadi
-                # unified_index: Combine private discussions inside unified index
-                unified_index: Gabungkan diskusi pribadi di dalam indeks terpadu
-            # byobu_link: Private Discussions
             byobu_link: Diskusi Pribadi
-            # dropdown_label: Private Discussions
             dropdown_label: Diskusi Pribadi
 
         notifications:
-            # pd_label: Someone includes me in a new private discussion
             pd_label: Seseorang memasukkan Saya dalam diskusi pribadi
-            # pd_reply_label: Someone posts in a private discussion I'm a recipient of
             pd_reply_label: Seseorang memposting dalam diskusi pribadi yang saya terima
-            # pd_reply_text: "{username} posted in a private discussion you're a part of"
             pd_reply_text: "{username} memposting dalam diskusi pribadi dimana Anda ada di dalamnya"
-            # pd_text: "{username} started a new private discussion with you"
             pd_text: "{username} memulai diskusi pribadi baru dengan Anda"
-            # pd_user_left_label: A recipient user leaves a private discussion I'm a part of
             pd_user_left_label: Seorang user penerima meninggalkan diskusi pribadi yang saya ikuti
-            # pd_user_left_text: "{username} left the private discussion"
             pd_user_left_text: "{username} meninggalkan diskusi pribadi"
-            # pd_added_text: "{username} added you to a private discussion"
             pd_added_text: "{username} menambahkan Anda ke diskusi pribadi"
-            # pd_added_label: "Someone adds me to an existing private discussion"
             pd_added_label: "Seseorang menambahkan Saya ke diskusi pribadi yang sudah ada"
-
-        confirm:
-            # make_public: This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding.
-            make_public: Ini akan membuat diskusi pribadi terlihat oleh semua orang. Pertimbangkan apakah ini tindakan yang benar sebelum melanjutkan.
 
     admin:
         permission:
-            # create_private_discussions_with_users: Create private discussions with users
             create_private_discussions_with_users: Diskusi pribadi dengan user
-            # create_private_discussions_with_groups: Create private discussions with groups
             create_private_discussions_with_groups: Diskusi pribadi dengan group
-            # create_private_discussions_with_blocking_users: Create private discussions with users that block it
             create_private_discussions_with_blocking_users: Diskusi pribadi dengan user yang memblokirnya
-            # edit_user_recipients: Edit users partaking in private discussions
             edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
-            # edit_group_recipients: Edit groups partaking in private discussions
             edit_group_recipients: Edit group yang mengambil bagian dalam diskusi pribadi
-            # view_private_discussions-when-flagged: View private discussions of other users if flagged
             view_private_discussions-when-flagged: Lihat diskusi pribadi user lain jika ditandai
 
         settings:
@@ -116,25 +86,28 @@ fof-byobu:
             recipient_removed: "[Private Discussion] {display_name} keluar dari diskusi"
             private_discussion_added: "[Private Discussion] {display_name} menambahkan Anda ke diskusi pribadi"
             made_public: "[Private Discussion] {display_name} membuat diskusi menjadi publik"
+
         body:
             private_discussion_created: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima, berjudul '{discussion_title}'.
+                {actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima: {discussion_title}.
 
                 Lihat di:
                 {discussion_url}
 
                 Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+
             private_discussion_replied: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima, berjudul '{discussion_title}'.
+                {actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima: {discussion_title}.
 
                 Lihat di:
                 {post_url}
 
                 Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+
             recipient_removed: |
                 Halo {recipient_display_name},
 
@@ -144,19 +117,11 @@ fof-byobu:
                 {discussion_url}
 
                 Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
+
             private_discussion_added: |
                 Halo {recipient_display_name},
 
-                {actor_display_name} menambahkan Anda ke diskusi pribadi yang ada, berjudul '{discussion_title}'.
-
-                Lihat di:
-                {discussion_url}
-
-                Anda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.
-            made_public: |
-                Halo {recipient_display_name},
-
-                {actor_display_name} membuat diskusi pribadi menjadi publik, berjudul '{discussion_title}'. Isinya sekarang dapat dilihat oleh siapa saja yang dapat melihat tag di bawahnya.
+                {actor_display_name} menambahkan Anda ke diskusi pribadi yang ada: '{discussion_title}'.
 
                 Lihat di:
                 {discussion_url}
