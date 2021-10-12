@@ -42,6 +42,8 @@ fof-byobu:
             help:
                 add_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini. Diperlukan setidaknya 1 penerima (selain Anda).
                 update_recipients: Diskusi ini hanya akan terlihat oleh user yang Anda pilih di sini.
+                selected_users: Klik nama user untuk menghapusnya.
+                click_user_to_remove_tooltip: Klik untuk menghapus
 
         post:
             recipients_modified:
