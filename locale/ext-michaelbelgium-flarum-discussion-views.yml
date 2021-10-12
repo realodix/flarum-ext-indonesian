@@ -1,39 +1,35 @@
 core:
   forum:
     index_sort:
-      # popular_button: Popular
       popular_button: Populer
-      # unpopular_button: Unpopular
       unpopular_button: Tidak populer
 
 michaelbelgium-discussion-views:
   forum:
     modal_resetviews:
-      # title: Reset discussion view count
       title: Setel ulang jumlah tampilan diskusi
-      # submit_button: Yes, remove all
       submit_button: Ya, hapus semua
-      # label: This will remove {count} view of this discussion. Continue?|This will remove {count} views of this discussion. Continue?
-      label: Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan?|Ini akan menghapus {count} tampilan diskusi ini. Lanjutkan?
+      label: "{count, plural, one {This will remove {count} view of this discussion. Continue?} other {This will remove {count} views of this discussion. Continue?}}"
     discussion_controls:
-      # resetviews_button: Reset views
       resetviews_button: Reset jumlah tampilan
     viewlist:
       title: Latest viewers
+    post:
+      viewed_by: "{users} viewed this."
+      you: => core.ref.you
+      others_link: => core.ref.some_others
+      modal_title_text: User yang terakhir melihat diskusi ini
   admin:
       permissions:
-          # reset_views_label: Reset discussion views
           reset_views_label: Reset tampilan diskusi
-          # view_number_label: View discussion viewcount
           view_number_label: Lihat jumlah tampilan diskusi
       settings:
-        # title: Discussionviews settings
         title: Pengaturan jumlah tamlan diskusi
-        # track_unique_label: Track unique views
         track_unique_label: Lacak jumlah tampilan unik
-        # abbr_numbers_label: Abbreviate view numbers
+        track_guests: Track guests
         abbr_numbers_label: Persingkat angka jumlah tampilan
         show_filter_label: Enable (un)popular sort field
         max_viewcount: Maximum viewlist items
-        # show_viewlist_label: Enable viewlist
-        show_viewlist_label: Aktifkan daftar jumlah tampilan
+        max_viewcount_text: Ini berlaku untuk daftar tampilan footer dan daftar tampilan sidebar
+        show_viewlist_label: Aktifkan daftar tampilan
+        show_footer_viewlist_label: Aktifkan daftar tampilan footer
