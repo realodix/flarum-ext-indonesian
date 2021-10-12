@@ -1,54 +1,34 @@
 askvortsov-categories:
   admin:
     basics:
-      # categories_label: Categories
       categories_label: Kategori
     labels:
-      # keep_tags_nav: Keep the tags page link in the nav sidebar?
       keep_tags_nav: Simpan link halaman tag di nav sidebar?
-      # child_bare_icon: Should icons on child categories be displayed without a circular background?
       child_bare_icon: Haruskah ikon pada kategori anak ditampilkan tanpa latar belakang lingkaran?
-      # compact_mobile_mode: Compact mobile mode
       compact_mobile_mode: Mode compact mobile
-      # full_page_desktop: Should the sidebar nav menu be collapsed to a row (like on the traditional tags page)? This will also hide widgets (such as Friends of Flarum Forum Statistics) from the categories page navbar.
       full_page_desktop: Haruskah menu nav sidebar diciutkan menjadi satu baris (seperti pada halaman tag tradisional)? Ini juga akan menyembunyikan widget (seperti Friends of Flarum Forum Statistics) dari halaman kategori navbar.
-      # parent_remove_icon: Hide icons for top-level tags?
       parent_remove_icon: Sembunyikan ikon untuk tag top-level?
-      # parent_remove_description: Hide descriptions for top-level tags?
       parent_remove_description: Sembunyikan deskripsi untuk tag top-level?
-      # parent_remove_stats: Hide stats for top-level tags?
       parent_remove_stats: Sembunyikan statistik untuk tag top-level?
-      # parent_remove_last_discussion: Hide most recent discussions for top-level tags?
       parent_remove_last_discussion: Sembunyikan sebagian besar diskusi terbaru untuk tag top-level?
-      # small_forum_optimized: Optimize for small forums? This will give more accurate discussion/post counts, but will slow medium and large forums dramatically.
       small_forum_optimized: Optimalkan untuk forum kecil? Ini akan memberikan jumlah diskusi / posting yang lebih akurat, tetapi akan memperlambat forum menengah dan besar secara dramatis.
     headings:
-      # nav: Navigation
       nav: Navigasi
       layout: Layout
-      # parent_display: Parent Category Display
       parent_display: Tampilan Kategori Induk
-      # child_display: Child Category Display
       child_display: Tampilan Kategori Anak
-      # performance: Performance
       performance: Performa
-    # title: Categories Settings
     title: Pengaturan Kategori
   forum:
     categories:
     header:
-      # back_to_categories_tooltip: Back to Categories
       back_to_categories_tooltip: Kembali ke Kategori
     index:
-      # categories_link: Categories
       categories_link: Kategori
     meta:
-      # categories_title: Categories
       categories_title: Kategori
     stat-widgets:
-      # discussion_label: Discussions
       discussion_label: Diskusi
       post_label: Posts
     last_discussion_widget:
-      # no_discussions: No Discussions (Yet!)
       no_discussions: Belum Ada Diskusi (Belum!)
