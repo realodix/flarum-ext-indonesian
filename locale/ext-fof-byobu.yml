@@ -9,7 +9,6 @@ fof-byobu:
             submit: OK
             edit_recipients: Ubah Penerima
             send_pd: "Kirim pesan ke {username}"
-            # cancel: Cancel
             cancel: Batalkan
             remove_from_discussion: Tinggalkan diskusi pribadi ini
 
