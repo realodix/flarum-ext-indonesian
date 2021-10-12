@@ -4,7 +4,7 @@ fof-filter:
         flag_message : Mengandung string yang diblokir
     admin:
         title: Filter
-        help: Masukkan teks atau kata-kata untuk difilter, dipisahkan dengan koma + spasi. Jika konten berisi string yang ingin Anda filter, itu akan ditandai untuk disetujui. Tahan terhadap 133t.
+        bad_words_help: Masukkan teks atau kata untuk difilter, satu per baris. Jika konten post user berisi string yang ingin Anda filter, itu akan ditandai untuk persetujuan. Tahan terhadap 133t.
         # help2: Interval in minutes in which posts from the same user in the same discussion will be automatically merged.
         help2: Interval dalam beberapa menit di mana post dari user yang sama dalam diskusi yang sama akan secara otomatis digabungkan.
         # email_help: Body of flagged email. Accepts html or plaintext.
@@ -12,6 +12,7 @@ fof-filter:
         filter_label: String untuk memfilter
         countLabel: Sensor Tolorance
         cooldownLabel: Merge Post Cooldown
+        auto_merge_title: Auto merge
         input:
             placeholder: String yang akan difilter
             filter_title: String untuk memfilter
@@ -25,6 +26,8 @@ fof-filter:
         nav:
             text: Filter
             desc: Filter post dengan kata-kata
+        permission:
+            bypass_filter_label: Bypass word filter(s)
         email:
             default_subject: Mengenai Post Terbaru Anda
             default_text: |
