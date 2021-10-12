@@ -45,17 +45,17 @@ fof-best-answer:
         best_answer_in_discussion: Ketika best answer (jawaban terbaik) ditetapkan dalam diskusi yang Saya ikuti
 
     index:
-      ask_question: Ask a Question
-      cannot_ask_question: Cannot Ask a Question
-      solved_link: Solved discussions
-      unsolved_link: Unsolved discussions
+      ask_question: Tanyakan Pertanyaan
+      cannot_ask_question: Tidak Dapat Mengajukan Pertanyaan
+      solved_link: Diskusi yang diselesaikan
+      unsolved_link: Diskusi yang belum terpecahkan
     filter:
-      all_label: All questions
-      solved_label: Solved questions
-      unsolved_label: Unsolved questions
-      accessible_label: Solved/Unsolved selection
+      all_label: Semua pertanyaan
+      solved_label: Pertanyaan yang terpecahkan
+      unsolved_label: Pertanyaan yang belum terpecahkan
+      accessible_label: Pilihan terpecahkan/tidak terpecahkan
     composer:
-      titlePlaceholder: Question title
+      titlePlaceholder: Judul pertanyaan
   email:
     subject:
       awarded: Post Anda ditetapkan sebagai best answer (jawaban terbaik) oleh {display_name}
