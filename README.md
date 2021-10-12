@@ -28,7 +28,7 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.1.0
+- [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v3.0.4
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.3.0
 - [askvortsov1/flarum-trust-levels](https://github.com/askvortsov1/flarum-trust-levels) v0.2.1
 - [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v1.0.0
@@ -52,7 +52,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v1.0.0
-- [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v1.0.1
+- [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v1.1.5
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v1.0.1
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v1.0.0
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v1.0.0

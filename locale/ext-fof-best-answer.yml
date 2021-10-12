@@ -8,15 +8,24 @@ fof-best-answer:
         general: General
         reminders: Pengingat
         advanced: Lanjutan
-        reminders_notice: Agar pengingat berfungsi dengan benar, Anda harus mengatur Flarum scheduler dengan benar.
-      allow_select_own_post: Izinkan user untuk memilih postingan mereka sendiri
-      select_best_answer_reminder_days: Ingatkan user untuk memilih jawaban terbaik setelah X hari
-      schedule_on_one_server: Gunakan 'onOneServer()' untuk task scheduler (dibutuhkan Redis/Memcache)
-      schedule_stop_overnight: Cegah reminder scheduler agar tidak berjalan selama jam-jam tidak sosial (jam 9 malam - 8 pagi waktu server)
-      #   schedule_log_output: Append scheduler output to log storage
-      schedule_log_output: Catat scheduler ke dalam log
-      remind_tag_ids: Untuk membatasi pengingat ke tag tertentu, masukkan ID tag di sini (dipisahkan dengan koma)
-      use_alt_ui: Gunakan tata letak alternatif (tombol best answer di post footer)
+        reminders_notice: Agar pengingat berfungsi, Anda harus mengatur penjadwal Flarum dengan benar.
+      allow_select_own_post: Select own post
+      allow_select_own_post_help: Izinkan OP untuk memilih salah satu posting mereka sendiri dalam diskusi sebagai jawaban terbaik
+      select_best_answer_reminder_days: Reminder frequency
+      select_best_answer_reminder_days_help: Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke OP untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.
+      schedule_on_one_server: Gunakan 'onOneServer()' untuk penjadwal tugas
+      schedule_on_one_server_help: Memerlukan Redis/Memcache
+      schedule_stop_overnight: Cegah notifikasi pengingat dikirim selama jam-jam unsocial
+      schedule_stop_overnight_help: 9pm - 8am server time
+      schedule_log_output: Tambahkan keluaran penjadwal ke log storage
+      use_alt_ui: Alternative layout
+      use_alt_ui_help: Best answer controls in post footer
+      documentation: Documentation
+      introduction: |
+        Aktifkan tag mana yang mendukung Best Answer di <code>flarum/tags</code>, dan secara opsional tag mana yang harus mendukung pengingat. Saat tag Best Answer diaktifkan, tetapkan izin untuk setiap grup user yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat diberikan secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.
+    edit_tag:
+      qna_label: Aktifkan Best Answer untuk diatur dalam tag ini
+      reminders: Kirim pengingat untuk menetapkan Best Answer untuk diskusi di tag ini
   forum:
     answered_badge: Terjawab
     this_best_answer: Pilih Best Answer
@@ -34,6 +43,19 @@ fof-best-answer:
       preferences:
         awarded_best_answer: Saat seseorang menetapkan postingan saya sebagai best answer (jawaban terbaik)
         best_answer_in_discussion: Ketika best answer (jawaban terbaik) ditetapkan dalam diskusi yang Saya ikuti
+
+    index:
+      ask_question: Tanyakan Pertanyaan
+      cannot_ask_question: Tidak Dapat Mengajukan Pertanyaan
+      solved_link: Diskusi yang diselesaikan
+      unsolved_link: Diskusi yang belum terpecahkan
+    filter:
+      all_label: Semua pertanyaan
+      solved_label: Pertanyaan yang terpecahkan
+      unsolved_label: Pertanyaan yang belum terpecahkan
+      accessible_label: Pilihan terpecahkan/tidak terpecahkan
+    composer:
+      titlePlaceholder: Judul pertanyaan
   email:
     subject:
       awarded: Post Anda ditetapkan sebagai best answer (jawaban terbaik) oleh {display_name}
