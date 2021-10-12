@@ -63,7 +63,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v1.0.1
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v1.0.0
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v1.0.0
-- [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v1.0.0
+- [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v1.0.3
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v1.0.0
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v1.0.0
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.0.0
@@ -73,8 +73,8 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.0.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v1.0.0
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.0.0
-- [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v1.0.0
-- [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.0
+- [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v1.0.2
+- [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.1
 - [fof/split](https://github.com/friendsofflarum/split) v1.0.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.0.0
