@@ -22,10 +22,10 @@ fof-best-answer:
       use_alt_ui_help: Best answer controls in post footer
       documentation: Documentation
       introduction: |
-        Enable which tags are to support Best Answers in <code>flarum/tags</code>, and optionally which tag(s) should support reminders. When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.
+        Aktifkan tag mana yang mendukung Best Answer di <code>flarum/tags</code>, dan secara opsional tag mana yang harus mendukung pengingat. Saat tag Best Answer diaktifkan, tetapkan izin untuk setiap grup user yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat diberikan secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.
     edit_tag:
-      qna_label: Enable Best Answers to be set in this tag
-      reminders: Send reminders to set a Best Answer for discussions in this tag
+      qna_label: Aktifkan Best Answer untuk diatur dalam tag ini
+      reminders: Kirim pengingat untuk menetapkan Best Answer untuk diskusi di tag ini
   forum:
     answered_badge: Terjawab
     this_best_answer: Pilih Best Answer
