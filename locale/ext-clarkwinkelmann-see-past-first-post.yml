@@ -9,3 +9,4 @@ clarkwinkelmann-see-past-first-post:
         settings:
             hide-comment-count: Sembunyikan jumlah komentar di daftar diskusi
             hide-last-post: Sembunyikan user dan tanggal post terakhir pada daftar diskusi
+            hide-first-post: Sembunyikan Post Pertama
