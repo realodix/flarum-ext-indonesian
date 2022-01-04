@@ -67,7 +67,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v1.0.0
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v1.1.0
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.0.0
-- [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.0.0
+- [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.1.5
 - [fof/pages](https://github.com/friendsofflarum/pages) v1.0.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v1.0.3
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.0.0

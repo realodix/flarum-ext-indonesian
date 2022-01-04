@@ -23,6 +23,7 @@ fof-nightmode:
         description2: Tema ini akan ditautkan ke akun Anda dan berlaku untuk semua perangkat Anda kecuali jika Anda mengaktifkan sakelar di bawah untuk per pengaturan perangkat.
         device_specific_setting_checkbox: Gunakan per pengaturan perangkat
         device_specific_setting_checkbox_tooltip: Pilihan tema Anda akan disimpan satu per satu untuk setiap perangkat Anda.
+        auto_unsupported: Browser Anda tidak mendukung mode gelap otomatis.
         options:
           auto: => fof-nightmode.ref.auto
           day: => fof-nightmode.ref.light
