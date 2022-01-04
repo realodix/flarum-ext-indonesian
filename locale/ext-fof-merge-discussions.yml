@@ -5,6 +5,11 @@ fof-merge-discussions:
       load_preview_button: Pratinjau
       submit_button: => fof-merge-discussions.ref.merge
 
+    notification:
+      discussion_merged: Diskusi Anda <b>{oldTitle}</b> telah digabungkan ke dalam diskusi ini oleh {username}.
+      preferences:
+        discussion_merged: Seseorang telah menggabungkan salah satu diskusi saya dengan diskusi lainnya
+
     discussion:
       merge: => fof-merge-discussions.ref.merge
 
@@ -15,6 +20,10 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: Gabungkan Diskusi
 
+    settings:
+      search_result_help: Berapa banyak diskusi yang harus ditampilkan saat mencari dalam modal `Gabungkan Diskusi`. Defaultnya adalah 4
+      search_result_label: Merge Discussion Search Limit
+
   api:
     error:
       merging_failed: Gagal menggabungkan diskusi.
@@ -23,3 +32,11 @@ fof-merge-discussions:
 
   ref:
     merge: Gabungkan
+
+  email:
+    merged:
+      body: |
+        Hey {recipient_display_name},
+        Your discussion, {merged_discussion_title}, was merged into {discussion_title} by {actor_display_name}.
+        View it here {discussion_url} .
+      subject: Your discussion "{merged_discussion_title}" was merged
