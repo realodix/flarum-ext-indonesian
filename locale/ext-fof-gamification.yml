@@ -2,6 +2,7 @@ core:
   forum:
     index_sort:
       hot_button: Trending
+      votes_button: Upvotes
 
 fof-gamification:
   forum:
@@ -16,10 +17,10 @@ fof-gamification:
       name: User
       amount: Points
     notification:
-      # upvote: "{username} upvoted your post"
       upvote: "{username} upvote post Anda"
-      # downvote: "{username} downvoted your post"
       downvote: "{username} downvote post Anda"
+      prefrences:
+        vote: When one of my posts is up/down voted
     user:
       points: "Points: {points}"
       rank: "{rank}"
@@ -28,32 +29,33 @@ fof-gamification:
       upvotes_label: 'Upvoters:'
     # mod_item: View Voters
     mod_item: Lihat Voters
+    voters:
+      none: No voters yet
+      label: Voters
+      label_none: No voters
+    post:
+      upvote_button: Upvote post
+      downvote_button: Downvote post
   admin:
     permissions:
-      # vote_label: Upvote/Downvote posts
       vote_label: Upvote/Downvote post
-      # see_votes_label: See post upvotes/downvotes
-      see_votes_label: Lihat post upvotes/downvotes
-      # see_ranking_page: See ranking page
+      see_votes_label: Lihat penghitungan up/down vote
+      see_voters_label: Lihat siapa yang memberikan vote
       see_ranking_page: Lihat halaman peringkat
     page:
       rankings:
         blocked:
           placeholder: CDK2020, Ralkage, AngelAvila
-          # title: Ignored Users
           title: User Yang Diabaikan
           # help: These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.
           help: User ini tidak akan ditampilkan di halaman peringkat. Nama user harus dipisahkan oleh koma diikuti oleh spasi.
-        # title: Rankings Page
         title: Halaman Peringkat
-        # enable: Enable custom images
         enable: Aktifkan gambar khusus
-        # custom_image_1: 1st place image
         custom_image_1: Gambar 1
-        # custom_image_2: 2nd place image
         custom_image_2: Gambar 2
-        # custom_image_3: 3rd place image
-        custom_image_3: Gambar 3
+        custom_image_3: 3rd place image
+      alt_votes:
+        icon_name: Alt layout icon name
       votes:
         # points_title: Points Placeholder
         points_title: Point Placeholder
@@ -67,12 +69,15 @@ fof-gamification:
         # discussion_page: Show total votes of original post on discussions list
         discussion_page: Tampilkan total vote dari post asli di discussions list
         # alternate_layout: Use alternate layout to show and/or do upvotes/downvotes
-        alternate_layout: Gunakan layout alternatif untuk menampilkan dan/atau melakukan upvotes/downvotes
+        alternate_layout: Gunakan tata letak pemungutan suara alternatif pada daftar diskusi
+        alternate_post_layout: Gunakan tata letak pemungutan suara alternatif pada post
         title: Votes
         vote_color: Voted color
         icon_name: Upvote/downvote icon
         # icon_help: "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
         icon_help: "Masukkan ikon Font-Awesome yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron"
+        upvotes_only: Hanya izinkan upvoting
+        first_post_only: Hanya izinkan up/down vote di post pertama dalam diskusi
       # save_settings: Save settings
       save_settings: Simpan pengaturan
       convert:
@@ -99,3 +104,12 @@ fof-gamification:
           points: Poin
           # name: Name
           name: Nama
+
+  email:
+    body:
+      postVoted: |
+        Hey {recipient_display_name},
+        {actor_display_name} just voted on your post in {discussion_title}.
+        View it here: {discussion_url}
+    subject:
+      postVoted: Your post was voted on by {display_name}
