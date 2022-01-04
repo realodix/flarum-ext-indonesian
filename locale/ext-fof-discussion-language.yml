@@ -21,6 +21,11 @@ fof-discussion-language:
       show_flag_label: Tampilkan bendera negara dengan nama bahasa
       composer_default_label: Pra-pilih lokal saat ini dalam diskusi komposer
       locale_sort_label: Gunakan bahasa yang terdeteksi untuk filter diskusi default
+      show_any_lang_opt_label: Tampilkan opsi untuk memilih "Bahasa Apa Saja"
+      tags_page_discussion_locale_label: Hanya tampilkan diskusi dari bahasa yang ditetapkan User saat ini di halaman Tag
+
+      errors:
+        missing_assets: Kami tidak dapat memuat aset yang dibutuhkan oleh ekstensi ini. Coba jalankan <code>php flarum assets:publish</code> dan lihat apakah itu dapat mengatasi masalah.
 
     permissions:
       # allow_change_language_label: Allow language editing
