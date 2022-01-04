@@ -80,7 +80,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.0.2
 - [fof/upload](https://github.com/friendsofflarum/upload) v1.0.2
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.0.1
-- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.0.2
+- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.2.0
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v1.0.0
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.9.1
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.3
