@@ -5,53 +5,39 @@ fof-masquerade:
                 Silakan isi field profil yang diperlukan di bawah ini.
             profile-completed: Profile completed! <a>Lanjutkan ke homepage</a>
         buttons:
-            # view-profile: View profile
             view-profile: Lihat profil
-            # save-profile: Save
+            edit-profile: Edit profile
             save-profile: Simpan
         fields:
             select:
-                # none-optional: No option selected (optional)
                 none-optional: Tidak ada opsi yang dipilih (optional)
-                # none-required: Please select an option (required)
                 none-required: Silakan pilih satu opsi (dibutuhkan)
             boolean:
                 yes: Yes
                 no: No
     admin:
-        # general-options: General options
         general-options: Pilihan umum
         buttons:
-            # add-field: Create field
             add-field: Buat field
-            # edit-field: Save changes
             edit-field: Simpan perubahan
-            # delete-field: Delete field
             delete-field: Hapus field
         permissions:
-            # have-profile: Have masquerade profile
+            edit-others-profile: Edit profil user lain
             have-profile: Membuat masquerade profile
-            # view-profile: View masquerade profile
             view-profile: Melihat masquerade profile
         fields:
             title: Fields
-            # add: Add field {field}
             add: Tambah field {field}
             edit: Edit field {field}
-            # name: Field name
             name: Nama field
             name-help: >
                 Label field yang terlihat secara publik (tidak dapat diterjemahkan).
-            # description: Field description
             description: Deskripsi
             description-help: >
                 Deskripsi opsional untuk menjelaskan penggunaan / kebutuhan field ini.
-            # required: Mark field obligatory
             required: Tandai field yang wajib diisi
-            # on_bio: Show answer to this field in user bio
             on_bio: Tampilkan jawaban untuk field ini dalam halaman bio user
             type: Type
-            # validation: Validation
             validation: Validasi
             validation-help: >
                 Periksa <a>aturan validasi Laravel</a> yang didukung. Eg:
@@ -64,13 +50,9 @@ fof-masquerade:
                 Menampilkankan ikon di depan nilai yang dimasukkan oleh user. Untuk referensi
                 ikon yang tersedia, periksa <a>FontAwesome website</a>. Gunakan nama ikon
                 dengan awalan "fa-", seperti "fas fa-info".
-            # force-user-to-completion: Force user to complete profile
             force-user-to-completion: Paksa user untuk melengkapi profil
-            # options: Options
             options: Opsi
-            # option-new: New option
             option-new: Buat opsi
-            # option-coma-warning: The label of an option cannot contain any comma (",").
             option-comma-warning: Label opsi tidak boleh mengandung koma (",").
         types:
             advanced: Advanced
