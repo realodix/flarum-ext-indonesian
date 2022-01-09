@@ -25,6 +25,7 @@ fof-gamification:
       points: "Points: {points}"
       rank: "{rank}"
     modal:
+      downvotes_label: 'Downvoters:'
       title: Voters
       upvotes_label: 'Upvoters:'
     # mod_item: View Voters
