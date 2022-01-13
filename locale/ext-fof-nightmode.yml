@@ -16,6 +16,10 @@ fof-nightmode:
     day: => fof-nightmode.ref.light
     night: => fof-nightmode.ref.dark
 
+    header:
+      # nightmode_button: Toggle forum theme
+      nightmode_button: Ganti tema forum
+
     user:
       settings:
         heading: Theme
