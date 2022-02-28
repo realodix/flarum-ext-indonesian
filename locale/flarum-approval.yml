@@ -14,7 +14,7 @@ flarum-approval:
       # reply_without_approval_label: Reply to discussions without approval
       reply_without_approval_label: Ikut Berdiskusi Tanpa Persetujuan
       # start_discussions_without_approval_label: Start discussions without approval
-      start_discussions_without_approval_label: Mulai Diskusi Tanpa Persetujuan
+      start_discussions_without_approval_label: Buatd diskusi tanpa persetujuan
 
   # Translations in this namespace are used by the forum user interface.
   forum:
