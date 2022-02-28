@@ -187,8 +187,8 @@ core:
       edit_users_groups_label: Edit grup user
       global_heading: Global
       moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
+      new_group_button: Grup Baru
+      participate_heading: Partisipasi
       post_without_throttle_label: Reply multiple times without waiting
       read_heading: Read
       rename_discussions_label: Ganti judul diskusi
