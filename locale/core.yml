@@ -186,10 +186,10 @@ core:
       edit_users_credentials_label: Edit kredensial user
       edit_users_groups_label: Edit grup user
       global_heading: Global
-      moderate_heading: Moderate
+      moderate_heading: Moderasi
       new_group_button: Grup Baru
       participate_heading: Partisipasi
-      post_without_throttle_label: Reply multiple times without waiting
+      post_without_throttle_label: Balas beberapa kali tanpa harus menunggu
       read_heading: Read
       rename_discussions_label: Ganti judul diskusi
       reply_to_discussions_label: Balas diskusi
