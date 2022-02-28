@@ -71,8 +71,8 @@ core:
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
+      delete_button: Hapus Grup
+      delete_confirmation: "Anda yakin ingin menghapus grup ini? Anggota grup TIDAK akan dihapus."
       hide_label: Hide on forum
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
@@ -80,7 +80,7 @@ core:
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Buat Grup
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -115,10 +115,10 @@ core:
     # These translations are used on default extension pages.
     extension:
       configure_scopes: Configure Scopes
-      confirm_purge: Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?
-      disabled: Disabled
-      enable_to_see: Enable the extension to view and change settings.
-      enabled: Enabled
+      confirm_purge: Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Itu tidak akan menghapus ekstensi; yang harus dilakukan melalui Composer. Apakah anda yakin ingin melanjutkan?
+      disabled: Nonaktif
+      enable_to_see: Aktifkan ekstensi untuk melihat dan mengubah pengaturan.
+      enabled: Aktif
       info_links:
         discuss: Discuss
         documentation: Documentation
@@ -126,14 +126,14 @@ core:
         source: Source
         support: Support
         website: Website
-      no_permissions: This extension has no permissions.
-      no_settings: This extension has no settings.
-      open_modal: Open Settings
+      no_permissions: Ekstensi ini tidak memiliki pengaturan untuk permission.
+      no_settings: Ekstensi ini tidak memiliki pengaturan.
+      open_modal: Buka Pengaturan
       permissions_title: Permissions
-      purge_button: Purge
+      purge_button: Bersihkan
       readme:
         button_label: README
-        no_readme: This extension does not appear to have a README file
+        no_readme: Ekstensi ini tampaknya tidak memiliki file README
         title: "{extName} documentation"
 
     # These translations are used in the secondary header.
@@ -152,15 +152,15 @@ core:
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
       categories:
-        authentication: Authentication
-        core: Core Configuration
-        discussion: Discussion
+        authentication: Autentikasi
+        core: Konfigurasi Dasar
+        discussion: Diskusi
         feature: Fitur
         formatting: Formatting
         language: Bahasa
-        moderation: Moderation
+        moderation: Moderasi
         other: Other Extensions
-        theme: Themes
+        theme: Tema
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
@@ -169,7 +169,7 @@ core:
       permissions_title: => core.admin.permissions.description
       userlist_button: => core.admin.users.title
       userlist_title: => core.admin.users.description
-      search_placeholder: Search Extensions
+      search_placeholder: Cari Ekstensi
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -215,17 +215,17 @@ core:
 
     # These translations are used generically in setting fields.
     settings:
-      saved_message: Your changes were saved.
+      saved_message: Perubahan Anda telah disimpan.
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Choose an Image...
+      upload_button: Pilih gambar...
 
     # These translations are used for the users list on the admin dashboard.
     users:
-      description: Daftar semua User di forum Anda.
+      description: Daftar User.
 
       grid:
         columns:
@@ -271,14 +271,14 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: Password yang Anda masukkan salah.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      text: Klik tombol di bawah dan periksa email Anda untuk melihat link untuk mengubah password Anda.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -291,26 +291,26 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: Tulis Post...
+      discard_confirmation: "Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?"
+      submit_button: Post
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: Judul
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      edited_message: Your edit was made.
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "Anda belum menyimpan perubahan Anda. Apakah Anda ingin membuangnya?"
+      edited_message: Hasil edit Anda telah dibuat.
+      post_link: "Post #{number} di {discussion}"
       submit_button: => core.ref.save_changes
       view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
+      discard_confirmation: "Anda belum memposting balasan Anda. Apakah Anda ingin membuangnya?"
+      posted_message: Balasan Anda telah diposting.
+      submit_button: Balas
       view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
@@ -328,7 +328,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks as though there are no discussions here.
+      empty_text: Sepertinya tidak ada diskusi di sini.
       load_more_button: => core.ref.load_more
       replied_text: "{username} replied {ago}"
       started_text: "{username} started {ago}"
@@ -347,14 +347,14 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
+      admin_button: Administrasi
       back_to_index_tooltip: Back to Discussion List
       locale_dropdown_accessible_label: Change forum locale
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
+      profile_button: Profil
       search_clear_button_accessible_label: Clear search query
-      search_placeholder: Search Forum
+      search_placeholder: Cari
       search_role_label: Search Forum
       session_dropdown_accessible_label: Toggle session options dropdown menu
       settings_button: => core.ref.settings
@@ -363,8 +363,8 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: Tidak Dapat Membuat Diskusi
+      mark_all_as_read_confirmation: "Anda yakin ingin menandai semua diskusi sebagai telah dibaca?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Refresh
@@ -382,11 +382,11 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "Lupa password?"
+      invalid_login_message: Detail login Anda salah.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: Ingat Saya
+      sign_up_text: "Tidak memiliki akun? <a>Daftar</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Username or Email
@@ -394,11 +394,11 @@ core:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      empty_text: Tidak Ada Notifikasi
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Mark as Read
       title: => core.ref.notifications
-      toggle_dropdown_accessible_label: View notifications
+      toggle_dropdown_accessible_label: Lihat notifikasi
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
@@ -410,10 +410,10 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this post forever? This action cannot be undone."
+      delete_confirmation: "Apakah Anda yakin ingin menghapus post ini? Tindakan ini tidak bisa dibatalkan."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Are you sure you want to delete this post?"
+      hide_confirmation: "Anda yakin ingin menghapus post ini?"
       restore_button: => core.ref.restore
       toggle_dropdown_accessible_label: Toggle post controls dropdown menu
 
@@ -435,25 +435,25 @@ core:
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: Ganti Judul Diskusi
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'Cari semua diskusi untuk "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Akun
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_discussion_renamed_label: Seseorang mengganti judul diskusi yang Saya buat
+      privacy_disclose_online_label: Izinkan orang lain melihat saat Saya online
+      privacy_heading: Privasi
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -476,18 +476,18 @@ core:
       in_discussion_text: "In {discussion}"
       joined_date_text: "Joined {ago}"
       online_text: Online
-      posts_empty_text: It looks like there are no posts here.
+      posts_empty_text: Sepertinya post yang dibuat.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Kontrol
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? The user's posts will NOT be deleted."
+      delete_confirmation: "Anda yakin ingin menghapus User ini? Post yang telah dibuat TIDAK akan ikut dihapus. "
       delete_error_message: "Deletion of user <i>{username} ({email})</i> failed"
-      delete_success_message: "User <i>{username} ({email})</i> was deleted"
+      delete_success_message: "User <i>{username} ({email})</i> telah dihapus"
       edit_button: => core.ref.edit
       toggle_dropdown_accessible_label: Toggle user controls dropdown menu
 
@@ -498,7 +498,7 @@ core:
       sent_message: Sent
 
     welcome_hero:
-      hide: Hide welcome message
+      hide: Sembunyikan pesan selamat datang
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -524,23 +524,23 @@ core:
       groups_heading: Groups
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: Tetapkan password baru
       submit_button: => core.ref.save_changes
       title: => core.ref.edit_user
       username_heading: => core.ref.username
       username_label: => core.ref.username
-      nothing_available: You are not allowed to edit this user.
+      nothing_available: Anda tidak diizinkan untuk mengedit User ini.
 
     # These translations are displayed as error messages.
     error:
-      dependent_extensions_message: "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}"
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      missing_dependencies_message: "Cannot enable {extension} until the following dependencies are enabled: {extensions}"
-      not_found_message: The requested resource was not found.
+      dependent_extensions_message: "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}"
+      generic_message: "Ups! Sesuatu tidak beres. Muat ulang halaman dan coba lagi."
+      missing_dependencies_message: "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}"
+      not_found_message: Resource yang diminta tidak ditemukan.
       payload_too_large_message: The request payload was too large.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
-      render_failed_message: Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information.
+      permission_denied_message: Anda tidak memiliki izin untuk melakukan itu.
+      rate_limit_exceeded_message: Anda terlihat terlalu cepat. Silakan coba lagi dalam beberapa detik.
+      render_failed_message: Maaf, kami mengalami error saat menampilkan konten ini. Jika Anda adalah User, silakan coba lagi nanti. Jika Anda seorang Administrator, lihat file log Flarum Anda untuk informasi lebih lanjut.
 
     # These translations are used in the loading indicator component.
     loading_indicator:
@@ -580,12 +580,12 @@ core:
     admin:
       extensions:
         caption: => core.ref.extensions
-        disable: Disable
-        empty: No installed extensions
-        enable: Enable
-        name: Extension Name
-        package_name: Package Name
-        version: Version
+        disable: Nonaktifkan
+        empty: Tidak ada ekstensi yang terpasang
+        enable: Aktifkan
+        name: Nama Ekstensi
+        package_name: Nama Paket
+        version: Versi
       info:
         caption: Application Info
       title: Administration
@@ -593,13 +593,13 @@ core:
     # Translations in this namespace are displayed by the Confirm Email interface.
     confirm_email:
       submit_button: => core.ref.confirm_email
-      text: Click the button below to confirm your account's email.
+      text: Klik tombol di bawah untuk mengonfirmasi email akun Anda.
       title: => core.ref.confirm_email
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
+      javascript_disabled_message: Situs ini paling baik dilihat di browser modern dengan JavaScript diaktifkan.
+      load_error_message: Terjadi kesalahan saat mencoba memuat versi lengkap situs ini. Coba muat ulang halaman ini untuk memperbaiki kesalahan.
       loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -609,14 +609,14 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      csrf_token_mismatch: You have been inactive for too long.
-      csrf_token_mismatch_return_link: Go back, to try again
-      invalid_confirmation_token: This confirmation link has already been used or is invalid.
-      not_authenticated: You do not have permission to access this page. Try again after logging in.
-      not_found: The page you requested could not be found.
-      not_found_return_link: "Return to {forum}"
-      permission_denied: You do not have permission to access this page.
-      unknown: An error occurred while trying to load this page.
+      csrf_token_mismatch: Anda sudah terlalu lama tidak aktif.
+      csrf_token_mismatch_return_link: Kembalilah, untuk mencoba lagi
+      invalid_confirmation_token: Link konfirmasi ini sudah digunakan atau tidak valid.
+      not_authenticated: Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah masuk.
+      not_found: Halaman yang Anda minta tidak dapat ditemukan.
+      not_found_return_link: "Kembali ke {forum}"
+      permission_denied: Anda tidak memiliki izin untuk mengakses halaman ini.
+      unknown: Terjadi kesalahan saat mencoba memuat halaman ini.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -627,13 +627,13 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "Apakah Anda yakin ingin keluar dari {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Konfirmasi Password Baru
+      new_password_label: Password Baru
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
@@ -702,51 +702,51 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirm_email: Confirm Email
+    change_email: Ganti Email
+    change_password: Ganti Password
+    color: Warna                                 # Referenced by flarum-tags.yml
+    confirm_password: Konfirmasi Password
+    confirm_email: Konfirmasi Email
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
+    custom_footer_text: Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.
     custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+    custom_header_text: "Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header."
     custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
+    delete: Hapus
+    delete_forever: Hapus Permanen
+    discussions: Diskusi                     # Referenced by flarum-statistics.yml
     edit: Edit
     edit_user: Edit User
     email: Email
-    extensions: Extensions
+    extensions: Ekstensi
     icon: Icon
     icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
     load_more: Load More
     loading: Loading...
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    log_in: Masuk
+    log_out: Keluar
+    mark_all_as_read: Tandai Semua telah Dibaca
+    next_page: Halaman Selanjutnya
+    notifications: Notifikasi
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
     posts: Posts                                 # Referenced by flarum-statistics.yml
-    previous_page: Previous Page
-    remove: Remove
+    previous_page: Halaman Sebelumnya
+    remove: Hapus
     rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
+    reply: Balas                                 # Referenced by flarum-mentions.yml
     reset_your_password: Reset Your Password
     restore: Restore
     save_changes: Simpan Perubahan               # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Pengaturan
-    sign_up: Sign Up
+    sign_up: Daftar
     some_others: "{count, plural, one {# other} other {# others}}"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Start a Discussion
     username: Username
     users: Users                                 # Referenced by flarum-statistics.yml
     view: View
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    write_a_reply: Tulis Balasan...
+    you: Anda                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
