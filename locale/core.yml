@@ -204,11 +204,11 @@ core:
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
+      allow_indefinitely_button: Tanpa batas waktu
       allow_some_minutes_button: "{count, plural, one {For # minute} other {For # minutes}}"
       allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_until_reply_button: Hingga balasan selanjutnya
+      everyone_button: Siapapun
       members_button: => core.group.members
       signup_closed_button: Closed
       signup_open_button: Open
