@@ -17,7 +17,7 @@ flarum-flags:
     # These translations are used in the Flags Settings modal dialog.
     settings:
       # flag_own_posts_label: Allow users to flag their own posts
-      flag_own_posts_label: Bolehkan user untuk menandai pos mereka sendiri
+      flag_own_posts_label: Izinkan User untuk menandai post mereka sendiri
       # guidelines_url_label: Community Guidelines URL
       guidelines_url_label: URL Pedoman Komunitas
       # title: Flags Settings
