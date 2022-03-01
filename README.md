@@ -29,8 +29,6 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v1.0.0
-- [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v1.1.8
-- [fof/byobu](https://github.com/friendsofflarum/byobu) v1.1.1
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v1.0.1
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v1.0.1
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v1.0.3
