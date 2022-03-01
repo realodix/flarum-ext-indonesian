@@ -28,7 +28,6 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v1.0.0
 - [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v1.1.8
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v1.1.1
