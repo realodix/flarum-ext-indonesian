@@ -41,7 +41,6 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v1.3.3
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v1.0.1
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v1.0.3
-- [fof/masquerade](https://github.com/friendsofflarum/masquerade) v2.1.0
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v1.2.0
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.0.1
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.2.0
