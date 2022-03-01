@@ -43,6 +43,8 @@ fof-gamification:
       see_votes_label: Lihat penghitungan up/down vote
       see_voters_label: Lihat siapa yang memberikan vote
       see_ranking_page: Lihat halaman peringkat
+      upvote_notifications: Terima notifikasi saat upvote
+      downvote_notifications: Terima notifikasi saat downvote
     page:
       rankings:
         blocked:
