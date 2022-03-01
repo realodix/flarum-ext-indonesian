@@ -1,0 +1,48 @@
+fof-links:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Edit Link modal dialog.
+    edit_link:
+      # delete_link_button: Delete Link
+      delete_link_button: Hapus Link
+      # delete_link_confirmation: "Are you sure you want to delete this link?"
+      delete_link_confirmation: "Apakah Anda yakin ingin menghapus link ini?"
+      # internal_link: "Is it a Flarum link?"
+      internal_link: "Apakah ini link Flarum?"
+      # open_newtab: "Open link in new tab"
+      open_newtab: "Buka link pada tab baru"
+      submit_button: => core.ref.save_changes
+      title: => fof-links.ref.create_link
+      title_label: => fof-links.ref.title
+      title_placeholder: => fof-links.ref.title
+      url_label: => fof-links.ref.url
+      url_placeholder: => fof-links.ref.url
+
+    # These strings are used in the Links page.
+    links:
+      # about_text: Manage primary menu links.
+      about_text: Kelola link pada menu utama.
+      create_button: => fof-links.ref.create_link
+      links: => fof-links.ref.links
+
+    # These strings are used in the navigation bar.
+    nav:
+      links_button: => fof-links.ref.links
+      # links_text: Manage the primary navigation list items.
+      links_text: Kelola daftar item pada navigasi utama.
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    # create_link: Create Link
+    create_link: Buat Link
+    # links: Links
+    links: Link
+    # title: Title
+    title: Judul
+    url: URL

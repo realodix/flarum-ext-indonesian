@@ -1,0 +1,16 @@
+fof-formatting:
+  admin:
+    plugins:
+      # Autoimage: Convert image URLs into actual images
+      Autoimage: Ubah URL gambar menjadi gambar yang sebenarnya
+      # Autovideo: Convert video URLs into playable videos
+      Autovideo: Ubah URL video menjadi video yang dapat diputar
+      # FancyPants: Use fancy typography
+      FancyPants: Gunakan tipografi mewah
+      # HTMLEntities: Use HTML entities
+      HTMLEntities: Gunakan entitas HTML
+      # MediaEmbed: Embed content from allowed sites
+      MediaEmbed: Sematkan konten dari situs yang diizinkan
+      # PipeTables: ASCII-style tables
+      PipeTables: Tabel dengan gaya ASCII
+      TaskLists: Daftar tugas seperti yang ada di Github/Gitlab

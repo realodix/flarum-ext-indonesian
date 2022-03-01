@@ -1,0 +1,70 @@
+fof-drafts:
+  admin:
+    permissions:
+      start: Buat draft
+      schedule: Penjadwalan draft
+    settings:
+      title: FoF Drafts
+      # enable_scheduled_drafts: Enable Scheduled Drafts
+      enable_scheduled_drafts: Aktifkan Draft Terjadwal
+      # schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+      schedule_on_one_server: Gunakan 'onOneServer()' untuk penjadwalan tugas (membutuhkan Redis / Memcache)
+      # schedule_log_output: Append scheduler output to log storage
+      schedule_log_output: Tambahkan output penjadwalan ke penyimpanan log
+    console:
+      # scheduled_drafts_disabled: Scheduled drafts are currently disabled in settings.
+      scheduled_drafts_disabled: Draft terjadwal saat ini dinonaktifkan dalam pengaturan.
+    ref:
+      schedule_draft: Penjadwalan draft
+  forum:
+    composer:
+      # title: Save Draft
+      title: Simpan Draft
+      # saving: Saving...
+      saving: Menyimpan...
+      # saved: Saved!
+      saved: Berhasil Disimpan!
+      # exit_alert: Discard changes to draft?
+      exit_alert: Buang perubahan?
+      # discard_empty_draft_alert: Discard empty draft?
+      discard_empty_draft_alert: Buang draft kosong?
+    dropdown:
+      # empty_text: You haven't saved any drafts
+      empty_text: Anda tidak memiliki draft
+      # title: Drafts
+      title: Draft
+      delete_all_button: Hapus semua draf
+      delete_button: Hapus draf
+      schedule_button: => fof-drafts.ref.schedule_draft
+      scheduled_icon_tooltip: Dijadwalkan untuk {datetime}
+      # String passed to dayjs.format() to generate the tooltip date-time
+      scheduled_icon_tooltip_formatter: L [at] LT
+      tooltip: => fof-drafts.forum.dropdown.title
+      # alert: Are you sure you want to delete your draft?
+      alert: Anda yakin ingin menghapus draft Anda?
+      # delete_all_alert: Are you sure you want to delete all your drafts?
+      delete_all_alert: Apakah Anda yakin ingin menghapus semua draf Anda?
+    schedule_draft_modal:
+      title: => fof-drafts.ref.schedule_draft
+      text: Jadwalkan draft Anda untuk diposting secara otomatis di lain waktu!
+      scheduled_text: Saat ini dijadwalkan untuk memposting pada {datetime}.
+      scheduled_error: "Tidak dapat menjadwalkan draf: {error}."
+      unschedule_button: Tidak dijadwalkan
+      reschedule_button: Menjadwal ulang
+      schedule_button: Jadwalkan
+      schedule_time_preview: Draf ini akan diterbitkan secara otomatis pada <b>{datetime}</b>.
+      # String passed to dayjs.format() to generate the preview
+      schedule_time_preview_formatter: LLLL
+      schedule_time_preview_invalid: Tanggal dan / atau waktu tidak valid
+    user:
+      settings:
+        # drafts_heading: Drafts
+        drafts_heading: Draft
+        # draft_autosave_enable: Enable Draft Autosave?
+        draft_autosave_enable: Aktifkan Penyimpanan Otomatis?
+        # draft_autosave_interval_label: Autosave Interval (seconds)
+        draft_autosave_interval_label: Interval Penyimpanan Otomatis (detik)
+        # draft_autosave_interval_button: Update Interval
+        draft_autosave_interval_button: Update Interval
+        # draft_autosave_interval_invalid: The interval must be an integer greater than 4.
+        draft_autosave_interval_invalid: Interval harus bilangan bulat lebih besar dari 4.

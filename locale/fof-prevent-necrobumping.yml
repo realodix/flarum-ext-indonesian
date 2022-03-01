@@ -1,0 +1,31 @@
+fof-prevent-necrobumping:
+  forum:
+    composer:
+      warning:
+        # title: This discussion is more than <b>{time}</b> old.
+        title: Diskusi ini berusia lebih dari <b>{time}</b>.
+        # description: It is very likely that it does not need any further discussion and thus bumping it serves no purpose.
+        description: Hal ini sangat mungkin bahwa hal ini tidak memerlukan pembahasan lebih lanjut dan dengan demikian jika terus dilanjutkan, kemungkinan tidak ada gunanya.
+        # checkbox_label: I am aware that this discussion is rather old but would still like to reply.
+        checkbox_label: Saya sadar bahwa diskusi ini agak lama tetapi masih ingin membalas.
+        # error: This discussion is too old to reply to.
+        error: Diskusi ini sudah terlalu tua untuk Anda balas.
+
+  admin:
+    settings:
+      days_label: Days
+      # days_help: A discussion will be marked as old when the amount of days specified has passed since the last post on that discussion was posted. Use <code>0</code> to disable it by default.
+      days_help: Suatu diskusi akan ditandai sebagai old (sudah tua) ketika jumlah hari yang ditentukan telah mencapai batas sejak posting terakhir pada diskusi itu diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.
+
+      # message_title_label: Custom Message Title
+      message_title_label: Judul Pesan Khusus
+      # message_title_help: 'Use <code>[time]</code> for the time text, e.g. "14 days".'
+      message_title_help: 'Gunakan <code>[time]</code> untuk text waktu, misalkan "14 days".'
+      # message_description_label: Custom Message Description
+      message_description_label: Deskripsi Pesan Khusus
+      # message_agreement_label: Custom Message Agreement (Checkbox)
+      message_agreement_label: Perjanjian Pesan Khusus (Checkbox / Kotak Centang)
+
+      tags_title: Tags
+      # tags_help: Override the global days for a specific tag. Empty means use default value. If a discussion has multiple tags with different day values, it will use the smallest amount of days configured.
+      tags_help: Abaikan hari global untuk tag tertentu. Kosongkan untuk menggunakan nilai default. Jika suatu diskusi memiliki banyak tag dengan nilai hari yang berbeda, itu akan menggunakan jumlah hari terkecil yang dikonfigurasi.

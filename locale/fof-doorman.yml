@@ -1,0 +1,80 @@
+fof-doorman:
+  forum:
+    email:
+      subject: Invite to Join
+      body: |
+        Halo,
+
+        Anda telah diundang untuk mendaftar ke {forum}.
+
+        Saat Anda siap membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:
+
+        Url: {url}
+        Kode invitasi: {code}
+
+        Jika Anda menerima ini karena kesalahan, harap abaikan email ini.
+    sign_up:
+      # invalid_doorkey: The invite code your entered is invalid.
+      invalid_doorkey: Kode undangan yang Anda masukkan tidak valid.
+      # doorkey_required: Please enter an invite code.
+      doorkey_required: Silakan masukkan kode undangan.
+      # doorman_placeholder: Invite Code
+      doorman_placeholder: Kode Undangan
+      # doorman_placeholder_optional: Invite Code (optional)
+      doorman_placeholder_optional: Kode Undangan (opsional)
+
+  admin:
+    modal:
+      # title: Send Invite Codes
+      title: Kirim Kode Undangan
+      # group: Sending invites for {group} group
+      group: Mengirim undangan untuk grup {group}
+      # help: Accepts a comma, space, or comma-space seperated list. Type an individual email or paste a list then press space to add it/them.
+      help: Menerima daftar yang dipisahkan koma, spasi, atau koma-spasi. Ketik email satu per satu atau paste list-nya lalu tekan spasi untuk menambahkannya.
+      # placeholder: Enter emails here
+      placeholder: Masukkan email-email di sini
+      # invalid_emails: "The following email(s) are invalid: {emails}"
+      invalid_emails: "Email berikut ini tidak valid: {emails}"
+      # max_use_conflict: The number of emails exceeds the max number of uses for this code.
+      max_use_conflict: Jumlah email melebihi jumlah penggunaan maksimum untuk kode ini.
+      # send: Send Emails
+      send: Kirim Email
+      # success: Emails successfully sent
+      success: Email berhasil dikirim
+    # invalid_doorkey: The invite code you provided is invalid.
+    invalid_doorkey: Kode undangan yang Anda berikan tidak valid.
+    # doorkey_required: You must provide an Invite Code
+    doorkey_required: Anda harus memberikan Kode Undangan
+    nav:
+      # desc: Create invite codes for users to sign up and be assigned to a group
+      desc: Buat kode undangan bagi user untuk mendaftar dan ditempatkan ke grup
+    page:
+      title: Doorman
+      doorkey:
+        used_times: "1 Use left|{remaining} Uses left"
+        # title: Invite Codes
+        title: Kode Undangan
+        help:
+          # key: "Key: Code the user will type in when registering."
+          key: "Key: Kode yang akan diketik user saat mendaftar."
+          # group: "Group: The group the user will be added to when the register."
+          group: "Group: Grup tempat user akan ditambahkan saat mendaftar."
+          # max: "Max Uses: The max number of times the code can be used, set to 0 for unlimited uses"
+          max: "Max Uses: Jumlah maksimum berapa kali kode dapat digunakan, diatur ke 0 untuk penggunaan tanpa batas"
+          # activates: "Activates User: Automatically activates the user when they register."
+          activates: "Mengaktifkan User: Secara otomatis mengaktifkan user ketika mereka mendaftar."
+        # warning: This invite code has been used its max number of times.
+        warning: Kode invitasi ini telah digunakan dalam jumlah maksimal.
+        key: Key
+        max_uses: Penggunaan Maksimal
+        heading:
+          key: Key
+          group: Grup
+          # activate: Activates User
+          activate: Mengaktifkan User
+          max_uses: Penggunaan Maksimal
+        allow-public:
+          # title: Allow public Sign Up
+          title: Izinkan Pendaftaran Untuk Umum
+          # switch-label: Make invite code optional when signing up
+          switch-label: Buat kode undangan opsional ketika mendaftar

@@ -1,0 +1,26 @@
+fof-impersonate:
+    admin:
+        permissions:
+            # login: Login as other users
+            login: Login sebagai user lain
+        settings:
+            title: FoF Impersonate
+            # require_reason: Require a reason to be entered before proceeding to impersonate another user.
+            require_reason: Dibutuhkan alasan untuk dimasukkan sebelum melanjutkan untuk impersonate user lain.
+            # no_settings_available: No settings are currently available. Try installing fof/moderator-notes
+            no_settings_available: Tidak ada pengaturan yang tersedia saat ini. Coba install fof/moderator-notes
+
+    forum:
+        modal:
+            # title: Login as another user
+            title: Login sebagai user lain
+            # label: With great power comes great responsibility. By continuing, you will become {username} until you log out.
+            label: Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.
+            placeholder_optional: (Opsional) Berikan alasan Anda beralih ke user ini
+            # placeholder_required: You must provide your reason for switching to this user before proceeding
+            placeholder_required: Alasan
+            # impersonate_username: Login as {username}
+            impersonate_username: Login sebagai {username}
+        user_controls:
+            # impersonate_button: Login as user
+            impersonate_button: Login sebagai user

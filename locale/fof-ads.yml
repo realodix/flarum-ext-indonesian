@@ -1,0 +1,27 @@
+flagrow-ads:
+    admin:
+        buttons:
+            # save: Save settings
+            save: Simpan pengaturan
+        positions:
+            under-header:
+                # title: Ad position under navigational header
+                title: Posisi iklan di bawah header
+                # placeholder: Insert your ad code here.
+                placeholder: Masukkan kode iklan Anda di sini.
+            between-posts:
+                # title: Ad position between posts
+                title: Posisi iklan di antara post
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+            under-nav-items:
+                # title: Ad position in the left column under tags on frontpage
+                title: Posisi iklan di kolom kiri di bawah tag di halaman depan
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        settings:
+            # start-from-post: Specify from which post to start to show an ad
+            start-from-post: Tentukan dari post mana untuk mulai ditampilkan iklan
+            # between-n-posts: Specify after how many posts to place an ad
+            between-n-posts: Tentukan setelah berapa banyak post untuk ditempatkan iklan
+        tab:
+            # description: Set ads preferences and positions.
+            description: Tetapkan preferensi dan posisi iklan.
