@@ -30,16 +30,16 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v1.0.0
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v1.0.1
-- [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v1.2.0
-- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v1.0.3
+- [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v1.1.1
+- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v1.1.2
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v1.0.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v1.0.2
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v1.0.1
-- [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v1.0.1
+- [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v1.1.0
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v1.2.0
-- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.0.1
+- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v1.1.0
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.2.1
-- [fof/polls](https://github.com/friendsofflarum/polls) v1.0.5
+- [fof/polls](https://github.com/friendsofflarum/polls) v1.1.0
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.0.1
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v1.1.0
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.0.1
@@ -48,7 +48,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.0.2
 - [fof/upload](https://github.com/friendsofflarum/upload) v1.1.0
-- [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.0.2
+- [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.1.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.2.2
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v1.0.1
 
