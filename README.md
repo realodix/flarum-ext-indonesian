@@ -7,7 +7,7 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
-**Requires**: [Flarum v1.1.0](https://github.com/flarum/core/releases/tag/v1.1.0) <br>
+**Requires**: [Flarum v1.2.0](https://github.com/flarum/core/releases/tag/v1.2.0) <br>
 **Compatible up to**: [Flarum v1.3.0](https://github.com/flarum/core/releases/tag/v1.3.0)
 
 ### Cara Memasang
