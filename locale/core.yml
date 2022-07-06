@@ -534,6 +534,7 @@ core:
     # These translations are displayed as error messages.
     error:
       dependent_extensions_message: "Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}"
+      extension_initialiation_failed_message: "{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut."
       generic_message: "Ups! Sesuatu tidak beres. Muat ulang halaman dan coba lagi."
       missing_dependencies_message: "Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}"
       not_found_message: Resource yang diminta tidak ditemukan.
