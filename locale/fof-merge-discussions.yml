@@ -43,6 +43,7 @@ fof-merge-discussions:
       updating_failed: Gagal memperbarui detail diskusi.
       deleting_failed: Gagal menghapus diskusi kosong.
       fixing_posts_number_failed: Gagal memperbaiki nomor post.
+      fixing_posts_number_meta_failed: Gagal memperbaiki nomor post.
 
   ref:
     merge: Gabungkan
