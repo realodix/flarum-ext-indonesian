@@ -49,7 +49,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.0.2
 - [fof/upload](https://github.com/friendsofflarum/upload) v1.1.0
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.1.0
-- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.2.2
+- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.2.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v1.0.1
 
 
