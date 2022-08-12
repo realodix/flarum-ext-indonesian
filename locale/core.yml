@@ -18,7 +18,7 @@ core:
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Custom Styles
       custom_styles_text: Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.
-      dark_mode_label: Dark Mode
+      dark_mode_label: Mode Gelap
       description: "Sesuaikan warna forum, logo, dan variabel lainnya."
       edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
@@ -28,18 +28,18 @@ core:
       favicon_text: Upload agambar untuk ditampilkan sebagai shortcut icon.
       logo_heading: Logo
       logo_text: Upload gambar yang akan ditampilkan sebagai pengganti judul forum.
-      title: Appearance
+      title: Tampilan
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Bahasa Default
       description: "Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya."
-      display_name_heading: User Display Name
-      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
-      forum_description_heading: Forum Description
+      display_name_heading: Nama Tampilan User
+      display_name_text: Pilih driver yang harus digunakan untuk nama tampilan User. Secara default, nama User ditampilkan.
+      forum_description_heading: Deskripsi Forum
       forum_description_text: Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.
-      forum_title_heading: Forum Title
+      forum_title_heading: Judul Forum
       home_page_heading: Home Page
       home_page_text: Pilih halaman yang pertama kali dilihat oleh User ketika mereka mengunjungi forum Anda.
       show_language_selector_label: Tampilkan pilihan bahasa
@@ -129,7 +129,7 @@ core:
       no_permissions: Ekstensi ini tidak memiliki pengaturan untuk permission.
       no_settings: Ekstensi ini tidak memiliki pengaturan.
       open_modal: Buka Pengaturan
-      permissions_title: Permissions
+      permissions_title: Izin Akses
       purge_button: Bersihkan
       readme:
         button_label: README
@@ -193,10 +193,10 @@ core:
       read_heading: Read
       rename_discussions_label: Ganti judul diskusi
       reply_to_discussions_label: Balas diskusi
-      search_users_label: Search users
+      search_users_label: Cari User
       sign_up_label: Sign up
       start_discussions_label: Buat diskusi
-      title: Permissions
+      title: Izin Akses
       view_forum_label: Lihat forum (diskusi dan user)
       view_hidden_groups_label: Lihat badge grup tersembunyi
       view_last_seen_at_label: Always view user last seen time
@@ -702,7 +702,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
+    all_discussions: Semua Diskusi
     change_email: Ganti Email
     change_password: Ganti Password
     color: Warna                                 # Referenced by flarum-tags.yml
