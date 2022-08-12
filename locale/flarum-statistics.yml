@@ -9,16 +9,16 @@ flarum-statistics:
 
     # These translations are used in the Statistics dashboard widget.
     statistics:
-      active_users_text: "{count} active"
       discussions_heading: => core.ref.discussions
-      # last_12_months_label: Last 12 months
-      last_12_months_label: 1 tahun terakhir
-      # last_28_days_label: Last 28 days
+      last_12_months_label: 12 bulan terakhir
       last_28_days_label: 28 hari terakhir
-      # last_7_days_label: Last 7 days
       last_7_days_label: 7 hari terakhir
+      mini_heading: Statistik forum
+      previous_28_days_label: 28 hari sebelumnya
+      previous_7_days_label: 7 hari sebelumnya
+      loading: => core.ref.loading
       posts_heading: => core.ref.posts
-      # today_label: Today
       today_label: Hari ini
       total_label: Total
       users_heading: => core.ref.users
+      view_full: Lihat statistik lainnya
