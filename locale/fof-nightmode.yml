@@ -43,4 +43,4 @@ fof-default-user-preferences:
       fofNightMode: 'FoF Nightmode: Warna tema yang akan digunakan secara default'
       fofNightMode-help: '0 - otomatis, 1 - mode terang, 2 - mode gelap'
       fofNightMode_perDevice: 'FoF Nightmode: Gunakan per pengaturan perangkat'
-      fofNightMode_perDevice-help: Gunakan per preferensi perangkat untuk pengaturan mode malam
+      fofNightMode_perDevice-help: Gunakan per preferensi perangkat untuk pengaturan mode gelap
