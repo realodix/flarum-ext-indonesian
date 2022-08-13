@@ -41,7 +41,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.2.1
 - [fof/polls](https://github.com/friendsofflarum/polls) v1.1.0
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.1.0
-- [fof/reactions](https://github.com/friendsofflarum/reactions) v1.1.1
+- [fof/reactions](https://github.com/friendsofflarum/reactions) v1.1.2
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.1.0
 - [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v1.0.2
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.1

@@ -31,6 +31,8 @@ fof-reactions:
         converted: "Berhasil mengkonversi {number} like"
 
       settings:
+        react_own_posts_help: Saat diaktifkan, dengan izin, User dapat bereaksi terhadap postingan mereka sendiri di forum. Untuk mencegah User bereaksi pada posting mereka sendiri, nonaktifkan pengaturan ini.
+        react_own_posts_label: User dapat bereaksi terhadap posting mereka sendiri
         save_settings: Simpan Pengaturan
         integrations:
           legend: Integrasi
