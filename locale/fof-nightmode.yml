@@ -7,8 +7,9 @@ fof-nightmode:
   admin:
     settings:
       modal:
-        default_theme: Tema forum default
-        default_theme_helper: Tema default diatur secara otomatis untuk pengguna baru, tamu, dan mereka yang tidak memiliki preferensi yang ditetapkan.
+        always_show_theme_toggle_on_header: Always show the theme switch button on the forum header
+        default_theme: Default forum theme
+        default_theme_helper: The default theme is automatically set for new users, guests and those who have no preference set.
         theme_auto: => fof-nightmode.ref.auto
         theme_light: => fof-nightmode.ref.light
         theme_dark: => fof-nightmode.ref.dark
@@ -22,7 +23,7 @@ fof-nightmode:
     user:
       settings:
         heading: Tema
-        description: Pilih tema warna mana yang ingin Anda gunakan di forum.
+        description: Pilih warna tema mana yang ingin Anda gunakan di forum.
         description2: Tema ini akan ditautkan ke akun Anda dan berlaku untuk semua perangkat Anda kecuali Anda mengaktifkan sakelar di bawah untuk pengaturan per perangkat.
         device_specific_setting_checkbox: Gunakan per pengaturan perangkat
         device_specific_setting_checkbox_tooltip: Pilihan tema Anda akan disimpan satu per satu untuk setiap perangkat Anda.
@@ -33,5 +34,13 @@ fof-nightmode:
           night: => fof-nightmode.ref.dark
         option_descriptions:
           auto: Tema Anda akan dipilih secara otomatis berdasarkan browser atau pengaturan perangkat Anda. Misalnya, jika Anda mengaktifkan mode gelap di iOS, forum juga akan menjadi gelap.
-          day: Pengalaman klasik yang biasa Anda alami. Dicintai dan teruji.
-          night: Anda seperti burung hantu di malam hari. Anda mengawasi forum di malam hari, sementara burung-burung sedang tidur dan rubah sedang berburu. Atau Anda hanya lebih memilih warna yang lebih gelap!
+          day: Pengalaman klasik yang biasa Anda alami. Teruji dan dicintai.
+          night: Anda seperti burung hantu. Anda mengawasi forum di malam hari, sementara burung-burung tidur dan rubah berburu. Atau Anda lebih suka warna yang lebih gelap!
+
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'FoF Nightmode: Warna tema yang akan digunakan secara default'
+      fofNightMode-help: '0 - otomatis, 1 - mode terang, 2 - mode gelap'
+      fofNightMode_perDevice: 'FoF Nightmode: Gunakan per pengaturan perangkat'
+      fofNightMode_perDevice-help: Gunakan per preferensi perangkat untuk pengaturan mode gelap
