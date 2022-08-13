@@ -1,33 +1,33 @@
 fof-subscribed:
   forum:
     settings:
-      defaults_label: Set "{setting}" enabled by default
-      forced_label: Force enable "{setting}" for everyone
-      notify_discussion_created_label: Someone creates a discussion
-      notify_post_created_label: Someone creates a new post or reply
-      notify_post_unapproved_label: A created post needs approval
-      notify_user_created_label: When someone registers
-      notify_post_flagged_label: Someone creates a new flag on a post
+      defaults_label: Setel "{setting}" diaktifkan secara default
+      forced_label: Aktifkan paksa "{setting}" untuk semua orang
+      notify_discussion_created_label: Seseorang membuat diskusi
+      notify_post_created_label: Seseorang membuat post atau balasan baru
+      notify_post_unapproved_label: Post yang dibuat butuh persetujuan
+      notify_user_created_label: Ketika seseorang mendaftar
+      notify_post_flagged_label: Seseorang membuat penanda baru di post
     notifications:
-      discussion_created_text: '{username} created a new discussion'
-      post_created_text: '{username} wrote a new post'
-      post_unapproved_text: '{username} created a post that requires approval'
-      user_created_text: '{username} had just signed up'
-      post_flagged_text: '{username} flagged a post'
+      discussion_created_text: '{username} telah membuat diskusi baru'
+      post_created_text: '{username} menulis post baru'
+      post_unapproved_text: '{username} membuat post yang memerlukan persetujuan'
+      user_created_text: '{username} baru saja mendaftar'
+      post_flagged_text: '{username} menandai sebuah post'
   admin:
     permission:
-      subscribe_to_discussion_created: Allowed to receive notification upon new discussion
-      subscribe_to_post_created: Allowed to receive notification upon new post or reply
-      subscribe_to_post_unapproved: Allowed to receive notification upon new unapproved post
-      subscribe_to_user_created: Allowed to receive notification upon new user
-      subscribe_to_post_flagged: Allowed to receive notification upon new flag
+      subscribe_to_discussion_created: Diizinkan untuk menerima notifikasi tentang diskusi yang baru dibuat
+      subscribe_to_post_created: Diizinkan untuk menerima notifikasi tentang post baru atau balasan baru
+      subscribe_to_post_unapproved: Diizinkan untuk menerima notifikasi tentang post yang baru dibuat dan tidak disetujui
+      subscribe_to_user_created: Diizinkan untuk menerima notifikasi tentang User baru
+      subscribe_to_post_flagged: Diizinkan untuk menerima notifikasi tentang penanda baru
   email:
     subject:
       newDiscussion: '[Subscribed | New Discussion] {title}'
       newUser: '[Subscribed | New User] {username}'
-      postUnapproved: '[Subscribed | Unapproved] {username} posted in {title}'
-      postCreated: '[Subscribed | New Post] {username} wrote a new post in {title}'
-      postFlagged: '[Subscribed | New Flag] {username} flagged a post in {title}'
+      postUnapproved: '[Subscribed | Unapproved] {username} diposting di {title}'
+      postCreated: '[Subscribed | New Post] {username} menulis post baru di {title}'
+      postFlagged: '[Subscribed | New Flag] {username} telah menandai post dengan {title}'
     body:
       newDiscussion: |
         Hey {recipient_display_name},
