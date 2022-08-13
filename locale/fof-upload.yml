@@ -2,30 +2,32 @@ fof-upload:
   admin:
     pane:
       title: Upload
-      description: Siapkan layanan dan preferensi upload.
+      description: Set up uploading services and preferences.
     help_texts:
       disable-download-logging: |
-        Nonaktifkan logging setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.
+        Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.
       disable-hotlink-protection: |
-        Hotlink protection akan mencegah kegiatan download di situs lain. Metode saat ini membutuhkan csrf token dan post id.
+        Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.
       download_templates: |
-        Download template adalah bagaimana upload ditampilkan di forum Anda, misalnya seperti preview, button. Tersedia saat ini:
+        Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:
       mime_types: |
-        Harap konfigurasikan mapping Anda di sini. Setiap mime type regular expression ditangani oleh upload adapter dan download template tertentu.
+        Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.
       resize: |
-        Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan rasio aspek gambar..
+        Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
       client_extension: |
-        Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.
-        Untuk beberapa jenis file yang berbasis di sekitar ZIP atau data biner, ini dapat mengakibatkan ekstensi generik digunakan alih-alih yang diharapkan.
-        Di sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan koma yang akan disimpan kata demi kata.
+        By default Upload will choose a safe file extension based on the MIME type.
+        For some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.
+        Here you can enter a comma-separated list of file extensions that will be kept verbatim.
       watermark: |
-        Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke gambar non-gif berdasarkan preferensi Anda di bawah ini.
+        Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
       s3_compatible_storage: |
-        Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya kosong.
+        The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.
       s3_acl: |
-        ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+        The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+      s3_instance_profile: |
+        Leave key and secret empty to use credentials in instance profile.
       composer_buttons: |
-        Secara default, media manager button dan upload button akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.
+        By default both the media manager button and upload button are visible. You can also choose to display only one button.
     labels:
       aws-s3:
         bucket: Bucket
@@ -46,6 +48,7 @@ fof-upload:
       imgur:
         client_id: Imgur client ID
         title: Imgur image storage settings
+        tos: It is your responsibility to ensure your forum users adhere to Imgur's <a>Terms of service</a>
       local:
         cdn_url: Content Delivery URL (prefixes files)
         title: Local storage settings
@@ -55,27 +58,28 @@ fof-upload:
         secret: Secret
         bucket: Bucket
       preferences:
-        max_file_size: Ukuran file maksimum (dalam kilobyte)
+        max_file_size: Maximum file size (in kilobytes)
         mime_types: "Configure your mime type, upload adapter mapping"
-        title: Preferensi umum
+        title: General preferences
         php_ini_values: "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
       resize:
-        max_width: Lebar/tinggi gambar maksimum
+        max_width: Maximum image width/height
         title: Image resize
-        toggle: Ubah ukuran gambar
+        toggle: Resize images
       client_extension:
         title: User-provided file extensions
       watermark:
-        file: Upload gambar watermark Anda
-        position: Posisi watermark
+        file: Upload your watermark image
+        position: Watermark position
         title: Watermark images
-        toggle: Gambar watermark
+        toggle: Watermark images
       composer_buttons:
-        title: Composer Button
+        title: Composer buttons
         options:
-          both: Keduanya
-          upload-btn: Hanya upload button
-          media-btn: Hanya media manager button
+          both: Both
+          upload-btn: Upload button only
+          media-btn: Media manager button only
+      inspect-mime: Test file MIME type
 
     permissions:
       download_label: Download files
@@ -85,31 +89,45 @@ fof-upload:
     templates:
       file: Default file download template
       file_description: |
-        Menunjukkan nama file dan beberapa informasi umum. Download proxy melalui php, memungkinkan pengumpulan statistik dan hotlink protection.
+        Shows the file name and some general information. Proxies downloads through php, allowing for statistics gathering and hotlink protection.
       image: Default image download template
       image_description: |
-        Menampilkan thumbnail gambar dan proxy yang didownload melalui php. Mengizinkan pengumpulan statistik dan hotlink protection.
+        Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.
       image-preview: Complete image preview template
       image-preview_description: |
-        Menampilkan gambar lengkap. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection dinonaktifkan.
+        Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.
       markdown-image: Markdown image template
       markdown-image_description: |
-        Menampilkan gambar lengkap menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
+        Shows the complete image in-line using Markdown. <strong>You must have flarum/markdown installed and enabled for this to work.</strong> No download functionality, no statistics are gathered and hotlink protection is ignored.
       bbcode-image: BBCode image template
       bbcode-image_description: |
-        Menampilkan gambar lengkap menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
+        Shows the complete image in-line using BBCode. <strong>You must have flarum/bbcode installed and enabled for this to work.</strong> No download functionality, no statistics are gathered and hotlink protection is ignored.
       just-url: Just URL
       just-url_description: |
-        Hanya menambahkan URL. Rendering dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
+        Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.
       text-preview: Text preview
       text-preview_description: |
-        Menambahkan preview (5 baris pertama) dari file teks, dengan opsi untuk memperluas untuk memperlihatkan isi file secara penuh.
+        Inserts a preview (first 5 lines) of the text file, with an option to expand to reveal the full contents of the file.
     upload_methods:
       aws-s3: S3/Compatible
       imgur: Imgur
       local: Local
       ovh-svfs: OVH SVFS
       qiniu: QiNiu
+    inspect-mime:
+      title: Inspect MIME
+      description: |
+        FoF Upload uses the <a>PHP Mime Detector</a> library for common MIME types and PHP Fileinfo as a fallback.
+        The MIME value returned by Fileinfo can be different from server to server!
+      select: Select a file below to inspect the values that will be used. The file will not be saved.
+      laravel-validation: Laravel File Validation
+      no-file-selected: No file
+      validation-passed: Passed
+      validation-failed: "Failed: {error}"
+      mime-detector: Mime Detector (primary)
+      mime-fileinfo: PHP Fileinfo (fallback)
+      guessed-extension: Default file extension (if original is not whitelisted)
+      not-available: No result
   forum:
     media_manager: Media manager
 
