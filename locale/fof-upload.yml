@@ -19,15 +19,15 @@ fof-upload:
         Untuk beberapa jenis file yang berbasis ZIP atau data biner, ini dapat membaut ekstensi generik digunakan alih-alih yang diharapkan.
         Di sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan koma yang akan disimpan kata demi kata.
       watermark: |
-        Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
+        Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke gambar non-gif berdasarkan preferensi Anda di bawah ini.
       s3_compatible_storage: |
-        The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.
+        Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya tetap kosong.
       s3_acl: |
-        The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+        ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
       s3_instance_profile: |
-        Leave key and secret empty to use credentials in instance profile.
+        Biarkan key dan secret kosong untuk menggunakan kredensial di profil instan.
       composer_buttons: |
-        By default both the media manager button and upload button are visible. You can also choose to display only one button.
+        Secara default, media manager button dan upload button akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu button saja.
     labels:
       aws-s3:
         bucket: Bucket
@@ -48,7 +48,7 @@ fof-upload:
       imgur:
         client_id: Imgur client ID
         title: Imgur image storage settings
-        tos: It is your responsibility to ensure your forum users adhere to Imgur's <a>Terms of service</a>
+        tos: Merupakan tanggung jawab Anda untuk memastikan pengguna forum Anda mematuhi <a>Terms of service</a>
       local:
         cdn_url: Content Delivery URL (prefixes files)
         title: Local storage settings
@@ -60,12 +60,12 @@ fof-upload:
       preferences:
         max_file_size: Maximum file size (in kilobytes)
         mime_types: "Configure your mime type, upload adapter mapping"
-        title: General preferences
+        title: Preferensi umum
         php_ini_values: "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
       resize:
-        max_width: Maximum image width/height
+        max_width: Lebar/tinggi gambar maksimum
         title: Image resize
-        toggle: Resize images
+        toggle: Ubah ukuran gambar
       client_extension:
         title: User-provided file extensions
       watermark:
