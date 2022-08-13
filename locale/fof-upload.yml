@@ -5,27 +5,29 @@ fof-upload:
       description: Siapkan layanan dan preferensi upload.
     help_texts:
       disable-download-logging: |
-        Nonaktifkan logging setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.
+        Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.
       disable-hotlink-protection: |
-        Hotlink protection akan mencegah kegiatan download di situs lain. Metode saat ini membutuhkan csrf token dan post id.
+        Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.
       download_templates: |
-        Download template adalah bagaimana upload ditampilkan di forum Anda, misalnya seperti preview, button. Tersedia saat ini:
+        Download template adalah bagaimana upload ditampilkan di forum Anda, misalnya seperti preview, button. Saat ini tersedia:
       mime_types: |
-        Harap konfigurasikan mapping Anda di sini. Setiap mime type regular expression ditangani oleh upload adapter dan download template tertentu.
+        Harap konfigurasikan mapping Anda di sini. Setiap mime type regular expression akan ditangani oleh adaptor upload dan template download tertentu.
       resize: |
-        Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan rasio aspek gambar..
+        Pilih apakah Anda ingin mengubah ukuran gambar sebelum diupload. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses perubahan ukuran akan mempertahankan rasio aspek gambar.
       client_extension: |
         Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.
-        Untuk beberapa jenis file yang berbasis di sekitar ZIP atau data biner, ini dapat mengakibatkan ekstensi generik digunakan alih-alih yang diharapkan.
+        Untuk beberapa jenis file yang berbasis ZIP atau data biner, ini dapat membaut ekstensi generik digunakan alih-alih yang diharapkan.
         Di sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan koma yang akan disimpan kata demi kata.
       watermark: |
         Pilih apakah gambar akan memiliki watermark yang ditambahkan selama proses upload. Watermark ditambahkan ke gambar non-gif berdasarkan preferensi Anda di bawah ini.
       s3_compatible_storage: |
-        Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya kosong.
+        Pengaturan berikut hanya diperlukan saat menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat membiarkannya tetap kosong.
       s3_acl: |
         ACL yang harus diterapkan ke objek yang diupload (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+      s3_instance_profile: |
+        Biarkan key dan secret kosong untuk menggunakan kredensial di profil instan.
       composer_buttons: |
-        Secara default, media manager button dan upload button akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.
+        Secara default, media manager button dan upload button akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu button saja.
     labels:
       aws-s3:
         bucket: Bucket
@@ -46,6 +48,7 @@ fof-upload:
       imgur:
         client_id: Imgur client ID
         title: Imgur image storage settings
+        tos: Merupakan tanggung jawab Anda untuk memastikan pengguna forum Anda mematuhi <a>Terms of service</a>
       local:
         cdn_url: Content Delivery URL (prefixes files)
         title: Local storage settings
@@ -55,7 +58,7 @@ fof-upload:
         secret: Secret
         bucket: Bucket
       preferences:
-        max_file_size: Ukuran file maksimum (dalam kilobyte)
+        max_file_size: Maximum file size (in kilobytes)
         mime_types: "Configure your mime type, upload adapter mapping"
         title: Preferensi umum
         php_ini_values: "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
@@ -66,16 +69,17 @@ fof-upload:
       client_extension:
         title: User-provided file extensions
       watermark:
-        file: Upload gambar watermark Anda
-        position: Posisi watermark
+        file: Upload your watermark image
+        position: Watermark position
         title: Watermark images
-        toggle: Gambar watermark
+        toggle: Watermark images
       composer_buttons:
-        title: Composer Button
+        title: Composer buttons
         options:
           both: Keduanya
           upload-btn: Hanya upload button
           media-btn: Hanya media manager button
+      inspect-mime: Test file MIME type
 
     permissions:
       download_label: Download files
@@ -85,31 +89,45 @@ fof-upload:
     templates:
       file: Default file download template
       file_description: |
-        Menunjukkan nama file dan beberapa informasi umum. Download proxy melalui php, memungkinkan pengumpulan statistik dan hotlink protection.
+        Tampilkan nama file dan beberapa informasi umum. Download proxy melalui php, memungkinkan pengumpulan statistik dan hotlink protection.
       image: Default image download template
       image_description: |
-        Menampilkan thumbnail gambar dan proxy yang didownload melalui php. Mengizinkan pengumpulan statistik dan hotlink protection.
+        Tampilkan thumbnail gambar dan proxy yang didownload melalui php. Izinkan pengumpulan statistik dan hotlink protection.
       image-preview: Complete image preview template
       image-preview_description: |
-        Menampilkan gambar lengkap. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection dinonaktifkan.
+        Tampilkan gambar lengkap. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection dinonaktifkan.
       markdown-image: Markdown image template
       markdown-image_description: |
-        Menampilkan gambar lengkap menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
+        Tampilkan gambar menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
       bbcode-image: BBCode image template
       bbcode-image_description: |
-        Menampilkan gambar lengkap menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
+        Tampilkan gambar menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
       just-url: Just URL
       just-url_description: |
         Hanya menambahkan URL. Rendering dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.
       text-preview: Text preview
       text-preview_description: |
-        Menambahkan preview (5 baris pertama) dari file teks, dengan opsi untuk memperluas untuk memperlihatkan isi file secara penuh.
+        Tambahkan preview (5 baris pertama) dari file teks, dengan opsi untuk memperluas untuk memperlihatkan isi file secara penuh.
     upload_methods:
       aws-s3: S3/Compatible
       imgur: Imgur
       local: Local
       ovh-svfs: OVH SVFS
       qiniu: QiNiu
+    inspect-mime:
+      title: Inspect MIME
+      description: |
+        FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.
+        Nilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!
+      select: Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.
+      laravel-validation: Laravel File Validation
+      no-file-selected: No file
+      validation-passed: Passed
+      validation-failed: "Failed: {error}"
+      mime-detector: Mime Detector (primary)
+      mime-fileinfo: PHP Fileinfo (fallback)
+      guessed-extension: Ekstensi file default (jika original, tidak masuk daftar putih)
+      not-available: Tidak ada hasil
   forum:
     media_manager: Media manager
 
@@ -139,20 +157,20 @@ fof-upload:
     states:
       error: Error
       loading: Uploading
-      unauthorized: You are not allowed to download files
+      unauthorized: Anda tidak diizinkan untuk men-download file
 
     validation:
-      max_size: "Uploads over {max} kb are not accepted."
+      max_size: "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
 
     text_preview:
       expand: Expand preview
       collapse: Collapse preview
       error: |
-        Error previewing file. It may have been deleted, or the provided file ID is invalid.
-      no_snippet_preview: "<preview will appear here after posting>"
-      no_snippet: "<no preview snippet available>"
+        Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.
+      no_snippet_preview: "<pratinjau akan muncul di sini setelah posting>"
+      no_snippet: "<tidak ada cuplikan pratinjau yang tersedia>"
   api:
     upload_errors:
-      forbidden_type: Uploading files of this type is not allowed.
-      unsupported_type: "Upload adapter does not support the provided mime type: {mime}."
-      could_not_detect_mime: Could not detect the MIME type of this file, please try again.
+      forbidden_type: Upload file jenis ini tidak diperbolehkan.
+      unsupported_type: "Adaptor upload tidak mendukung mime type yang disediakan: {mime}."
+      could_not_detect_mime: Tidak dapat mendeteksi MIME type file ini, harap coba lagi.
