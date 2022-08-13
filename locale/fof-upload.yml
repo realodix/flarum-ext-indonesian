@@ -76,9 +76,9 @@ fof-upload:
       composer_buttons:
         title: Composer buttons
         options:
-          both: Both
-          upload-btn: Upload button only
-          media-btn: Media manager button only
+          both: Keduanya
+          upload-btn: Hanya upload button
+          media-btn: Hanya media manager button
       inspect-mime: Test file MIME type
 
     permissions:
@@ -89,10 +89,10 @@ fof-upload:
     templates:
       file: Default file download template
       file_description: |
-        Shows the file name and some general information. Proxies downloads through php, allowing for statistics gathering and hotlink protection.
+        Tampilkan nama file dan beberapa informasi umum. Download proxy melalui php, memungkinkan pengumpulan statistik dan hotlink protection.
       image: Default image download template
       image_description: |
-        Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.
+        Tampilkan thumbnail gambar dan proxy yang didownload melalui php. Izinkan pengumpulan statistik dan hotlink protection.
       image-preview: Complete image preview template
       image-preview_description: |
         Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.
