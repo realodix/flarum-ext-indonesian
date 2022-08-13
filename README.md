@@ -46,7 +46,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v1.0.2
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.1
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
-- [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.0.2
+- [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.1.2
 - [fof/upload](https://github.com/friendsofflarum/upload) v1.1.0
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.1.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.2.3
