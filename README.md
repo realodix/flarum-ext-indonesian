@@ -43,7 +43,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.1.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v1.1.2
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.1.0
-- [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v1.0.2
+- [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v2.0.1
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.1
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.1.2
