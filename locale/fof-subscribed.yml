@@ -1,66 +1,80 @@
 fof-subscribed:
-    forum:
-        settings:
-            # defaults_label: Set "{setting}" enabled by default
-            defaults_label: "Atur {setting} secara default"
-            # forced_label: Force enable "{setting}" for everyone
-            forced_label: Aktifkan "{setting}" untuk semua user
-            # notify_discussion_created_label: Someone creates a discussion
-            notify_discussion_created_label: Seseorang membuat diskusi
-            # notify_post_unapproved_label: A created post needs approval
-            notify_post_unapproved_label: Post yang dibuat butuh persetujuan
-            # notify_user_created_label: When someone registers
-            notify_user_created_label: Ketika seseorang mendaftar
-        notifications:
-            # discussion_created_text: "{username} created a new discussion"
-            discussion_created_text: "{username} membuat diskusi baru"
-            # post_unapproved_text: "{username} created a post that requires approval"
-            post_unapproved_text: "{username} membuat post yang memerlukan persetujuan"
-            # user_created_text: "{username} had just signed up"
-            user_created_text: "{username} baru saja mendaftar"
-    admin:
-        menu:
-            # description: Configure (default) user subscriptions
-            description: Konfigurasikan user subscribe (default)
-        permission:
-            # subscribe_to_discussion_created: Allowed to receive notification upon new discussion
-            subscribe_to_discussion_created: Notifikasi pada diskusi baru
-            # subscribe_to_post_unapproved: Allowed to receive notification upon new unapproved post
-            subscribe_to_post_unapproved: Menerima notifikasi pada post baru yang tidak disetujui
-            # subscribe_to_user_created: Allowed to receive notification upon new user
-            subscribe_to_user_created: Menerima notifikasi pada user baru
-    email:
-        subject:
-            newDiscussion: "[Subscribed | New Discussion] {title}"
-            newUser: "[Subscribed | New User] {username}"
-            postUnapproved: "[Subscribed | Unapproved] {username} diposting di {title}"
-        body:
-            newDiscussion: |
-                Halo {recipient_display_name},
+  forum:
+    settings:
+      defaults_label: Set "{setting}" enabled by default
+      forced_label: Force enable "{setting}" for everyone
+      notify_discussion_created_label: Someone creates a discussion
+      notify_post_created_label: Someone creates a new post or reply
+      notify_post_unapproved_label: A created post needs approval
+      notify_user_created_label: When someone registers
+      notify_post_flagged_label: Someone creates a new flag on a post
+    notifications:
+      discussion_created_text: '{username} created a new discussion'
+      post_created_text: '{username} wrote a new post'
+      post_unapproved_text: '{username} created a post that requires approval'
+      user_created_text: '{username} had just signed up'
+      post_flagged_text: '{username} flagged a post'
+  admin:
+    permission:
+      subscribe_to_discussion_created: Allowed to receive notification upon new discussion
+      subscribe_to_post_created: Allowed to receive notification upon new post or reply
+      subscribe_to_post_unapproved: Allowed to receive notification upon new unapproved post
+      subscribe_to_user_created: Allowed to receive notification upon new user
+      subscribe_to_post_flagged: Allowed to receive notification upon new flag
+  email:
+    subject:
+      newDiscussion: '[Subscribed | New Discussion] {title}'
+      newUser: '[Subscribed | New User] {username}'
+      postUnapproved: '[Subscribed | Unapproved] {username} posted in {title}'
+      postCreated: '[Subscribed | New Post] {username} wrote a new post in {title}'
+      postFlagged: '[Subscribed | New Flag] {username} flagged a post in {title}'
+    body:
+      newDiscussion: |
+        Hey {recipient_display_name},
 
-                {actor_display_name} memulai diskusi baru: {discussion_title}
+        {actor_display_name} started a new discussion: {discussion_title}
 
-                Untuk melihat diskusi baru ini, lihat link berikut:
-                {discussion_url}
+        To view this new discussion, check out the following link:
+        {discussion_url}
 
-                ---
+        ---
 
-                {post_content}
-            newUser: |
-                Halo {recipient_display_name},
+        {post_content}
+      newUser: |
+        Hey {recipient_display_name},
 
-                {actor_display_name} baru bergabung di {forum_url}.
+        {actor_display_name} just joined {forum_url}.
 
-                Untuk melihat profil user baru ini, lihat link berikut:
-                {user_url}
-            postUnapproved: |
-                Halo {recipient_display_name},
+        To view this new user's profile, check out the following link:
+        {user_url}
+      postUnapproved: |
+        Hey {recipient_display_name},
 
-                {actor_display_name} membuat post yang tidak disetujui secara otomatis di {discussion_title}
+        {actor_display_name} created a post that wasn't automatically approved in {discussion_title}
 
-                Untuk melihat post baru ini, lihat link berikut:
-                {post_url}
+        To view this new post, check out the following link:
+        {post_url}
 
-                ---
+        ---
 
-                {post_content}
+        {post_content}
+
+      postCreated: |
+        Hey {recipient_display_name},
+
+        {actor_display_name} just created a new post in {discussion_title}
+
+        To view this new post, check out the following link:
+        {post_url}
+
+        ---
+
+        {post_content}
+
+      postFlagged: |
+        Hey {recipient_display_name},
+
+        {actor_display_name} just flagged a post in {discussion_title}
+
+        To view this post, check out the following link:
+        {post_url}
