@@ -31,8 +31,5 @@ dayjs.locale({
         y: 'setahun',
         yy: '%d tahun'
     },
-    ordinal: (n) => {
-      const o = n === 1 ? 'er' : ''
-      return `${n}${o}`
-    }
+    ordinal: n => `${n}.`
   }, null, false);
