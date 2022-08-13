@@ -157,20 +157,20 @@ fof-upload:
     states:
       error: Error
       loading: Uploading
-      unauthorized: You are not allowed to download files
+      unauthorized: Anda tidak diizinkan untuk men-download file
 
     validation:
-      max_size: "Uploads over {max} kb are not accepted."
+      max_size: "File yang memiliki ukuran lebih dari {max} kb tidak diizinkan."
 
     text_preview:
       expand: Expand preview
       collapse: Collapse preview
       error: |
-        Error previewing file. It may have been deleted, or the provided file ID is invalid.
-      no_snippet_preview: "<preview will appear here after posting>"
-      no_snippet: "<no preview snippet available>"
+        Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.
+      no_snippet_preview: "<pratinjau akan muncul di sini setelah posting>"
+      no_snippet: "<tidak ada cuplikan pratinjau yang tersedia>"
   api:
     upload_errors:
-      forbidden_type: Uploading files of this type is not allowed.
-      unsupported_type: "Upload adapter does not support the provided mime type: {mime}."
-      could_not_detect_mime: Could not detect the MIME type of this file, please try again.
+      forbidden_type: Upload file jenis ini tidak diperbolehkan.
+      unsupported_type: "Adaptor upload tidak mendukung mime type yang disediakan: {mime}."
+      could_not_detect_mime: Tidak dapat mendeteksi MIME type file ini, harap coba lagi.
