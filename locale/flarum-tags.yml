@@ -62,6 +62,7 @@ flarum-tags:
       create_secondary_tag_button: Buat Tag Sekunder
       primary_heading: Tag Primer
       secondary_heading: Tag Sekunder
+      settings_heading: Pengaturan
       # settings_button: Setting      settings_button: Pengaturan
 
   # Translations in this namespace are used by the forum user interface.
