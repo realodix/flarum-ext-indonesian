@@ -20,6 +20,6 @@ flarum-markdown:
       # unordered_list_tooltip: Add a bulleted list
       unordered_list_tooltip: List (point)
       # spoiler_tooltip: Insert a spoiler
-      spoiler_tooltip: 'Sisipkan spoiler'
+      spoiler_tooltip: Sisipkan spoiler
       # strikethrough_tooltip: Add strikethrough text
-      strikethrough_tooltip: 'Tambahkan teks yang dicoret (strikethrough text)'
+      strikethrough_tooltip: Tambahkan teks yang dicoret (strikethrough text)

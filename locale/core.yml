@@ -9,8 +9,8 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colors_primary_label: 'Warna Utama'
-      colors_secondary_label: 'Warna Kedua'
+      colors_primary_label: Warna Utama
+      colors_secondary_label: Warna Kedua
       colored_header_label: Colored Header
       colors_heading: Colors
       colors_text: "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna highlight, sedangkan yang kedua akan digunakan untuk background."
@@ -57,7 +57,7 @@ core:
       description: Sekilas tentang forum Anda.
       title: Beranda
       tools_button: Peralatan
-      io_error_message: 'Tidak dapat menulis ke sistem file. Periksa izin sistem file Anda dan coba lagi. Atau coba jalankan dari baris perintah (CLI).'
+      io_error_message: Tidak dapat menulis ke sistem file. Periksa izin sistem file Anda dan coba lagi. Atau coba jalankan dari baris perintah (CLI).
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -268,7 +268,7 @@ core:
 
     debug-warning:
       detail: "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap permintaan, dan juga berpotensi membocorkan informasi lain, seperti database, variabel, dll.\n\nSangat disarankan untuk menonaktifkan mode <code>debug</code> di file <code>config.php</code> saat halaman anda dalam produksi. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut."
-      label: 'Mode debug Aktif'
+      label: Mode debug Aktif
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -407,8 +407,8 @@ core:
       title: => core.ref.notifications
       toggle_dropdown_accessible_label: Lihat notifikasi
       tooltip: => core.ref.notifications
-      delete_all_confirm: 'Anda yakin ingin menghapus semua notifikasi? Tindakan ini tidak dapat dikembalikan'
-      delete_all_tooltip: 'Hapus semua notifikasi'
+      delete_all_confirm: Anda yakin ingin menghapus semua notifikasi? Tindakan ini tidak dapat dikembalikan
+      delete_all_tooltip: Hapus semua notifikasi
 
     # These translations are used by tooltips displayed for individual posts.
     post:
@@ -464,7 +464,7 @@ core:
       privacy_disclose_online_label: Izinkan orang lain melihat saat Saya online
       privacy_heading: Privasi
       title: => core.ref.settings
-      notification_checkbox_a11y_label_template: 'Terima notifikasi "{description}" melalui {method}'
+      notification_checkbox_a11y_label_template: Terima notifikasi "{description}" melalui {method}
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:

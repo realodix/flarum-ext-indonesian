@@ -1,16 +1,16 @@
 sycho-profile-cover:
   admin:
-    thumbnails: 'Buat thumbnail'
-    max_size: 'Ukuran maksimum gambar sampul profil (KB)'
+    thumbnails: Buat thumbnail
+    max_size: Ukuran maksimum gambar cover profil (KB)
     permission:
-      set_cover: 'Ubah Sampul Profil'
+      set_cover: Ubah Cover Profil
   forum:
-    cover: Sampul
-    edit_cover: 'Edit Sampul'
+    cover: Cover
+    edit_cover: Edit Cover
     added:
-      success: 'Sampul profil diperbarui.'
-      error: 'Gambar tidak dapat diupload.'
-    notice: 'Ukuran maksimum: {size}'
+      success: Cover profil diperbarui.
+      error: Gambar tidak dapat diupload.
+    notice: "Ukuran maksimum: {size}"
     removed:
-      success: 'Gambar profil dihapus.'
-      error: 'Tidak dapat menghapus gambar sampul, coba lagi nanti.'
+      success: Cover profil dihapus.
+      error: Tidak dapat menghapus cover profil, coba lagi nanti.

@@ -25,8 +25,8 @@ fof-links:
       url_placeholder: => fof-links.ref.url
       everyone-label: Semua
       guests-label: Tamu
-      members-label: 'Pengguna terdaftar'
-      url_description: 'Biarkan kosong untuk ditampilkan sebagai label.'
+      members-label: User terdaftar
+      url_description: Biarkan kosong untuk ditampilkan sebagai label.
 
     # These strings are used in the Links page.
     links:

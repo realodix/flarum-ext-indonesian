@@ -40,7 +40,7 @@ flarum-subscriptions:
       # notify_new_post_label: Someone posts in a discussion I'm following
       notify_new_post_label: Ada post baru pada diskusi yang Saya follow
       # notify_for_all_posts_label: Notify about every new post instead of only the last in a discussion
-      notify_for_all_posts_label: 'Beri tahu tentang setiap posting baru, bukan hanya yang terakhir dalam diskusi'
+      notify_for_all_posts_label: Beri tahu tentang setiap post baru, bukan hanya yang terakhir dalam diskusi
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
