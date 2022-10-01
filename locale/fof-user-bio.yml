@@ -4,9 +4,9 @@ fof-user-bio:
       view: Lihat bio
       editOwn: Edit bio Anda
       editAny: Edit setiap bio
-  setting:
-    # bioLimit: Bio character limit
-    bioLimit: Batas karakter
+    setting:
+      # bioLimit: Bio character limit
+      bioLimit: Batas karakter
 
   forum:
     userbioPlaceholder: Tulis sesuatu tentang diri Anda
