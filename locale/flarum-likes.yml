@@ -12,6 +12,10 @@ flarum-likes:
       # like_posts_label: Like posts
       like_posts_label: Kasih Tanda Suka
 
+    settings:
+      like_own_posts_help: 'Saat diaktifkan, pengguna dapat ''menyukai'' postingan mereka sendiri. Untuk mencegah pengguna menempatkan ''suka'' pada posting mereka sendiri, nonaktifkan pengaturan ini.'
+      like_own_posts_label: 'Pengguna mungkin menyukai posting mereka sendiri'
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 
@@ -42,3 +46,7 @@ flarum-likes:
     settings:
       # notify_post_liked_label: Someone likes one of my posts
       notify_post_liked_label: Seseorang menyukai post Saya
+
+    # These translations are used in the User profile page.
+    user:
+      likes_link: Suka
