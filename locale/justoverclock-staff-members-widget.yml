@@ -1,0 +1,6 @@
+justoverclock-staff-members-widget:
+  admin:
+    selectedGroupsId: 'Pilih ID Grup Anda (dipisahkan dengan koma)'
+
+  forum:
+    widgetTitle: 'Staff Kami'

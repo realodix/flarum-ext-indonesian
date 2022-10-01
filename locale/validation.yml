@@ -39,6 +39,8 @@ validation:
   ends_with: ":attribute harus diakhiri dengan salah satu dari yang berikut: :values."
   exists: ":attribute yang dipilih tidak valid."
   file: ":attribute harus berupa berkas."
+  file_too_large: "ukuran :attribute terlalu besar"
+  file_upload_failed: "File :attribute gagal diupload."
   filled: ":attribute harus memiliki nilai."
   gt:
     numeric: ":attribute harus lebih besar dari :value."
@@ -80,6 +82,7 @@ validation:
     file: ":attribute minimal harus diisi :min kilobytes."
     string: ":attribute minimal harus diisi :min karakter."
     array: ":attribute minimal harus diisi :min item."
+  multiple_of: ":attribute harus kelipatan dari :value."
   not_in: ":attribute yang dipilih tidak valid."
   not_regex: "The :attribute format is invalid."
   numeric: ":attribute harus berupa angka."
@@ -93,6 +96,9 @@ validation:
   required_with_all: "Bidang :attribute harus diisi bila terdapat :values."
   required_without: "Bidang :attribute harus diisi bila tidak terdapat :values."
   required_without_all: "Bidang :attribute harus diisi bila tidak terdapat ada :values."
+  prohibited: "Bidang :attribute tidak diperbolehkan"
+  prohibited_if: "Bidang :attribute dilarang ketika :other adalah :value."
+  prohibited_unless: "Bidang :attribute dilarang kecuali :other ada di :values."
   same: ":attribute dan :other harus sama."
   size:
     numeric: ":attribute harus berukuran :size."

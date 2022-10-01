@@ -1,0 +1,9 @@
+afrux-online-users-widget:
+  admin:
+    settings:
+      max_users: 'Pengguna Maksimal Untuk Ditampilkan'
+
+  forum:
+    widget:
+      title: 'Pengguna Online'
+      empty: 'Tidak Ada Pengguna yang Online.'
