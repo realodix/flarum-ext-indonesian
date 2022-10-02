@@ -9,25 +9,25 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
+      colored_header_label: Header Berwarna
+      colors_heading: Warna
       colors_primary_label: Warna Utama
       colors_secondary_label: Warna Kedua
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna highlight, sedangkan yang kedua akan digunakan untuk background."
+      colors_text: "Pilih dua warna untuk tema forum Anda. Yang pertama akan digunakan sebagai warna highlight, sedangkan yang kedua akan digunakan untuk menata elemen latar belakang."
       custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Custom Header
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Custom Styles
       custom_styles_text: Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSS Anda sendiri untuk diterapkan di atas Flarum's default styles.
-      dark_mode_label: Mode Gelap
+      dark_mode_label: Dark Mode
       description: "Sesuaikan warna forum, logo, dan variabel lainnya."
       edit_css_button: Edit Custom CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: Silakan masukkan kode warna heksadesimal.
+      enter_hex_message: Masukkan kode warna heksadesimal.
       favicon_heading: Favicon
-      favicon_text: Upload agambar untuk ditampilkan sebagai shortcut icon.
+      favicon_text: Upload gambar untuk ditampilkan sebagai forum shortcut icon.
       logo_heading: Logo
       logo_text: Upload gambar yang akan ditampilkan sebagai pengganti judul forum.
       title: Tampilan
@@ -57,7 +57,7 @@ core:
       description: Sekilas tentang forum Anda.
       title: Beranda
       tools_button: Peralatan
-      io_error_message: Tidak dapat menulis ke sistem file. Periksa izin sistem file Anda dan coba lagi. Atau coba jalankan dari baris perintah (CLI).
+      io_error_message: Tidak dapat menulis ke sistem file. Periksa izin sistem file Anda dan coba lagi. Atau coba jalankan dari command line.
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -267,7 +267,9 @@ core:
       total_users: "Total user: {count}"
 
     debug-warning:
-      detail: "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap permintaan, dan juga berpotensi membocorkan informasi lain, seperti database, variabel, dll.\n\nSangat disarankan untuk menonaktifkan mode <code>debug</code> di file <code>config.php</code> saat halaman anda dalam produksi. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut."
+      detail: |
+        Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.
+        Ketika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.
       label: Mode debug Aktif
 
   # Translations in this namespace are used by the forum user interface.
@@ -568,7 +570,7 @@ core:
 
     # These translations are used in the navigation header.
     nav:
-      drawer_button: Open Navigation Drawer
+      drawer_button: Buka Navigation Drawer
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
