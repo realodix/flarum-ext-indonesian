@@ -5,7 +5,7 @@ fof-upload:
       description: Siapkan layanan dan preferensi upload.
     help_texts:
       disable-download-logging: |
-        Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.
+        Nonaktifkan pencatatan setiap download yang dilakukan oleh user forum Anda. Dengan tetap mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.
       disable-hotlink-protection: |
         Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.
       download_templates: |
@@ -48,7 +48,7 @@ fof-upload:
       imgur:
         client_id: Imgur client ID
         title: Imgur image storage settings
-        tos: Merupakan tanggung jawab Anda untuk memastikan pengguna forum Anda mematuhi <a>Terms of service</a>
+        tos: Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>
       local:
         cdn_url: Content Delivery URL (prefixes files)
         title: Local storage settings
