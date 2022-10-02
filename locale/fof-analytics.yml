@@ -6,7 +6,7 @@ fof-analytics:
                 Matomo: Matomo
 
             field:
-                statusGoogle: Aktifkan Google Analytics
+                statusGoogle: Aktifkan Google Analytics (UA/GA4)
                 optTrackingCode: Optimalkan Kode Pelacakan (opsional)
                 googleTrackingCode: Kode ID Pelacakan
                 googleGTMCode: GTM code ID (optional)
