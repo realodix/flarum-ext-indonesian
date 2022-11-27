@@ -1,5 +1,7 @@
 fof-polls:
   admin:
+    settings:
+      allow_option_image: Izinkan URL gambar disediakan untuk setiap opsi polling
     permissions:
       view_results_without_voting: Lihat hasil tanpa pemungutan suara
       start: Mulai polling
@@ -28,6 +30,7 @@ fof-polls:
       min: Memasukkan minimal 2 jawaban
       no_voters: Belum Ada Suara
       option_placeholder: Jawaban
+      image_option_placeholder: URL Gambar (optional)
       options_label: Jawaban
       public_poll_label: Izinkan orang lain melihat siapa yang sudah memilih
       question_placeholder: Pertanyaan
