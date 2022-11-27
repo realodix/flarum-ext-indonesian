@@ -55,9 +55,17 @@ core:
     dashboard:
       clear_cache_button: Hapus Cache
       description: Sekilas tentang forum Anda.
-      title: Beranda
+      io_error_message: "Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line."
+      title: Dashboard
       tools_button: Peralatan
-      io_error_message: Tidak dapat menulis ke sistem file. Periksa izin sistem file Anda dan coba lagi. Atau coba jalankan dari command line.
+
+    # These translations are usin in the debug warning widget.
+    debug-warning:
+      detail: |
+        Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.
+
+        Ketika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.
+      label: Mode debug Aktif
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -266,12 +274,6 @@ core:
       title: => core.ref.users
       total_users: "Total user: {count}"
 
-    debug-warning:
-      detail: |
-        Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.
-        Ketika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.
-      label: Mode debug Aktif
-
   # Translations in this namespace are used by the forum user interface.
   forum:
 
@@ -348,21 +350,21 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: Jika email yang Anda masukkan terdaftar di situs ini, Kami akan mengirimkan email yang berisi link untuk mengatur ulang kata sandi Anda. Periksa folder spam Anda jika Anda tidak menerimanya dalam satu atau dua menit ke depan.
+      not_found_message: Tidak ada pengguna yang terdaftar dengan alamat email tersebut.
+      submit_button: Pulihkan Password
+      text: Masukkan alamat email Anda dan Kami akan mengirimkan link untuk mereset kata sandi Anda.
+      title: Lupa Password
 
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administrasi
-      back_to_index_tooltip: Back to Discussion List
+      back_to_index_tooltip: Kembali ke Daftar Diskusi
       locale_dropdown_accessible_label: Change forum locale
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
-      search_clear_button_accessible_label: Clear search query
+      search_clear_button_accessible_label: Hapus kueri penelusuran
       search_placeholder: Cari
       search_role_label: Search Forum
       session_dropdown_accessible_label: Toggle session options dropdown menu
@@ -384,9 +386,9 @@ core:
     index_sort:
       latest_button: Latest
       newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      toggle_dropdown_accessible_label: Change discussion list sorting
+      oldest_button: Terlama
+      relevance_button: Relevansi
+      toggle_dropdown_accessible_label: Ubah pengurutan daftar diskusi
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
@@ -398,24 +400,24 @@ core:
       sign_up_text: "Tidak memiliki akun? <a>Daftar</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: Username / Email
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
+      delete_all_confirm: Apakah Anda yakin ingin menghapus semua notifikasi? Tindakan ini tidak dapat dibatalkan
+      delete_all_tooltip: Hapus semua notifikasi
+      discussion_renamed_text: "{username} mengubah judul"
       empty_text: Tidak Ada Notifikasi
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Mark as Read
       title: => core.ref.notifications
       toggle_dropdown_accessible_label: Lihat notifikasi
       tooltip: => core.ref.notifications
-      delete_all_confirm: Anda yakin ingin menghapus semua notifikasi? Tindakan ini tidak dapat dikembalikan
-      delete_all_tooltip: Hapus semua notifikasi
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
+      edited_text: Telah diedit
+      edited_tooltip: "{username} telah mengedit {ago}"
       number_tooltip: "Post #{number}"
 
     # These translations are used by the post control buttons.
@@ -437,7 +439,7 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
+      discussion_renamed_old_tooltip: 'Judul lama adalah: "{old}"'
       discussion_renamed_text: "{username} changed the title to {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
@@ -459,6 +461,7 @@ core:
       account_heading: Akun
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
+      notification_checkbox_a11y_label_template: Terima notifikasi "{description}" via {method}
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
@@ -466,29 +469,28 @@ core:
       privacy_disclose_online_label: Izinkan orang lain melihat saat Saya online
       privacy_heading: Privasi
       title: => core.ref.settings
-      notification_checkbox_a11y_label_template: Terima notifikasi "{description}" melalui {method}
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "Sudah memiliki akun? <a>Log In</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "Selamat datang, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
       avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_tooltip: Upload avatar baru
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Joined {ago}"
       online_text: Online
-      posts_empty_text: Sepertinya post yang dibuat.
+      posts_empty_text: Sepertinya tidak ada post yang dibuat.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
@@ -497,7 +499,7 @@ core:
     user_controls:
       button: Kontrol
       delete_button: => core.ref.delete
-      delete_confirmation: "Anda yakin ingin menghapus User ini? Post yang telah dibuat TIDAK akan ikut dihapus. "
+      delete_confirmation: "Apakah Anda yakin ingin menghapus User ini? Post yang telah dibuat oleh User tersebut TIDAK akan ikut terhapus."
       delete_error_message: "Deletion of user <i>{username} ({email})</i> failed"
       delete_success_message: "User <i>{username} ({email})</i> telah dihapus"
       edit_button: => core.ref.edit
@@ -506,7 +508,7 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
+      resend_button: Kirim ulang email konfirmasi
       sent_message: Sent
 
     welcome_hero:
