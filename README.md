@@ -38,7 +38,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v1.0.1
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v1.1.1
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v1.1.2
-- [fof/filter](https://github.com/FriendsOfFlarum/filter) v1.1.1
+- [fof/filter](https://github.com/FriendsOfFlarum/filter) v1.1.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v1.0.2
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v1.0.1
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v1.1.0
@@ -48,15 +48,15 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v1.4.1
 - [fof/polls](https://github.com/friendsofflarum/polls) v1.3.0
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v1.1.0
-- [fof/reactions](https://github.com/friendsofflarum/reactions) v1.1.2
+- [fof/reactions](https://github.com/friendsofflarum/reactions) v1.1.3
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v1.1.0
 - [fof/sitemap](https://github.com/FriendsOfFlarum/sitemap) v2.0.1
 - [fof/socialprofile](https://github.com/FriendsOfFlarum/socialprofile) v1.1.4
-- [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.0.1
+- [fof/spamblock](https://github.com/friendsofflarum/spamblock) v1.1.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v1.1.2
 - [fof/upload](https://github.com/friendsofflarum/upload) v1.2.3
-- [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.1.0
+- [fof/user-bio](https://github.com/friendsofflarum/user-bio) v1.1.1
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v1.2.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v1.0.1
 - [justoverclockl/staff-member-widget](https://github.com/justoverclockl/staff-member-widget) v0.1.3
