@@ -1,3 +1,11 @@
+# :exclamation: Abandoned!
+
+> Paket ini sudah tidak aktif dan tak lagi dipelihara, sebaiknya hindari menggunakannya. Gunakan [`flarum-lang/indonesian`][`flarum-lang/indonesian`] sebagai gantinya.
+
+> This package is abandoned, you should avoid using it. Use [`flarum-lang/indonesian`][`flarum-lang/indonesian`] instead.
+
+[`flarum-lang/indonesian`]: https://github.com/flarum-lang/indonesian
+
 ## Indonesia Language Pack for [Flarum](http://flarum.org/)
 
 Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).

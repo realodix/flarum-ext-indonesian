@@ -1,4 +1,5 @@
 {
+  "abandoned": "flarum-lang/indonesian",
   "name": "realodix/flarum-ext-indonesian",
   "type": "flarum-extension",
   "description": "Indonesian language pack.",
